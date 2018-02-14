@@ -1,0 +1,819 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: serif;
+    box-sizing: border-box;
+}
+body{
+    background-color:#d3d3d3;
+}
+a{
+    text-decoration:none;
+}
+div#header{
+    height: 150px;
+    width: 100%;
+    background-color: #000033;
+    border-bottom: 5px solid #c5a05a;
+}
+img#logo{
+    height: 75px;
+    margin-left: 100px;
+    margin-top: 30px;
+}
+ul#globalnav li{
+    list-style-type: none;
+    float: left;
+    font-weight: bold;
+    border-right: 1.5px solid gray;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #000033;
+    height: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+ul#globalnav{
+    height: 60px;
+    background-color: white;
+    padding-left: 70px;
+}
+ul#globalnav li#nav05{
+    border-right: none;
+}
+li#nav01{
+    width: 20%;
+    text-align: center;
+}
+li#nav02{
+    width: 22%;
+    text-align: center;
+}
+li#nav03{
+    width: 22%;
+    text-align: center;
+}
+li#nav04{
+    width: 10%;
+    text-align: center;
+}
+li#nav05{
+    width: 10%;
+    text-align: center;
+}
+li#nav01:hover{
+    background-color: #f8f4e6;
+}
+li#nav02:hover{
+    background-color: #f8f4e6;
+}
+li#nav03:hover{
+    background-color: #f8f4e6;
+}
+li#nav04:hover{
+    background-color: #f8f4e6;
+}
+li#nav05:hover{
+    background-color: #f8f4e6;
+}
+div#top_image{
+    height: 475px;
+}
+div#top_image img{
+    width: 100%;
+    height: auto;
+}
+div#menu{
+    padding-left: 10%;
+    padding-right: 10%;
+    width: 100%;
+    height: 400px;
+    margin-top: 8%;
+    text-align: center;
+}
+div#menu01 img{
+    width: 100%;
+}
+div#menu01{
+    position: relative;
+    text-align: center;
+    width: 28%;
+    margin-right: 2%;
+    display: inline-block;
+}
+div#menu01 p{
+    position: absolute;
+    width: 100%;
+    display: block;
+    bottom: 0;
+    color: #000033;
+    font-size: 2vw;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+div#menu01:hover{
+    opacity: 0.5;
+}
+div#menu02 img{
+    width: 100%;
+}
+div#menu02{
+    position: relative;
+    text-align: center;
+    width: 28%;
+    margin-right: 2%;
+    display: inline-block;
+}
+div#menu02 p{
+    position: absolute;
+    width: 100%;
+    display: block;
+    bottom: 0;
+    color: #000033;
+    font-size: 2vw;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+div#menu02:hover{
+    opacity: 0.5;
+}
+div#menu03 img{
+    width: 100%;
+}
+div#menu03{
+    position: relative;
+    text-align: center;
+    width: 28%;
+    display: inline-block;
+}
+div#menu03 p{
+    position: absolute;
+    width: 100%;
+    display: block;
+    bottom: 0;
+    color: #000033;
+    font-size: 2vw;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+div#menu03:hover{
+    opacity: 0.5;
+}
+span#small{
+    color: #c5a05a;
+    font-size: 1vw;
+}
+div#contents{
+    width: 100%;
+    text-align: center;
+    height: auto;
+    float: left;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+div#left{
+    width: 45%;
+    margin-right: 5%;
+    margin-bottom: 100px;
+    display: inline-block;
+}
+div#right{
+    width: 45%;
+    margin-bottom: 100px;
+    display: inline-block;
+}
+th#content_title{
+    border-bottom: 1px solid gray;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: left;
+    color: black;
+}
+table{
+    margin-top: 20px;
+    max-width: 100%;
+}
+tr#content{
+    width: 100%;
+}
+td#box{
+    border: 1px solid gray;
+    width: 180px;
+    height: 180px;
+    display: block;
+    margin-top: 10px;
+}
+td{
+    border-style: none;
+}
+td#copy{
+    font-family: arial;
+    font-size: 15px;
+    color: black;
+    padding-top: 10px;
+    padding-left: 10px;
+    text-align-last: left;
+    font-weight: normal;
+}
+td#copy p#next{
+    background-color: #c5a05a;
+    width: 50%;
+    margin-top: 15px;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: white;
+    font-family: serif;
+    text-align-last: center;
+}
+div#footer{
+    background-color: #000033;
+    color: white;
+    text-align: center;
+    display: inline-table;
+    width: 100%;
+}
+ul#footer_menu li{
+    list-style-type: none;
+    padding-right: 2%;
+    font-size: 15px;
+    display: inline-block;
+    text-align: center;
+}
+ul#footer_menu{
+    padding-top: 50px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+div#footer_info{
+    display: inline-block;
+    height: 200px;
+    padding-top: 40px;
+}
+p#copyright{
+    padding-top: 20px;
+}
+ul#kentei_nav li{
+    list-style-type: none;
+    float: left;
+    border-right: 1.5px solid gray;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    height: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+ul#kentei_nav li a{
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: #000033;
+    font-family: YuGothic,'Yu Gothic',sans-serif;
+}
+ul#kentei_nav{
+    height: 60px;
+    background-color: white;
+    padding-left: 70px;
+}
+ul#kentei_nav li#kentei_nav06{
+    border-right: none;
+}
+li#kentei_nav01:hover{
+    background-color: #f8f4e6;
+}
+li#kentei_nav02:hover{
+    background-color: #f8f4e6;
+}
+li#kentei_nav03:hover{
+    background-color: #f8f4e6;
+}
+li#kentei_nav04:hover{
+    background-color: #f8f4e6;
+}
+li#kentei_nav05:hover{
+    background-color: #f8f4e6;
+}
+li#kentei_nav06:hover{
+    background-color: #f8f4e6;
+}
+div#wrapper{
+    margin: 0 auto;
+    width: 1050px;
+    margin-top: 10%;
+}
+div#kentei_contents{
+    float: left;
+    width: 700px;
+}
+div#kentei_title{
+    position: relative;
+    text-align: center;
+    margin-right: 2%;
+    display: inline-block;
+}
+div#kentei_title img{
+    width: 100%;
+}
+div#kentei_title p{
+    position: absolute;
+    top: 20px;
+    color: gray;
+    right: 300px;
+    font-size: 30px;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+div#kentei_wrapper{
+    background-color: white;
+    padding: 5%;
+}
+h2{
+    font-family: YuGothic,'Yu Gothic',sans-serif;
+}
+h3{
+    font-family: YuGothic,'Yu Gothic',sans-serif;
+    color: gray;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+div#course img{
+    width: 100%;
+}
+table{
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+    padding: 2px;
+    color: gray;
+}
+td{
+    font-family: YuGothic,'Yu Gothic',sans-serif;
+    font-weight: bold;
+}
+td.title1 p{
+    background-color: #708090;
+    color: white;
+    font-size: 20px;
+    width: 100px;
+    margin-bottom: 10px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: YuGothic,'Yu Gothic',sans-serif;
+    font-weight: bold;
+}
+td.title2 p{
+    background-color: #696969;
+    color: white;
+    font-size: 20px;
+    width: 100px;
+    margin-bottom: 10px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: YuGothic,'Yu Gothic',sans-serif;
+    font-weight: bold;
+}
+td.title3 p{
+    background-color: #000080;
+    color: white;
+    font-size: 20px;
+    width: 100px;
+    margin-bottom: 10px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: YuGothic,'Yu Gothic',sans-serif;
+    font-weight: bold;
+}
+td#middle{
+    border-right: 1px solid gray;
+    border-left: 1px solid gray;
+    width: 45%;
+}
+div#course_ja{
+    display: inline-block;
+}
+div#course_sa{
+    display: inline-block;
+}
+div#course_sp{
+    display: inline-block;
+}
+div#banner{
+    background-color:#000033; 
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+div#banner_wrapper{
+    width: 100%;
+    text-align: center;
+}
+div#banner01{
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    width: 30%;
+}
+div#banner01 img{
+    width: 100%;
+}
+div#banner01:hover{
+    opacity: 0.5;
+}
+div#banner02{
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    width: 30%;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+div#banner02 img{
+    width: 100%;
+}
+div#banner02:hover{
+    opacity: 0.5;
+}
+div#banner03{
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    width: 30%;
+}
+div#banner03 img{
+    width: 100%;
+}
+div#banner03:hover{
+    opacity: 0.5;
+}
+div#banner01 p{
+    position: absolute;
+    top: 10px;
+    color: #000033;
+    right: 10px;
+    font-size: 22px;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+div#banner02 p{
+    position: absolute;
+    top: 10px;
+    color: #000033;
+    right: 10px;
+    font-size: 22px;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+div#banner03 p{
+    position: absolute;
+    top: 10px;
+    color: #000033;
+    right: 10px;
+    font-size: 22px;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+div#right_wrapper{
+    float: right;
+    width: 300px;
+}
+div#right_menu{
+    background-color: #000033;
+    color: #c5a05a;
+}
+div#right_menu ul{
+    height: 570px;
+}
+div#right_menu li{
+    list-style-type: none;
+    display: inline-block;
+    padding-top: 15px;
+    background: url(../img/pearl.png) no-repeat left;
+    text-indent: 40px;
+    height: 60px;
+    line-height: 150%;
+}
+div#right_menu li a{
+    font-family: YuGothic,'Yu Gothic',sans-serif;
+    color: #c5a05a;
+    padding-top: 15px;
+    text-indent: 40px;
+    height: 60px;
+}
+div#right_menu p{
+    float: right;
+    font-family: YuGothic,'Yu Gothic',sans-serif;
+}
+div#facebook{
+    width: 100%;
+}
+div#facebook p{
+    border-bottom: 1px solid;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+div#kentei_icon{
+    background-color: #000033;
+    color: #c5a05a;
+    width: 100%;
+    padding: 3%;
+}
+div#kentei_icon p{
+    float: right;
+    color: #c5a05a;
+    font-size: 15px;
+    padding-top: 10%;
+    font-family: YuGothic,'Yu Gothic',sans-serif;
+    padding-right: 5%;
+}
+div#kentei_icon img{
+    width: 40%;
+}
+
+@media only screen and (max-width:900px) {
+div#header{
+    height: 90px;
+}
+img#logo{
+    height: 65px;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+ul#globalnav{
+    top: 90px;
+    margin: 0;
+    width: 100%;
+    padding-left: 0;
+}
+ul#globalnav li{
+    width: 33.33%;
+    margin: 0;
+    height: 30px;
+    border-right: none;
+    border-left: 0.5px solid #6B70A1;
+    border-bottom: 0.5px solid #6B70A1;
+    padding-left: 10px;
+    padding-top: 5px;
+    background-color: white;
+}
+ul#globalnav li#nav05{
+    border-right: 0.5px solid #6B70A1;
+}
+ul#globalnav li:hover{
+    background-color: #f8f4e6;
+}   
+div#top_image{
+    height: auto;
+}
+div#contents{
+    height: auto;
+    width: 100%;
+}
+div#menu{
+    padding-top: 0;
+    height: auto;
+}
+td#copy{
+    font-size: 2vw;
+}
+div#left{
+    width: 100%;
+    padding-right: 10%;
+    padding-left: 10%;
+}
+div#right{
+    width: 100%;
+    padding-right: 10%;
+    padding-left: 10%;
+}
+ul#globalnav{
+    top: 90px;
+    margin: 0;
+    width: 100%;
+    padding-left: 0;
+}
+ul#kentei_nav{
+    padding-left: 0;
+}
+ul#kentei_nav li{
+    width: 33.33%;
+    margin: 0;
+    height: 30px;
+    border-bottom: 0.5px solid #6B70A1;
+    padding-left: 10px;
+    padding-top: 5px;
+    background-color: white;
+    text-align: center;
+}
+ul#kentei_nav li#kentei_nav06{
+    border-right: 1.5px solid #6B70A1;
+}
+ul#kentei_nav li:hover{
+    background-color: #4B5081;
+}
+div#wrapper{
+    width: 100%;
+}
+div#kentei_contents{
+    width: 100%;
+}
+div#right_wrapper{
+    float: none;
+    width: 100%;
+}
+div#right_menu{
+    float: left;
+    width: 100%;
+    padding-bottom: 2%;
+}
+div#right_menu ul{
+    height: auto;
+}
+div#right_menu li{
+    width: 30%;
+}
+div#right_menu p{
+    float: left;
+}
+div#facebook{
+    float: right;
+    width: 350px;
+}
+div#kentei_icon{
+    margin-top: 5%;
+    width: 45%;
+    float: left;
+    margin: 2%;
+}
+div#kentei_icon{
+    padding-right: 0;
+}
+}
+
+@media only screen and (max-width:479px) {
+div#header{
+    height: 60px;
+}
+img#logo{
+    height: 50px;
+    margin-left: 15px;
+    margin-top: 5px;
+}
+ul#globalnav{
+    height: 150px;
+    padding-left: 0;
+}
+ul#globalnav li{
+    width: 100%;
+    border-right: 0.5px solid #6B70A1;
+}
+ul#globalnav li#nav05{
+    border-right: 0.5px solid #6B70A1;
+}
+div#top_image{
+    height: 160px;
+    padding-top: 0;
+    margin-bottom: 0;
+}
+div#top_image img{
+    width: 100%;
+    height: auto;
+}
+div#menu{
+    height: auto;
+    width: 100%;
+    padding-left: 20%;
+}
+div#menu img{
+    float: none;
+    width: 100%;
+}
+div#menu01{
+    display: block;
+    width: 80%;
+}
+div#menu02{
+    display: block;
+    width: 80%;
+}
+div#menu03{
+    display: block;
+    width: 80%;
+}
+div#menu01 p{
+    position: absolute;
+    bottom: 0;
+    color: #000033;
+    font-size: 4vw;
+    font-weight: bold;
+}
+div#menu02 p{
+    position: absolute;
+    bottom: 0;
+    color: #000033;
+    font-size: 4vw;
+    font-weight: bold;
+}
+div#menu03 p{
+    position: absolute;
+    bottom: 0;
+    color: #000033;
+    font-size: 4vw;
+    font-weight: bold;
+}
+span#small{
+    color: #c5a05a;
+    font-size: 2vw;
+}
+div#contents{
+    padding-top: 0;
+}
+div#content{
+    height: auto;
+}
+table{
+    float: none;
+}
+div#left{
+    width: 85%;
+    margin-bottom: 0;
+    margin-left: 7.5%;
+    margin-right: 7.5%;
+}
+div#right{
+    width: 85%;
+    margin-left: 7.5%;
+    margin-right: 7.5%;
+}
+th#content_title{
+    font-size: 4vw;
+}
+td#copy{
+    display: block;
+    font-size: 3vw;
+}
+ul#footer_menu li{
+    float: none;
+    padding-right: 0;
+}
+div#footer {
+    padding-bottom: 30px;
+}
+ul#kentei_nav{
+    height: 250px;
+    padding-left: 0;
+}
+ul#kentei_nav li{
+    width: 100%;
+    border-bottom: 0.5px solid #6B70A1;
+    margin: 0;
+}
+ul#kentei_nav li#kentei_nav06{
+    border-right: 0.5px solid #6B70A1;
+}
+div#wrapper{
+    margin-top: 2%;
+    width: 100%;
+}
+div#kentei_title p{
+    top: 10px;
+    right: 100px;
+    font-size: 25px;
+}
+div#kentei_contents{
+    width: 100%;
+}
+div#banner01{
+    width: 30%;
+}
+div#banner02{
+    width: 30%;
+}
+div#banner03{
+    width: 30%;
+}
+div#right_wrapper{
+    width: 100%;
+}
+div#right_menu ul{
+    height: auto;
+    padding-bottom: 5%;
+}
+div#right_menu li{
+	width: 50%;
+}
+div#facebook{
+    width: 100%;
+    text-align: center;
+}
+div#kentei_icon{
+    width: 100%;
+    margin: 0;
+}
+}
