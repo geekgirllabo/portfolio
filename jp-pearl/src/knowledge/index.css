@@ -53,18 +53,23 @@ header{
 #header-right > li {
 	float: left;
 	position: relative; 
-	padding-top: 75px;
+	padding-top: 11%;
+	padding-left: 2.5%;
 }
 #header-right li a {
 	display: block;
 	text-align: left;
 	width: 100%;
-	padding-top: 10px;
-	padding-bottom: 10px;
-	padding-left: 8px;
-	padding-right: 8px;
 	font-size: 13px;
 	color: #ffffff;
+	font-weight: 700;
+}
+#header-right li a:hover {
+	display: block;
+	text-align: left;
+	width: 100%;
+	font-size: 13px;
+	color: #ffa500;
 	font-weight: 700;
 }
 #header-right li ul {
