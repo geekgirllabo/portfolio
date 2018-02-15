@@ -81,10 +81,10 @@ header{
 	top:130px;
 	left:-20px;
 	display:none;
+	background-color: #d2b48c;
 }
 #header-right li:hover ul {
 	display: block;
-	transition-delay: 10s;
 }
 #header-right li ul li a {
 	display: inline-block;
@@ -92,10 +92,14 @@ header{
 	font-size: 13px;
 	color: #000000;
 	font-weight: 700;
-	background-color: #d2b48c;
+	padding: 5% 2%;
 }
 #header-right span {
 	font-size: 8px;
+}
+.topimg{
+	width: 100%;
+	float: left;
 }
 h3{
 	font-size: 18px;
@@ -103,19 +107,18 @@ h3{
 	text-align: left;
 	background-color: #001e43;
 	color: #ffffff;
-	padding: 5px 20px;
+	padding: 0.5% 2%;
 	margin-bottom: 0;
-	margin-top: 80px;
+	margin-top: 7%;
 }
 h3 span{
 	font-size: 16px;
-	margin-left: 20px;
+	margin-left: 2%;
 }
 .coment{
-	width: 90%;
+	width: 88%;
 	display: inline-block;
 	text-align: left;
-	padding: 50px 0;
 }
 #knowledge{
 	background-color: #ffffff;
@@ -125,7 +128,7 @@ h3 span{
 	width: 70%;
 	display: inline-block;
 	text-align: center;
-	padding: 30px 0 ;
+	padding: 3% 0 ;
 }
 .content{
 	float: left;
@@ -141,30 +144,30 @@ h3 span{
 }
 footer{
 	width: 100%;
-	height: 300px;
 	background-color: #001e43;
+	padding-bottom: 5%;
 }
 .notice{
-	padding-left: 100px;
+	padding-left: 5%;
 }
 .address{
-	padding-top: 50px;
-	padding-bottom: 30px;
+	padding-top: 3%;
+	padding-bottom: 2%;
 }
 p{
 	font-size: 8px;
 	color: #ffffff;
-	margin:1px;
+	margin:0.01%;
 }
 .fa-facebook-square{
 	color: #ffffff;
 	font-size:2em;
-	padding-right: 20px;
+	padding-right: 1%;
 }
 .fa-twitter{
 	color: #ffffff;
 	font-size:2em;
-	padding-right: 20px;
+	padding-right: 1%;
 }
 .okage{
 	width: 7%;
