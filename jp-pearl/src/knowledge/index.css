@@ -53,14 +53,14 @@ header{
 #header-right > li {
 	float: left;
 	position: relative; 
-	padding-top: 11%;
+	padding-top: 8%;
 	padding-left: 2.5%;
 }
 #header-right li a {
 	display: block;
 	text-align: left;
 	width: 100%;
-	font-size: 13px;
+	font-size: 12px;
 	color: #ffffff;
 	font-weight: 700;
 }
@@ -78,7 +78,7 @@ header{
 	width: 160px;
 	list-style-type: none;
 	position: absolute;
-	top:130px;
+	top:90px;
 	left:-20px;
 	display:none;
 	background-color: #d2b48c;
@@ -171,4 +171,110 @@ p{
 }
 .okage{
 	width: 7%;
+}
+@media only screen and (max-width:1000px) {
+#header-right {
+	display: none;
+}
+.menu-icon {
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 3% 3% 2% 0;
+}
+h3{
+	width: 76%;
+	text-align: center;
+	font-size: 18px;
+	font-weight: normal;
+	text-align: left;
+	background-color: #001e43;
+	color: #ffffff;
+	padding: 0.5% 2%;
+	margin-bottom: 0;
+	margin-top: 7%;
+	margin-left: 10%;
+}
+h3 span{
+	font-size: 16px;
+	margin-left: 2%;
+}
+.coment{
+	width: 80%;
+	display: inline-block;
+	text-align: left;
+}
+#knowledge{
+	width: 80%;
+	background-color: #ffffff;
+	margin-top: 0px;
+	margin-left: 10%;
+}
+.okage{
+	width: 12%;
+}
+}
+
+@media only screen and (max-width:479px) {
+#header-right {
+	display: none;
+}
+.menu-icon {
+  color: white;
+  float: right;
+  font-size: 20px;
+  padding: 3% 3% 2% 0;
+}
+.topimg{
+	width: 100%;
+	float: left;
+}
+h3{
+	width: 76%;
+	text-align: center;
+	font-size: 18px;
+	font-weight: normal;
+	text-align: left;
+	background-color: #001e43;
+	color: #ffffff;
+	padding: 0.5% 2%;
+	margin-bottom: 0;
+	margin-top: 7%;
+}
+h3 span{
+	font-size: 16px;
+	margin-left: 2%;
+}
+.coment{
+	width: 80%;
+	display: inline-block;
+	text-align: left;
+}
+#knowledge{
+	width: 80%;
+	background-color: #ffffff;
+	margin-top: 0px;
+}
+.contents{
+	width: 90%;
+	display: inline-block;
+	text-align: center;
+	padding: 3% 0 ;
+}
+.content{
+	float: left;
+	width: 100%;
+}
+.con-img{
+	width: 100%;
+	margin: 0;
+	padding-top: 2%
+}
+.con-img:hover{
+	opacity: 0.5;
+	cursor: pointer;
+}
+.okage{
+	width: 28%;
+}
 }
