@@ -1,0 +1,296 @@
+/*--------------　基本フォーマット　--------------*/
+
+/*--------------　共通css　--------------*/
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p,
+table, tr, th, td,
+form, imput, btn, div{
+	margin: 0;
+	padding: 0; 
+}
+@media only screen and (max-width:px) {}
+/*--------------　ここまで共通css　--------------*/
+
+
+/*--------------　共通css　--------------*/
+body{
+	font-family: serif;
+	margin: 0 auto;
+	background-color: #dcdcdc;
+}
+ul{
+	float: left;
+	width: 100%;
+}
+li{
+	list-style: none;
+	text-align: center;
+	float: left;
+}
+li a{
+	text-decoration: none;
+}
+h1{
+	display: inline-block;
+	text-align: center;
+}
+h2{
+	padding-top: 5%;
+}
+
+/*-------------- header　--------------*/
+header{
+	width: 100%;
+	background-color:#000033;
+	border-bottom:  1px solid #c5a05a;
+	text-align: left;
+}
+.logo{
+	width: 20%;
+	padding: 2% 2% 2% 20%;
+}
+.container{
+	max-width: 1170px;
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+}
+.globalnavi{
+	float: left;
+	width: 100%;
+	background-color: #ffffff;
+	padding: 0.5% 0%;
+}
+.globalnavi li{
+	width: 12%;
+	border-right: 2px solid #dcdcdc;
+	padding: 1%;
+	background-color: #ffffff;
+}
+.globalnavi li a{
+	text-align: center;
+	display: inline-block;
+	font-size: 14px;
+	color: inherit;
+}
+.globalnavi li:hover{
+	background-color: #f8f4e8
+}
+.top-wrapper{
+	float: left;
+	width: 100%;
+	padding: 18% 0;
+	background-image: url(../../画像/検定/hanbai_top.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	text-align: center;
+}
+h1{
+	font-size: 72px;
+	letter-spacing:8px;
+	color: #000033;
+	text-shadow: 0 0 10px #ffffff,0 0 20px #ffffff,0 0 30px #ffffff,0 0 40px #ffffff;
+}
+
+/*-------------- body　--------------*/
+.type-wrapper{
+	clear: both;
+	width: 100%;
+	padding: 6%;
+}
+.type{
+	float: left;
+	width: 23%;
+	margin: 0 3%;
+	position: relative;
+}
+.type img{
+	width: 100%;
+}
+.type img:hover{
+	opacity: 0.5;
+}
+.type p{
+	font-size: 12px;
+	color: #c5a05a;
+	position: absolute;
+	top: 75%;
+	width: 100%;
+}
+.type h3{
+	position: absolute;
+	top: 83%;
+	width: 100%;
+	display: block;
+	text-align: center;
+}
+
+.message-wrapper{
+	clear: both;
+	margin-top: 5%; 
+}
+.message-wrapper p{
+	padding-top: 5%; 
+	padding-bottom: 8%;
+}
+.extra-wrapper{
+	width: 100%;
+	margin-left: 10%;
+}
+.topic{
+	float: left;
+	width: 40%;
+	text-align: left;
+	margin-right: 5%;
+	margin-bottom: 5%;
+}
+.topic h3{
+	border-bottom: 1px solid #c5a05a;
+	margin-bottom: 3%;
+}
+.square {
+	float: left;
+ 	width: 30%;
+ 	height: 150px;
+ 	margin-right: 5%;
+ 	background-color: #dcdcdc;
+	border: 0.5px solid #c5a05a;
+}
+.accordion-container p{
+	float: left;
+}
+.accordion-box {
+    position: relative;
+}
+.accordion-box label {
+    cursor: pointer;
+    text-align: center;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+}
+.accordion-box label:after {
+    content: "続きをよむ"; 
+    position: absolute;
+    left: 0%;
+    color: #ffffff;
+    background-color: #c5a05a;
+    width: 30%;
+    margin-top: 4%;
+}
+.accordion-box input {
+    display: none;
+}
+.accordion-box .accordion-container {
+    overflow: hidden;
+    height: 105px;
+}
+.accordion-box input:checked + label {
+}
+.accordion-box input:checked + label:after {
+    content: "閉じる";
+}
+.accordion-box input:checked ~ .accordion-container {
+    height: auto;
+}
+
+/*-------------- footer　--------------*/
+footer{
+	clear: both;
+	background-color:#000033;
+	padding-bottom: 1%;
+}
+footer ul{
+	width: 70%;
+	margin: 2% 30%;
+}
+footer ul li{
+	float: left;
+	padding-right: 3%;
+}
+footer ul li a{
+	font-size: 14px;
+	color: #ffffff;
+	display: inline-block;
+	text-align: center;
+}
+footer p{
+	clear: both;
+	text-align: center;
+	font-size: 14px;
+	color: #ffffff;
+}
+.pb{
+	margin: 2% 0% 1%;
+}
+
+
+/*-------------- max-width:1000px　--------------*/
+@media only screen and (max-width:1000px) {
+.logo{
+	padding: 2%;
+}
+.globalnavi li a{
+	font-size: 13px;
+}
+h1{
+	font-size: 50px;
+}
+footer ul{
+	width: 100%;
+	margin: 2% 10%;
+}
+}
+/*-------------- max-width:479px　--------------*/
+@media only screen and (max-width:479px) {
+.logo{
+	width: 50%;
+	margin-left: 5%;
+}
+.globalnavi li{
+	width: 100%;
+	border-right: none;
+	border-bottom: 1px solid #dcdcdc;
+}
+h1{
+	font-size: 20px;
+}
+.type{
+	width: 60%;
+	margin-left: 14%;
+}
+.type p{
+	font-size: 5px;
+}
+.type h3{
+	font-size: 14px;
+}
+.message-wrapper p{
+	font-size: 14px;
+	padding: 4% 0%;
+}
+.topic{
+	width: 80%;
+}
+footer ul{
+	margin: 2%;
+}
+footer ul li{
+	width: 95%;
+	border-bottom: 0.5px solid #c5a05a;
+	padding: 1% 0%;
+}
+footer ul li a{
+	font-size: 12px;
+}
+footer p{
+	font-size: 12px;
+}
+.pb{
+	margin: 5% 0% 1%;
+}
+.pb p{
+	font-size: 10px;
+}
+}
