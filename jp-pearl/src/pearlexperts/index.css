@@ -125,7 +125,6 @@ h1{
 	display: block;
 	text-align: center;
 }
-
 .message-wrapper{
 	clear: both;
 	margin-top: 5%; 
@@ -232,10 +231,18 @@ footer p{
 	padding: 2%;
 }
 .globalnavi li a{
-	font-size: 13px;
+	font-size: 12px;
 }
 h1{
 	font-size: 50px;
+}
+.type p{
+	font-size: 11px;
+	top: 73%;
+}
+.type h3{
+	font-size: 18px;
+	top: 80%;
 }
 footer ul{
 	width: 100%;
