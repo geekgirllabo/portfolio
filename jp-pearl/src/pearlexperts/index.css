@@ -151,10 +151,9 @@ h1{
 .square {
 	float: left;
  	width: 30%;
- 	height: 150px;
  	margin-right: 5%;
  	background-color: #dcdcdc;
-	border: 0.5px solid #c5a05a;
+	border: 0.5px solid #dcdcdc;
 }
 .accordion-container p{
 	float: left;
@@ -183,7 +182,7 @@ h1{
 }
 .accordion-box .accordion-container {
     overflow: hidden;
-    height: 105px;
+    height: auto;
 }
 .accordion-box input:checked + label {
 }
