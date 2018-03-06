@@ -1,0 +1,52 @@
+div#wrapper{
+	width:100%;
+	margin:0 auto;
+}
+div#header{
+	background-color: #000000;
+}
+img#logo{
+	width:30%;
+	padding-left:150px;
+}
+img#head-img{
+	width:100%;
+}
+div#main{
+	width:100%;
+}
+div#contents{
+	width:70%;
+	margin:0 auto;
+	margin-top:60px;
+}
+h2{
+	background-color: #000000;
+	color: #FFFFFF;
+	padding-left:15px;
+}
+span{
+	font-size:15px;
+}
+h3{
+	background-image: url(banner_19.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-size:30px;
+	text-align: right;
+}
+table{
+	border-collapse: collapse;
+	clear:both;
+}
+th{
+	border: 
+}
+div#footer{
+	background-color: #000000;
+	clear:both;
+}
+div#footer p{
+	color: #FFFFFF;
+	font-size:10px;
+}
