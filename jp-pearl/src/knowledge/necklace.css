@@ -113,3 +113,49 @@ div#icon{
 img#okage{
 	width: 10%;
 }
+
+
+@media only screen and (max-width: 479px) {
+
+body{
+	margin: 0;
+}
+div#wrapper{
+	margin-left: 8px;
+	margin-right: 8px;
+	width:  auto;
+}
+img#logo{
+	width: 90%;
+	height: auto;
+	padding-left: 5%;
+}
+div#contents{
+	width: 95%;
+}
+h2{
+	width: 98%;
+	height: auto;
+}
+h3{
+	height: auto;
+	font-size: 15px;
+}
+table{
+	width: 80%;
+	margin-left: 0;
+}
+div#address{
+	width: 100%;
+	padding-left: 20px;
+}
+div#footer p{
+}
+div#icon{
+	width: 100%;
+	padding-left: 20px;
+}
+img#okage{
+	width: 30%;
+}
+}
