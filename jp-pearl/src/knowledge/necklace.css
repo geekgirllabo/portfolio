@@ -1,9 +1,14 @@
-div#wrapper{
-	width:100%;
-	margin:0 auto;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 body{
-	background-color:#F6F6F6;
+	background-color: #F6F6F6;
+}
+div#wrapper{
+	width: 100%;
+	margin: 0 auto;
 }
 div#header{
     width: 100%;
@@ -11,13 +16,14 @@ div#header{
 	background-color: #1B2051;
 }
 img#logo{
-	width:30%;
-	padding-top: 1%;
-	padding-left:150px;
+	width: 42%;
+	padding-top: 1.5%;
+	padding-left: 12%;
+	margin-bottom: 0;
 	clear:both;
 }
 div#glovalnav{
-	width:110%;
+	width: 110%;
 	margin-top: 0;
     margin-bottom: 0;
 	overflow: hidden;
@@ -26,6 +32,7 @@ div#glovalnav ul{
 	float: right;
 	width: 60%;
 	overflow: hidden;
+	margin-top: 0;
 	margin-bottom: 0;
 	padding-right: 0;
 }
@@ -38,24 +45,28 @@ div#glovalnav li{
 }
 div#glovalnav li a{
 	color: #FFFFFF;
-	font-size:11px;
+	font-size: 13px;
 	font-weight: bolder;
 	text-decoration: none;
 }
 li.poricy{
 	width: 16% !important;
 }
+li span{
+	font-size: 1px;
+}
 img#head-img{
-	width:100%;
+	width: 100%;
+	height: auto;
 }
 div#container{
-	width:100%;
+	width: 100%;
 }
 div#contents{
 	background-color: #FFFFFF;
-	width:80%;
-	margin:0 auto;
-	margin-top:60px;
+	width: 80%;
+	margin: 0 auto;
+	margin-top: 7%;
 	margin-bottom: 5%;
 }
 h2{
@@ -68,13 +79,13 @@ h2{
 	padding-bottom: 0.5%;
 	margin-bottom: 0;
 }
-span{
-	font-size: 15px;
+h2 span{
+	font-size: 13px;
 }
 h3{
-	background-image: url(img/necklace.jpg);
+	background-image: url("img/neckless.jpg");
 	background-repeat: no-repeat;
-	background-size: auto 110%;
+	background-size: auto 102%;
 	background-position: 0px 0px;
 	display: block;
 	font-size: 30px;
@@ -84,14 +95,14 @@ h3{
 	margin-bottom: 0;
 	padding-top: 5%;
 	padding-bottom: 5%;
-	padding-right: 20%;
+	padding-right: 25%;
 }
 hr{
 	margin: 0;
 	border-top: 2px solid;
 }
 table{
-	width:80%;
+	width: 80%;
 	border-collapse: collapse;
 	border-spacing: 0;
 	margin-top: 3%;
@@ -105,9 +116,9 @@ th{
 	text-align: left;
 	vertical-align: baseline;
 	border-bottom: 1px solid #000000;
-	padding-top: 15px;
+	padding-top: 2%;
 	padding-bottom: 15%;
-	padding-left: 10px;
+	padding-left: 1%;
 }
 td{
 	font-size: 14px;
@@ -132,32 +143,60 @@ div#footer{
 	background-color: #1B2051;
 }
 div#address{
-	padding-top: 30px;
-	padding-left: 100px;
+	padding-top: 3%;
+	padding-left: 7%;
 }
 div#footer p{
 	color: #FFFFFF;
 	font-size: 10px;
-	line-height: 50%;
 }
 div#icon{
-	padding-top: 20px;
-	padding-left: 100px;
-	padding-bottom:80px;
+	padding-top: 1.5%;
+	padding-left: 7%;
+	padding-bottom: 5%;
 }
 img#fb{
-	width: 3%;
+	width: 2%;
 }
 img#twitter{
-	width: 3%;
+	width: 2%;
 }
 img#okage{
+	width: 8%;
+}
+
+
+@media only screen and (max-width:900px) {
+div#header{
+	height: 120px;
+}
+img#logo{
+	width: 50%;
+	height: auto;
+	padding-top: 1.5%;
+	padding-left: 3%;
+}
+div#glovalnav ul{
+	width: 100%;
+	padding-left: 20%;
+}
+div#glovalnav li{
 	width: 10%;
+}
+div#glovalnav li a{
+	font-size: 10px;
+}
+h3{
+	font-size: 20px;
+	padding-right: 20%;
+}
+td{
+	font-size: 12px;
+}
 }
 
 
 @media only screen and (max-width: 479px) {
-
 body{
 	margin: 0;
 }
@@ -166,35 +205,104 @@ div#wrapper{
 	margin-right: 8px;
 	width:  auto;
 }
+div#header{
+	height: 240px;
+}
 img#logo{
 	width: 90%;
 	height: auto;
 	padding-left: 5%;
 }
+div#glovalnav{
+	width: 100%;
+	clear: both;
+}
+div#glovalnav ul{
+	width: 100%;
+	float: left;
+	padding-left: 0;
+}
+div#glovalnav li{
+	width: 100%;
+	border-top: 0.5px solid #4B5081;
+}
+li.poricy {
+    width: 100% !important;
+}
 div#contents{
 	width: 95%;
 }
 h2{
-	width: 98%;
+	width: 100%;
 	height: auto;
+	font-size: 16px;
+	padding-top: 3%;
+	padding-bottom: 2%;
+	padding-left: 5%;
+	padding-right: 3%;
+}
+h2 span{
+	font-size: 14px;
 }
 h3{
 	height: auto;
 	font-size: 15px;
+	padding-right: 10%;
 }
 table{
 	width: 80%;
-	margin-left: 0;
+	display: block;
+	margin-top: 3%;
+    margin-left: 2%;
+    margin-bottom: 5%;
+}
+tbody{
+	width: 100%;
+}
+tr{
+	display: block;
+}
+th{
+	width: 100%;
+	display: block;
+	border-bottom: none;
+	padding: 5% 1%;
+}
+td{
+	display: block;
+	border-bottom: none;
+	padding: 5% 1%;
+}
+td.pic{
+	width: 100%;
+}
+td.text{
+	width: 100%;
+}
+.text{
+	border-bottom: 1px solid #000000;
 }
 div#address{
 	width: 100%;
-	padding-left: 20px;
+	padding-top: 5%;
+	padding-left: 7%;
 }
 div#footer p{
 	width: 100%;
+	font-size: 8px;
 }
 div#icon{
 	width: 100%;
-	padding-left: 20px;
+	padding-top: 3%;
+	padding-bottom: 10%;
+	padding-left: 7%;
 }
+img#fb{
+	width: 8%;
+}
+img#twitter{
+	width: 8%;
+}
+img#okage{
+	width: 30%;
 }
