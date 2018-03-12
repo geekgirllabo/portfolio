@@ -130,6 +130,15 @@ td{
 	padding-left: 2%;
 	padding-bottom: 2%;
 }
+th.robu{
+	border-bottom: none;
+}
+td.pic-robu{
+	border-bottom: none;
+}
+td.text-robu{
+	border-bottom: none;
+}
 td.pic{
 	width: 20%;
 }
