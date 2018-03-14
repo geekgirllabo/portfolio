@@ -21,6 +21,7 @@ img#logo{
 	padding-left: 12%;
 	margin-bottom: 0;
 	clear:both;
+	float: left;
 }
 div#glovalnav{
 	width: 110%;
@@ -178,6 +179,16 @@ img#okage{
 }
 
 
+@media only screen and (min-width:1500px) {
+div#header{
+    height: 150px;
+}
+img#logo{
+	padding-top: 0.8%;
+}
+}
+
+
 @media only screen and (max-width:900px) {
 div#header{
 	height: 120px;
@@ -223,6 +234,7 @@ div#header{
 img#logo{
 	width: 90%;
 	height: auto;
+	padding-bottom: 1%;
 	padding-left: 5%;
 }
 div#glovalnav{
