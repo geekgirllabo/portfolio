@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+	background-color: #F6F6F6;
+}
+div#wrapper{
+	width: 100%;
+	margin: 0 auto;
+}
+div#header{
+    width: 100%;
+    height: 140px;
+	background-color: #1B2051;
+}
