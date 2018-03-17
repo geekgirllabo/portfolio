@@ -17,5 +17,20 @@ hr{
 	margin-top:0px;
 	margin-bottom:0px;
 }
+
 div#center {
+	width:720px;
+	margin:0 auto;
+	
+}
+div#center dt{
+	margin-top:30px;
+	margin-left:10px;
+}
+
+div#center img{
+	margin-top:-30px;
+}
+div#center dd{
+	margin-left:80px;
 }
