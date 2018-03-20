@@ -3,11 +3,18 @@ body{
 	font-family: Meiryo;
 	}
 div#wrapper{
-	width:752px;
+	max-width:940px;
+	width:100%;
 	margin:0 auto;
 	background-color:#ffffff;
-	height:900px;
+	
 	}
+div#header {
+	width:100%;
+}
+div#header img{
+	width:80%;
+}
 ul {
 	font-size:16px;	
 	color:#ffffff;
@@ -20,12 +27,13 @@ hr{
 }
 
 div#center {
-	width:720px;
+	width:80%;
 	margin:0 auto;
+	height:180%;
 	
 }
 div#left_katachi {
-	margin-top:30px;
+	margin-top:60px;
 	margin-left:10px;
 }
 
@@ -41,6 +49,7 @@ div#right_katachi {
 div#right_katachi dd{
 	margin-top:10px;
 }
+
 
 div#left_kizu {
 	margin-top:40px;
@@ -113,7 +122,7 @@ div#wrapper {
 		margin-left:5px;
 		margin-right:5px;
 		width:auto;
-		height:auto;
+		height:300%;
 		overflow: hidden;
 	}
 div#wrapper img {
@@ -129,71 +138,85 @@ ul {
 	padding-top: 15px;
 	padding-bottom: 20px;
 	word-break:keep-all;
-	
-	font-size: 1.5rem;
+	font-size: 1rem;
 }
-
+div#center{
+	margin-top:-10%;
+	height:200%;
+}
  div#right_katachi {
- 	width:35%;
+ 	width:80%;
+ 	margin-top:-15%;
+ 	
  }
  div#right_katachi dd{
-	background-size: 100% auto;
-	height: auto;
-	padding-bottom: 20px;
-	padding-right: 10px;
-	margin-left:10%;
+	padding-right: 1%;
+	margin-left:5%;
+	margin-bottom:5%;
  }
  dd p{
   	width:125%;
 	margin-left:5%;
 	text-indent:1em;
-	font-size: 1rem;
+	font-size: -1rem;
 }
+hr{
+	display:none;
+}
+
  div#right_kizu {
- 	width:35%;
+ 	width:80%;
+ 	margin-top:-15%;
  }
  div#right_kizu dd{
 	background-size: 100% auto;
 	height: auto;
-	padding-bottom: 20px;
+	margin-bottom:0%;
 	padding-right: 10px;
 	margin-left:10%;
  }
 
  div#right_iro {
- 	width:35%;
+ 	width:80%;
+ 	margin-top:-15%;
  }
  div#right_iro dd{
 	background-size: 100% auto;
 	height: auto;
-	padding-bottom: 20px;
+	margin-bottom: -5%;
 	padding-right: 10px;
  }
 div#right_maki {
- 	width:35%;
+ 	width:80%;
+ 	margin-top:-15%;
  }
  div#right_maki dd{
 	background-size: 100% auto;
 	height: auto;
-	padding-bottom: 20px;
+	margin-bottom: -10%;
 	padding-right: 10px;
  }
  div#right_teri {
- 	width:35%;
+ 	width:80%;
+ 	margin-top:-15%;
  }
  div#right_teri dd{
 	background-size: 100% auto;
 	height: auto;
-	padding-bottom: 20px;
+	padding-bottom:-10%;
 	padding-right: 10px;
  }
+ div#left_size{
+ 	margin-top:10%;
+ }
  div#right_size {
- 	width:35%;
+ 	width:80%;
+ 	margin-top:-15%;
  }
  div#right_size dd{
 	background-size: 100% auto;
 	height: auto;
-	padding-bottom: 20px;
+	padding-bottom: -20px;
 	padding-right: 10px;
  }
 }
