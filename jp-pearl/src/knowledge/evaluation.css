@@ -1,18 +1,38 @@
 body{
-	background-color:#f5f5f5;
+	background-color:#f2f2f2;
 	font-family: Meiryo;
 	}
 div#wrapper{
-	max-width:940px;
+	max-width:900px;
 	width:100%;
 	margin:0 auto;
 	background-color:#ffffff;
-	
+	height:200%;
+	overflow: hidden;
 	}
-div#header {
-	width:100%;
+div#header1{
+	background-color:#000033;
+	
+	padding-top:5px;
 }
-div#header img{
+
+div#header1 ul 
+{
+font-size:0;}
+li{
+	display:inline-block;
+	width:14%;
+	background-color:#000033;
+	font-size:11px;
+	margin-top:20px;
+	margin-bottom:10px;
+}
+
+div#header2 {
+	width:100%;
+	margin-top:40px;
+}
+div#header2 img{
 	width:80%;
 }
 ul {
@@ -113,6 +133,30 @@ div#right_size {
 	margin-top:-20px;
 	margin-left:10px;
 }
+div#footer {
+	width:122.3%;
+	clear:both;
+	height: 120%;
+	padding-top:5px;
+	padding-bottom:5px;
+	padding-left:20px;
+	background-color:#000033;
+	margin-left:-90px;
+	margin-top:100px;
+}
+div#footer img{
+	width:auto;
+	height:1.5%;
+
+}
+div#address{
+	line-height: 1em;
+	font-size:10px;
+	color:#ffffff;
+	padding-top:10px;
+	background-color:#000033;
+
+}
 
 @media only screen and (max-width:479px) {
 	body{
@@ -122,15 +166,34 @@ div#wrapper {
 		margin-left:5px;
 		margin-right:5px;
 		width:auto;
-		height:300%;
+		height:360%;
 		overflow: hidden;
 	}
 div#wrapper img {
 	width:100%;
-    height:auto;
+	height:auto;
     }
- div#header {
+ div#header1 {
  	width:100%;
+    }
+ div#header1 img{
+ 	width:100%;
+ 	height:auto;
+ }
+ div#header1 ul 
+{
+font-size:0;}
+li{
+	display:inline-block;
+	width:40%;
+	background-color:#000033;
+	font-size:11px;
+	margin-top:20px;
+	margin-bottom:10px;
+}
+ div#header2 {
+ 	width:100%;
+ 	margin-top:10px;
  }
 ul {
 	background-size: 100% auto;
@@ -219,4 +282,26 @@ div#right_maki {
 	padding-bottom: -20px;
 	padding-right: 10px;
  }
+ div#footer {
+	width:150%;
+	clear:both;
+	padding-top:5px;
+	padding-bottom:5px;
+	padding-left:90px;
+	background-color:#000033;
+	height:180%;
+	overflow: hidden;
+}
+div#footer img{
+	width:10%;
+	height:auto;
+}
+div#address{
+	line-height: 1em;
+	font-size:10px;
+	color:#ffffff;
+	padding-top:10px;
+	background-color:#000033;
+
+}
 }
