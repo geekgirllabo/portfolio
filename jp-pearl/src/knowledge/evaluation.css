@@ -38,6 +38,7 @@ div#header2 img{
 ul {
 	font-size:16px;	
 	color:#ffffff;
+
 	background-color:#000033;
 	margin-bottom:0px;
 }
@@ -57,66 +58,79 @@ div#left_katachi {
 	padding-top:20px;
 	padding-bottom:10px;
 	margin-left:10px;
+	height:40px;
 
 }
 div#right_katachi {
 	margin-top:-50px;
 	margin-bottom:30px;
 	margin-left:10px;
+	height:40px;
+	padding-bottom:60px;
 	border-bottom: 1px solid #f2f2f2;
 }
-div#right_katachi dd{
-	margin-top:10px;
-}
-
 
 div#left_kizu {
 	margin-top:10px;
 	margin-left:10px;
+	height:40px;
 }
 div#right_kizu {
 	margin-top:-50px;
 	margin-left:10px;
+	padding-bottom:60px;
 	border-bottom: 1px solid #f2f2f2;
+	height:40px;
 }
-
 div#left_iro {
 	margin-top:10px;
 	margin-left:10px;
+	height:30px;
 }
 div#right_iro {
 	margin-top:-30px;
 	margin-left:10px;
+	padding-bottom:60px;
 	border-bottom: 1px solid #f2f2f2;
+	height:30px;
 }
 
 div#left_maki {
 	margin-top:10px;
 	margin-left:10px;
+	height:40px;
 }
 div#right_maki {
-	margin-top:-30px;
+	margin-top:-50px;
 	margin-left:10px;
+	padding-bottom:60px;
 	border-bottom: 1px solid #f2f2f2;
+	height:40px;
 }
 
 div#left_teri {
 	margin-top:10px;
 	margin-left:10px;
+	height:40px;
 }
 div#right_teri {
 	margin-top:-30px;
 	margin-left:10px;
+	padding-bottom:60px;
+	padding-bottom:70px;
 	border-bottom: 1px solid #f2f2f2;
+	height:40px;
 }
 
 div#left_size {
 	margin-top:10px;
 	margin-left:10px;
+	height:40px;
 }
 div#right_size {
 	margin-top:-30px;
 	margin-left:10px;
+	height:40px;
 }
 div#footer {
 	width:auto;
@@ -192,24 +206,28 @@ ul {
 div#center{
 	width:100%;
 	margin-top:-10%;
-	margin-left:1%;
+	margin-left:-1%;
 	height:70%;
 }
+
 div#left_katachi {
  	margin-top:10%;
+ 	height:3%;
  	}
  	hr{
 	display:none;
 }
 
  div#right_katachi {
- 	margin-top:-5%;
+ 	margin-top:-20%;
  	width:70%;
+ 	height:3%;
  }
  div#right_katachi dd{
 	padding-right: 1%;
 	margin-left:-6%;
 	margin-bottom:5%;
+	height:3%;
  }
  dd p{
   	width:125%;
@@ -218,12 +236,14 @@ div#left_katachi {
 	font-size: -1rem;
 }
 div#left_kizu {
- 	margin-top:-5%;
+ 	margin-top:60%;
+ 	height:3%;
  	}
 
  div#right_kizu {
  	width:70%;
- 	margin-top:-5%;
+ 	margin-top:-20%;
+ 	height:3%;
  }
  div#right_kizu dd{
 	padding-right: 1%;
@@ -231,35 +251,62 @@ div#left_kizu {
 	margin-bottom:5%;
  }
 div#left_iro {
- 	margin-top:3%;
+ 	margin-top:70%;
+ 	height:3%;
  	}
 
  div#right_iro {
  	width:70%;
- 	margin-top:-5%;
+ 	margin-top:-20%;
+ 	height:3%;
  }
+ div#right_iro dd{
+	padding-right: 1%;
+	margin-left:-6%;
+	margin-bottom:5%;
+}
  div#left_maki {
- 	margin-top:3%;
+ 	margin-top:30%;
+ 	height:3%;
  	}
 div#right_maki {
  	width:70%;
- 	margin-top:-5%;
+ 	margin-top:-15%;
+ 	height:3%;
  }
+ div#right_maki dd{
+	padding-right: 1%;
+	margin-left:-6%;
+	margin-bottom:5%;
+}
 div#left_teri {
- 	margin-top:3%;
+ 	margin-top:70%;
+ 	height:3%;
  	}
  div#right_teri {
  	width:70%;
- 	margin-top:-5%;
+ 	margin-top:-15%;
+ 	height:3%;
  }
-
+div#right_teri dd{
+	padding-right: 1%;
+	margin-left:-6%;
+	margin-bottom:5%;
+}
  div#left_size{
- 	margin-top:3%;
+ 	margin-top:60%;
+ 	height:3%;
  }
  div#right_size {
  	width:70%;
- 	margin-top:-5%;
+ 	margin-top:-15%;
+ 	height:3%;
  }
+ div#right_size dd{
+	padding-right: 1%;
+	margin-left:-6%;
+	margin-bottom:5%;
+}
 
  div#footer {
 	width:100%;
