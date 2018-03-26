@@ -29,7 +29,7 @@ li{
 div#header2 {
 	width:80%;
 	margin-top:40px;
-	padding-left:120px;
+	padding-left:9%;
 }
 div#header2 img{
 	width:100%;
@@ -49,88 +49,88 @@ hr{
 
 div#center {
 	width:80%;
-	margin-left:120px;	
+	margin-left:9%;	
 	background-color:#ffffff;
 	height:45%;
 }
 
 div#left_katachi {
-	padding-top:20px;
-	padding-bottom:10px;
-	margin-left:10px;
-	height:40px;
+	padding-top:2%;
+	padding-bottom:1%;
+	margin-left:1%;
+	height:4%;
 
 }
 div#right_katachi {
-	margin-top:-50px;
-	margin-bottom:30px;
-	margin-left:10px;
-	height:40px;
-	padding-bottom:60px;
+	margin-top:-5%;
+	margin-bottom:3%;
+	margin-left:1%;
+	height:4%;
+	padding-bottom:6%;
 	border-bottom: 1px solid #f2f2f2;
 }
 
 div#left_kizu {
-	margin-top:10px;
-	margin-left:10px;
-	height:40px;
+	margin-top:1%;
+	margin-left:1%;
+	height:4%;
 }
 div#right_kizu {
-	margin-top:-50px;
-	margin-left:10px;
-	padding-bottom:60px;
+	margin-top:-5%;
+	margin-left:1%;
+	padding-bottom:6%;
 	border-bottom: 1px solid #f2f2f2;
-	height:40px;
+	height:4%;
 }
 div#left_iro {
-	margin-top:10px;
-	margin-left:10px;
-	height:30px;
+	margin-top:1%;
+	margin-left:1%;
+	height:3%;
 }
 div#right_iro {
-	margin-top:-30px;
-	margin-left:10px;
-	padding-bottom:60px;
+	margin-top:-3%;
+	margin-left:1%;
+	padding-bottom:6%;
 	border-bottom: 1px solid #f2f2f2;
-	height:30px;
+	height:3%;
 }
 
 div#left_maki {
-	margin-top:10px;
-	margin-left:10px;
-	height:40px;
+	margin-top:1%;
+	margin-left:1%;
+	height:4%;
 }
 div#right_maki {
-	margin-top:-50px;
-	margin-left:10px;
-	padding-bottom:60px;
+	margin-top:-5%;
+	margin-left:1%;
+	padding-bottom:6%;
 	border-bottom: 1px solid #f2f2f2;
-	height:40px;
+	height:4%;
 }
 
 div#left_teri {
-	margin-top:10px;
-	margin-left:10px;
-	height:40px;
+	margin-top:1%;
+	margin-left:1%;
+	height:4%;
 }
 div#right_teri {
-	margin-top:-30px;
-	margin-left:10px;
-	padding-bottom:60px;
-	padding-bottom:70px;
+	margin-top:-3%;
+	margin-left:1%;
+	padding-bottom:6%;
+	padding-bottom:7%;
 	border-bottom: 1px solid #f2f2f2;
-	height:40px;
+	height:4%;
 }
 
 div#left_size {
-	margin-top:10px;
-	margin-left:10px;
-	height:40px;
+	margin-top:1%;
+	margin-left:1%;
+	height:4%;
 }
 div#right_size {
-	margin-top:-30px;
-	margin-left:10px;
-	height:40px;
+	margin-top:-3%;
+	margin-left:1%;
+	height:4%;
 }
 div#footer {
 	width:auto;
@@ -193,7 +193,7 @@ li{
  div#header2 {
  	width:100%;
  	margin-top:10px;
- 	margin-left:-120px;
+ 	margin-left:-9%;
  }
 ul {
 	background-size: 100% auto;
@@ -212,7 +212,7 @@ div#center{
 
 div#left_katachi {
  	margin-top:10%;
- 	height:3%;
+ 	height:4%;
  	}
  	hr{
 	display:none;
@@ -221,13 +221,13 @@ div#left_katachi {
  div#right_katachi {
  	margin-top:-20%;
  	width:70%;
- 	height:3%;
+ 	height:4%;
  }
  div#right_katachi dd{
 	padding-right: 1%;
 	margin-left:-6%;
 	margin-bottom:5%;
-	height:3%;
+	height:4%;
  }
  dd p{
   	width:125%;
@@ -237,13 +237,13 @@ div#left_katachi {
 }
 div#left_kizu {
  	margin-top:60%;
- 	height:3%;
+ 	height:4%;
  	}
 
  div#right_kizu {
  	width:70%;
  	margin-top:-20%;
- 	height:3%;
+ 	height:4%;
  }
  div#right_kizu dd{
 	padding-right: 1%;
@@ -252,13 +252,13 @@ div#left_kizu {
  }
 div#left_iro {
  	margin-top:70%;
- 	height:3%;
+ 	height:5%;
  	}
 
  div#right_iro {
  	width:70%;
  	margin-top:-20%;
- 	height:3%;
+ 	height:5%;
  }
  div#right_iro dd{
 	padding-right: 1%;
@@ -267,12 +267,12 @@ div#left_iro {
 }
  div#left_maki {
  	margin-top:30%;
- 	height:3%;
+ 	height:4%;
  	}
 div#right_maki {
  	width:70%;
  	margin-top:-15%;
- 	height:3%;
+ 	height:4%;
  }
  div#right_maki dd{
 	padding-right: 1%;
@@ -281,12 +281,12 @@ div#right_maki {
 }
 div#left_teri {
  	margin-top:70%;
- 	height:3%;
+ 	height:4%;
  	}
  div#right_teri {
  	width:70%;
  	margin-top:-15%;
- 	height:3%;
+ 	height:4%;
  }
 div#right_teri dd{
 	padding-right: 1%;
@@ -294,13 +294,13 @@ div#right_teri dd{
 	margin-bottom:5%;
 }
  div#left_size{
- 	margin-top:60%;
- 	height:3%;
+ 	margin-top:70%;
+ 	height:4%;
  }
  div#right_size {
  	width:70%;
  	margin-top:-15%;
- 	height:3%;
+ 	height:4%;
  }
  div#right_size dd{
 	padding-right: 1%;
