@@ -55,8 +55,100 @@ ul#glovalnav li a{
 	padding-right: 15px;
 }
 div#container{
+	width: 100%;
 }
 div#contents{
+	width: 100%;
+}
+img#top{
+	width: 100%;
+}
+div#category{
+	width: 100%;
+	margin-top: 5%;
+}
+div#hajimete{
+	width: 30%;
+	height: 400px;
+	float: left;
+	margin-left: 8%;
+}
+div#hajimete h2{
+	background-image: url("../common/img/ipn_01.png");
+	background-repeat: no-repeat;
+	background-size: auto 100%;
+	background-position: 0px 0px;
+	display: block;
+	width: 100%;
+	height: 400px;
+	float: left;
+	font-size: 20px;
+	font-weight: normal;
+	text-align: center;
+	margin: 0;
+}
+div#schedule{
+	width: 30%;
+	height: 400px;
+	float: left;
+}
+div#schedule h2{
+	background-image: url("../common/img/ipn_02.png");
+	background-repeat: no-repeat;
+	background-size: auto 100%;
+	background-position: 0px 0px;
+	display: block;
+	width: 100%;
+	height: 400px;
+	float: left;
+	font-size: 20px;
+	font-weight: normal;
+	text-align: center;
+	margin: 0;
+}
+div#kensaku{
+	width: 30%;
+	height: 400px;
+	float: left;
+}
+div#kensaku h2{
+	background-image: url("../common/img/ipn_03.png");
+	background-repeat: no-repeat;
+	background-size: auto 100%;
+	background-position: 0px 0px;
+	display: block;
+	width: 100%;
+	height: 400px;
+	float: left;
+	font-size: 20px;
+	font-weight: normal;
+	text-align: center;
+	margin: 0;
+}
+div#infomation{
+	width: 100%;
+}
+div#knowledge{
+	width: 30%;
+	height: 150px;
+	float: left;
+	margin-top: 5%;
+	margin-bottom: 10%;
+	margin-left: 10%;
+}
+img#knowledge01{
+	width: 30%;
+}
+div#introduction{
+	width: 30%;
+	height: 150px;
+	float: left;
+	margin-top: 5%;
+	margin-bottom: 10%;
+	margin-left: 5%;
+}
+img#introduction01{
+	width: 30%;
 }
 div#footer{
 	width: 100%;
