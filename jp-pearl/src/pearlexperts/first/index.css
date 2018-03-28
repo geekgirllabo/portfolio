@@ -68,7 +68,7 @@ div#category{
 	margin-top: 5%;
 }
 div#hajimete{
-	width: 30%;
+	width: 400px;
 	height: 400px;
 	float: left;
 	margin-left: 8%;
@@ -82,10 +82,19 @@ div#hajimete h2{
 	width: 100%;
 	height: 400px;
 	float: left;
-	font-size: 20px;
-	font-weight: normal;
+	font-size: 29px;
+	font-weight: bold;
 	text-align: center;
+	line-height: 1.3;
 	margin: 0;
+	padding-top: 300px;
+}
+div#hajimete h2:hover{
+	opacity: 0.5;
+}
+h2 span{
+	color: #c5a05a;
+	font-size: 18px;
 }
 div#schedule{
 	width: 30%;
@@ -136,8 +145,32 @@ div#knowledge{
 	margin-bottom: 10%;
 	margin-left: 10%;
 }
+h3{
+	border-bottom: 1px solid gray;
+	font-size: 22px;
+	font-weight: bold;
+	width: 415px;
+}
 img#knowledge01{
-	width: 30%;
+	width: 35%;
+	float: left;
+	margin-top: 15px;
+}
+div#knowledge p{
+	float: left;
+	font-size: 14px;
+	line-height: 1.3;
+	margin-top: 15px;
+	margin-left: 15px;
+	margin-right: 0;	
+}
+p.more{
+	width: 25%;
+	background-color: #c5a05a;
+	color: #FFFFFF;
+	text-align: center;
+	padding-top: 1%;
+	padding-bottom: 1%;
 }
 div#introduction{
 	width: 30%;
