@@ -224,14 +224,19 @@ div#right_size {
 	float:right;
 	width:65%;
 }
+div#size{
+	margin-left:4%;
+	margin-right:4%;
+	overflow:hidden;
+}
 div#footer {
 	width:auto;
 	clear:both;
 	padding-top:5px;
 	padding-bottom:5px;
-	padding-left:120px;
+	padding-left:50px;
 	background-color:#000033;
-	margin-left:-90px;
+	
 	margin-top:100px;
 	height:100%;
 }
@@ -257,7 +262,7 @@ div#wrapper {
 		margin-left:5px;
 		margin-right:5px;
 		width:auto;
-		height:580%;
+		height:700%;
 		overflow: hidden;
 	}
 div#wrapper img {
@@ -301,7 +306,7 @@ div#center{
 	width:100%;
 	margin-top:-15%;
 	margin-left:-1%;
-	height:76%;
+	height:80%;
 }
 
 div#left_katachi {
@@ -325,10 +330,7 @@ div#left_katachi img{
  }
  div#katachi{
  	border-bottom: 1px solid #f2f2f2;
-	padding-bottom:85%;
-	margin-left:4%;
-	margin-right:4%;
-	overflow:hidden;
+	padding-bottom:30%;
  }
  dd p{
   	width:125%;
@@ -355,7 +357,7 @@ div#left_kizu {
  }
 div#kizu{
  	border-bottom: 1px solid #f2f2f2;
-	padding-bottom:110%;
+	padding-bottom:40%;
  }
 div#left_iro{
  	padding-top:3%;
@@ -378,7 +380,7 @@ div#left_iro img{
  }
 div#iro{
  	border-bottom: 1px solid #f2f2f2;
-	padding-bottom:70%;
+	padding-bottom:20%;
  }
  div#left_maki {
  	padding-top:3%;
@@ -401,7 +403,7 @@ div#right_maki {
  }
 div#maki{
  	border-bottom: 1px solid #f2f2f2;
-	padding-bottom:118%;
+	padding-bottom:65%;
  }
 div#left_teri {
  	padding-top:3%;
@@ -424,7 +426,7 @@ div#left_teri {
  }
 div#teri{
  	border-bottom: 1px solid #f2f2f2;
-	padding-bottom:100%;
+	padding-bottom:30%;
  }
  div#left_size{
  	padding-top:3%;
