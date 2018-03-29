@@ -57,93 +57,98 @@ ul#glovalnav li a{
 div#container{
 	width: 100%;
 }
-div#contents{
-	width: 100%;
-}
 img#top{
 	width: 100%;
 }
+div#contents{
+	width: 100%;
+	max-width: 1000px;
+	text-align: center;
+	margin: 0 auto;
+}
 div#category{
 	width: 100%;
-	margin-top: 5%;
+	margin-top: 3%;
 }
 div#hajimete{
-	width: 400px;
-	height: 400px;
+	width: 300px;
 	float: left;
-	margin-left: 8%;
+	margin-left: 5%;
 }
 div#hajimete h2{
 	background-image: url("../common/img/ipn_01.png");
 	background-repeat: no-repeat;
-	background-size: auto 100%;
-	background-position: 0px 0px;
+	background-size: auto 90%;
+	background-position: 15px 15px;
 	display: block;
 	width: 100%;
-	height: 400px;
+	height: 300px;
 	float: left;
-	font-size: 29px;
+	font-size: 21px;
 	font-weight: bold;
 	text-align: center;
 	line-height: 1.3;
 	margin: 0;
-	padding-top: 300px;
+	padding-top: 220px;
 }
 div#hajimete h2:hover{
 	opacity: 0.5;
 }
 h2 span{
 	color: #c5a05a;
-	font-size: 18px;
+	font-size: 14px;
 }
 div#schedule{
-	width: 30%;
-	height: 400px;
+	width: 300px;
 	float: left;
 }
 div#schedule h2{
 	background-image: url("../common/img/ipn_02.png");
 	background-repeat: no-repeat;
-	background-size: auto 100%;
-	background-position: 0px 0px;
+	background-size: auto 90%;
+	background-position: 15px 15px;
 	display: block;
 	width: 100%;
-	height: 400px;
+	height: 300px;
 	float: left;
-	font-size: 20px;
-	font-weight: normal;
+	font-size: 21px;
+	font-weight: bold;
 	text-align: center;
+	line-height: 1.3;
 	margin: 0;
+	padding-top: 220px;
 }
 div#kensaku{
-	width: 30%;
-	height: 400px;
+	width: 300px;
 	float: left;
 }
 div#kensaku h2{
 	background-image: url("../common/img/ipn_03.png");
 	background-repeat: no-repeat;
-	background-size: auto 100%;
-	background-position: 0px 0px;
+	background-size: auto 90%;
+	background-position: 15px 15px;
 	display: block;
 	width: 100%;
-	height: 400px;
+	height: 300px;
 	float: left;
-	font-size: 20px;
-	font-weight: normal;
+	font-size: 21px;
+	font-weight: bold;
 	text-align: center;
+	line-height: 1.3;
 	margin: 0;
+	padding-top: 220px;
 }
 div#infomation{
 	width: 100%;
+	max-width: 1000px;
+	margin: 0 auto;
 }
 div#knowledge{
-	width: 30%;
-	height: 150px;
+	width: 400px;
+	height: 300px;
 	float: left;
 	margin-top: 5%;
-	margin-bottom: 10%;
-	margin-left: 10%;
+	margin-left: 3%;
 }
 h3{
 	border-bottom: 1px solid gray;
@@ -152,36 +157,46 @@ h3{
 	width: 415px;
 }
 img#knowledge01{
-	width: 35%;
+	width: 37%;
 	float: left;
 	margin-top: 15px;
 }
 div#knowledge p{
 	float: left;
-	font-size: 14px;
+	font-size: 13px;
 	line-height: 1.3;
 	margin-top: 15px;
 	margin-left: 15px;
 	margin-right: 0;	
 }
 p.more{
-	width: 25%;
+	width: 30%;
 	background-color: #c5a05a;
 	color: #FFFFFF;
 	text-align: center;
 	padding-top: 1%;
 	padding-bottom: 1%;
+	margin-top: 10px;
 }
 div#introduction{
-	width: 30%;
-	height: 150px;
+	width: 400px;
+	height: 300px;
 	float: left;
 	margin-top: 5%;
-	margin-bottom: 10%;
-	margin-left: 5%;
+	margin-left: 7%;
 }
 img#introduction01{
-	width: 30%;
+	width: 37%;
+	float: left;
+	margin-top: 15px;
+}
+div#introduction p{
+	float: left;
+	font-size: 13px;
+	line-height: 1.3;
+	margin-top: 15px;
+	margin-left: 15px;
+	margin-right: 0;	
 }
 div#footer{
 	width: 100%;
@@ -212,7 +227,7 @@ p#copyright{
 }
 
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 1000px) {
 
 div#header{
 	height: 90px
@@ -236,9 +251,40 @@ ul#glovalnav li{
 ul#glovalnav li#question{
 	border-right: 1.5px solid #6B70A1;
 }
-div#container{
-}
 div#contents{
+	max-width: 660px;
+}
+div#hajimete{
+	width: 220px;
+	margin-left: 0;
+}
+div#hajimete h2{
+	background-size: auto 85%;
+	height: 220px;
+	font-size: 15px;
+	padding-top: 155px;
+}
+h2 span{
+	color: #c5a05a;
+	font-size: 8px;
+}
+div#schedule{
+	width: 220px;
+}
+div#schedule h2{
+	background-size: auto 85%;
+	height: 220px;
+	font-size: 15px;
+	padding-top: 155px;
+}
+div#kensaku{
+	width: 220px;
+}
+div#kensaku h2{
+	background-size: auto 85%;
+	height: 220px;
+	font-size: 15px;
+	padding-top: 155px;
 }
 }
 
@@ -262,7 +308,7 @@ img#logo{
 	margin-left: 15px;
 }
 ul#glovalnav{
-	height: 180px;
+	height: 150px;
 }
 ul#glovalnav li{
 	width: 100%;
