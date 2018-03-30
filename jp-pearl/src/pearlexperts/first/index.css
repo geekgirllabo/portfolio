@@ -169,7 +169,7 @@ div#knowledge p{
 	margin-left: 15px;
 	margin-right: 0;	
 }
-p.more{
+div#knowledge p.more{
 	width: 30%;
 	background-color: #c5a05a;
 	color: #FFFFFF;
@@ -197,6 +197,15 @@ div#introduction p{
 	margin-top: 15px;
 	margin-left: 15px;
 	margin-right: 0;	
+}
+div#introduction p.more{
+	width: 30%;
+	background-color: #c5a05a;
+	color: #FFFFFF;
+	text-align: center;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	margin-top: 10px;
 }
 div#footer{
 	width: 100%;
@@ -238,6 +247,7 @@ img#logo{
 	margin-left: 30px;
 }
 ul#glovalnav{
+	border-right: 1.5px solid #6B70A1;
 	padding-left: 0;
 }
 ul#glovalnav li{
@@ -250,6 +260,9 @@ ul#glovalnav li{
 }
 ul#glovalnav li#question{
 	border-right: 1.5px solid #6B70A1;
+}
+li#kensaku.border{
+	border-right:none;
 }
 div#contents{
 	max-width: 660px;
