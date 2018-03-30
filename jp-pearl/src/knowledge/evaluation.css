@@ -82,7 +82,7 @@ div#right_katachi {
 	width:65%;
 }
 div#katachi{
-	border-bottom: 1px solid #f2f2f2;
+	border-bottom: 1px solid #a9a9a9;
 	margin-left:4%;
 	margin-right:4%;
 	overflow:hidden;
@@ -110,7 +110,7 @@ div#right_kizu {
 	width:65%;
 }
 div#kizu{
-	border-bottom: 1px solid #f2f2f2;
+	border-bottom: 1px solid #a9a9a9;
 	margin-left:4%;
 	margin-right:4%;
 	overflow:hidden;
@@ -138,7 +138,7 @@ div#right_iro {
 	width:65%;
 }
 div#iro{
-	border-bottom: 1px solid #f2f2f2;
+	border-bottom: 1px solid #a9a9a9;
 	margin-left:4%;
 	margin-right:4%;
 	overflow:hidden;
@@ -167,7 +167,7 @@ div#right_maki {
 	width:65%;
 }
 div#maki{
-	border-bottom: 1px solid #f2f2f2;
+	border-bottom: 1px solid #a9a9a9;
 	margin-left:4%;
 	margin-right:4%;
 	overflow:hidden;
@@ -196,7 +196,7 @@ div#right_teri {
 	width:65%;
 }
 div#teri{
-	border-bottom: 1px solid #f2f2f2;
+	border-bottom: 1px solid #a9a9a9;
 	margin-left:4%;
 	margin-right:4%;
 	overflow:hidden;
@@ -254,7 +254,7 @@ div#address{
 
 }
 
-@media only screen and (max-width:479px) {
+@media only screen and (max-width:1300px) {
 	body{
 		margin:0;
 	}
@@ -329,15 +329,15 @@ div#left_katachi img{
 	height:7%;
  }
  div#katachi{
- 	border-bottom: 1px solid #f2f2f2;
-	padding-bottom:30%;
+ 	border-bottom: 1px solid #a9a9a9;
+	padding-bottom:25%;
  }
  dd p{
   	width:125%;
 	margin-left:9%;
 }
 div#left_kizu {
- 	padding-top:1%;
+ 	padding-top:2%;
  	height:4%;
  	margin-left:10%;
  	}
@@ -356,7 +356,7 @@ div#left_kizu {
 	height:8%;
  }
 div#kizu{
- 	border-bottom: 1px solid #f2f2f2;
+ 	border-bottom: 1px solid #a9a9a9;
 	padding-bottom:40%;
  }
 div#left_iro{
@@ -367,7 +367,7 @@ div#left_iro{
 div#left_iro img{
 	padding-top:30%;
 	margin-left:20%;
-	width:150%;
+	width:140%;
 }
  div#right_iro {
  	margin-top:1%;
@@ -379,7 +379,7 @@ div#left_iro img{
 	height:5%;
  }
 div#iro{
- 	border-bottom: 1px solid #f2f2f2;
+ 	border-bottom: 1px solid #a9a9a9;
 	padding-bottom:20%;
  }
  div#left_maki {
@@ -402,7 +402,7 @@ div#right_maki {
 	height:5%;
  }
 div#maki{
- 	border-bottom: 1px solid #f2f2f2;
+ 	border-bottom: 1px solid #a9a9a9;
 	padding-bottom:65%;
  }
 div#left_teri {
@@ -425,7 +425,7 @@ div#left_teri {
 	height:7%;
  }
 div#teri{
- 	border-bottom: 1px solid #f2f2f2;
+ 	border-bottom: 1px solid #a9a9a9;
 	padding-bottom:30%;
  }
  div#left_size{
@@ -453,7 +453,7 @@ div#teri{
 	clear:both;
 	padding-top:-20px;
 	padding-bottom:5px;
-	padding-left:-50px;
+	padding-left:10px;
 	background-color:#000033;
 	height:80%;
 }
