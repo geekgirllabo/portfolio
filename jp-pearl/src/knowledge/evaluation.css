@@ -3,10 +3,10 @@ body{
 	font-family: MS　ゴシック;
 	}
 div#wrapper{
-	max-width:1400px
+	max-width:1400px;
+	width:100%;
 	background-color:#f2f2f2;
-	height:350%;
-	overflow: hidden;
+	height:auto;
 	}
 div#header1{
 	width:100%;
@@ -45,7 +45,8 @@ div#header2 img{
 ul {
 	font-size:16px;	
 	color:#ffffff;
-
+	padding-top:5px;
+	padding-bottom:5px;
 	background-color:#000033;
 	margin-bottom:0px;
 }
@@ -58,24 +59,25 @@ div#center {
 	width:80%;
 	margin-left:9%;	
 	background-color:#ffffff;
-	height:53%;
+	padding-bottom:5%;
+	height:auto;
 }
 div#left_katachi {
 	padding-top:2%;
 	padding-bottom:1%;
 	margin-left:3%;
-	width:170px;
+	width:12.5%;
 	padding-top:7%;
 	padding-bottom:3%;
 }
 div#left_katachi img{
-	margin-left:50%;
+	margin-left:70%;
 	margin-top:-25%;
 }
 div#right_katachi {
 	margin-top:-7%;
-	margin-left:-170px;
-	margin-right:3%;
+	margin-left:-12.5%;
+	margin-right:0%;
 	padding-top:-7%;
 	padding-bottom:3%;
 	float:right;
@@ -92,20 +94,20 @@ div#left_kizu {
 	padding-top:1%;
 	padding-bottom:1%;
 	margin-left:3%;
-	width:170px;
+	width:12.5%;
 	padding-top:3%;
-	padding-bottom:3%;
+	padding-bottom:2%;
 }
 div#left_kizu img{
-	margin-left:50%;
+	margin-left:70%;
 	margin-top:-18%;
 	}
 div#right_kizu {
-	margin-top:-7%;
-	margin-left:-170px;
-	margin-right:3%;
+	margin-top:-6%;
+	margin-left:-12.5%;;
+	margin-right:0%;
 	padding-top:-7%;
-	padding-bottom:3%;
+	padding-bottom:2%;
 	float:right;
 	width:65%;
 }
@@ -120,18 +122,18 @@ div#left_iro {
 	padding-top:2%;
 	padding-bottom:1%;
 	margin-left:3%;
-	width:170px;
+	width:12.5%;
 	padding-top:3%;
 	padding-bottom:3%;
 }
 div#left_iro img{
-	margin-left:50%;
+	margin-left:70%;
 	margin-top:-18%;
 	}
 div#right_iro {
 	margin-top:-7%;
-	margin-left:-170px;
-	margin-right:3%;
+	margin-left:-12.5%;
+	margin-right:0%;
 	padding-top:-7%;
 	padding-bottom:3%;
 	float:right;
@@ -146,21 +148,21 @@ div#iro{
 
 div#left_maki {
 	clear:both;
-	padding-top:2%;
+	padding-top:3%;
 	padding-bottom:1%;
 	margin-left:3%;
-	width:170px;
-	padding-top:1%;
+	width:12.5%;
+	padding-top:3%;
 	padding-bottom:3%;
 }
 div#left_maki img{
-	margin-left:50%;
-	margin-top:-14%;
+	margin-left:70%;
+	margin-top:-16%;
 	}
 div#right_maki {
-	margin-top:-7%;
-	margin-left:-170px;
-	margin-right:3%;
+	margin-top:-6%;
+	margin-left:-12.5%;
+	margin-right:0%;
 	padding-top:-7%;
 	padding-bottom:3%;
 	float:right;
@@ -175,23 +177,23 @@ div#maki{
 
 div#left_teri {
 	clear:both;
-	padding-top:2%;
-	padding-bottom:1%;
+	padding-top:3%;
+	padding-bottom:3%;
 	margin-left:3%;
-	width:170px;
-	padding-top:2%;
+	width:12.5%;
+	padding-top:3%;
 	padding-bottom:3%;
 }
 div#left_teri img{
-	margin-left:50%;
+	margin-left:70%;
 	margin-top:-14%;
 	}
 div#right_teri {
 	margin-top:-7%;
-	margin-left:-170px;
-	margin-right:3%;
+	margin-left:-12.5%;
+	margin-right:0%;
 	padding-top:-7%;
-	padding-bottom:3%;
+	padding-bottom:5%;
 	float:right;
 	width:65%;
 }
@@ -207,18 +209,18 @@ div#left_size {
 	padding-top:2%;
 	padding-bottom:1%;
 	margin-left:3%;
-	width:170px;
+	width:12.5%;
 	padding-top:3%;
 	padding-bottom:3%;
 }
 div#left_size img{
-	margin-left:50%;
+	margin-left:70%;
 	margin-top:-14%;
 	}
 div#right_size {
 	margin-top:-7%;
-	margin-left:-170px;
-	margin-right:3%;
+	margin-left:-12.5%;
+	margin-right:0%;
 	padding-top:-6%;
 	padding-bottom:3%;
 	float:right;
@@ -233,16 +235,16 @@ div#footer {
 	width:auto;
 	clear:both;
 	padding-top:5px;
-	padding-bottom:5px;
+	padding-bottom:50px;
 	padding-left:50px;
 	background-color:#000033;
 	
 	margin-top:100px;
-	height:100%;
+
 }
 div#footer img{
 	width:auto;
-	height:1.5%;
+	height:5%;
 
 }
 div#address{
