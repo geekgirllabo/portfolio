@@ -3,7 +3,7 @@ body{
 	font-family: MS　ゴシック;
 	}
 div#wrapper{
-	width:100%;
+	max-width:1400px
 	background-color:#f2f2f2;
 	height:350%;
 	overflow: hidden;
@@ -254,7 +254,7 @@ div#address{
 
 }
 
-@media only screen and (max-width:1300px) {
+@media only screen and (max-width:479px) {
 	body{
 		margin:0;
 	}
@@ -262,12 +262,10 @@ div#wrapper {
 		margin-left:5px;
 		margin-right:5px;
 		width:auto;
-		height:700%;
-		overflow: hidden;
+		height:auto;
 	}
 div#wrapper img {
 	width:100%;
-	height:auto;
     }
  div#header1 {
  	width:100%;
@@ -306,12 +304,12 @@ div#center{
 	width:100%;
 	margin-top:-15%;
 	margin-left:-1%;
-	height:80%;
+	
 }
 
 div#left_katachi {
  	margin-top:15%;
- 	height:4%;
+ 	
  	margin-left:10%;
  	}
 div#left_katachi img{
@@ -322,11 +320,10 @@ div#left_katachi img{
  div#right_katachi {
  	margin-top:1%;
  	width:70%;
- 	height:4%;
+ 	
  	padding-right:25%;
 	margin-left:-10%;
 	margin-bottom:5%;
-	height:7%;
  }
  div#katachi{
  	border-bottom: 1px solid #a9a9a9;
@@ -338,7 +335,7 @@ div#left_katachi img{
 }
 div#left_kizu {
  	padding-top:2%;
- 	height:4%;
+
  	margin-left:10%;
  	}
  div#left_kizu img{
@@ -349,7 +346,7 @@ div#left_kizu {
  div#right_kizu {
  	margin-top:1%;
  	width:70%;
- 	height:4%;
+ 	
  	padding-right:25%;
 	margin-left:-10%;
 	margin-bottom:5%;
@@ -361,7 +358,7 @@ div#kizu{
  }
 div#left_iro{
  	padding-top:3%;
- 	height:3%;
+ 	
  	margin-left:10%;
  	}
 div#left_iro img{
@@ -372,11 +369,11 @@ div#left_iro img{
  div#right_iro {
  	margin-top:1%;
  	width:70%;
- 	height:4%;
+ 	
  	padding-right:25%;
 	margin-left:-10%;
 	margin-bottom:5%;
-	height:5%;
+	
  }
 div#iro{
  	border-bottom: 1px solid #a9a9a9;
@@ -384,7 +381,7 @@ div#iro{
  }
  div#left_maki {
  	padding-top:3%;
- 	height:4%;
+ 	
  	margin-left:10%;
  	}
  div#left_maki img{
@@ -395,11 +392,11 @@ div#iro{
 div#right_maki {
  	margin-top:1%;
  	width:70%;
- 	height:4%;
+ 	
  	padding-right:25%;
 	margin-left:-10%;
 	margin-bottom:5%;
-	height:5%;
+	
  }
 div#maki{
  	border-bottom: 1px solid #a9a9a9;
@@ -407,7 +404,7 @@ div#maki{
  }
 div#left_teri {
  	padding-top:3%;
- 	height:4%;
+ 	
  	margin-left:10%;
  	}
  div#left_teri img{
@@ -418,11 +415,11 @@ div#left_teri {
  div#right_teri {
  	margin-top:1%;
  	width:70%;
- 	height:4%;
+ 	
  	padding-right:25%;
 	margin-left:-10%;
 	margin-bottom:5%;
-	height:7%;
+	
  }
 div#teri{
  	border-bottom: 1px solid #a9a9a9;
@@ -430,7 +427,7 @@ div#teri{
  }
  div#left_size{
  	padding-top:3%;
- 	height:4%;
+ 	
  	margin-left:10%;
  }
   div#left_size img{
@@ -441,11 +438,11 @@ div#teri{
  div#right_size {
  	margin-top:1%;
  	width:70%;
- 	height:4%;
+ 	
  	padding-right:25%;
 	margin-left:-10%;
 	margin-bottom:5%;
-	height:6%;
+	
  }
 
  div#footer {
@@ -455,7 +452,7 @@ div#teri{
 	padding-bottom:5px;
 	padding-left:10px;
 	background-color:#000033;
-	height:80%;
+	
 }
 div#footer img{
 	width:10%;
