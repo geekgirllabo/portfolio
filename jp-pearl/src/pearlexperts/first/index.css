@@ -117,6 +117,9 @@ div#schedule h2{
 	margin: 0;
 	padding-top: 275px;
 }
+div#schedule h2:hover{
+	opacity: 0.5;
+}
 div#kensaku{
 	width: 380px;
 	float: left;
@@ -137,13 +140,16 @@ div#kensaku h2{
 	margin: 0;
 	padding-top: 275px;
 }
+div#kensaku h2:hover{
+	opacity: 0.5;
+}
 div#infomation{
 	width: 100%;
 	max-width: 1250px;
 	margin: 0 auto;
 }
 div#knowledge{
-	width: 550px;
+	width: 530px;
 	height: 350px;
 	float: left;
 	margin-top: 5%;
@@ -155,7 +161,7 @@ h3{
 	width: 530px;
 }
 img#knowledge01{
-	width: 34%;
+	width: 35%;
 	float: left;
 	margin-top: 20px;
 }
@@ -164,27 +170,27 @@ div#knowledge p{
 	font-size: 18px;
 	line-height: 1.2;
 	margin-top: 20px;
-	margin-left: 30px;
+	margin-left: 25px;
 	margin-right: 0;	
 }
 div#knowledge p.more{
-	width: 30%;
+	width: 28%;
 	background-color: #c5a05a;
 	color: #FFFFFF;
 	text-align: center;
 	padding-top: 0.7%;
 	padding-bottom: 0.7%;
-	margin-top: 13px;
+	margin-top: 11px;
 }
 div#introduction{
-	width: 550px;
+	width: 530px;
 	height: 350px;
 	float: left;
 	margin-top: 5%;
-	margin-left: 20px;
+	margin-left: 40px;
 }
 img#introduction01{
-	width: 34%;
+	width: 35%;
 	float: left;
 	margin-top: 20px;
 }
@@ -193,17 +199,17 @@ div#introduction p{
 	font-size: 18px;
 	line-height: 1.2;
 	margin-top: 20px;
-	margin-left: 30px;
+	margin-left: 25px;
 	margin-right: 0;	
 }
 div#introduction p.more{
-	width: 30%;
+	width: 28%;
 	background-color: #c5a05a;
 	color: #FFFFFF;
 	text-align: center;
-	padding-top: 1%;
-	padding-bottom: 1%;
-	margin-top: 10px;
+	padding-top: 0.7%;
+	padding-bottom: 0.7%;
+	margin-top: 11px;
 }
 div#footer{
 	width: 100%;
@@ -234,7 +240,70 @@ p#copyright{
 }
 
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1300px) {
+
+div#contents{
+	max-width: 850px;
+}
+div#hajimete{
+	width: 280px;
+}
+div#hajimete h2 {
+	height: 280px;
+	font-size: 21px;
+	padding-top: 205px;
+}
+h2 span{
+	font-size: 13px;
+}
+div#schedule{
+	width: 280px;
+}
+div#schedule h2 {
+	height: 280px;
+	font-size: 21px;
+	padding-top: 205px;
+}
+div#kensaku{
+	width: 280px;
+}
+div#kensaku h2 {
+	height: 280px;
+	font-size: 21px;
+	padding-top: 205px;
+}
+div#infomation{
+	max-width: 880px;
+}
+div#knowledge{
+	width: 370px;
+	height: 260px;
+}
+h3{
+	font-size: 17px;
+	width: 370px;
+}
+img#knowledge01{
+	width: 35%;
+}
+div#knowledge p{
+	font-size: 12px;
+	margin-left: 18px;
+}
+div#introduction{
+	width: 370px;
+	height: 260px;
+}
+img#introduction{
+	width: 35%;
+}
+div#introduction p{
+	font-size: 12px;
+	margin-left: 18px;
+}
+}
+
+@media only screen and (max-width: 900px) {
 
 div#header{
 	height: 90px
