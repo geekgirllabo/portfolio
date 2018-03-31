@@ -62,7 +62,7 @@ img#top{
 }
 div#contents{
 	width: 100%;
-	max-width: 1000px;
+	max-width: 1160px;
 	text-align: center;
 	margin: 0 auto;
 }
@@ -71,9 +71,8 @@ div#category{
 	margin-top: 3%;
 }
 div#hajimete{
-	width: 300px;
+	width: 380px;
 	float: left;
-	margin-left: 5%;
 }
 div#hajimete h2{
 	background-image: url("../common/img/ipn_01.png");
@@ -82,24 +81,24 @@ div#hajimete h2{
 	background-position: 15px 15px;
 	display: block;
 	width: 100%;
-	height: 300px;
+	height: 380px;
 	float: left;
-	font-size: 21px;
+	font-size: 27px;
 	font-weight: bold;
 	text-align: center;
-	line-height: 1.3;
+	line-height: 1.2;
 	margin: 0;
-	padding-top: 220px;
+	padding-top: 275px;
 }
 div#hajimete h2:hover{
 	opacity: 0.5;
 }
 h2 span{
 	color: #c5a05a;
-	font-size: 14px;
+	font-size: 17px;
 }
 div#schedule{
-	width: 300px;
+	width: 380px;
 	float: left;
 }
 div#schedule h2{
@@ -109,17 +108,17 @@ div#schedule h2{
 	background-position: 15px 15px;
 	display: block;
 	width: 100%;
-	height: 300px;
+	height: 380px;
 	float: left;
-	font-size: 21px;
+	font-size: 27px;
 	font-weight: bold;
 	text-align: center;
 	line-height: 1.3;
 	margin: 0;
-	padding-top: 220px;
+	padding-top: 275px;
 }
 div#kensaku{
-	width: 300px;
+	width: 380px;
 	float: left;
 }
 div#kensaku h2{
@@ -129,44 +128,44 @@ div#kensaku h2{
 	background-position: 15px 15px;
 	display: block;
 	width: 100%;
-	height: 300px;
+	height: 380px;
 	float: left;
-	font-size: 21px;
+	font-size: 27px;
 	font-weight: bold;
 	text-align: center;
 	line-height: 1.3;
 	margin: 0;
-	padding-top: 220px;
+	padding-top: 275px;
 }
 div#infomation{
 	width: 100%;
-	max-width: 1000px;
+	max-width: 1250px;
 	margin: 0 auto;
 }
 div#knowledge{
-	width: 400px;
+	width: 550px;
 	height: 300px;
 	float: left;
 	margin-top: 5%;
-	margin-left: 3%;
 }
 h3{
 	border-bottom: 1px solid gray;
-	font-size: 22px;
+	font-size: 25px;
 	font-weight: bold;
-	width: 415px;
+	width: 530px;
 }
 img#knowledge01{
-	width: 37%;
+	width: 34%;
 	float: left;
 	margin-top: 15px;
 }
 div#knowledge p{
 	float: left;
-	font-size: 13px;
+	font-size: 16px;
 	line-height: 1.3;
+	font-weight: bold;
 	margin-top: 15px;
-	margin-left: 15px;
+	margin-left: 30px;
 	margin-right: 0;	
 }
 div#knowledge p.more{
@@ -183,7 +182,6 @@ div#introduction{
 	height: 300px;
 	float: left;
 	margin-top: 5%;
-	margin-left: 7%;
 }
 img#introduction01{
 	width: 37%;
