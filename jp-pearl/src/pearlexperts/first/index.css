@@ -242,6 +242,10 @@ p#copyright{
 
 @media only screen and (max-width: 1300px) {
 
+ul#glovalnav li{
+	padding-left: 8px;
+	padding-right: 8px;
+}
 div#contents{
 	max-width: 850px;
 }
@@ -336,17 +340,15 @@ div#contents{
 }
 div#hajimete{
 	width: 220px;
-	margin-left: 0;
 }
 div#hajimete h2{
 	background-size: auto 85%;
 	height: 220px;
 	font-size: 15px;
-	padding-top: 155px;
+	padding-top: 157px;
 }
 h2 span{
-	color: #c5a05a;
-	font-size: 8px;
+	font-size: 9px;
 }
 div#schedule{
 	width: 220px;
@@ -355,7 +357,7 @@ div#schedule h2{
 	background-size: auto 85%;
 	height: 220px;
 	font-size: 15px;
-	padding-top: 155px;
+	padding-top: 157px;
 }
 div#kensaku{
 	width: 220px;
@@ -364,7 +366,30 @@ div#kensaku h2{
 	background-size: auto 85%;
 	height: 220px;
 	font-size: 15px;
-	padding-top: 155px;
+	padding-top: 157px;
+}
+div#infomation{
+	max-width: 670px;
+}
+div#knowledge{
+	width: 310px;
+	height: 220px;
+}
+h3{
+	font-size: 17px;
+	width: 310px;
+}
+div#knowledge p{
+	font-size: 10px;
+	margin-left: 18px;
+}
+div#introduction{
+	width: 310px;
+	height: 220px;
+}
+div#introduction p{
+	font-size: 10px;
+	margin-left: 18px;
 }
 }
 
@@ -389,17 +414,35 @@ img#logo{
 }
 ul#glovalnav{
 	height: 150px;
+	border-right: none;
 }
 ul#glovalnav li{
 	width: 100%;
-	border-left: 0.5px solid #6B70A1;
+	border-left: 1.5px solid #6B70A1;
 }
-div#container{
+li#kensaku.border{
+	border-right: 1.5px solid #6B70A1;
 }
 div#contents{
+	max-width: 220px;
+}
+div#category{
+	margin-top: 14%;
+}
+div#infomation{
+	max-width: 310px;
+}
+div#knowledge{
+	height: 180px;
+	margin-top: 15%;
+}
+div#introduction{
+	height: 240px;
+	margin-top: 0;
+	margin-left: 0;
 }
 div#footer{
-	padding-bottom: 10%;
+	padding-bottom: 18%;
 }
 ul#footer_menu li{
 	float: none;
