@@ -1,0 +1,18 @@
+body{
+	background-color:#f2f2f2;
+	font-family: MS　ゴシック;
+	}
+div#wrapper{
+	max-width:1400px;
+	width:100%;
+	background-color:#f2f2f2;
+	height:auto;
+	}
+	div#header{
+		position: relative;
+	}
+	.absolute {
+		position: absolute;
+		top:20px;
+		left:50px;
+	}
