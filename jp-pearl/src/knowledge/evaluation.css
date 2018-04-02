@@ -315,18 +315,18 @@ div#center{
 
 div#left_katachi {
  	padding-top:20%;
- 	margin-left:10%;
+ 	margin-left:12%;
  	width:105%;
  	}
 div#left_katachi img{
 	padding-top:26%;
-	margin-left:6%;
-	width:70%;
+	margin-left:0%;
+	width:75%;
 }
  div#right_katachi {
  	margin-top:1%;
- 	width:70%;
- 	padding-right:32%;
+ 	width:75%;
+ 	padding-right:31%;
 	margin-bottom:-30%;
  }
  div#katachi{
@@ -339,18 +339,18 @@ div#left_katachi img{
 }
 div#left_kizu {
  	padding-top:3%;
- 	margin-left:10%;
+ 	margin-left:12%;
  	width:105%;
  	}
  div#left_kizu img{
 	padding-top:26%;
-	margin-left:6%;
-	width:70%;
+	margin-left:0%;
+	width:75%;
 }
  div#right_kizu {
  	margin-top:1%;
- 	width:70%;
- 	padding-right:32%;
+ 	width:75%;
+ 	padding-right:31%;
 	margin-bottom:-45%;
  }
 div#kizu{
@@ -359,18 +359,18 @@ div#kizu{
  }
 div#left_iro{
  	padding-top:3%;
- 	margin-left:10%;
+ 	margin-left:12%;
  	width:105%;
  	}
 div#left_iro img{
-	padding-top:20%;
-	margin-left:6%;
-	width:70%;
+	padding-top:26%;
+	margin-left:0%;
+	width:75%;
 }
  div#right_iro {
  	margin-top:1%;
- 	width:70%;
-	padding-right:32%;
+ 	width:75%;
+	padding-right:31%;
 	margin-bottom:-25%;
  }
 div#iro{
@@ -379,19 +379,18 @@ div#iro{
  }
  div#left_maki {
  	padding-top:3%;
- 	margin-left:10%;
+ 	margin-left:12%;
  	width:105%;
  	}
  div#left_maki img{
 	padding-top:26%;
-	margin-left:6%;
-	width:70%;
+	margin-left:0%;
+	width:75%;
 }
 div#right_maki {
  	margin-top:1%;
- 	width:70%;
- 	padding-right:32%;
-	margin-left:10%;
+ 	width:75%;
+ 	padding-right:31%;
 	margin-bottom:-25%;
  }
 div#maki{
@@ -400,18 +399,18 @@ div#maki{
  }
 div#left_teri {
  	padding-top:3%;
- 	margin-left:10%;
+ 	margin-left:12%;
  	width:105%;
  	}
  div#left_teri img{
 	padding-top:26%;
-	margin-left:6%;
-	width:70%;
+	margin-left:0%;
+	width:75%;
 }
  div#right_teri {
  	margin-top:1%;
- 	width:70%;
- 	padding-right:32%;
+ 	width:75%;
+ 	padding-right:31%;
 	margin-bottom:-30%;
  }
 div#teri{
@@ -420,20 +419,20 @@ div#teri{
  }
  div#left_size{
  	padding-top:3%;
- 	margin-left:10%;
- 	width:100%;
+ 	margin-left:12%;
+ 	width:105%;
  }
   div#left_size img{
-	padding-top:26%;
-	margin-left:6%;
-	width:70%;
+	padding-top:30%;
+	margin-left:0%;
+	width:75%;
 }
  div#right_size {
  	margin-top:1%;
- 	width:70%;
-	margin-right:32%;
+ 	width:75%;
+	padding-right:31%;
 	margin-bottom:-40%;
-	height:50%;
+	height:48%;
  }
 
  div#footer {
