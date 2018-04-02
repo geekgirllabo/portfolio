@@ -20,15 +20,98 @@ div#header{
 	background-color: #000033;
 	border-bottom: 5px solid #c5a05a;
 }
+div#nav-drawer{
+	width: 25px;
+	height: 25px;
+	float: left;
+	position: relative;
+	margin-top: 3%;
+	margin-left: 3%;
+}
+.nav-unshown{
+	display:none;
+}
+label#nav-open{
+	display: inline-block;
+	width: 30px;
+	height: 22px;
+	vertical-align: middle;
+}
+label#nav-open span, label#nav-open span:before, label#nav-open span:after{
+	position: absolute;
+	height: 3px;
+	width: 25px;
+	border-radius: 3px;
+	background: #FFFFFF;
+	display: block;
+	content: '';
+	cursor: pointer;
+}
+label#nav-open span:before{
+	bottom: -8px;
+}
+label#nav-open span:after{
+	bottom: -16px;
+}
+label#nav-close{
+	display: none;
+	position: fixed;
+	z-index: 99;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: black;
+	opacity: 0;
+	transition: .3s ease-in-out;
+}
+div#nav-content{
+	overflow: auto;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 9999;
+	width: 90%;
+	max-width: 280px;
+	height: 100%;
+	background: #FFFFFF;
+	transition: .3s ease-in-out;
+	-webkit-transform: translateX(-105%);
+	transform: translateX(-105%);
+}
+#nav-input:checked ~ #nav-close{
+	display: block;
+	opacity: .5;
+}
+#nav-input:checked ~ #nav-content {
+	-webkit-transform: translateX(0%);
+	transform: translateX(0%);
+	box-shadow: 6px 0 25px rgba(0,0,0,.15);
+}
+div#nav-content li{
+	width: 100%;
+	height: 60px;
+	float: left;
+	border-bottom: 1.0px solid gray;
+	text-align: center;
+	list-style-type: none;
+	padding-top: 20px;
+}
+div#nav-content li a{
+	color: #000033;
+	font-size: 18px;
+	font-weight: bold;
+	text-align: center;
+}
 img#logo{
 	height: 75px;
 	margin-top: 30px;
-	margin-left: 100px;
+	margin-left: 60px;
 }
 ul#glovalnav{
 	height: 60px;
 	background-color: #FFFFFF;
-	padding-left: 70px;
+	padding-left: 100px;
 }
 ul#glovalnav li{
 	height: 40px;
@@ -242,6 +325,12 @@ p#copyright{
 
 @media only screen and (max-width: 1300px) {
 
+img#logo{
+	margin-left: 40px;
+}
+ul#glovalnav{
+	padding-left: 70px;
+}
 ul#glovalnav li{
 	padding-left: 8px;
 	padding-right: 8px;
@@ -314,6 +403,7 @@ div#header{
 	height: 90px
 }
 img#logo{
+	float: left;
 	height: 65px;
 	margin-top: 10px;
 	margin-left: 30px;
@@ -334,7 +424,7 @@ ul#glovalnav li#question{
 	border-right: 1.5px solid #6B70A1;
 }
 li#kensaku.border{
-	border-right:none;
+	border-right: none;
 }
 div#contents{
 	max-width: 660px;
@@ -406,23 +496,15 @@ div#wrapper{
 	width: auto;
 }
 div#header{
-	height: 60px;
+	height: 65px;
 }
 img#logo{
 	height: 45px;
-	margin-top:5px;
-	margin-left: 15px;
+	margin-top: 7px;
+	margin-left: 20px;
 }
 ul#glovalnav{
-	height: 150px;
-	border-right: none;
-}
-ul#glovalnav li{
-	width: 100%;
-	border-left: 1.5px solid #6B70A1;
-}
-li#kensaku.border{
-	border-right: 1.5px solid #6B70A1;
+	display: none;
 }
 div#contents{
 	max-width: 220px;
@@ -448,5 +530,13 @@ div#footer{
 ul#footer_menu li{
 	float: none;
 	padding-right: 0;
+}
+}
+
+
+@media screen and (min-width:479px) {
+
+label#nav-open{
+	display: none;
 }
 }
