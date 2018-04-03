@@ -1,6 +1,6 @@
 body{
 	background-color:#f2f2f2;
-	font-family: MS　ゴシック;
+	font-family: 'ヒラギノ角ゴシック','Hiragino Sans','ＭＳ Ｐゴシック','MS PGothic', sans-serif;
 	}
 div#wrapper{
 	max-width:1400px;
@@ -8,11 +8,137 @@ div#wrapper{
 	background-color:#f2f2f2;
 	height:auto;
 	}
-	div#header{
-		position: relative;
+	div#header {
+		position:relative;
 	}
-	.absolute {
-		position: absolute;
-		top:20px;
-		left:50px;
+	div#image1{
+		position:absolute;
+		top:15px;
+		left:40px;
 	}
+	div#text1 {
+		position:absolute;
+		top:60px;
+		right:10px;
+	}
+	ul li{
+		float:left;
+		list-style-type: none;
+		width:88px;
+		font-family:'Segoe UI Symbol',  sans-serif;
+	}
+	
+	
+	div#main{
+	width:95%;
+	}
+	div#mainArea{
+	width:90%;
+	margin-top:8%;
+	padding-left:8%;
+	}
+	div#mainArea ul {
+	font-size:20px;	
+	color:#ffffff;
+	padding-top:1%;
+	padding-bottom:1%;
+	background-color:#000033;
+	margin-bottom:0px;
+}
+	div#image2{
+		position:relative;
+		padding-left:8%;
+	}
+	div#text2 {
+		position:absolute;
+		top:115%;
+		left:35%;
+	}
+	div#text2 ul{
+		font-size:42px;	
+		color:#ffffff;
+	}
+ div#contents{
+ 	width:90%;
+	margin-left:8%;	
+	margin-top:-2%;
+	background-color:#ffffff;
+	height:100%;
+ 	}
+ 	div#downloadtext1 ul{
+ 		margin-left:-3.5%;
+ 	}
+ 	div#download1 {
+ 	padding-top:5%;
+ 	border-bottom: 1px solid gray;
+	margin-left:4%;
+	margin-right:4%;
+	overflow:hidden;
+ 	}
+ 	div#download2 li{
+ 		margin-left:37%;
+ 	}
+ 	div#download2 {
+ 	padding-top:1%;
+ 	padding-bottom:1%;
+ 	border-bottom: 1px solid gray;
+	margin-left:4%;
+	margin-right:4%;
+	overflow:hidden;
+ 	}
+ 	div#download3 li{
+ 		margin-left:37%;
+ 	}
+ 	div#download3 {
+ 	padding-top:1%;
+ 	padding-bottom:1%;
+ 	border-bottom: 1px solid gray;
+	margin-left:4%;
+	margin-right:4%;
+	overflow:hidden;
+ 	}
+ 	div#download4 li{
+ 		margin-left:37%;
+ 	}
+ 	div#download4 {
+ 	padding-top:1%;
+ 	padding-bottom:1%;
+ 	border-bottom: 1px solid gray;
+	margin-left:4%;
+	margin-right:4%;
+	overflow:hidden;
+ 	}
+ 	div#download5 li{
+ 		margin-left:37%;
+ 	}
+ 	div#download5 {
+ 	padding-top:1%;
+ 	padding-bottom:1%;
+ 	border-bottom: 1px solid gray;
+	margin-left:4%;
+	margin-right:4%;
+	overflow:hidden;
+ 	}
+	div#footer {
+	width:auto;
+	clear:both;
+	margin-top:10%;
+	padding-top:2%;
+	padding-bottom:3%;
+	padding-left:5%;
+	background-color:#000033;
+
+}
+div#footer img{
+	width:auto;
+	height:5%;
+
+}
+div#address{
+	line-height: 1em;
+	font-size:10px;
+	color:#ffffff;
+	padding-top:10px;
+	background-color:#000033;
+
+}
