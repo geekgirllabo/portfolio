@@ -280,6 +280,9 @@ div#wrapper img {
  div#header1 img{
  	width:90%;
  }
+ div#header1{
+ 	width:100%;
+ }
  div#header1 ul li{
 	display:block;
 	text-align: center;
