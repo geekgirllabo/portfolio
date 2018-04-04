@@ -46,16 +46,18 @@ div#wrapper{
 	margin-bottom:0px;
 }
 	div#image2{
-		margin: 0 auto;
 		width:92%;
+		height:auto;
 		position:relative;
 		padding-left:8%;
 	}
 	div#text2 {
 		position:absolute;
-		top:115%;
-		left:35%;
+		top:750px;
+		left:480px;
 		letter-spacing: 0.3em;
+		width:100%;
+		height:100%;
 	}
 	div#text2 ul{
 		font-size:42px;	
