@@ -19,7 +19,7 @@ div#wrapper{
 	div#text1 {
 		position:absolute;
 		top:60px;
-		right:10px;
+		right:15px;
 	}
 	ul li{
 		float:left;
@@ -53,6 +53,7 @@ div#wrapper{
 		position:absolute;
 		top:115%;
 		left:35%;
+		letter-spacing: 0.3em;
 	}
 	div#text2 ul{
 		font-size:42px;	
@@ -155,8 +156,8 @@ div#address{
 	}
 	div#image1{
 		position:absolute;
-		top:15px;
-		left:40px;
+		top:3%;
+		left:4%;
 	}
 	div#text1{
 		padding-top:3.5%;
@@ -167,14 +168,14 @@ div#address{
 		list-style-type: none;
 		text-align: center;
 		font-family:'Segoe UI Symbol',  sans-serif;
-		width:180%;
+		width:200%;
 		background-color:#000033;
 		font-size:12px;
 		color:#ffffff;
 		padding-top:7%;
 		padding-bottom:1%;
 		border-top:1px solid #FFFFFF;
-		margin-left:-60%;
+		margin-left:-80%;
 	}
 	
 	
@@ -200,11 +201,12 @@ div#address{
 	}
 	div#text2 {
 		position:absolute;
-		top:115%;
-		left:35%;
+		top:66%;
+		left:16%;
+		font-weight: bolder;
 	}
 	div#text2 ul{
-		font-size:42px;	
+		font-size:20px;	
 		color:#ffffff;
 	}
  div#contents{
@@ -212,7 +214,7 @@ div#address{
 	margin-left:8%;	
 	margin-top:-2%;
 	background-color:#ffffff;
-	height:80%;
+	height:60%;
  	}
  	div#downloadtext1 ul{
  		margin-left:-3.5%;
@@ -225,56 +227,57 @@ div#address{
 	overflow:hidden;
  	}
  	div#download2 li{
- 		margin-left:37%;
+ 		margin-left:8%;
  	}
  	div#download2 {
- 	padding-top:1%;
- 	padding-bottom:1%;
+ 	padding-top:2%;
+ 	padding-bottom:2%;
  	border-bottom: 1px solid gray;
 	margin-left:4%;
 	margin-right:4%;
 	overflow:hidden;
  	}
+
  	div#download3 li{
- 		margin-left:37%;
+ 		margin-left:8%;
  	}
  	div#download3 {
- 	padding-top:1%;
- 	padding-bottom:1%;
+ 	padding-top:2%;
+ 	padding-bottom:2%;
  	border-bottom: 1px solid gray;
 	margin-left:4%;
 	margin-right:4%;
 	overflow:hidden;
  	}
  	div#download4 li{
- 		margin-left:37%;
+ 		margin-left:8%;
  	}
  	div#download4 {
- 	padding-top:1%;
- 	padding-bottom:1%;
+ 	padding-top:2%;
+ 	padding-bottom:2%;
  	border-bottom: 1px solid gray;
 	margin-left:4%;
 	margin-right:4%;
 	overflow:hidden;
  	}
  	div#download5 li{
- 		margin-left:37%;
+ 		margin-left:8%;
  	}
  	div#download5 {
- 	padding-top:1%;
- 	padding-bottom:1%;
+ 	padding-top:2%;
+ 	padding-bottom:2%;
  	border-bottom: 1px solid gray;
 	margin-left:4%;
 	margin-right:4%;
 	overflow:hidden;
  	}
 	div#footer {
-	width:auto;
+	width:100%;
 	clear:both;
 	margin-top:10%;
 	padding-top:2%;
 	padding-bottom:3%;
-	padding-left:5%;
+	padding-left:4%;
 	background-color:#000033;
 
 }
