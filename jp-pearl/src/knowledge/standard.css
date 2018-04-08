@@ -173,7 +173,7 @@ div#text2 {
 		letter-spacing:0.3em;
 		width:50%;
 		height:auto;
-		font-size:36px;
+		font-size:28px;
 		color:#ffffff;
 	}
 	}
@@ -198,7 +198,7 @@ div#text2 {
 		letter-spacing:0.3em;
 		width:50%;
 		height:auto;
-		font-size:30px;
+		font-size:24px;
 		color:#ffffff;
 	}
 	}
@@ -218,12 +218,37 @@ div#text2 {
 		margin-right:2.2%;
 	}
 div#text2 {
-		margin-left:35%;
+		margin-left:32%;
 		margin-top:-15%;
 		letter-spacing:0.3em;
 		width:50%;
 		height:auto;
-		font-size:24px;
+		font-size:20px;
+		color:#ffffff;
+	}
+	}
+	@media only screen and (max-width:600px) {
+	div#image2{
+		width:92%;
+		padding-left:8%;
+	}
+	div#image2 p {
+		display:block;
+		padding-bottom:45%;
+		background-image: url("image/banner_25.jpg");
+		background-size: contain;
+		background-repeat: no-repeat;
+		margin-top:0;
+		margin-bottom:0;
+		margin-right:2.2%;
+	}
+div#text2 {
+		margin-left:25%;
+		margin-top:-25%;
+		letter-spacing:0.3em;
+		width:50%;
+		height:auto;
+		font-size:18px;
 		color:#ffffff;
 	}
 	}
@@ -297,12 +322,12 @@ div#text2 {
 		margin-right:2.2%;
 	}
 div#text2 {
-		margin-left:35%;
-		margin-top:-15%;
+		margin-left:20%;
+		margin-top:-25%;
 		letter-spacing:0.3em;
-		width:50%;
+		width:60%;
 		height:auto;
-		font-size:20px;
+		font-size:16px;
 		color:#ffffff;
 	}
  div#contents{
