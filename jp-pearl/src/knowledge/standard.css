@@ -47,22 +47,31 @@ div#wrapper{
 }
 	div#image2{
 		width:92%;
-		height:280px;
 		padding-left:8%;
 	}
-	div#text2 {
+	div#image2 p {
+		display:block;
+		padding-bottom:45%;
+		background-image: url("image/banner_25.jpg");
+		background-size: contain;
+		background-repeat: no-repeat;
+		margin-top:0;
+		margin-bottom:0;
+		margin-right:2.2%;
+	}
+div#text2 {
 		margin-left:35%;
-		margin-top:5%;
-		letter-spacing: 0.3em;
+		margin-top:-15%;
+		letter-spacing:0.3em;
 		width:50%;
 		height:auto;
-		font-size:42px;	
+		font-size:42px;
 		color:#ffffff;
 	}
  div#contents{
  	width:90%;
 	margin-left:8%;	
-	margin-top:-2%;
+	margin-top:-3.5%;
 	background-color:#ffffff;
 	height:100%;
  	}
@@ -146,43 +155,101 @@ div#address{
 @media only screen and (max-width:1200px) {
 	div#image2{
 		width:92%;
-		height:280px;
 		padding-left:8%;
 	}
-	div#text2 {
-		margin-left:32%;
-		margin-top:-5%;
-		width:92%;
+	div#image2 p {
+		display:block;
+		padding-bottom:45%;
+		background-image: url("image/banner_25.jpg");
+		background-size: contain;
+		background-repeat: no-repeat;
+		margin-top:0;
+		margin-bottom:0;
+		margin-right:2.2%;
+	}
+div#text2 {
+		margin-left:35%;
+		margin-top:-15%;
+		letter-spacing:0.3em;
+		width:50%;
 		height:auto;
-		font-weight: bolder;
+		font-size:28px;
+		color:#ffffff;
 	}
 	}
 @media only screen and (max-width:1050px) {
 	div#image2{
 		width:92%;
-		height:280px;
 		padding-left:8%;
 	}
-	div#text2 {
-		margin-left:30%;
-		margin-top:-8%;
-		width:92%;
+	div#image2 p {
+		display:block;
+		padding-bottom:45%;
+		background-image: url("image/banner_25.jpg");
+		background-size: contain;
+		background-repeat: no-repeat;
+		margin-top:0;
+		margin-bottom:0;
+		margin-right:2.2%;
+	}
+div#text2 {
+		margin-left:35%;
+		margin-top:-15%;
+		letter-spacing:0.3em;
+		width:50%;
 		height:auto;
-		font-weight: bolder;
+		font-size:24px;
+		color:#ffffff;
 	}
 	}
 	@media only screen and (max-width:800px) {
 	div#image2{
 		width:92%;
-		height:280px;
 		padding-left:8%;
 	}
-	div#text2 {
-		margin-left:20%;
-		margin-top:-21%;
-		width:92%;
+	div#image2 p {
+		display:block;
+		padding-bottom:45%;
+		background-image: url("image/banner_25.jpg");
+		background-size: contain;
+		background-repeat: no-repeat;
+		margin-top:0;
+		margin-bottom:0;
+		margin-right:2.2%;
+	}
+div#text2 {
+		margin-left:32%;
+		margin-top:-15%;
+		letter-spacing:0.3em;
+		width:50%;
 		height:auto;
-		font-weight: bolder;
+		font-size:20px;
+		color:#ffffff;
+	}
+	}
+	@media only screen and (max-width:600px) {
+	div#image2{
+		width:92%;
+		padding-left:8%;
+	}
+	div#image2 p {
+		display:block;
+		padding-bottom:45%;
+		background-image: url("image/banner_25.jpg");
+		background-size: contain;
+		background-repeat: no-repeat;
+		margin-top:0;
+		margin-bottom:0;
+		margin-right:2.2%;
+	}
+div#text2 {
+		margin-left:25%;
+		margin-top:-25%;
+		letter-spacing:0.3em;
+		width:50%;
+		height:auto;
+		font-size:18px;
+		color:#ffffff;
 	}
 	}
 @media only screen and (max-width:500px) {
@@ -202,29 +269,34 @@ div#address{
 		left:4%;
 	}
 	div#text1{
-		padding-top:3.5%;
-		padding-left:-10%;
+		width:100%;
+		position:static;
+	}
+	div#text1 ul{
+		width:100%;
+		padding-left:0;
 	}
 	div#text1 ul li{
 		display:block;
 		list-style-type: none;
 		text-align: center;
 		font-family:'Segoe UI Symbol',  sans-serif;
-		width:200%;
+		width:100%;
 		background-color:#000033;
 		font-size:12px;
 		color:#ffffff;
 		padding-top:7%;
 		padding-bottom:1%;
 		border-top:1px solid #FFFFFF;
-		margin-left:-80%;
+		margin-left:0;
+		float:none;
 	}
 	div#main{
 	width:95%;
 	}
 	div#mainArea{
 	width:90%;
-	margin-top:70%;
+	margin-top:10%;
 	padding-left:8%;
 	}
 	div#mainArea ul {
@@ -237,18 +309,25 @@ div#address{
 }
 	div#image2{
 		width:92%;
-		height:280px;
 		padding-left:8%;
 	}
-	div#text2 {
-		margin-left:10%;
-		margin-top:-60%;
-		width:92%;
-		height:auto;
-		font-weight: bolder;
+	div#image2 p {
+		display:block;
+		padding-bottom:45%;
+		background-image: url("image/banner_25.jpg");
+		background-size: contain;
+		background-repeat: no-repeat;
+		margin-top:0;
+		margin-bottom:0;
+		margin-right:2.2%;
 	}
-	div#text2 ul{
-		font-size:20px;	
+div#text2 {
+		margin-left:20%;
+		margin-top:-25%;
+		letter-spacing:0.3em;
+		width:60%;
+		height:auto;
+		font-size:16px;
 		color:#ffffff;
 	}
  div#contents{
