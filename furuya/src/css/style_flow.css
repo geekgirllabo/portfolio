@@ -5,10 +5,7 @@ div#wrapper {
 body{
 	color: #4a4a4a;
 }
-h1{
-	width: 100%;  
-}
-.header{
+.pc_header{
 	width: 100%;
 }
 .pc_mokuji{
@@ -66,10 +63,25 @@ h2{
 	margin-bottom: 10px;
 	letter-spacing: normal;
 }
-div.try p{
+.try p{
 	font-size: 76%;	
 }
-div.try br{
+.try br{
+	line-height: 1.5;
+}
+.tryshort {
+	width: 325px;
+	height: 150px;
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	letter-spacing: normal;
+}
+.trshort p{
+	font-size: 76%;	
+}
+.tryshort br{
 	line-height: 1.5;
 }
 .banner {
@@ -85,10 +97,10 @@ div.try br{
 	margin-bottom: 10px;
 	letter-spacing: normal;
 }
-div.tryright p{
+.tryright p{
 	font-size: 76%;	
 }
-div.tryright br{ 
+.tryright br{ 
 	line-height: 1.5;
 }
 .try_last {
@@ -99,10 +111,10 @@ div.tryright br{
 	margin-bottom: 10px;
 	letter-spacing: normal;
 }
-div.try_last p{
+.try_last p{
 	font-size: 76%;	
 }
-div.try_last br{
+.try_last br{
 	line-height: 1.5;
 }
 .hair{
@@ -144,6 +156,12 @@ p {
 	margin-left: 20px;
 	font-size: 76%;
 }
+.sp_erabikata_img{
+	display: none;
+}
+.sp_button_img{
+	display: none;
+}   
 div#footer{
 	position: relative;
 	background:url(../../img/footer/C3_footer_bg.jpg);
@@ -165,7 +183,7 @@ div#whiteback{
 }
 .time{
 	position: absolute;
-	top:45px;
+	top:49px;
 	left: 600px;
 }
 .otoiawase{
@@ -200,12 +218,18 @@ div#whiteback{
 }
 
 @media only screen and (min-width: 641px){
+.sp_header{
+	display: none;
+}
 .sp_mokuji{
 	display: none;
 }
 .sp_link{
 	display: none;
 	}
+.sps_link{
+	display: none;
+}
 .br_pc{
 	display: block;
 }
@@ -235,8 +259,23 @@ div#wrapper{
 	margin-right: 8px;
 	width: auto;
 }
-h3{
+.pc_header{
+	display: none;
+}
+.sp_header{
 	width: 100%;
+	text-align: center;
+	margin-top: 10px;
+}
+.sp_headerimg{
+	width: 95%;
+}
+h2{
+	margin: 4px;
+	font-size: 4vw;
+}
+h3{
+	font-size: 3.8vw;
 }
 h4{
 	font-size: 75%;
@@ -246,6 +285,7 @@ h4{
 }
 .sp_mokuji{
 	font-size: 70%;
+	margin-bottom: 20px;
 }
 .br_pc{
 	display: none;
@@ -271,6 +311,11 @@ h4{
 	width: 100%;
 	height: 137px;
 }
+.tryshort{
+	display: block;
+	width: 100%;
+	height: 120px;
+}
 .tryright{
 	display: block;
 	width: 100%;
@@ -281,6 +326,7 @@ h4{
 	display: block;
 	width: 100%;
 	height: 137px;
+	margin-top: 20px;
 }
 .midashi{
 	width: 100%;
@@ -290,25 +336,18 @@ h4{
 	width: 100%;
 	height: auto;
 }
-h2{
-	margin: 4px;
-}
 p{
 	font-size: 65%;
 }
 img.photo1{
 	position: relative;
-	margin-left: 80px;
+	margin-left: 20px;
 	z-index: 2;
 }
 img.photo2{
 	position: absolute;
 	top: 0px;
-	left: 230px;
-}
-.erabikata_img{
-	width: 100%;
-	height: auto;
+	left: 160px;
 }
 div#footer{
 	width: 100%;
@@ -325,7 +364,7 @@ div#footer{
 .time{
 	position: absolute;
 	top:70px;
-	left: 170px;
+	left: 120px;
 }
 .otoiawase{
 	position: absolute;
@@ -341,7 +380,9 @@ div#whiteback{
 .sp_link{
 	position: absolute;
 	top: 160px;
-	left: 0px;
+	left: 10px;
+	margin:10px auto;
+	font-size: 50%;
 }
 .logo2{
 	position: absolute;
@@ -351,17 +392,40 @@ div#whiteback{
 .twi{
 	position: absolute;
 	top: 220px;
-	right: 110px;
+	right: 90px;
 }
 .insta{
 	position: absolute;
 	top: 220px;
-	right: 60px;
+	right: 50px;
 }
 .fb{
 	position: absolute;
 	top: 220px;
 	right: 10px;
 }
+.erabikata{
+	width: 100%;
+	text-align: center;
+}
+.pc_erabikata_img{
+	display: none;
+}
+.sp_erabikata{
+	width: 90%;
+	margin: 0 auto;
+}
+.sp_erabikata_img{
+	width: 100%;
+	display: block;
+}
+.sp_button{
+	width: 90%;
+	margin:10 auto;
+}
+.sp_button_img{
+	display: block;
+}
+
 
 
