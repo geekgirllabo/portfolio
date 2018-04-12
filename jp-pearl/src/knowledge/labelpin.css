@@ -27,3 +27,50 @@ div#wrapper{
 		width:88px;
 		font-family:'Segoe UI Symbol',  sans-serif;
 	}
+	div#main{
+	width:95%;
+	}
+	div#mainArea{
+		width:90%;
+		margin-top:8%;
+		padding-left:8%;
+	}
+	div#mainArea ul {
+	font-size:20px;	
+	color:#ffffff;
+	padding-top:1%;
+	padding-bottom:1%;
+	background-color:#000033;
+	margin-bottom:0px;
+}
+div#cover {
+	width:90%;
+	margin-left:8%;
+	margin-top:-2%;
+	background-color:#ffffff;
+	height:auto;
+}
+
+div#footer {
+	width:100%;
+	clear:both;
+	margin-top:10%;
+	padding-top:2%;
+	padding-bottom:3%;
+	padding-left:5%;
+	background-color:#000033;
+
+}
+div#footer img{
+	width:auto;
+	height:5%;
+
+}
+div#address{
+	line-height: 1em;
+	font-size:10px;
+	color:#ffffff;
+	padding-top:10px;
+	background-color:#000033;
+
+}
