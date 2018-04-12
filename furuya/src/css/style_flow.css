@@ -265,9 +265,16 @@ div#wrapper{
 .sp_header{
 	width: 100%;
 	text-align: center;
-	margin-top: 10px;
+	background: url(../../img/footer/C3_footer_bg.jpg);
+	height: 60px;
+	margin-top: 0px;
 }
 .sp_headerimg{
+	width: 95%;
+	display: inline-block;
+}
+.sp_h1{
+	display: inline-block;
 	width: 95%;
 }
 h2{
@@ -420,11 +427,11 @@ div#whiteback{
 	display: block;
 }
 .sp_button{
-	width: 90%;
-	margin:10 auto;
+	text-align: center;
+	margin-top: 10px;
 }
 .sp_button_img{
-	display: block;
+	display: inline-block;
 }
 
 
