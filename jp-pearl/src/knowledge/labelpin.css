@@ -51,7 +51,7 @@ div#cover {
 	height:auto;
 }
 div#text{
-	width:80%;
+	width:73%;
 	margin-left:10%;
 }
 div#title ul{
@@ -65,23 +65,47 @@ div#title p{
 div#title1 ul{
 	padding-left:0;
 }
+div#text1{
+	font-size:15px;
+	line-height:1.5em;
+}
 div#title2 ul{
 	padding-left:0;
+}
+div#text2{
+	font-size:15px;
+	line-height:1.5em;
 }
 div#title3 ul{
 	padding-left:0;
 }
+div#text3{
+	font-size:15px;
+	line-height:1.5em;
+}
 div#title4 ul{
 	padding-left:0;
 }
+div#text4{
+	font-size:15px;
+	line-height:1.5em;
+}
 div#title5 ul{
 	padding-left:0;
+}
+div#text5{
+	font-size:15px;
+	line-height:1.5em;
 }
 div#title6 ul{
 	padding-left:0;
 }
 div#text6 ul{
 	padding-left:0;
+}
+div#text6{
+	font-size:15px;
+	line-height:1.5em;
 }
 div#title7 ul{
 	padding-left:0;
@@ -92,6 +116,8 @@ div#text7 ul{
 div#text7 {
 	border-bottom: 1px solid gray;
 	padding-bottom:3%;
+	font-size:15px;
+	line-height:1.5em;
 }
 div#title8 ul{
 	padding-left:40%;
@@ -109,6 +135,40 @@ div#title11 ul{
 	padding-left:0;
 }
 
+div#picture{
+	width:100%;
+	display: table;
+	table-layout:fixed;
+}
+div#akoya{
+	display: table-cell;
+	padding-right:5%;
+	
+}
+div#akoya p{
+	font-size:15px;
+	padding-right:5%;	
+}
+div#g7 {
+	display: table-cell;
+	padding-right:5%;
+	
+}
+div#g7 p{
+	font-size:15px;
+}
+div#card {
+	display: table-cell;
+	margin-top:-30%;
+	vertical-align: middle;
+}
+div#card p{
+	font-size:15px;
+}
+div#right{
+	float:right;
+	font-size:15px;
+}
 div#footer {
 	width:100%;
 	clear:both;
