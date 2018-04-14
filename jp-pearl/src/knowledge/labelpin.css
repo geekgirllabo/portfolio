@@ -1,6 +1,6 @@
 body{
 	background-color:#f2f2f2;
-	font-family: 'ヒラギノ角ゴシック','Hiragino Sans','ＭＳ Ｐゴシック','MS PGothic', sans-serif;
+	font-family: 'ヒラギノ角ゴシック','Hiragino Sans','ＭＳ ゴシック','MS Gothic', sans-serif;
 	}
 div#wrapper{
 	max-width:1900px;
@@ -41,7 +41,6 @@ div#wrapper{
 	padding-top:1%;
 	padding-bottom:1%;
 	background-color:#000033;
-	margin-bottom:0px;
 }
 div#cover {
 	width:90%;
@@ -51,13 +50,13 @@ div#cover {
 	height:auto;
 }
 div#text{
-	width:73%;
-	margin-left:10%;
+	width:76%;
+	margin-left:12%;
 }
 div#title ul{
 	padding-top:5%;
 	padding-bottom:3%;
-	padding-left:25%;
+	padding-left:20%;
 }
 div#title p{
 	text-align:right;
@@ -73,7 +72,7 @@ div#title2 ul{
 	padding-left:0;
 }
 div#text2{
-	font-size:15px;
+	font-size:14px;
 	line-height:1.5em;
 }
 div#title3 ul{
@@ -87,14 +86,14 @@ div#title4 ul{
 	padding-left:0;
 }
 div#text4{
-	font-size:15px;
+	font-size:14px;
 	line-height:1.5em;
 }
 div#title5 ul{
 	padding-left:0;
 }
 div#text5{
-	font-size:15px;
+	font-size:14px;
 	line-height:1.5em;
 }
 div#title6 ul{
@@ -104,7 +103,7 @@ div#text6 ul{
 	padding-left:0;
 }
 div#text6{
-	font-size:15px;
+	font-size:14px;
 	line-height:1.5em;
 }
 div#title7 ul{
@@ -116,7 +115,7 @@ div#text7 ul{
 div#text7 {
 	border-bottom: 1px solid gray;
 	padding-bottom:3%;
-	font-size:15px;
+	font-size:14px;
 	line-height:1.5em;
 }
 div#title8 ul{
@@ -128,46 +127,65 @@ div#text8 p{
 div#title9 ul{
 	padding-left:0;
 }
+div#text9 p{
+	font-size:14px;
+	line-height:1.5em;
+	letter-spacing:-0.05em
+}
 div#title10 ul{
 	padding-left:0;
+}
+div#text10 p{
+	font-size:14px;
+	line-height:1.5em;
+	letter-spacing:-0.05em
 }
 div#title11 ul{
 	padding-left:0;
 }
-
-div#picture{
-	width:100%;
-	display: table;
-	table-layout:fixed;
+div#text11 p{
+	font-size:14px;
+	line-height:1.5em;
+	letter-spacing:-0.05em
 }
+
+
 div#akoya{
-	display: table-cell;
 	padding-right:5%;
+	width:30%;
+	height:auto;
+	float:left;
 	
 }
-div#akoya p{
-	font-size:15px;
+div#akoyatext p {
+	font-size:14px;
 	padding-right:5%;	
 }
 div#g7 {
-	display: table-cell;
-	padding-right:5%;
+	width:30%;
+	height:auto;
+	float:left;
 	
 }
 div#g7 p{
-	font-size:15px;
+	font-size:14px;
 }
 div#card {
-	display: table-cell;
-	margin-top:-30%;
-	vertical-align: middle;
+	width:30%;
+	height:auto;
+	
+	float:right;
 }
 div#card p{
-	font-size:15px;
+	font-size:14px;
 }
 div#right{
 	float:right;
 	font-size:15px;
+	clear:both;
+}
+div#right p{
+	text-align:right;
 }
 div#footer {
 	width:100%;
