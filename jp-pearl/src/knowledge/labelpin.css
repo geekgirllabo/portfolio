@@ -1,15 +1,16 @@
 
+html,body{
+	height: 100%;
+}
 body{
 	background-color:#f2f2f2;
 	font-family: 'ヒラギノ角ゴシック','Hiragino Sans','ＭＳ ゴシック','MS Gothic', sans-serif;
-	height:auto;
-	margin:0;
 }
 div#wrapper{
 	max-width:1900px;
 	width:100%;
+	height:100%;
 	background-color:#f2f2f2;
-	height:auto;
 	}
 	div#header {
 		position:relative;
@@ -30,12 +31,9 @@ div#wrapper{
 		width:88px;
 		font-family:'Segoe UI Symbol',  sans-serif;
 	}
-	div#main{
-	width:95%;
-	}
 	div#mainArea{
 		width:90%;
-		margin-top:8%;
+		margin-top:6%;
 		padding-left:8%;
 		height:auto;
 	}
@@ -45,13 +43,18 @@ div#wrapper{
 	padding-top:1%;
 	padding-bottom:1%;
 	background-color:#000033;
+	vertical-align: center;
+}
+div#cover{
+	height:100%;
 }
 div#cover {
 	width:90%;
 	margin-left:8%;
 	margin-top:-2%;
 	background-color:#ffffff;
-	height:auto; 
+	height:370%;
+	min-height:100%;
 }
 div#text{
 	width:76%;
@@ -60,10 +63,11 @@ div#text{
 div#title ul{
 	padding-top:5%;
 	padding-bottom:3%;
-	padding-left:20%;
+	text-align:center;
 }
 div#title p{
 	text-align:right;
+	
 }
 div#title1 ul{
 	padding-left:0;
@@ -72,7 +76,7 @@ div#text1{
 	font-size:15px;
 	line-height:1.5em;
 	margin-top:-1%;
-	padding-bottom:0.5%;
+	padding-bottom:0.1%;
 }
 div#title2 ul{
 	padding-left:0;
@@ -81,7 +85,7 @@ div#text2{
 	font-size:14px;
 	line-height:1.5em;
 	margin-top:-1%;
-	padding-bottom:0.5%;
+	padding-bottom:0.1%;
 }
 div#title3 ul{
 	padding-left:0;
@@ -90,7 +94,7 @@ div#text3{
 	font-size:15px;
 	line-height:1.5em;
 	margin-top:-1%;
-	padding-bottom:0.5%;
+	padding-bottom:0.1%;
 }
 div#title4 ul{
 	padding-left:0;
@@ -99,7 +103,7 @@ div#text4{
 	font-size:14px;
 	line-height:1.5em;
 	margin-top:-1%;
-	padding-bottom:0.5%;
+	padding-bottom:0.1%;
 }
 div#title5 ul{
 	padding-left:0;
@@ -108,7 +112,7 @@ div#text5{
 	font-size:14px;
 	line-height:1.5em;
 	margin-top:-1%;
-	padding-bottom:0.5%;
+	padding-bottom:0.1%;
 }
 div#title6 ul{
 	padding-left:0;
@@ -123,7 +127,7 @@ div#text6{
 	font-size:14px;
 	line-height:1.5em;
 	margin-top:-1%;
-	padding-bottom:0.5%;
+	padding-bottom:0.1%;
 }
 div#title7 ul{
 	padding-left:0;
@@ -137,9 +141,11 @@ div#text7 {
 	font-size:14px;
 	line-height:1.5em;
 	margin-top:-1%;
+	padding-bottom:3%;
 }
 div#title8 ul{
 	padding-left:40%;
+	padding-top:3%;
 }
 div#text8 p{
 	text-align: right;
@@ -150,7 +156,9 @@ div#title9 ul{
 div#text9 p{
 	font-size:14px;
 	line-height:1.5em;
-	letter-spacing:-0.05em
+	letter-spacing:-0.05em;
+	margin-top:-1%;
+	padding-bottom:0.1%;
 }
 div#title10 ul{
 	padding-left:0;
@@ -158,7 +166,9 @@ div#title10 ul{
 div#text10 p{
 	font-size:14px;
 	line-height:1.5em;
-	letter-spacing:-0.05em
+	letter-spacing:-0.05em;
+	margin-top:-1%;
+	padding-bottom:0.1%;
 }
 div#title11 ul{
 	padding-left:0;
@@ -166,7 +176,9 @@ div#title11 ul{
 div#text11 p{
 	font-size:14px;
 	line-height:1.5em;
-	letter-spacing:-0.05em
+	letter-spacing:-0.05em;
+	margin-top:-1%;
+	padding-bottom:0.1%;
 }
 
 
@@ -175,29 +187,32 @@ div#akoya{
 	width:30%;
 	height:auto;
 	float:left;
-	
 }
-div#akoyatext p {
+div#akoya p {
 	font-size:14px;
-	padding-right:5%;	
+	padding-right:4%;
+	margin-top:1%;
+	letter-spacing:-0.04em;	
 }
 div#g7 {
 	width:30%;
 	height:auto;
-	float:left;
-	
+	float:left;	
 }
 div#g7 p{
 	font-size:14px;
+	margin-top:1%;
+	letter-spacing:-0.03em;	
 }
 div#card {
 	width:30%;
 	height:auto;
-	
 	float:right;
 }
 div#card p{
 	font-size:14px;
+	margin-top:1%;
+	letter-spacing:-0.03em;	
 }
 div#right{
 	float:right;
@@ -206,9 +221,11 @@ div#right{
 }
 div#right p{
 	text-align:right;
+	line-height:1.5em;
 }
+
 div#footer {
-	width:100%;
+	width:120%;
 	clear:both;
 	margin-top:10%;
 	padding-top:2%;
@@ -220,16 +237,15 @@ div#footer {
 div#footer img{
 	width:auto;
 	height:5%;
-
 }
 div#address{
 	line-height: 1em;
-	font-size:10px;
+	font-size:12px;
 	color:#ffffff;
 	padding-top:10px;
 	background-color:#000033;
-
 }
+
 
 @media only screen and (max-width:500px) {
 	body{
@@ -247,15 +263,15 @@ div#address{
 		top:3%;
 		left:4%;
 	}
-	div#text1{
+	div#list{
 		width:100%;
 		position:static;
 	}
-	div#text1 ul{
+	div#list ul{
 		width:100%;
 		padding-left:0;
 	}
-	div#text1 ul li{
+	div#list ul li{
 		display:block;
 		list-style-type: none;
 		text-align: center;
@@ -270,3 +286,89 @@ div#address{
 		margin-left:0;
 		float:none;
 	}
+	div#mainArea{
+		width:100%;
+		margin-top:6%;
+		padding-left:0;
+		padding-bottom:-2%;
+	}
+		div#mainArea ul {
+	font-size:19px;	
+	margin-left:-3%;
+	}
+	div#cover {
+	width:100%;
+	margin-left:0;
+	height:590%;
+	}
+	div#text{
+	width:90%;
+	margin-left:4%;
+	}
+	div#title ul{
+	font-size:19px;	
+	padding-left:2%;
+	}
+	div#title p{
+	margin-top:-3%;
+	}
+	div#text2{
+	font-size:15px;
+	}
+	div#text4{
+	font-size:15px;
+	}
+	div#text5{
+	font-size:15px;
+	}
+	div#text6{
+	font-size:15px;
+	}
+	div#text7 {
+	font-size:15px;
+	}
+	div#title8 ul{
+	text-align: center;
+	padding-left:0;
+	padding-top:3%;
+	font-size:16px;
+	}
+	div#text8 {
+	font-size:15px;
+	}
+	div#text9 p{
+	font-size:15px;
+	}
+	div#text10 p{
+	font-size:15px;
+	}
+	div#text11 p{
+	font-size:15px;
+	}
+	div#akoya{
+	padding-right:5%;
+	width:90%;
+	height:auto;
+	}
+	div#akoya p {
+	font-size:15px;
+	}
+	div#g7 {
+	width:90%;
+	height:auto;	
+	}
+	div#g7 p{
+	font-size:15px;
+	}
+	div#card {
+	width:90%;
+	height:auto;
+	float:left;
+	}
+	div#card p{
+	font-size:15px;
+	}
+div#address{
+	font-size:12px;
+}
+}
