@@ -1,5 +1,6 @@
 
-body{
+
+	body{
 	background-color:#f2f2f2;
 	font-family: 'ヒラギノ角ゴシック','Hiragino Sans','ＭＳ ゴシック','MS Gothic', sans-serif;
 	height:100%;
@@ -29,10 +30,15 @@ div#wrapper{
 		width:88px;
 		font-family:'Segoe UI Symbol',  sans-serif;
 	}
+	div#main{
+		overflow: visible;
+		height:auto;
+	}
 	div#mainArea{
+		overflow: visible;
 		width:90%;
 		margin-top:6%;
-		padding-left:8%;
+		padding-left:5%;
 		height:auto;
 	}
 	div#mainArea ul {
@@ -43,16 +49,17 @@ div#wrapper{
 	background-color:#000033;
 	vertical-align: center;
 }
-div#cover{
-	height:100%;
-}
+
 div#cover {
+	height:auto;
+	display:block;
+	overflow: hidden;
 	width:90%;
-	margin-left:8%;
+	margin-left:5%;
 	margin-top:-2%;
-	background-color:#ffffff;
-	min-height:370%;
+	background-color:#ffffff;	
 }
+
 div#text{
 	width:76%;
 	margin-left:12%;
@@ -194,7 +201,7 @@ div#akoya p {
 div#g7 {
 	width:30%;
 	height:auto;
-	float:left;	
+	float:left;
 }
 div#g7 p{
 	font-size:14px;
@@ -204,7 +211,7 @@ div#g7 p{
 div#card {
 	width:30%;
 	height:auto;
-	float:right;
+	float:right;	
 }
 div#card p{
 	font-size:14px;
@@ -212,7 +219,6 @@ div#card p{
 	letter-spacing:-0.03em;	
 }
 div#right{
-	float:right;
 	font-size:15px;
 	clear:both;
 }
@@ -296,7 +302,8 @@ div#address{
 	div#cover {
 	width:100%;
 	margin-left:0;
-	height:590%;
+	overflow:hidden;
+	display:block;
 	}
 	div#text{
 	width:90%;
@@ -339,10 +346,14 @@ div#address{
 	div#text10 p{
 	font-size:15px;
 	}
+	div#text11{
+		margin-bottom:2%;
+	}
 	div#text11 p{
 	font-size:15px;
 	}
 	div#akoya{
+		margin-top:4%;
 	padding-right:5%;
 	width:90%;
 	height:auto;
@@ -367,5 +378,13 @@ div#address{
 	}
 div#address{
 	font-size:12px;
+	padding-left:4%;
+}
+div#footer{
+	width:100%;
+	padding-left:0;
+}
+div#footer img{
+	padding-left:2%;
 }
 }
