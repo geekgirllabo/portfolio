@@ -1,6 +1,6 @@
 	body{
 	
-	font-family: 'ヒラギノ角ゴシック','Hiragino Sans','ＭＳ ゴシック','MS Gothic', sans-serif;
+	font-family: 'ヒラギノ明朝 ProN','Hiragino Mincho ProN','ＭＳ 明朝', 'MS Mincho', sans-serif;
 	height:100%;
 }
 div#wrapper{
@@ -30,6 +30,104 @@ ul li{
 	display: inline-block;
 	width:180px;
 }
+div#main{
+	background-color:#f2f2f2;
+	padding-top:3%;
+	padding-left:11%;
+	width:100%;
+	float:left;
+}
+div#main title{
+	
+
+}
 div#cover{
 	background-color:#f2f2f2;
+	margin-top:1%;
+	margin-left:11%;
+	width:48%;
+	height:auto;
+	float:left;
+}
+div#infobar{
+	float:right;
+}
+div#facebook{
+	float:right;
+	padding-left:50%;
+}
+div#banner2{
+	float:right;
+}
+div#title1{
+	padding-top:2%;
+	margin-left:-1%;
+}
+div#text{
+	width:95%;
+}
+div#text1{
+	margin-left:5%;
+}
+div#title2{
+	padding-top:2%;
+	margin-left:-1%;
+}
+div#text2{
+	margin-left:-1%;
+}
+div#title3{
+	padding-top:1%;
+	margin-left:-3%;
+}
+div#text3{
+	margin-left:-1%;
+}
+div#title4img {
+	margin-top:2%;
+	margin-left:5%;
+	float:left;
+	width:40%;
+}
+
+div#title5img {
+	margin-top:0%;
+	margin-right:0%;
+	float:right;
+	width:40%;
+}
+
+div#title{
+	padding-top:2%;
+	margin-left:1%;
+}
+div#curriculum{
+	clear:both;
+	padding-top:2%;
+	margin-left:3%;
+	line-height: 1.4em;
+}
+div#curriculum p { 
+	line-height: 1.4em;
+	margin-right:2%;
+}
+div#curriculum img{
+	float:left;
+	padding-left:5%;
+	padding-right:5%;
+	padding-bottom:3%;
+}
+.box1 {
+    border: solid 2px #000000;
+    height:auto;
+    padding-bottom:1.5%;
+}
+.box1 p {
+    margin: 0; 
+    padding: 0;
+}
+div#banner{
+	clear:both;
+	margin-left:3%;
+	margin-top:3%;
 }
