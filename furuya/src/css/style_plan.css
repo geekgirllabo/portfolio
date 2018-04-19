@@ -1,0 +1,479 @@
+#wrapper{
+	width: 670px;
+	margin: 0 auto;
+	letter-spacing: 0.2em;
+}
+.pc_header{
+	width: 100%;
+}
+.sp_header{
+	display: none;
+}
+h1{
+	margin-bottom: 0px;
+	margin-top: 0px;
+}
+.setumei{
+	text-align: center;
+	font-size: 0.8em;
+}
+p{
+	display: inline-block;
+	line-height: 2em;
+}
+.plan_title{
+	position: relative;
+	height: 50px;
+}
+.title_img{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+.plan_1{
+	width: 100%;
+	height: 300px;
+	margin-bottom: 50px;
+}
+.plan_2{
+	width: 100%;
+	height: 300px;
+	margin-top: 20px;
+	margin-bottom: 50px;
+}
+.plan_3{
+	width: 100%;
+	height: 300px;
+	margin-top: 20px;
+	margin-bottom: 50px;
+}
+.set_komono{
+	width: 100%;
+	height: 270px;
+	margin-top: 20px;
+}
+.after{
+	width: 100%;
+	height: 270;
+	margin-top: 20px;
+}
+h2{
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: 10px;
+	font-size: 1em;
+}
+.plan_content{
+	position: relative;
+	z-index: 1;
+	width: 664px;
+	height: 250px;
+	border: solid 2px #F5F5F5;
+	margin-top: 10px;
+}
+.plan_content2{
+	position: relative;
+	z-index: 1;
+}
+.plan_waku{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index: 2;
+}
+.gokounyu{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index: 3;
+}
+h3{
+	position: absolute;
+	top: 10px;
+	left: 190px;
+	z-index: 3;
+	font-size: 1em;
+}
+.after_h3{
+	position: absolute;
+	top: 40px;
+	left: 0px;
+	z-index: 3;
+}
+.kakaku{
+	position: absolute;
+	top: 70px;
+	left: 190px;
+	z-index: 3;
+	letter-spacing: 0.1em;
+}
+.small{
+	font-size: 50%;
+}
+.big{
+	font-size: 150%;
+}
+.furisode{
+	position: absolute;
+	top: 150px;
+	left: 190px;
+	z-index: 3;
+}
+.komono{
+	position: absolute;
+	top: 150px;
+	left: 290px;
+	z-index: 3;
+}
+.hairmake{
+	position: absolute;
+	top: 150px;
+	left: 390px;
+	z-index: 3;
+}
+.maedori{
+	position: absolute;
+	top: 150px;
+	left: 490px;
+	z-index: 3;
+}
+.kitsuke{
+	position: absolute;
+	top: 180px;
+	left: 190px;
+	z-index: 3;
+}
+.seijin-hairmake{
+	position: absolute;
+	top: 180px;
+	left: 310px;
+	z-index: 3;
+}
+.order-rental{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index: 3;
+}
+.oshitate-rental{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index: 3;
+}
+.komono_ph{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index: 3;
+}
+.komono-waku{
+	position: absolute;
+	top: 80px;
+	left: 190px;
+	z-index: 3;
+}
+.komono_list1{
+	position: absolute;
+	top: 80px;
+	left: 200px;
+	z-index: 3;
+	font-size: 0.8em;
+	letter-spacing: 0.1em;
+}
+.komono_list2{
+	position: absolute;
+	top: 110px;
+	left: 200px;
+	z-index: 3;
+	font-size: 0.8em;
+	letter-spacing: 0.1em;
+}
+.komono_space{
+	margin-right:1.3em;
+}
+.note{
+	position: absolute;
+	top: 110px;
+	left: 0px;
+	z-index: 3;
+	font-size: 0.75em;
+	letter-spacing: 0.1em;
+}
+.maintenance_img{
+	position: absolute;
+	top: 10px;
+	right: 0px;
+	z-index: 3;
+}
+.button_p{
+	text-align: center;
+	margin-top: 230px;
+}
+
+div#footer{
+	position: relative;
+	background:url(../../img/footer/C3_footer_bg.jpg);
+	margin: 0px;
+	height: 200px;
+	margin-top: 100px;
+}
+div#whiteback{
+	position: absolute;
+	width: 100%;
+	height: 70px;
+	top: 30px;
+	background-color: white;
+}
+.tel2{
+	position: absolute;
+	top: 45px;
+	left: 220px;
+}
+.time{
+	position: absolute;
+	top:49px;
+	left: 600px;
+	font-size: 76%; 
+	margin-left: 20px;
+}
+.otoiawase{
+	position: absolute;
+	top: 45px;
+	right: 250px;
+}
+.pc_link{
+	position: absolute;
+	top: 100px;
+	right: 250px;
+	font-size: 76%;
+}
+.sp_link{
+	display: none;
+}
+.logo2{
+	position: absolute;
+	top:130px;
+	left: 220px;
+}
+.twi{
+	position: absolute;
+	top: 150px;
+	right: 250px;
+}
+.insta{
+	position: absolute;
+	top: 150px;
+	right: 300px;
+}
+.fb{
+	position: absolute;
+	top: 150px;
+	right: 350px;
+}
+@media only screen and (max-width: 479px){
+
+
+body{
+	margin: 0;
+}
+div#wrapper{
+	margin-left: 8px;
+	margin-right: 8px;
+	width: auto;
+}
+.pc_header{
+	display: none;
+}
+.sp_header{
+	display: inline-block;
+	width: 100%;
+	height: 48px;
+	text-align: center;
+	background: url(../../img/footer/C3_footer_bg.jpg);
+}
+.sp_headerimg{
+	width: 90%;
+	display: inline-block;
+	vertical-align: middle;
+}
+.sp_h1{
+	margin-top: 0px;
+}
+.setumei_br{
+	display: none;
+}
+.plan_1{
+	width: 100%;
+	height: 514px;
+	margin-bottom: 30px;
+}
+.plan_title{
+	width: 100%;
+	height: 50px;
+}
+.title_img{
+	width: 100%;
+	height: 50px;
+}
+.plan_content{
+	width: 99%;
+	height: 450px;
+}
+h3{
+	left: 5px;
+	font-size: 0.9em;
+}
+.gokounyu{
+	top: 80px;
+}
+.kakaku{
+	left: 5px;
+	top: 300px;
+}
+.furisode{
+	top: 370px;
+	left: 5px;
+}
+.komono{
+	top: 370px;
+	left: 105px;
+	z-index: 3;
+}
+.hairmake{
+	top: 370px;
+	left: 205px;
+	z-index: 3;
+}
+.maedori{
+	top: 400px;
+	left: 5px;
+}
+.kitsuke{
+	top: 400px;
+	left: 83px;
+}
+.seijin-hairmake{
+	position: absolute;
+	top: 400px;
+	left: 177px;
+}
+.plan_2{
+	width: 100%;
+	height: 514px;
+	margin-bottom: 30px;
+}
+.order-rental{
+	top: 80px;
+}
+.plan_3{
+	width: 100%;
+	height: 514px;
+	margin-bottom: 30px;
+}
+.oshitate-rental{
+	top: 80px;
+}
+.set_komono{
+	height: 400px;
+}
+.komono_ph{
+	top: 80px;
+}
+.komono-waku{
+	display: none;
+}
+.komono_list1{
+	top: 270px;
+	left: 5px;
+	font-size: 0.7em;
+}
+.komono_list2{
+	top: 300px;
+	left: 5px;
+	font-size: 0.7em;
+}
+.komono_space{
+	margin-right: 0.1em;
+}
+.after_h3{
+	top:10px;
+}
+.maintenance_img{
+	top: 50px;
+}
+.note{
+	top:230px;
+}
+.after{
+	height: 475px;
+}
+.button_p{
+	margin-top: 0px;
+}
+.note_br{
+	display: none;
+}
+
+div#footer{
+	width: 100%;
+	height: 270px;
+	margin-top: 50px;
+}
+.tel2{
+	position: absolute;
+	top: 45px;
+	left: 20px;
+	width: 85%;
+	height: auto;
+}
+.time{
+	position: absolute;
+	top:65px;
+	left: 120px;
+	margin-top: px;
+}
+.otoiawase{
+	position: absolute;
+	top: 100px;
+	left: 120px;
+}
+div#whiteback{
+	height: 130px;
+}
+.pc_link{
+	display: none;
+}
+.sp_link{
+	display: inline-block;
+	position: absolute;
+	top: 160px;
+	left: 10px;
+	margin:10px auto;
+	font-size: 50%;
+}
+.logo2{
+	position: absolute;
+	top:200px;
+	left: 10px;
+}
+.twi{
+	position: absolute;
+	top: 220px;
+	right: 90px;
+}
+.insta{
+	position: absolute;
+	top: 220px;
+	right: 50px;
+}
+.fb{
+	position: absolute;
+	top: 220px;
+	right: 10px;
+}
+}
+
