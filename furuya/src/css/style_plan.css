@@ -3,13 +3,16 @@
 	margin: 0 auto;
 	letter-spacing: 0.2em;
 }
+body{
+	color: #4a4a4a;
+}
 .pc_header{
 	width: 100%;
 }
 .sp_header{
 	display: none;
 }
-h1{
+.pc_h1{
 	margin-bottom: 0px;
 	margin-top: 0px;
 }
@@ -20,6 +23,8 @@ h1{
 p{
 	display: inline-block;
 	line-height: 2em;
+	margin-top: 26px;
+	margin-bottom: 40px;
 }
 .plan_title{
 	position: relative;
@@ -33,19 +38,19 @@ p{
 .plan_1{
 	width: 100%;
 	height: 300px;
-	margin-bottom: 50px;
+	margin-bottom: 30px;
 }
 .plan_2{
 	width: 100%;
 	height: 300px;
 	margin-top: 20px;
-	margin-bottom: 50px;
+	margin-bottom: 30px;
 }
 .plan_3{
 	width: 100%;
 	height: 300px;
 	margin-top: 20px;
-	margin-bottom: 50px;
+	margin-bottom: 30px;
 }
 .set_komono{
 	width: 100%;
@@ -55,7 +60,7 @@ p{
 .after{
 	width: 100%;
 	height: 270;
-	margin-top: 20px;
+	margin-top: 70px;
 }
 h2{
 	position: absolute;
@@ -63,21 +68,29 @@ h2{
 	transform: translateY(-50%);
 	margin-top: 0px;
 	margin-bottom: 0px;
-	margin-left: 10px;
+	margin-left: 20px;
 	font-size: 1em;
 }
 .plan_content{
 	position: relative;
 	z-index: 1;
 	width: 664px;
-	height: 250px;
-	border: solid 2px #F5F5F5;
+	height: 220px;
+	border: solid 3px #F5F5F5;
 	margin-top: 10px;
 }
 .plan_content2{
 	position: relative;
 	z-index: 1;
+	width: 664px;
+	height: 200px;
+	border: solid 3px #F5F5F5;
+	margin-top: 10px;
 }
+.plan_content3{
+	position: relative;
+	z-index: 1;
+	}
 .plan_waku{
 	position: absolute;
 	top: 0px;
@@ -87,15 +100,16 @@ h2{
 .gokounyu{
 	position: absolute;
 	top: 0px;
-	left: 0px;
+	left: 20px;
 	z-index: 3;
 }
 h3{
 	position: absolute;
 	top: 10px;
-	left: 190px;
+	left: 210px;
 	z-index: 3;
 	font-size: 1em;
+	letter-spacing: 0.25em;
 }
 .after_h3{
 	position: absolute;
@@ -106,7 +120,7 @@ h3{
 .kakaku{
 	position: absolute;
 	top: 70px;
-	left: 190px;
+	left: 210px;
 	z-index: 3;
 	letter-spacing: 0.1em;
 }
@@ -119,13 +133,13 @@ h3{
 .furisode{
 	position: absolute;
 	top: 150px;
-	left: 190px;
+	left: 210px;
 	z-index: 3;
 }
 .komono{
 	position: absolute;
 	top: 150px;
-	left: 290px;
+	left: 300px;
 	z-index: 3;
 }
 .hairmake{
@@ -137,57 +151,57 @@ h3{
 .maedori{
 	position: absolute;
 	top: 150px;
-	left: 490px;
+	left: 480px;
 	z-index: 3;
 }
 .kitsuke{
 	position: absolute;
 	top: 180px;
-	left: 190px;
+	left: 210px;
 	z-index: 3;
 }
 .seijin-hairmake{
 	position: absolute;
 	top: 180px;
-	left: 310px;
+	left: 320px;
 	z-index: 3;
 }
 .order-rental{
 	position: absolute;
-	top: 0px;
-	left: 0px;
+	top: 7px;
+	left: 20px;
 	z-index: 3;
 }
 .oshitate-rental{
 	position: absolute;
 	top: 0px;
-	left: 0px;
+	left: 20px;
 	z-index: 3;
 }
 .komono_ph{
 	position: absolute;
 	top: 0px;
-	left: 0px;
+	left: 20px;
 	z-index: 3;
 }
 .komono-waku{
 	position: absolute;
 	top: 80px;
-	left: 190px;
+	left: 210px;
 	z-index: 3;
 }
 .komono_list1{
 	position: absolute;
-	top: 80px;
-	left: 200px;
+	top: 70px;
+	left: 220px;
 	z-index: 3;
 	font-size: 0.8em;
 	letter-spacing: 0.1em;
 }
 .komono_list2{
 	position: absolute;
-	top: 110px;
-	left: 200px;
+	top: 100px;
+	left: 220px;
 	z-index: 3;
 	font-size: 0.8em;
 	letter-spacing: 0.1em;
@@ -247,7 +261,7 @@ div#whiteback{
 }
 .pc_link{
 	position: absolute;
-	top: 100px;
+	top: 90px;
 	right: 250px;
 	font-size: 76%;
 }
@@ -323,29 +337,42 @@ div#wrapper{
 	width: 99%;
 	height: 450px;
 }
+.plan_content2{
+	width: 99%;
+	height: 370px;
+}
 h3{
 	left: 5px;
 	font-size: 0.9em;
 }
 .gokounyu{
 	top: 80px;
+	left:0;
+	right: 0;
+	margin: auto;
 }
 .kakaku{
-	left: 5px;
+	width: 180px;
+	left: 0;
+	right: 0;
+	margin: auto;
 	top: 300px;
 }
 .furisode{
 	top: 370px;
-	left: 5px;
+	left: 10px;
 }
 .komono{
 	top: 370px;
-	left: 105px;
+	left: 0;
+	right: 0;
+	margin: auto;
 	z-index: 3;
 }
 .hairmake{
 	top: 370px;
-	left: 205px;
+	right: 10px;
+	left: auto;
 	z-index: 3;
 }
 .maedori{
@@ -361,6 +388,10 @@ h3{
 	top: 400px;
 	left: 177px;
 }
+.gedan{
+	width: 375px;
+	text-align: center;
+}
 .plan_2{
 	width: 100%;
 	height: 514px;
@@ -368,6 +399,9 @@ h3{
 }
 .order-rental{
 	top: 80px;
+	left:0;
+	right: 0;
+	margin: auto;
 }
 .plan_3{
 	width: 100%;
@@ -376,12 +410,18 @@ h3{
 }
 .oshitate-rental{
 	top: 80px;
+	left:0;
+	right: 0;
+	margin: auto;
 }
 .set_komono{
-	height: 400px;
+	height: 420px;
 }
 .komono_ph{
 	top: 80px;
+	left:0;
+	right: 0;
+	margin: auto;
 }
 .komono-waku{
 	display: none;
@@ -404,6 +444,9 @@ h3{
 }
 .maintenance_img{
 	top: 50px;
+	left:0;
+	right: 0;
+	margin: auto;
 }
 .note{
 	top:230px;
@@ -432,7 +475,7 @@ div#footer{
 }
 .time{
 	position: absolute;
-	top:65px;
+	top:48px;
 	left: 120px;
 	margin-top: px;
 }
@@ -475,5 +518,6 @@ div#whiteback{
 	top: 220px;
 	right: 10px;
 }
+
 }
 
