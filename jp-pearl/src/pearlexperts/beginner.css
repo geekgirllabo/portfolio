@@ -30,34 +30,32 @@ ul li{
 	display: inline-block;
 	width:180px;
 }
-div#main{
+div#maincolor{
+	width:100%;
 	background-color:#f2f2f2;
+	overflow:hidden;
+}
+div#main{
+	
 	padding-top:3%;
 	padding-left:11%;
-	width:100%;
+	width:50%;
 	float:left;
-}
-div#main title{
-	
 
 }
 div#cover{
-	background-color:#f2f2f2;
+	background-color:#ffffff;
 	margin-top:1%;
 	margin-left:11%;
 	width:48%;
 	height:auto;
 	float:left;
 }
-div#infobar{
-	float:right;
-}
-div#facebook{
-	float:right;
-	padding-left:50%;
-}
+
+
+
 div#banner2{
-	float:right;
+
 }
 div#title1{
 	padding-top:2%;
@@ -77,12 +75,37 @@ div#text2{
 	margin-left:-1%;
 }
 div#title3{
+	float:left;
 	padding-top:1%;
 	margin-left:-3%;
 }
+div#right{
+	float:right;
+	width:300px;
+}
+div#infobar {
+	margin-top:3%;
+	margin-right:11%;
+	background-color:#000033;
+	width:23%;
+	height:60%;
+}
+div#infobar p{
+	color:#c5a05a;
+	text-align: center;
+
+}
+
 div#text3{
 	margin-left:-1%;
+	clear:both;
 }
+
+div#facebook{
+	float:right;
+	margin-right:-70%;
+}
+
 div#title4img {
 	margin-top:2%;
 	margin-left:5%;
