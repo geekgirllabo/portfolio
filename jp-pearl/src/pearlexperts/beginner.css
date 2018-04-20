@@ -54,9 +54,7 @@ div#cover{
 
 
 
-div#banner2{
 
-}
 div#title1{
 	padding-top:2%;
 	margin-left:-1%;
@@ -79,32 +77,37 @@ div#title3{
 	padding-top:1%;
 	margin-left:-3%;
 }
-div#right{
-	float:right;
-	width:300px;
-}
-div#infobar {
-	margin-top:3%;
-	margin-right:11%;
-	background-color:#000033;
-	width:23%;
-	height:60%;
-}
-div#infobar p{
-	color:#c5a05a;
-	text-align: center;
-
-}
-
 div#text3{
 	margin-left:-1%;
 	clear:both;
 }
 
-div#facebook{
+
+
+div#right{
 	float:right;
-	margin-right:-70%;
+	width:300px;
+	padding-right:13%;
+	padding-top:1.5%;
 }
+div#infobar {
+	
+	background-color:#000033;
+}
+div#infobar p{
+	color:#c5a05a;
+	text-align: center;
+}
+div#facebook{
+	
+}
+div#banner2{
+	padding-top:5%;
+}
+
+
+
+
 
 div#title4img {
 	margin-top:2%;
