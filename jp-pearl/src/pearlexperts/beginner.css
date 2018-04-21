@@ -81,6 +81,25 @@ div#text3{
 	margin-left:-1%;
 	clear:both;
 }
+div#title4{
+	float:left;
+	padding-top:1%;
+	margin-left:-3%;
+}
+div#text4{
+	margin-left:-1%;
+	clear:both;
+}
+
+div#title6{
+	float:left;
+	padding-top:1%;
+	margin-left:-3%;
+}
+div#text6{
+	margin-left:-1%;
+	clear:both;
+}
 
 
 
@@ -88,10 +107,10 @@ div#right{
 	float:right;
 	width:300px;
 	padding-right:13%;
-	padding-top:1.5%;
+	padding-top:1.8%;
 }
 div#infobar {
-	
+	height:430px;
 	background-color:#000033;
 }
 div#infobar p{
