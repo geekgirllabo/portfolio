@@ -2,6 +2,7 @@
 	
 	font-family: 'ヒラギノ明朝 ProN','Hiragino Mincho ProN','ＭＳ 明朝', 'MS Mincho', sans-serif;
 	height:100%;
+	line-height:1.5;
 }
 div#wrapper{
 	max-width:1900px;
@@ -21,31 +22,47 @@ div#header img{
 	left:10%;
 }
 div#glovalnav{
+	padding-top:1%;
+	padding-left:3%;
+	padding-bottom:3%;
+	width:80%;
+}
+div#glovalnav ul{
+	font-size:0;
+	width:100%;
+}
+div#glovalnav ul li{
 	list-style:none;
-	padding-left:10%;
-	padding-bottom:2%;
-}
-ul li{
 	float:left;
-	display: inline-block;
-	width:180px;
+	width:18%;
+	font-size:16px;
+	text-align: center;
 }
+div#glovalnav li+li{
+	border-left: 1px solid #333;
+}
+
 div#maincolor{
 	width:100%;
 	background-color:#f2f2f2;
 	overflow:hidden;
 }
 div#main{
-	
 	padding-top:3%;
 	padding-left:11%;
 	width:50%;
 	float:left;
-
 }
+div#main p{
+	margin-top:-8.5%;
+	padding-left:35%;
+	font-size:28px;
+	letter-spacing: 0.2em;
+}
+
 div#cover{
 	background-color:#ffffff;
-	margin-top:1%;
+	padding-top:1%;
 	margin-left:11%;
 	width:48%;
 	height:auto;
@@ -56,7 +73,7 @@ div#cover{
 
 
 div#title1{
-	padding-top:2%;
+	padding-top:1%;
 	margin-left:-1%;
 }
 div#text{
@@ -91,37 +108,94 @@ div#text4{
 	clear:both;
 }
 
-div#title6{
-	float:left;
-	padding-top:1%;
-	margin-left:-3%;
+div#title5 {
+	padding-top:3%;
+	padding-left:5%;
 }
-div#text6{
-	margin-left:-1%;
-	clear:both;
+table{
+	width:50%;
+	line-height:1.2;
+	text-indent:-1em;
+}
+table td{
+	padding-top:0;
+	padding-right:5%;
+	padding-bottom:5%;
+}
+table ul{
+	padding-left:0;
+}	
+table ul li{
+	letter-spacing:1em;
+
+}
+table img{
+	padding-top:0;
 }
 
-
+div#curriculum{
+	width:95.5%;
+}
+div#info{
+	width:95%;
+	margin-left:3%;
+	margin-top:5%;
+	height:8%;
+	background-color:#d2b48c;
+}
+div#info ul{
+	margin-top:5%;
+	padding-top:2%;
+	margin-left:25%;
+	font-size:20px;
+	letter-spacing: 0.1em;
+	color:#ffffff;
+}
+div#infotext{
+	width:95%;
+	margin-left:3%;
+	font-size:14px;
+}
 
 div#right{
 	float:right;
 	width:300px;
 	padding-right:13%;
-	padding-top:1.8%;
+	padding-top:3%;
 }
 div#infobar {
-	height:430px;
+	height:500px;
 	background-color:#000033;
+	padding-top:0.5%;
+	padding-bottom:1%;
 }
 div#infobar p{
 	color:#c5a05a;
-	text-align: center;
+	padding-top:3%;
+	padding-left:8%;
+	line-height: 1.5;
 }
 div#facebook{
-	
+	margin-top:10%;	
+	margin-bottom:-20%;	
+}
+div#facebook p{
+	border-bottom: 1px solid black;
 }
 div#banner2{
-	padding-top:5%;
+	margin-top:5%;
+	height:15%;
+	background-color:#000033;	
+}
+div#banner2 p{
+	margin-left:38%;
+	margin-top:30%;
+	padding-top:8%;
+	color:#c5a05a;
+}
+div#banner2 img{
+	margin-left:2%;
+	margin-top:-27.5%;
 }
 
 
@@ -145,6 +219,9 @@ div#title5img {
 div#title{
 	padding-top:2%;
 	margin-left:1%;
+}
+div#banner{
+	padding-top:1%;
 }
 div#curriculum{
 	clear:both;
