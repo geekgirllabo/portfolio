@@ -249,7 +249,7 @@ div#whiteback{
 }
 .time{
 	position: absolute;
-	top:49px;
+	top:30px;
 	left: 600px;
 	font-size: 76%; 
 	margin-left: 20px;
@@ -288,6 +288,11 @@ div#whiteback{
 	top: 150px;
 	right: 350px;
 }
+.none_line{
+	text-decoration: none;
+	color: #4a4a4a; 
+}
+
 @media only screen and (max-width: 479px){
 
 
@@ -304,18 +309,29 @@ div#wrapper{
 }
 .sp_header{
 	display: inline-block;
+	position: relative;
 	width: 100%;
-	height: 48px;
+	height: 100px;
 	text-align: center;
 	background: url(../../img/footer/C3_footer_bg.jpg);
+	z-index: 1;
 }
 .sp_headerimg{
 	width: 90%;
 	display: inline-block;
 	vertical-align: middle;
+	z-index: 2;
 }
 .sp_h1{
-	margin-top: 0px;
+	margin-top: 20px;
+	z-index: 2;
+}
+.sp_whiteback{
+	position: absolute;
+	width: 100%;
+	height: 5px;
+	background-color: white;
+	top: 80px;
 }
 .setumei_br{
 	display: none;
@@ -360,33 +376,38 @@ h3{
 }
 .furisode{
 	top: 370px;
-	left: 10px;
+	left: 5px;
+	width: 70px;
+	height: auto;
 }
 .komono{
 	top: 370px;
-	left: 0;
-	right: 0;
-	margin: auto;
+	left: 80px;
 	z-index: 3;
+	width: 70px;
+	height: auto;
 }
 .hairmake{
 	top: 370px;
-	right: 10px;
-	left: auto;
+	left: 155px;
 	z-index: 3;
+	width: 70px;
+	height: auto;
 }
 .maedori{
-	top: 400px;
-	left: 5px;
+	top: 370px;
+	left: 230px;
+	width: 70px;
+	height: auto;
 }
 .kitsuke{
 	top: 400px;
-	left: 83px;
+	left: 5px;
 }
 .seijin-hairmake{
 	position: absolute;
 	top: 400px;
-	left: 177px;
+	left: 100px;
 }
 .gedan{
 	width: 375px;
