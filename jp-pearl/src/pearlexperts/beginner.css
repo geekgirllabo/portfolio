@@ -41,6 +41,13 @@ div#glovalnav ul li{
 div#glovalnav li+li{
 	border-left: 1px solid #333;
 }
+.m1:hover{
+	background:#f8f4e6;
+}
+.m1 {
+	padding:0;
+	height:5%;
+}
 
 div#maincolor{
 	width:100%;
@@ -174,6 +181,12 @@ div#infobar p{
 	padding-top:3%;
 	padding-left:8%;
 	line-height: 1.5;
+}
+.m2:hover{
+	background:#26264d;
+}
+.m2 {
+	height:7.5%;
 }
 div#facebook{
 	margin-top:10%;	
