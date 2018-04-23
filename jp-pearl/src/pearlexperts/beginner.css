@@ -164,6 +164,7 @@ div#curriculum{
 	padding-top:2%;
 	margin-left:3%;
 	line-height: 1.4em;
+	overflow:auto;
 }
 div#curriculum p { 
 	line-height: 1.4em;
@@ -174,8 +175,6 @@ div#curriculum img{
 	padding-left:5%;
 	padding-right:5%;
 	padding-bottom:3%;
-	max-width:100%;
-	height:auto;
 }
 .box1 {
     border: solid 2px #000000;
@@ -213,7 +212,8 @@ div#info{
 }
 div#info p{
 	padding-top:2%;
-	padding-left:3%;
+	padding-bottom:2%;
+	padding-left:2.5%;
 	font-size:20px;
 	letter-spacing: 0.1em;
 	color:#ffffff;
@@ -264,25 +264,29 @@ div#infobar p{
 }
 div#facebook{
 	margin-top:10%;	
-	margin-bottom:-20%;	
+	margin-bottom:10%;	
 }
 div#facebook p{
 	border-bottom: 1px solid black;
 }
 div#banner2{
-	margin-top:5%;
-	height:15%;
-	background-color:#000033;	
+width: 95%;
+display: block;
+margin:30px 0;
+padding:2%;
+background-color:#000033;
+overflow: auto;	
 }
 div#banner2 p{
-	margin-left:38%;
-	margin-top:30%;
-	padding-top:8%;
 	color:#c5a05a;
+	float:right;
+	clear: both;
+
 }
 div#banner2 img{
-	margin-left:2%;
-	margin-top:-27.5%;
+text-align:left;
+float:left;
+margin: 0 5px 0 0;
 }
 @media only screen and (max-width:800px) {
 div#main{
