@@ -39,7 +39,7 @@ div#glovalnav ul li{
 	text-align: center;
 }
 div#glovalnav li+li{
-	border-left: 1px solid #333;
+	border-left: 1px solid #c5a05a;
 }
 .m1:hover{
 	background:#f8f4e6;
@@ -76,8 +76,10 @@ div#cover{
 	float:left;
 }
 
-
-
+div#title{
+	padding-top:2%;
+	margin-left:1%;
+}
 
 div#title1{
 	padding-top:1%;
@@ -85,6 +87,7 @@ div#title1{
 }
 div#text{
 	width:95%;
+	padding-left:2%;
 }
 div#text1{
 	margin-left:5%;
@@ -110,14 +113,28 @@ div#title4{
 	padding-top:1%;
 	margin-left:-3%;
 }
+div#title4img {
+	margin-top:2%;
+	margin-left:5%;
+	float:left;
+	width:40%;
+}
 div#text4{
 	margin-left:-1%;
 	clear:both;
 }
 
+
 div#title5 {
 	padding-top:3%;
 	padding-left:5%;
+}
+
+div#title5img {
+	margin-top:0%;
+	margin-right:0%;
+	float:right;
+	width:40%;
 }
 table{
 	width:50%;
@@ -140,29 +157,79 @@ table img{
 	padding-top:0;
 }
 
+
 div#curriculum{
+	clear:both;
 	width:95.5%;
+	padding-top:2%;
+	margin-left:3%;
+	line-height: 1.4em;
 }
+div#curriculum p { 
+	line-height: 1.4em;
+	margin-right:2%;
+}
+div#curriculum img{
+	float:left;
+	padding-left:5%;
+	padding-right:5%;
+	padding-bottom:3%;
+}
+.box1 {
+    border: solid 2px #000000;
+    height:auto;
+    padding-bottom:1.5%;
+}
+.box1 p {
+    margin: 0; 
+    padding: 0;
+}
+div#banner{
+	padding-top:1%;
+}
+
+div#banner{
+	clear:both;
+	margin-left:3%;
+	margin-top:3%;
+}
+div #banner img:hover {
+opacity:0.8;
+filter:alpha(opacity=80);
+-ms-filter: "alpha( opacity=80 )";
+}
+
+
 div#info{
 	width:95%;
 	margin-left:3%;
 	margin-top:5%;
 	height:8%;
 	background-color:#d2b48c;
+	display:block;
 }
-div#info ul{
+div#info p{
 	margin-top:5%;
 	padding-top:2%;
-	margin-left:25%;
+	margin-left:35%;
 	font-size:20px;
 	letter-spacing: 0.1em;
 	color:#ffffff;
 }
+.m3{
+	background:#d2b48c;
+}
+.m3:hover{
+	background:#f2f2f2;
+}
+
+
 div#infotext{
 	width:95%;
 	margin-left:3%;
 	font-size:14px;
 }
+
 
 div#right{
 	float:right;
@@ -211,58 +278,97 @@ div#banner2 img{
 	margin-top:-27.5%;
 }
 
+@media only screen and (max-width:500px) {
+	body{
+		margin:0;
+	}
+	div#wrapper{
+	width:100%;
+	height:auto;
+	}
+	div#header{
+	position:relative;
+	width:100%;
+	height:10%;
+}
+div#header img{
+	position:absolute;
+	top:20%;
+	left:10%;
+	width:50%;
+}
 
-
-
-
-div#title4img {
+div#glovalnav ul{
+	font-size:0;
+	padding-left:4%;
 	margin-top:2%;
-	margin-left:5%;
+	width:100%;
+}
+div#glovalnav ul li{
+	list-style:none;
+	width:100%;
+	font-size:16px;
+	text-align: center;
+	border: 1px solid #c5a05a;
+}
+div#main{
+	padding-top:3%;
+	padding-left:2%;
+	width:90%;
 	float:left;
-	width:40%;
+}
+div#main p{
+	margin-top:-8.5%;
+	padding-left:35%;
+	font-size:18px;
+	letter-spacing: 0.2em;
 }
 
-div#title5img {
-	margin-top:0%;
-	margin-right:0%;
-	float:right;
-	width:40%;
-}
-
-div#title{
-	padding-top:2%;
-	margin-left:1%;
-}
-div#banner{
+div#cover{
+	background-color:#ffffff;
 	padding-top:1%;
+	margin-left:1%;
+	width:100%;
+	height:auto;
+	float:left;
+}
+div#text{
+	width:90%;
+	padding-left:1%;
+}
+div#text1{
+	padding-left:6%;
+	width:85%;
+}
+div#title5 {
+	padding-left:15%;
+	width:40%;
+}
+div#text5{
+	width:35%;
 }
 div#curriculum{
-	clear:both;
 	padding-top:2%;
 	margin-left:3%;
 	line-height: 1.4em;
 }
-div#curriculum p { 
-	line-height: 1.4em;
-	margin-right:2%;
+div#curriculum ul{ 
+	padding-left:3%;
 }
 div#curriculum img{
-	float:left;
-	padding-left:5%;
-	padding-right:5%;
+	width:60%;
+	padding-left:15%;
 	padding-bottom:3%;
 }
-.box1 {
-    border: solid 2px #000000;
-    height:auto;
-    padding-bottom:1.5%;
-}
-.box1 p {
-    margin: 0; 
-    padding: 0;
-}
-div#banner{
+div#curriculum p{
 	clear:both;
-	margin-left:3%;
-	margin-top:3%;
+	padding-left:6%;
+}
+div#info ul{
+	margin-top:6%;
+	padding-top:4%;
+	margin-left:10%;
+	font-size:20px;
+	letter-spacing: 0.1em;
+	color:#ffffff;
 }
