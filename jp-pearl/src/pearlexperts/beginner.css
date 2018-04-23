@@ -207,6 +207,7 @@ div#info{
 	height:8%;
 	background-color:#d2b48c;
 	display:block;
+
 }
 div#info p{
 	margin-top:5%;
@@ -216,11 +217,11 @@ div#info p{
 	letter-spacing: 0.1em;
 	color:#ffffff;
 }
-.m3{
-	background:#d2b48c;
+div#info p:hover{
+	color:#f2f2f2;
 }
-.m3:hover{
-	background:#f2f2f2;
+div#info:hover{
+	background-color:#ffffff;
 }
 
 
@@ -238,9 +239,9 @@ div#right{
 	padding-top:3%;
 }
 div#infobar {
-	height:500px;
+	height:550px;
 	background-color:#000033;
-	padding-top:0.5%;
+	padding-top:1%;
 	padding-bottom:1%;
 }
 div#infobar p{
@@ -253,7 +254,7 @@ div#infobar p{
 	background:#26264d;
 }
 .m2 {
-	height:7.5%;
+	height:45px;
 }
 div#facebook{
 	margin-top:10%;	
@@ -277,6 +278,27 @@ div#banner2 img{
 	margin-left:2%;
 	margin-top:-27.5%;
 }
+@media only screen and (max-width:800px) {
+div#main{
+	padding-top:3%;
+	padding-left:11%;
+	width:50%;
+	float:left;
+}
+div#main p{
+	margin-top:-8.5%;
+	padding-left:35%;
+	font-size:18px;
+	letter-spacing: 0.2em;
+}
+div#glovalnav ul li{
+	list-style:none;
+	float:left;
+	width:18%;
+	font-size:14px;
+	text-align: center;
+}
+
 
 @media only screen and (max-width:500px) {
 	body{
@@ -371,4 +393,5 @@ div#info ul{
 	font-size:20px;
 	letter-spacing: 0.1em;
 	color:#ffffff;
+}
 }
