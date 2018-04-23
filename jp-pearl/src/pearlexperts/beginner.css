@@ -293,8 +293,7 @@ div#main p{
 }
 div#glovalnav ul li{
 	list-style:none;
-	float:left;
-	width:18%;
+	width:36%;
 	font-size:14px;
 	text-align: center;
 }
