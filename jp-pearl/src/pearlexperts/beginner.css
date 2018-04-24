@@ -204,32 +204,29 @@ filter:alpha(opacity=80);
 
 div#info{
 	width:95%;
+
 	margin-left:3%;
-	margin-top:5%;
-	height:8%;
+	margin-top:3%;
 	background-color:#d2b48c;
-	display:block;
-	display: table-cell;
-	vertical-align: middle;
-	display: flex;
-	align-items: center;
-	justify-content: center;
+
+	
 }
 div#info p{
 	font-size:20px;
 	letter-spacing: 0.1em;
 	color:#ffffff;
-	
+	text-align: center;
+	padding-top:2%;
+	padding-bottom:2%;
 }
 div#info p:hover{
 	color:#a9a9a9;
-	line-height:8%;
+	line-height:1%;
 }
 div#info:hover{
 	background-color:#ffffff;
 	border:2px #a9a9a9 solid;
-	line-height:8%;
-	
+	line-height:1%;
 }
 
 
