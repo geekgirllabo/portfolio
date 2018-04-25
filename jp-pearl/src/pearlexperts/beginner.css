@@ -70,6 +70,57 @@ div#main p{
 	letter-spacing: 0.2em;
 }
 
+div#right{
+	float:right;
+	width:300px;
+	padding-right:13%;
+	padding-top:3%;
+}
+div#infobar {
+	height:550px;
+	background-color:#000033;
+	padding-top:1%;
+	padding-bottom:1%;
+}
+div#infobar p{
+	color:#c5a05a;
+	padding-top:3%;
+	padding-left:8%;
+	line-height: 1.5;
+}
+.m2:hover{
+	background:#26264d;
+}
+.m2 {
+	height:45px;
+}
+div#facebook{
+	margin-top:10%;	
+	margin-bottom:10%;	
+}
+div#facebook p{
+	border-bottom: 1px solid black;
+}
+div#banner2{
+width: 95%;
+display: block;
+margin:30px 0;
+padding:2%;
+background-color:#000033;
+overflow: auto;	
+}
+div#banner2 p{
+	color:#c5a05a;
+	float:right;
+	clear: both;
+
+}
+div#banner2 img{
+text-align:left;
+float:left;
+margin: 0 5px 0 0;
+}
+
 div#cover{
 	background-color:#ffffff;
 	padding-top:1%;
@@ -211,8 +262,6 @@ div#info{
 	margin-left:3%;
 	margin-top:3%;
 	background-color:#d2b48c;
-
-	
 }
 div#info p{
 	font-size:20px;
@@ -240,56 +289,8 @@ div#infotext{
 }
 
 
-div#right{
-	float:right;
-	width:300px;
-	padding-right:13%;
-	padding-top:3%;
-}
-div#infobar {
-	height:550px;
-	background-color:#000033;
-	padding-top:1%;
-	padding-bottom:1%;
-}
-div#infobar p{
-	color:#c5a05a;
-	padding-top:3%;
-	padding-left:8%;
-	line-height: 1.5;
-}
-.m2:hover{
-	background:#26264d;
-}
-.m2 {
-	height:45px;
-}
-div#facebook{
-	margin-top:10%;	
-	margin-bottom:10%;	
-}
-div#facebook p{
-	border-bottom: 1px solid black;
-}
-div#banner2{
-width: 95%;
-display: block;
-margin:30px 0;
-padding:2%;
-background-color:#000033;
-overflow: auto;	
-}
-div#banner2 p{
-	color:#c5a05a;
-	float:right;
-	clear: both;
 
-}
-div#banner2 img{
-text-align:left;
-float:left;
-margin: 0 5px 0 0;
-}
+
 @media only screen and (max-width:800px) {
 div#main{
 	padding-top:3%;
@@ -340,7 +341,6 @@ div#main p{
 	padding-left:35%;
 	font-size:18px;
 	letter-spacing: 0.2em;
-	padding-left:11%;
 }
 
 div#glovalnav{
@@ -394,13 +394,14 @@ div#title5 {
 	padding-left:15%;
 	width:40%;
 }
-div#text5{
-	width:35%;
+div#title5{
+	padding-left:10.5%;
 }
 div#curriculum{
 	padding-top:2%;
 	margin-left:3%;
 	line-height: 1.4em;
+	width:100%;
 }
 div#curriculum ul{ 
 	padding-left:3%;
@@ -412,15 +413,49 @@ div#curriculum img{
 }
 div#curriculum p{
 	clear:both;
-	padding-left:6%;
+	padding-left:4%;
+	width:98%;
 }
-div#info ul{
-	margin-top:6%;
-	padding-top:4%;
-	margin-left:10%;
+div#info{
+	width:95%;
+	margin-left:5%;
+	margin-top:3%;
+	background-color:#d2b48c;
+}
+div#info p{
 	font-size:20px;
 	letter-spacing: 0.1em;
 	color:#ffffff;
+	text-align: center;
+	padding-top:2%;
+	padding-bottom:2%;
+}
+div#infotext{
+	width:95%;
+	margin-left:5%;
+	font-size:14px;
+}
+div#right{
+	float:right;
+	width:300px;
+	padding-right:10%;
+	padding-top:3%;
+}
+div#cover{
+	background-color:#ffffff;
+	padding-top:1%;
+	margin-left:9%;
+	width:80%;
+	height:auto;
+	float:left;
+}
+div#title1{
+	padding-top:1%;
+	margin-left:1%;
+}
+div#text{
+	width:95%;
+	padding-left:0%;
 }
 }
 
