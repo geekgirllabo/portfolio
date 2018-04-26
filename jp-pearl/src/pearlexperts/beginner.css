@@ -288,7 +288,13 @@ div#infotext{
 	font-size:14px;
 }
 
-
+@media only screen and (max-width:1340px) {
+div#title5 {
+	padding-left:15%;
+	width:40%;
+	text-align:center;
+}
+}
 
 
 @media only screen and (max-width:800px) {
@@ -374,14 +380,7 @@ div#main p{
 	letter-spacing: 0.2em;
 }
 
-div#cover{
-	background-color:#ffffff;
-	padding-top:1%;
-	margin-left:2%;
-	width:100%;
-	height:auto;
-	float:left;
-}
+
 div#text{
 	width:90%;
 	padding-left:3%;
@@ -393,9 +392,6 @@ div#text1{
 div#title5 {
 	padding-left:15%;
 	width:40%;
-}
-div#title5{
-	padding-left:10.5%;
 }
 div#curriculum{
 	padding-top:2%;
@@ -436,12 +432,12 @@ div#infotext{
 	font-size:14px;
 }
 div#right{
-	float:right;
 	width:300px;
 	padding-right:10%;
 	padding-top:3%;
 }
 div#cover{
+	float:right;
 	background-color:#ffffff;
 	padding-top:1%;
 	margin-left:9%;
@@ -449,6 +445,8 @@ div#cover{
 	height:auto;
 	float:left;
 }
+
+
 div#title1{
 	padding-top:1%;
 	margin-left:1%;
