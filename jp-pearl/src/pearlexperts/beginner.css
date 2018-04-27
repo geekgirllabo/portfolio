@@ -56,14 +56,12 @@ div#maincolor{
 	width:100%;
 	background-color:#f2f2f2;
 	overflow:hidden;
-	display: flex;
-    flex-direction: column;
-
 }
 div#main{
 	padding-top:3%;
 	padding-left:11%;
 	width:50%;
+	float:left;
 }
 div#main p{
 	margin-top:-8.5%;
@@ -299,6 +297,14 @@ div#title5 {
 }
 }
 
+@media only screen and (max-width:1000px) {
+	div#cover{
+	width:40%;
+}
+
+	}
+
+
 
 @media only screen and (max-width:800px) {
 div#main{
@@ -318,6 +324,9 @@ div#glovalnav ul li{
 	width:36%;
 	font-size:14px;
 	text-align: center;
+}
+div#cover{
+	width:35%;
 }
 
 
@@ -382,7 +391,19 @@ div#main p{
 	font-size:18px;
 	letter-spacing: 0.2em;
 }
-
+div#maincolor{
+    display: flex;
+    flex-direction: column;
+}
+div#maincolor div#main{
+    order:1;
+}
+div#maincolor div#right{
+    order:3;
+}
+div#maincolor div#cover{
+    order:2;
+}
 
 div#text{
 	width:90%;
@@ -393,7 +414,7 @@ div#text1{
 	width:85%;
 }
 div#title5 {
-	padding-left:15%;
+	padding-left:11%;
 	width:40%;
 }
 div#curriculum{
@@ -436,7 +457,7 @@ div#infotext{
 }
 div#right{
 	width:300px;
-	padding-right:10%;
+	padding-left:9%;
 	padding-top:3%;
 }
 div#cover{
@@ -457,19 +478,6 @@ div#title1{
 div#text{
 	width:95%;
 	padding-left:0%;
-}
-div#maincolor{
-    display: flex;
-    flex-direction: column;
-}
-div#maincolor div#main{
-    order:1;
-}
-div#maincolor div#right{
-    order:3;
-}
-div#maincolor div#cover{
-    order:2;
 }
 
 }
