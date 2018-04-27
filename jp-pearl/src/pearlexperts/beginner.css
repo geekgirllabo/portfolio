@@ -297,10 +297,17 @@ div#title5 {
 }
 }
 
-@media only screen and (max-width:1000px) {
-	div#cover{
-	width:40%;
+@media only screen and (max-width:1050px) {
+ div#cover{
+    width:40%;
 }
+div#right{
+    padding-right:8%;
+}
+div#cover{
+    margin-left:11%;
+}
+
 
 	}
 
