@@ -130,41 +130,18 @@ h3{
 .big{
 	font-size: 150%;
 }
-.furisode{
+.plan_naiyou{
 	position: absolute;
-	top: 150px;
+	width: 400px;
+	height: 100px;
+	z-index: 3;
+	top:150px;
 	left: 210px;
-	z-index: 3;
 }
-.komono{
-	position: absolute;
-	top: 150px;
-	left: 300px;
-	z-index: 3;
-}
-.hairmake{
-	position: absolute;
-	top: 150px;
-	left: 390px;
-	z-index: 3;
-}
-.maedori{
-	position: absolute;
-	top: 150px;
-	left: 480px;
-	z-index: 3;
-}
-.kitsuke{
-	position: absolute;
-	top: 180px;
-	left: 210px;
-	z-index: 3;
-}
-.seijin-hairmake{
-	position: absolute;
-	top: 180px;
-	left: 320px;
-	z-index: 3;
+.plan_naiyou img{
+	float: left;
+	margin-left: 10px;
+	margin-bottom: 10px;
 }
 .order-rental{
 	position: absolute;
@@ -227,73 +204,104 @@ h3{
 	text-align: center;
 	margin-top: 230px;
 }
-
-div#footer{
+#footer{
 	position: relative;
-	background:url(../../img/footer/C3_footer_bg.jpg);
-	margin: 0px;
-	height: 200px;
-	margin-top: 100px;
-}
-div#whiteback{
-	position: absolute;
 	width: 100%;
-	height: 70px;
-	top: 30px;
+	height: auto;
+	margin-top: 50px;
+}
+.footer_box{
+	background-image: url(../../img/footer/C3_footer_bg.jpg);
+	border-image-repeat: repeat;
+	width: 100%;
+	height: auto;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+.inquiry{
 	background-color: white;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.img_box{
+	position: relative;
+	width: 65%;
+	margin-left: 17.5%;
+	margin-right: 17.5%;
 }
 .tel2{
-	position: absolute;
-	top: 45px;
-	left: 220px;
+	vertical-align: middle;
 }
 .time{
-	position: absolute;
-	top:30px;
-	left: 600px;
-	font-size: 76%; 
-	margin-left: 20px;
+	font-size: 75%;
+	margin-top: 0;
+	margin-bottom: 0;
 }
 .otoiawase{
 	position: absolute;
-	top: 45px;
-	right: 250px;
+	right: 0px;
+	top: 0px;
 }
-.pc_link{
-	position: absolute;
-	top: 90px;
-	right: 250px;
-	font-size: 76%;
+.footer_link{
+	width: 65%;
+	margin-left: 17.5%;
+	margin-right: 17.5%;
+	height: 30px;
 }
-.sp_link{
-	display: none;
+.footer_link ul{
+	list-style: none;
+	float: right;
+	margin-top: 8px;
+	margin-bottom: 8px;
 }
-.logo2{
-	position: absolute;
-	top:130px;
-	left: 220px;
-}
-.twi{
-	position: absolute;
-	top: 150px;
-	right: 250px;
-}
-.insta{
-	position: absolute;
-	top: 150px;
-	right: 300px;
-}
-.fb{
-	position: absolute;
-	top: 150px;
-	right: 350px;
+.footer_link ul li{
+	float: left;
+	font-size: 75%;
+	margin-left: 30px;
 }
 .none_line{
 	text-decoration: none;
 	color: #4a4a4a; 
 }
+.footer_bottom{
+	width: 65%;
+	margin-left: 17.5%;
+	margin-right: 17.5%;
+	position: relative;
+}
+.twi{
+	position: absolute;
+	top: 15px;
+	right: 0px;
+}
+.insta{
+	position: absolute;
+	top: 15px;
+	right: 50px;
+}
+.fb{
+	position: absolute;
+	top: 15px;
+	right: 100px;
+}
+.sp_naiyou{
+	display: none;
+}
 
-@media only screen and (max-width: 479px){
+
+@media only screen and (max-width: 1149px){
+
+.otoiawase{
+	position: static;
+	display: inline-block;
+	margin-top: 10px;
+	vertical-align: middle;
+}
+}
+
+
+
+@media only screen and (max-width: 670px){
 
 
 body{
@@ -338,7 +346,7 @@ div#wrapper{
 }
 .plan_1{
 	width: 100%;
-	height: 514px;
+	height: auto;
 	margin-bottom: 30px;
 }
 .plan_title{
@@ -351,7 +359,7 @@ div#wrapper{
 }
 .plan_content{
 	width: 99%;
-	height: 450px;
+	height: 500px;
 }
 .plan_content2{
 	width: 99%;
@@ -374,40 +382,23 @@ h3{
 	margin: auto;
 	top: 300px;
 }
-.furisode{
-	top: 370px;
-	left: 5px;
-	width: 70px;
-	height: auto;
-}
-.komono{
-	top: 370px;
-	left: 80px;
+.sp_naiyou{
+	width: 100%;
+	height: 100px;
+	color: pink;
 	z-index: 3;
-	width: 70px;
+}
+.plan_naiyou{
+	width: 100%;
 	height: auto;
+	top:370px;
+	left: 0;
+	text-align: center;
 }
-.hairmake{
-	top: 370px;
-	left: 155px;
-	z-index: 3;
-	width: 70px;
-	height: auto;
-}
-.maedori{
-	top: 370px;
-	left: 230px;
-	width: 70px;
-	height: auto;
-}
-.kitsuke{
-	top: 400px;
-	left: 5px;
-}
-.seijin-hairmake{
-	position: absolute;
-	top: 400px;
-	left: 100px;
+.plan_naiyou img{
+	display: inline-block;
+	float: none;
+	margin-left: 5px;
 }
 .gedan{
 	width: 375px;
@@ -415,7 +406,7 @@ h3{
 }
 .plan_2{
 	width: 100%;
-	height: 514px;
+	height: auto;
 	margin-bottom: 30px;
 }
 .order-rental{
@@ -426,7 +417,7 @@ h3{
 }
 .plan_3{
 	width: 100%;
-	height: 514px;
+	height: auto;
 	margin-bottom: 30px;
 }
 .oshitate-rental{
@@ -481,64 +472,33 @@ h3{
 .note_br{
 	display: none;
 }
-
 div#footer{
 	width: 100%;
-	height: 270px;
 	margin-top: 50px;
 }
+.img_box{
+	width: 90%;
+	margin-left: 5%;
+	margin-right: 5%;
+	text-align: center;
+}
 .tel2{
-	position: absolute;
-	top: 45px;
-	left: 20px;
 	width: 85%;
-	height: auto;
 }
-.time{
-	position: absolute;
-	top:48px;
-	left: 120px;
-	margin-top: px;
+.footer_link{
+	width: 90%;
+	margin-left: 5%;
+	margin-right: 5%;
+	text-align: center;
+	height: 50px;
 }
-.otoiawase{
-	position: absolute;
-	top: 100px;
-	left: 120px;
+.footer_link ul{
+	width: 100%;
+	padding-left: 0px;
 }
-div#whiteback{
-	height: 130px;
+.footer_bottom{
+	width: 100%;
+	margin: 0;
 }
-.pc_link{
-	display: none;
-}
-.sp_link{
-	display: inline-block;
-	position: absolute;
-	top: 160px;
-	left: 10px;
-	margin:10px auto;
-	font-size: 50%;
-}
-.logo2{
-	position: absolute;
-	top:200px;
-	left: 10px;
-}
-.twi{
-	position: absolute;
-	top: 220px;
-	right: 90px;
-}
-.insta{
-	position: absolute;
-	top: 220px;
-	right: 50px;
-}
-.fb{
-	position: absolute;
-	top: 220px;
-	right: 10px;
-}
-
 }
 
