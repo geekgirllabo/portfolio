@@ -1,8 +1,9 @@
 	body{
-	
 	font-family: 'ヒラギノ明朝 ProN','Hiragino Mincho ProN','ＭＳ 明朝', 'MS Mincho', sans-serif;
 	height:100%;
 	line-height:1.5;
+	margin:0;
+	padding:0;
 }
 div#wrapper{
 	max-width:1900px;
@@ -135,15 +136,16 @@ div#title{
 	padding-top:2%;
 	margin-left:1%;
 }
+div#text{
+	width:95%;
+	padding-left:2%;
+}
 
 div#title1{
 	padding-top:1%;
 	margin-left:-1%;
 }
-div#text{
-	width:95%;
-	padding-left:2%;
-}
+
 div#text1{
 	margin-left:5%;
 }
@@ -298,25 +300,29 @@ div#title5 {
 }
 
 @media only screen and (max-width:1050px) {
- div#cover{
-    width:40%;
+div#header{
+	width:100%;
+	height:10%;
+}	
+div#glovalnav {
+	padding-left:2%;
+	width:100%;
+}
+div#main p{
+	font-size:18px;
+}
+div#cover{
+    width:48%;
+    margin-left:11%;
 }
 div#right{
     padding-right:8%;
 }
-div#cover{
-    margin-left:11%;
-}
-
-
-	}
-
-
 
 @media only screen and (max-width:800px) {
 div#main{
 	padding-top:3%;
-	padding-left:11%;
+	padding-left:2%;
 	width:50%;
 	float:left;
 }
@@ -326,16 +332,68 @@ div#main p{
 	font-size:18px;
 	letter-spacing: 0.2em;
 }
+div#glovalnav {
+	padding-left:2%;
+	width:100%;
+}
 div#glovalnav ul li{
 	list-style:none;
-	width:36%;
-	font-size:14px;
+	font-size:12px;
 	text-align: center;
+
 }
 div#cover{
-	width:35%;
+	width:48%;
+	margin-left:2%;
+}
+div#text{
+	width:95%;
+	padding-left:1%;
+}
+div#title1{
+	margin-left:-5.5%;
+}
+div#text1{
+	margin-left:4%;
 }
 
+div#title2{
+	padding-top:2%;
+	margin-left:-7%;
+}
+div#text2{
+	margin-left:-7%;
+}
+div#title3{
+	float:left;
+	padding-top:1%;
+	margin-left:-7%;
+}
+div#text3{
+	margin-left:-7%;
+	clear:both;
+}
+div#title4{
+	float:left;
+	padding-top:1%;
+	margin-left:-7%;
+}
+div#title4img {
+	margin-top:2%;
+	margin-left:5%;
+	float:left;
+	width:40%;
+}
+div#text4{
+	margin-left:-7%;
+	clear:both;
+}
+div#curriculum ul { 
+	margin-left:-7%;
+}
+div#curriculum img{
+	width:25%;
+}
 
 @media only screen and (max-width:500px) {
 	body{
