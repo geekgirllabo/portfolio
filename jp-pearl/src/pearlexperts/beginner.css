@@ -327,6 +327,7 @@ div#right{
 div#cover{
     margin-left:8%;
     padding-left:2%;
+    width:46%;
 }
 
 @media only screen and (max-width:800px) {
@@ -343,13 +344,13 @@ div#main p{
 	font-size:18px;
 	letter-spacing: 0.2em;
 }
-	div#right{
+div#right{
     padding-right:3%;
 }
 div#cover{
-    padding-left:3%;
-    margin-left:3%;
-    width:48%;
+    margin-left:5%;
+	padding-left:5%;
+    width:43%;
 }
 
 div#glovalnav {
@@ -362,13 +363,9 @@ div#glovalnav ul li{
 	text-align: center;
 
 }
-div#cover{
-	width:48%;
-	margin-left:2%;
-}
 div#text{
-	width:95%;
-	padding-left:1%;
+	width:98%;
+	margin-left:-8%;
 }
 div#title1{
 	margin-left:-5.5%;
