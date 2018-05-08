@@ -5,7 +5,6 @@
 	margin:0;
 	padding:0;
 	overflow-x: hidden;
-
 }
 div#wrapper{
 	max-width:1900px;
@@ -337,9 +336,9 @@ div#cover{
 @media only screen and (max-width:800px) {
 div#main{
 	padding-top:3%;
-	margin-left:3%;
-	padding-left:2%;
-	width:50%;
+	margin-left:2%;
+	padding-left:3%;
+	width:47%;
 	float:left;
 }
 div#main p{
@@ -349,12 +348,12 @@ div#main p{
 	letter-spacing: 0.2em;
 }
 div#right{
-    padding-right:3%;
+    padding-right:5%;
 }
 div#cover{
     margin-left:5%;
 	padding-left:5%;
-    width:43%;
+    width:40%;
 }
 
 div#glovalnav {
@@ -365,7 +364,6 @@ div#glovalnav ul li{
 	list-style:none;
 	font-size:12px;
 	text-align: center;
-
 }
 div#text{
 	width:98%;
