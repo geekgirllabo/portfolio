@@ -1,5 +1,5 @@
 	body{
-	font-family:'ＭＳ Ｐゴシック','MS PGothic','ヒラギノ角ゴシック','Hiragino Sans',sans-serif;
+	font-family:Yu Gothic UI,'ヒラギノ角ゴシック','Hiragino Sans',sans-serif;
 	height:100%;
 	line-height:1.5;
 	margin:0;
@@ -74,6 +74,7 @@ div#maincolor{
 div#main{
 	padding-top:3%;
 	padding-left:11%;
+	padding-bottom:1%;
 	width:50%;
 	float:left;
 }
@@ -117,7 +118,7 @@ div#facebook p{
 div#banner2{
 width: 95%;
 display: block;
-margin:30px 0;
+margin:30px 0px;
 padding:2%;
 background-color:#000033;
 overflow: auto;	
@@ -126,8 +127,8 @@ div#banner2 p{
 	color:#c5a05a;
 	float:right;
 	clear: both;
-
-}
+	padding-right:10%;
+}	
 div#banner2 img{
 text-align:left;
 float:left;
@@ -135,31 +136,152 @@ margin: 0 5px 0 0;
 }
 div#cover{
 	background-color:#ffffff;
-	padding-top:1%;
+	padding-top:2%;
 	margin-left:11%;
 	width:48%;
 	height:auto;
 	float:left;
 }
-
 div#title{
-	padding-top:2%;
+	margin-top:1%;
 	margin-left:1%;
+}
+div#title ul{
+	margin-top:-2%;
+}
+div#purpose{
+	margin-top:5%;
+	margin-left:1%;
+}
+div#purpose img{
+	margin-top:3%;
+
 }
 
 div#flow{
-	padding-left:5%;
+	margin-left:8%;
+	margin-top:8%;
 }
 div#ja{
 	display: inline-block;
-	list-style-type: none;
+	padding-top:-15%;
+}
+div#ja p{
+	margin-left:25%;
+	text-align: center;
+	padding:1%;
+    color: #ffffff;
+    background: #a9a9a9;
+}
+div#ja ul{
+	border-right:2px solid #000;
+	margin-right:-20%;
+}
+div#ja ul li{
+	list-style-type:none;
+	text-align: center;
+	padding-top:15%;
+	padding-bottom:15%;
+
+}
+div#ja img{
+	padding-left:35%;
 }
 div#sa{
 	display: inline-block;
-	padding-left:5%;
-	list-style-type: none;
+}
+div#sa p{
+	margin-left:35%;
+	text-align: center;
+	padding:1%;
+    color: #ffffff;
+    background: #a9a9a9;
+}
+div#sa ul{
+	border-right:2px solid #000;
+	margin-right:-10%;
+}
+div#sa ul li{
+	list-style-type:none;
+	text-align: center;
+	padding-top:5%;
+	padding-bottom:5%;
+}
+div#sa img{
+	padding-left:35%;
 }
 div#sp{
 	display: inline-block;
 	list-style-type: none;
 }
+div#sp p{
+	margin-left:35%;
+	text-align: center;
+	padding:1%;
+    color: #ffffff;
+    background: #a9a9a9;
+}
+div#sp ul li{
+	list-style-type:none;
+	text-align: center;
+	padding-top:10%;
+	padding-bottom:10%;
+}
+div#sp img{
+	padding-left:35%;
+}
+
+div#footer{
+	padding-top:2%;
+	padding-bottom:3%;
+    background-color:#000033;	
+}
+div#imageja{
+	display: inline-block;
+	padding-left:5%;
+	position:relative;
+}
+
+div#imageja img{
+	margin-top:10%;
+}
+div#imageja p{
+	position: absolute;
+	color: #ffffff;
+	top:2%;
+	left:43%;
+	font-size: 24px;
+}
+div#imagesa{
+	padding-left:6%;
+	display: inline-block;
+	padding-left:1%;
+	position:relative;
+}
+div#imagesa img{
+	margin-top:10%;
+}
+div#imagesa p{
+	position: absolute;
+	color: #ffffff;
+	top:2%;
+	left:35%;
+	font-size: 24px;
+}
+div#imagesp{
+	display: inline-block;
+	padding-left:1%;
+	position:relative;
+}
+div#imagesp img{
+	margin-top:10%;
+}
+div#imagesp p{
+	position: absolute;
+	color: #ffffff;
+	top:2%;
+	left:35%;
+	font-size: 24px;
+}
+
+
