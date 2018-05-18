@@ -165,32 +165,34 @@ div#flow{
 	margin-top:8%;
 }
 div#ja{
-	 float:left;
+	float:left;
     list-style-type: none;
     text-align: center;
     width:25%;
+border-right:2px solid #000;
 }
 div#ja p{
 	text-align: center;
 	padding:1% 5%;
     color: #ffffff;
     background: #a9a9a9;
-    display:inline-block;
 }
 div#ja ul{
-	border-right:2px solid #000;
+	
     margin-right:2%;
     padding-left:0;
     padding-bottom: 45%;
+text-align: center;
 }
 div#ja ul li{
 	list-style-type:none;
-    text-align: center;
     padding-top:10%;
     padding-bottom:10%;
+margin-top:35%;
+margin-bottom:15%;
 }
 div#ja img{
-	margin-left:5%;
+	margin-left:20%;
 }
 div#sa{
 	float:left;
@@ -200,10 +202,10 @@ div#sa{
 }
 div#sa p{
 	text-align: center;
-    padding:1% 5%;
-    color: #ffffff;
-    background: #a9a9a9;
-    display: inline-block;
+	padding:1% 5%;
+    color: #ffffff;
+    background: #a9a9a9;
+
 }
 div#sa ul{
 	 border-right:2px solid #000;
@@ -227,10 +229,9 @@ div#sp{
 }
 div#sp p{
 	text-align: center;
-    padding:1% 5%;
-    color: #ffffff;
-    background: #a9a9a9;
-    display: inline-block;
+	padding:1% 5%;
+    color: #ffffff;
+    background: #a9a9a9;
 }
 div#sp ul{
     margin-left:2%;
@@ -239,8 +240,8 @@ div#sp ul{
 div#sp ul li{
 	list-style-type:none;
 	text-align: center;
-	padding-top:10%;
-	padding-bottom:10%;
+	padding-top:3%;
+	padding-bottom:3%;
 }
 div#sp img{
 	padding-left:5%;
