@@ -101,12 +101,19 @@ div#infobar p{
 	padding-top:3%;
 	padding-left:8%;
 	line-height: 1.5;
+	line-height: 0.5em;
+}
+div#infobar p br{
+	text-indent:-1em;
 }
 .m2:hover{
 	background:#26264d;
 }
 .m2 {
 	height:45px;
+}
+div#infobar img{
+	margin-top:-3%;
 }
 div#facebook{
 	margin-top:10%;	
@@ -169,13 +176,16 @@ div#ja{
     list-style-type: none;
     text-align: center;
     width:25%;
-border-right:2px solid #000;
+border-right:1px solid #000;
+	padding-right:8%;
 }
 div#ja p{
 	text-align: center;
 	padding:1% 5%;
     color: #ffffff;
     background: #a9a9a9;
+    width:50%;
+    padding-left:10%;
 }
 div#ja ul{
 	
@@ -192,13 +202,15 @@ margin-top:35%;
 margin-bottom:15%;
 }
 div#ja img{
-	margin-left:20%;
+	margin-left:18%;
 }
 div#sa{
 	float:left;
     list-style-type: none;
     text-align: center;
     width:40%;
+border-right:1px solid #000;
+padding-right:5%;
 }
 div#sa p{
 	text-align: center;
@@ -226,7 +238,9 @@ div#sp{
     list-style-type: none;
     text-align: center;
     width:25%;
+
 }
+
 div#sp p{
 	text-align: center;
 	padding:1% 5%;
