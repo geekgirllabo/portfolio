@@ -98,7 +98,7 @@ div#infobar {
 }
 div#infobar p{
 	color:#c5a05a;
-	padding-top:3%;
+	padding-top:2%;
 	padding-left:8%;
 	line-height: 1.5;
 	line-height: 0.5em;
@@ -176,16 +176,15 @@ div#ja{
     list-style-type: none;
     text-align: center;
     width:25%;
-border-right:1px solid #000;
+	border-right:1px solid #000;
 	padding-right:8%;
 }
 div#ja p{
 	text-align: center;
 	padding:1% 5%;
-    color: #ffffff;
-    background: #a9a9a9;
     width:50%;
     padding-left:10%;
+    margin-left:30%;
 }
 div#ja ul{
 	
@@ -215,9 +214,6 @@ padding-right:5%;
 div#sa p{
 	text-align: center;
 	padding:1% 5%;
-    color: #ffffff;
-    background: #a9a9a9;
-
 }
 div#sa ul{
 	 border-right:2px solid #000;
@@ -227,25 +223,21 @@ div#sa ul{
 div#sa ul li{
 	list-style-type:none;
 	text-align: center;
-	padding-top:5%;
-	padding-bottom:5%;
+	padding-top:6%;
+	padding-bottom:12%;
 }
 div#sa img{
-	margin-left:5%;
+	margin-left:45%;
 }
 div#sp{
 	 float:left;
     list-style-type: none;
     text-align: center;
     width:25%;
-
 }
-
 div#sp p{
 	text-align: center;
 	padding:1% 5%;
-    color: #ffffff;
-    background: #a9a9a9;
 }
 div#sp ul{
     margin-left:2%;
@@ -258,7 +250,7 @@ div#sp ul li{
 	padding-bottom:3%;
 }
 div#sp img{
-	padding-left:5%;
+	padding-left:14%;
 }
 
 div#footer{
@@ -316,3 +308,178 @@ div#imagesp p{
 }
 
 
+@media only screen and (max-width:1340px) {
+	div#right{
+    padding-right:3%;
+}
+div#title5 {
+	padding-left:15%;
+	width:40%;
+	text-align:center;
+}
+
+}
+
+@media only screen and (max-width:1050px) {
+div#header{
+	width:100%;
+	height:10%;
+}	
+div#glovalnav {
+	padding-left:2%;
+	width:100%;
+}
+
+div#main{
+	padding-left:8%;
+}
+div#main p{
+	font-size:18px;
+}
+
+
+div#right{
+    padding-right:2%;
+}
+div#cover{
+    margin-left:8%;
+    padding-left:2%;
+    width:46%;
+}
+
+@media only screen and (max-width:800px) {
+div#main{
+	padding-top:3%;
+	margin-left:2%;
+	padding-left:3%;
+	width:47%;
+	float:left;
+}
+div#main p{
+	margin-top:-8.5%;
+	padding-left:35%;
+	font-size:18px;
+	letter-spacing: 0.2em;
+}
+div#right{
+    padding-right:5%;
+}
+div#cover{
+    margin-left:5%;
+	padding-left:5%;
+    width:40%;
+}
+
+div#glovalnav {
+	padding-left:2%;
+	width:100%;
+}
+div#glovalnav ul li{
+	list-style:none;
+	font-size:12px;
+	text-align: center;
+}
+div#text{
+	width:98%;
+	margin-left:-8%;
+}
+div#title1{
+	margin-left:-5.5%;
+}
+div#text1{
+	margin-left:4%;
+}
+
+div#title2{
+	padding-top:2%;
+	margin-left:-7%;
+}
+div#text2{
+	margin-left:-7%;
+}
+div#title3{
+	float:left;
+	padding-top:1%;
+	margin-left:-7%;
+}
+div#text3{
+	margin-left:-7%;
+	clear:both;
+}
+div#title4{
+	float:left;
+	padding-top:1%;
+	margin-left:-7%;
+}
+div#title4img {
+	margin-top:2%;
+	margin-left:5%;
+	float:left;
+	width:40%;
+}
+div#text4{
+	margin-left:-7%;
+	clear:both;
+}
+div#curriculum ul { 
+	margin-left:-7%;
+}
+div#curriculum img{
+	width:25%;
+}
+
+@media only screen and (max-width:500px) {
+	body{
+		margin:0;
+	}
+	div#wrapper{
+	width:100%;
+	height:auto;
+	}
+	div#header{
+	position:relative;
+	width:100%;
+	height:10%;
+}
+div#header img{
+	position:absolute;
+	top:20%;
+	left:10%;
+	width:50%;
+}
+div#main{
+	padding-top:3%;
+	padding-left:11%;
+	width:50%;
+}
+div#main p{
+	margin-top:-8.5%;
+	padding-left:35%;
+	font-size:18px;
+	letter-spacing: 0.2em;
+}
+
+div#glovalnav{
+	padding-top:1%;
+	padding-bottom:3%;
+	width:80%;
+}
+div#glovalnav ul{
+	font-size:0;
+	margin-top:2%;
+	padding-left:8%;
+	width:100%;
+}
+div#glovalnav ul li{
+	list-style:none;
+	width:100%;
+	font-size:16px;
+	text-align: center;
+	border: 1px solid #c5a05a;
+}
+div#main{
+	padding-top:3%;
+	padding-left:2%;
+	width:90%;
+	float:left;
+}
