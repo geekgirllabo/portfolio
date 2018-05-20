@@ -184,11 +184,12 @@ div#ja p{
 	text-align: center;
 	padding:1% 5%;
     padding-left:1%;
-    margin-left:30%;
+    margin-left:25%;
     width:90%;
+    margin-top:5%;
 }
 div#ja ul{
-	
+	margin-top:1.5%;
     margin-right:2%;
     padding-left:0;
     padding-bottom: 45%;
@@ -202,7 +203,8 @@ margin-top:35%;
 margin-bottom:15%;
 }
 div#ja img{
-	margin-left:18%;
+	margin-left:6%;
+	padding-top:2%;
 }
 div#sa{
 	float:left;
@@ -212,16 +214,19 @@ div#sa{
 border-right:1px solid #000;
 border-left:1px solid #000;
 padding-right:5%;
-padding-top:-1%;
+margin-top:-1.5%;
 }
 div#sa p{
 	text-align: center;
 	padding:1% 5%;
+	padding-left:16%;
+	padding-top:0.5%;
 }
 div#sa ul{
 	 border-right:2px solid #000;
     margin-left:2%;
     padding-left:0;
+	padding-top:3%;
 }
 div#sa ul li{
 	list-style-type:none;
@@ -230,6 +235,7 @@ div#sa ul li{
 	padding-bottom:12%;
 }
 div#sa img{
+	margin-top:-2%;
 	margin-left:45%;
 }
 div#sp{
@@ -237,12 +243,11 @@ div#sp{
     list-style-type: none;
     text-align: center;
     width:25%;
-	padding-top:0%;
 }
 div#sp p{
 	text-align: center;
-	padding:1% 5%;
-
+	padding:1% 1%;
+	padding-left:16%;
 }
 div#sp ul{
     margin-left:2%;
@@ -267,7 +272,7 @@ div#footer{
 }
 div#imageja{
 	display: inline-block;
-	padding-left:5%;
+	padding-left:2%;
 	position:relative;
 }
 
@@ -276,9 +281,10 @@ div#imageja img{
 }
 div#imageja p{
 	position: absolute;
-	color: #ffffff;
+	color: #000033;
+	font-family: "ＭＳ Ｐ明朝","ＭＳ 明朝",serif; 
 	top:2%;
-	left:43%;
+	left:35%;
 	font-size: 24px;
 }
 img:hover {
@@ -291,7 +297,7 @@ img:hover {
 div#imagesa{
 	padding-left:6%;
 	display: inline-block;
-	padding-left:1%;
+	padding-left:0.5%;
 	position:relative;
 }
 div#imagesa img{
@@ -299,9 +305,10 @@ div#imagesa img{
 }
 div#imagesa p{
 	position: absolute;
-	color: #ffffff;
+	color: #000033;
+	font-family: "ＭＳ Ｐ明朝","ＭＳ 明朝",serif; 
 	top:2%;
-	left:35%;
+	left:30%;
 	font-size: 24px;
 }
 img:hover {
@@ -313,7 +320,7 @@ img:hover {
 }
 div#imagesp{
 	display: inline-block;
-	padding-left:1%;
+	padding-left:0.5%;
 	position:relative;
 }
 div#imagesp img{
@@ -321,9 +328,10 @@ div#imagesp img{
 }
 div#imagesp p{
 	position: absolute;
-	color: #ffffff;
+	color: #000033;
+	font-family: "ＭＳ Ｐ明朝","ＭＳ 明朝",serif; 
 	top:2%;
-	left:35%;
+	left:30%;
 	font-size: 24px;
 }
 img:hover {
