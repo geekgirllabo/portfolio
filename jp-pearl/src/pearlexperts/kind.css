@@ -269,11 +269,14 @@ div#footer{
 	padding-bottom:3%;
     background-color:#000033;
     clear:both;	
+    height:20%;
 }
 div#imageja{
 	display: inline-block;
 	padding-left:6%;
 	position:relative;
+	float:left;
+	width:30%;
 }
 
 div#imageja img{
@@ -284,7 +287,7 @@ div#imageja p{
 	color: #000033;
 	font-family: "ＭＳ Ｐ明朝","ＭＳ 明朝",serif; 
 	top:2%;
-	left:35%;
+	left:38%;
 	font-size: 24px;
 }
 img:hover {
@@ -296,9 +299,10 @@ img:hover {
 }
 div#imagesa{
 	padding-left:6%;
-	display: inline-block;
 	padding-left:0.5%;
 	position:relative;
+	width:30%;
+	float:left;
 }
 div#imagesa img{
 	margin-top:10%;
@@ -319,9 +323,11 @@ img:hover {
     zoom:1;
 }
 div#imagesp{
-	display: inline-block;
-	padding-left:0.5%;
+	padding-right:2%;
 	position:relative;
+	float:right;
+	overflow: hidden;
+	width:30%;
 }
 div#imagesp img{
 	margin-top:10%;
@@ -331,7 +337,7 @@ div#imagesp p{
 	color: #000033;
 	font-family: "ＭＳ Ｐ明朝","ＭＳ 明朝",serif; 
 	top:2%;
-	left:30%;
+	left:26%;
 	font-size: 24px;
 }
 img:hover {
@@ -349,27 +355,19 @@ img:hover {
 }
 
 div#imageja{
-	padding-left:6%;
-}
-div#imageja img{
-	width:80%;
+	padding-left:5%;
 }
 div#imagesa{
 	padding-left:1%;
-	margin-left:-3%;
+	margin-left:1%;
 }
-div#imagesa img{
-	width:80%;
-}
+
 div#imagesp{
 	float:right;
-	padding-right:-5%;
-	padding-left:3%;
-	margin-top:-24%;
+	padding-right:1%;
+	margin-top:0%;
 }
-div#imagesp img{
-	width:80%;
-}
+
 
 @media only screen and (max-width:1050px) {
 div#header{
@@ -501,7 +499,6 @@ div#sp ul li{
 	margin-bottom:2%;
 }
 div#sp img{
-	margin-left:-13%;
 	padding-top:2%;
 }
 div#footer{
@@ -509,19 +506,19 @@ div#footer{
 	padding-bottom:3%;
     clear:both;	
     height:60%;
+
 }
 
 div#imageja img{
-	margin-top:3%;
+	padding-top:5%;
 	padding-left:15%;
 }
 div#imageja p{
-	margin-top:1%;
 	margin-left:16%;
 }
 div#imagesa img{
 	padding-left:20%;
-	margin-top:3%;
+	margin-top:5%;
 }
 div#imagesa p{
 	margin-top:1%;
@@ -532,7 +529,7 @@ div#imagesp img{
 	padding-top:35%;
 }
 div#imagesp p{
-	margin-top:32%;
+	margin-top:28%;
 	margin-left:-5%;
 }
 
@@ -689,11 +686,40 @@ div#footer{
 div#imageja{
 	padding-left:20%;
 }
-div#imagesa{
-	padding-left:20%;
+div#imageja img{
+	width:150%;
 }
+div#imageja p{
+	margin-top:6%;
+	padding-left:18%;
+	width:100%;
+}
+div#imagesa{
+	clear:both;
+	padding-left:17%;
+}
+div#imagesa p{
+	padding-left:18%;
+	width:100%;
+}
+div#imagesa img{
+	width:150%;
+}
+
+
 div#imagesp{
-	padding-left:20%;
+	padding-left:50%;
+	margin-left:10%;
+	margin-top:-12%;
+	overflow: hidden;
+}
+div#imagesp p{
+	top:-20%;
+	left:25%;
+}
+div#imagesp img{
+	width:150%;
+	margin-left:-150%;
 }
 
 
@@ -908,15 +934,35 @@ div#sp img{
 div#footer{
 	background: none;
 	padding-top:2%;
-	padding-bottom:3%;
+	padding-left:5%;
+	padding-bottom:5%;
     clear:both;	
+    width:110%;
 }
 div#imageja{
-	padding-left:20%;
+	padding-left:22%;
+}
+div#imageja p{
+	top:8%;
+	left:40%;
 }
 div#imagesa{
-	padding-left:20%;
+	padding-left:19.5%;
+}
+div#imagesa p{
+	top:8%;
+	left:35%;
 }
 div#imagesp{
-	padding-left:20%;
+	padding-left:50%;
+	margin-left:10%;
+	margin-top:-12%;
+	overflow: hidden;
+}
+div#imagesp p{
+	top:-22%;
+	left:48%;
+}
+div#imagesp img{
+	margin-left:-79%;
 }
