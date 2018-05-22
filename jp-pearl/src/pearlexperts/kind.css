@@ -269,7 +269,7 @@ div#footer{
 	padding-bottom:3%;
     background-color:#000033;
     clear:both;	
-    height:20%;
+    height:23%;
 }
 div#imageja{
 	display: inline-block;
@@ -753,6 +753,11 @@ div#main p{
 	font-size:18px;
 	letter-spacing: 0.2em;
 }
+div#main img{
+	width:93%;
+	height:auto;
+	padding-left:3%;
+}
 
 div#glovalnav{
 	padding-top:1%;
@@ -801,7 +806,7 @@ div#maincolor div#cover{
 
 div#right{
 	width:300px;
-	padding-left:15%;
+	padding-left:10%;
 	padding-top:3%;
 }
 
@@ -932,7 +937,7 @@ div#sp img{
 	padding-top:2%;
 }
 div#footer{
-	background: none;
+	background-color:#000033;
 	padding-top:2%;
 	padding-left:5%;
 	padding-bottom:5%;
