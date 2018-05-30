@@ -48,9 +48,40 @@ div#info1 p{
 	text-align:center;
 }
 div#info2{
-	width:70%;
+	width:80%;
 	background-color:#ffffff;
+	margin-left:10%;
 }
 div#info2 ul{
 	list-style-type: none;
+}
+div#info2 ul li{
+	border-bottom: 1px solid gray;
+	width:95%;
+}
+div#info2 p{
+	text-align: right;
+	margin-right:3%;
+	}
+
+div#gazou{
+	width:80%;
+	margin-left:10%;
+}
+div#image1{
+	float:left;
+	width:45%;
+}
+div#image2{
+	padding-left:54%;
+	width:45%;
+}
+div#image3{
+	clear:both;
+	float:left;
+	width:45%;
+}
+div#image4{
+	padding-left:54%;
+	width:45%;
 }
