@@ -36,6 +36,7 @@ div#header ul li{
 }
 div#main{
 	background-color:#f2f2f2;
+	margin-top:-1%;
 }
 
 div#info1{
@@ -45,7 +46,9 @@ div#info1{
 	text-align:center;
 }
 div#info1 p{
+	font-size:18px;
 	text-align:center;
+	padding-top:2%;
 }
 div#info2{
 	width:80%;
@@ -70,18 +73,67 @@ div#gazou{
 }
 div#image1{
 	float:left;
-	width:45%;
+	width:48%;
 }
 div#image2{
-	padding-left:54%;
-	width:45%;
+	padding-left:53%;
+	width:48%;
 }
 div#image3{
 	clear:both;
 	float:left;
-	width:45%;
+	width:48%;
 }
 div#image4{
-	padding-left:54%;
-	width:45%;
+	padding-left:53%;
+	width:48%;
+}
+div#image5{
+	clear:both;
+	float:left;
+	width:24%;
+}
+div#image6{
+	padding-left:112%;
+	margin-top:-84%;
+	width:24%;
+}
+div#image7{
+	padding-left:220%;
+	margin-top:-84%;
+	width:24%;
+}
+div#image8{
+	
+	margin-top:-84%;
+	padding-left:320%;
+	width:24%;
+}
+div#archive{
+	clear:both;
+}
+
+
+
+
+div#footer {
+	width:120%;
+	clear:both;
+	margin-top:10%;
+	padding-top:2%;
+	padding-bottom:3%;
+	padding-left:5%;
+	background-color:#000033;
+
+}
+div#footer img{
+	width:auto;
+	height:5%;
+}
+div#address{
+	line-height: 1em;
+	font-size:12px;
+	color:#ffffff;
+	padding-top:10px;
+	background-color:#000033;
 }
