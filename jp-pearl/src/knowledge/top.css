@@ -34,9 +34,25 @@ div#header ul li{
 	margin-right:20px;
 	margin-bottom:20px;
 }
+
+div#top {
+	text-shadow: -1px -2px 3px #808080; 
+	padding:0px;
+	margin:0px;
+	
+}
+div#top p{
+	padding-top:-100%;
+	margin-top:-27%;
+	text-align:center;
+	table-layout: fixed;
+	font-size:24px;
+	color:#ffffff;
+}
+
 div#main{
 	background-color:#f2f2f2;
-	margin-top:-1%;
+	margin-top:22%;
 }
 
 div#info1{
