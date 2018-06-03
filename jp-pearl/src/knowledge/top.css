@@ -6,10 +6,7 @@
 	padding:0;
 	overflow-x: hidden;
 }
-img {
-max-width : 100% ;
-height : auto ;
-}
+
 div#wrapper{
 	max-width:1900px;
 }
@@ -246,12 +243,13 @@ div#b1 {
 	padding-left:25%;
 	margin-bottom:3%;
 }
-div#b1 img{
-	 max-width: 100%;
-  height: auto;
-}
 div#b1 p{
-	margin-left:5%;
+	margin-left:0%;
+}
+div#b1 img{
+	width:30%;
+	height:auto;
+	margin-left:25%;
 }
 div#b2{
 	float:left;
@@ -364,7 +362,7 @@ div#info2 p{
 div#archive p{
 	table-layout: fixed;
 	color:#c5a05a;
-	margin-left:5%;
+	margin-left:15%;
 	margin-top:-20%;
 	font-size:4;
 }
@@ -376,16 +374,46 @@ div#searchtext {
 }
 div#b1{
 	float:left;
-	padding-top:13%;
-	padding-left:25%;
-	margin-bottom:3%;
+	padding-top:-3%;
+	padding-left:28%;
+	margin-bottom:0%;
+}
+div#b1 img{
+	width:40%;
+	height:auto;
+	margin-left:25%;
+}
+div#b2{
+	float:left;
+	padding-top:-3%;
+	padding-left:32%;
+	margin-bottom:0%;
+}
+div#b2 img{
+	width:58%;
+	height:auto;
+	margin-left:25%;
+}
+div#b3{
+	float:left;
+	padding-top:-3%;
+	padding-left:30%;
+	margin-bottom:0%;
+}
+div#b3 img{
+	width:40%;
+	height:auto;
+	margin-left:25%;
 }
 
 
 
-
  div#footer {
-	width:100%;
+	width:100%;div#b1 img{
+	width:30%;
+	height:auto;
+	margin-left:25%;
+}
 	clear:both;
 	padding-top:-1%;
 	padding-bottom:10%;
