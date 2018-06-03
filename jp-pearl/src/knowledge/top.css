@@ -73,14 +73,17 @@ div#info2{
 }
 div#info2 ul{
 	list-style-type: none;
+	padding-top:1%;
 }
 div#info2 ul li{
 	border-bottom: 1px solid gray;
 	width:95%;
+	padding-top:0.5%;
 }
 div#info2 p{
 	text-align: right;
 	margin-right:3%;
+	padding-bottom:1%;
 	}
 
 div#gazou{
@@ -101,6 +104,7 @@ margin-left:10%;
 }
 div#image1 p{
     margin-top:32%;
+margin-left:14%;
 }
 div#image2{
     float:left;
@@ -115,6 +119,7 @@ margin-top:-19.5%;
 }
 div#image2 p{
     margin-top:32%;
+margin-left:22%;
 }
 div#image3{
     clear:both;
@@ -129,6 +134,7 @@ margin-left:10%;
 }
 div#image3 p{
     margin-top:32%;
+margin-left:10%;
 }
 div#image4{
     float:left;
@@ -143,6 +149,7 @@ margin-top:-19.5%;
 }
 div#image4 p{
     margin-top:32%;
+margin-left:28%;
 }
 div#image5{
     clear:both;
@@ -157,6 +164,7 @@ margin-left:10%;
 }
 div#image5 p{
     margin-top:65%;
+margin-left:5%;
 }
 div#image6{
     display: inline-block;
@@ -171,6 +179,7 @@ margin-top:-16.2%;
 }
 div#image6 p{
     margin-top:65%;
+margin-left:10%;
 }
 div#image7{
 
@@ -185,6 +194,7 @@ margin-top:-16.2%;
 }
 div#image7 p{
     margin-top:65%;
+margin-left:15%;
 }
 div#image8{
 display: inline-block;
@@ -199,14 +209,13 @@ margin-top:-16.2%;
 }
 div#image8 p{
     margin-top:65%;
+margin-left:32%;
 }
-
-
-
 div#archive{
 	clear:both;
 	padding:0px;
 	margin:0px;
+	padding-top:3%;
 }
 div#archive p{
 	table-layout: fixed;
@@ -220,9 +229,6 @@ div#search {
   margin: 0 auto;
   margin-right:10%;
 }
-div#search script{
-
-}
 div#searchtext {
 	margin-left:68%;
 	margin-top:-3%;
@@ -230,11 +236,35 @@ div#searchtext {
 	font-size:11px;
 }
 
-div#b1
-{
-	margin-top:20%;
-
+div#button{
+	margin-bottom:3%;
 }
+div#b1{
+	float:left;
+	padding-top:13%;
+	padding-left:25%;
+	margin-bottom:3%;
+}
+div#b1 img{
+	margin-left:25%;
+}
+div#b2{
+	float:left;
+	margin-top:13%;
+	padding-left:13%;
+}
+div#b2 img{
+	margin-left:25%;
+}
+div#b3{
+	float:right;
+	margin-top:13%;
+	padding-right:23%;
+}
+div#b3 img{
+	margin-left:30%;
+}
+
 
 div#footer {
 	width:120%;
