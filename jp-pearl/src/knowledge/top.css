@@ -6,11 +6,11 @@
 	padding:0;
 	overflow-x: hidden;
 }
-
 div#wrapper{
 	max-width:1900px;
+	width:100%;
+	height:100%;
 }
-
 div#header{
 	width:100%;
 	color:#ffffff;
@@ -35,7 +35,6 @@ div#header ul li{
 	margin-right:20px;
 	margin-bottom:20px;
 }
-
 div#top {
 	padding:0px;
 	margin:0px;
@@ -50,12 +49,10 @@ div#top p{
 	font-family:'ＭＳ 明朝', 'MS Mincho','ヒラギノ明朝 ProN','Hiragino Mincho ProN';
 	color:#ffffff;
 }
-
 div#main{
 	background-color:#f2f2f2;
 	margin-top:21%;
 }
-
 div#info1{
 	width:70%;
 	background-color:#f2f2f2;
@@ -86,137 +83,119 @@ div#info2 p{
 	margin-right:3%;
 	padding-bottom:1%;
 	}
-
 div#gazou{
-    width:80%;
-    margin-left:10%;
-    background-color:#f2f2f2;
-    padding-bottom: 10%;
+width:80%;
+margin-left:10%;
+background-color:#f2f2f2;
+padding-bottom:10%;
 }
 div#image1{
-    float:left;
-    width:49%;
-    height:25%;
-    background-image:url("../common/img/banner_10.jpg");
-    background-repeat: no-repeat;
-    background-size: 100% auto;
-    margin-bottom: 4%;
-margin-left:10%;
+float:left;
+width:49%;
+height:25%;
+background-image:url("../common/img/banner_10.jpg");
+background-repeat: no-repeat;
+background-size: 100% auto;
+margin-bottom: 4%;
 }
 div#image1 p{
-    margin-top:32%;
-margin-left:14%;
+margin-top:32%;
 }
 div#image2{
-    float:left;
-    width:49%;
-    height:25%;
-    background-image:url("../common/img/banner_02.jpg");
-    background-repeat: no-repeat;
-    background-size: 100% auto;
-    margin-bottom: 4%;
-margin-left:52.5%;
-margin-top:-19.5%;
+float:left;
+width:49%;
+height:25%;
+background-image:url("../common/img/banner_02.jpg");
+background-repeat: no-repeat;
+background-size: 100% auto;
+margin-bottom: 4%;
+padding-right:2%;
 }
 div#image2 p{
-    margin-top:32%;
-margin-left:22%;
+margin-top:32%;
 }
 div#image3{
-    clear:both;
-    float:left;
-    width:49%;
-    height:25%;
-    background-image:url("../common/img/banner_11.jpg");
-    background-repeat: no-repeat;
-    background-size: 100% auto;
-    margin-bottom: 4%;
-margin-left:10%;
+clear:both;
+float:left;
+width:49%;
+height:25%;
+background-image:url("../common/img/banner_11.jpg");
+background-repeat: no-repeat;
+background-size: 100% auto;
+margin-bottom: 4%;
 }
 div#image3 p{
-    margin-top:32%;
-margin-left:10%;
+margin-top:32%;
 }
 div#image4{
-    float:left;
-    width:49%;
-    height:25%;
-    background-image:url("../common/img/banner_04.jpg");
-    background-repeat: no-repeat;
-    background-size: 100% auto;
-    margin-bottom: 4%;
-margin-left:52.5%;
-margin-top:-19.5%;
+float:left;
+width:49%;
+height:25%;
+background-image:url("../common/img/banner_04.jpg");
+background-repeat: no-repeat;
+background-size: 100% auto;
+margin-bottom: 4%;
+padding-right:2%;
 }
 div#image4 p{
-    margin-top:32%;
-margin-left:28%;
+margin-top:32%;
 }
 div#image5{
-    clear:both;
-    display: inline-block;
-    width:24%;
-    height:25%;
-    background-image:url("../common/img/sinkoukai_image1.png");
-    background-repeat: no-repeat;
-    background-size: 100% auto;
-    margin-bottom: 4%;
-margin-left:10%;
+clear:both;
+display: inline-block;
+width:24%;
+height:25%;
+background-image:url("../common/img/sinkoukai_image1.png");
+background-repeat: no-repeat;
+background-size: 100% auto;
+margin-bottom: 4%;
 }
 div#image5 p{
-    margin-top:65%;
-margin-left:5%;
+margin-top:65%;
 }
 div#image6{
-    display: inline-block;
-    width:24%;
-    height:25%;
-    background-image:url("../common/img/banner_06.jpg");
-    background-repeat: no-repeat;
-    background-size: 100% auto;
-    margin-bottom: 4%;
-margin-left:31%;
-margin-top:-16.2%;
+display: inline-block;
+width:24%;
+height:25%;
+background-image:url("../common/img/banner_06.jpg");
+background-repeat: no-repeat;
+background-size: 100% auto;
+margin-bottom: 4%;
 }
 div#image6 p{
-    margin-top:65%;
-margin-left:10%;
+margin-top:65%;
 }
 div#image7{
-
-    width:24%;
-    height:25%;
-    background-image:url("../common/img/banner_07.jpg");
-    background-repeat: no-repeat;
-    background-size: 100% auto;
-    margin-bottom: 4%;
-margin-left:52%;
-margin-top:-16.2%;
+display: inline-block;;
+width:24%;
+height:25%;
+background-image:url("../common/img/banner_07.jpg");
+background-repeat: no-repeat;
+background-size: 100% auto;
+margin-bottom: 4%;
+padding-right:1%;
 }
 div#image7 p{
-    margin-top:65%;
-margin-left:15%;
+margin-top:65%;
 }
 div#image8{
 display: inline-block;
-    width:24%;
-    height:25%;
-    background-image:url("../common/img/banner_08.jpg");
-    background-repeat: no-repeat;
-    background-size: 100% auto;
-    margin-bottom: 4%;
-margin-left:71.5%;
-margin-top:-16.2%;
+width:24%;
+height:25%;
+background-image:url("../common/img/banner_08.jpg");
+background-repeat: no-repeat;
+background-size: 100% auto;
+margin-bottom: 4%;
+padding-right:1%;
 }
 div#image8 p{
-    margin-top:65%;
-margin-left:32%;
+margin-top:65%;
 }
 div#archive{
 	clear:both;
 	padding:0px;
 	margin:0px;
-	padding-top:3%;
+	padding-top:-15%;
 }
 div#archive p{
 	table-layout: fixed;
@@ -236,7 +215,6 @@ div#searchtext {
 	color:#ffffff;
 	font-size:11px;
 }
-
 div#b1 {
 	float:left;
 	padding-top:13%;
@@ -267,8 +245,6 @@ div#b3{
 div#b3 img{
 	margin-left:30%;
 }
-
-
 div#footer {
 	width:120%;
 	clear:both;
@@ -277,7 +253,6 @@ div#footer {
 	padding-bottom:3%;
 	padding-left:5%;
 	background-color:#000033;
-
 }
 div#footer img{
 	width:auto;
@@ -290,8 +265,6 @@ div#address{
 	padding-top:10px;
 	background-color:#000033;
 }
-
-
 @media only screen and (max-width:500px) {
 	body{
 		margin:0;
@@ -432,4 +405,5 @@ div#address{
 	padding-top:1%;
 	background-color:#000033;
 
+}
 }
