@@ -9,10 +9,11 @@
 div#wrapper{
 	max-width:1900px;
 	width:100%;
-	height:100%;
+	height:auto;
 }
 div#header{
 	width:100%;
+	height:auto;
 	color:#ffffff;
 	background-color:#000033;
 	padding-top:5px;
@@ -221,7 +222,7 @@ div#search {
   margin-right:10%;
 }
 div#searchtext {
-	margin-left:68%;
+	margin-left:65%;
 	margin-top:-3%;
 	color:#ffffff;
 	font-size:11px;
@@ -266,6 +267,7 @@ div#footer {
 	padding-bottom:3%;
 	padding-left:5%;
 	background-color:#000033;
+	overflow:hidden;
 }
 div#footer img{
 	width:auto;
@@ -279,10 +281,13 @@ div#address{
 	background-color:#000033;
 }
 @media only screen and (max-width:1340px) {
-	div#image1{
+div#gazou{
+ 	overflow:auto;
+}
+div#image1{
 	float:left;
 	width:51%;
-	height:39%;
+	height:25%;
 }
 div#image1 p{
 margin-top:40%;
@@ -290,19 +295,19 @@ margin-left:25%;
 }
 div#image2{
 	float:left;
-	width:45%;
-	height:30%;
+	width:47%;
+	height:25%;
 	margin-left:2%;
 }
 div#image2 p{
-margin-top:45%;
+margin-top:43%;
 margin-left:25%;
 }
 div#image3{
 	float:left;
 	width:51%;
-	height:39%;
-	margin-top:-35%;
+	height:25%;
+	margin-top:5%;
 }
 div#image3 p{
 margin-top:40%;
@@ -313,7 +318,7 @@ div#image4{
 	width:45%;
 	height:30%;
 	margin-left:2%;
-	margin-top:-35%;
+	margin-top:5%;
 }
 div#image4 p{
 margin-top:46%;
@@ -326,20 +331,20 @@ width:20%;
 height:50%;
 margin-bottom: 4%;
 float:left;
-margin-top:-35%;
+margin-top:5%;
 }
 div#image5 p{
 margin-top:70%;
 margin-left:20%;
 }
 div#image6{
-	display: inline-block;
+display: inline-block;
 width:20%;
 height:auto;
 margin-bottom: 4%;
 float:left;
-margin-top:-35%;
-margin-left:10%;
+margin-left:7%;
+margin-top:5%;
 }
 div#image6 p{
 margin-top:70%;
@@ -351,8 +356,8 @@ width:20%;
 height:auto;
 margin-bottom: 4%;
 float:left;
-margin-top:-35%;
-margin-left:33%;
+margin-left:7%;
+margin-top:5%;
 }
 div#image7 p{
 margin-top:70%;
@@ -364,8 +369,8 @@ width:20%;
 height:auto;
 margin-bottom: 4%;
 float:right;
-margin-top:-35%;
-margin-left:25%;
+margin-right:0%;
+margin-top:5%;
 }
 div#image8 p{
 margin-top:70%;
@@ -373,58 +378,84 @@ margin-left:30%;
 }
 div#archive{
 	clear:both;
-	padding-top:-30%;
+	margin-top:30%;
 }
-div#archive img{
-	margin-top:-40%;
-	overflow:hidden;
-}
+
 div#archive p{
-	margin-left:70%;
-	margin-top:-35%;
+	margin-left:60%;
+	margin-top:-15%;
 }
 div#search {
-  margin-top:-30%;
+  margin-top:0%;
 
 }
 div#searchtext {
-	margin-top:-29%;
-	margin-left:64%;
+	margin-top:-4%;
+	margin-left:60%;
 }
 div#b1 {
-	margin-left:-30%;
+	margin-left:-3%;
 }
 div#b2 {
-	margin-left:-4%;
+	margin-left:-3%;
 }
 div#b3 {
-	margin-left:-10%;
+	margin-left:1%;
 }
 }
 @media only screen and (max-width:1000px) {
-div#archive p{
-margin-left:50%;
-margin-top:-35%;
+div#gazou{
+	overflow:auto;
+}
+div#archive{
+	clear:both;
+	margin-top:20%;
 }
 
+div#archive p{
+	margin-left:60%;
+	margin-top:-15%;
+}
+div#search {
+  margin-top:-1%;
+  margin-left:55%;
+}
+div#searchtext {
+	margin-top:-6%;
+	margin-left:50%;
+}
 div#b1 {
-	margin-left:-30%;
+	margin-left:-7%;
 }
 div#b2 {
-	margin-left:-20%;
+	margin-left:-6%;
 }
 div#b3 {
-	margin-left:-10%;
+	margin-left:0%;
 }
 }
 @media only screen and (max-width:800px) {
 
-
+div#gazou{
+	overflow:auto;
+}
+div#archive p{
+	margin-left:50%;
+	margin-top:-15%;
+}
+div#search {
+  margin-top:-3%;
+  margin-left:55%;
+}
+div#searchtext {
+	margin-top:-8%;
+	margin-left:50%;
+}
 div#b1 {
 	margin-left:-10%;
 }
 div#b2 {
-	margin-left:-8%;
+	margin-left:-10%;
 }
 div#b3 {
 	margin-left:-1%;
@@ -508,7 +539,7 @@ margin-left:2%;
 div#image2{
 	float:left;
 	width:100%;
-	margin-top:-40%;
+	margin-top:2%;
 	margin-left:-1%;
 }
 div#image2 p{
@@ -518,7 +549,7 @@ margin-left:2%;
 div#image3{
 	float:left;
 	width:100%;
-	margin-top:-12%;
+	margin-top:2%;
 }
 div#image3 p{
 margin-top:40%;
@@ -528,50 +559,50 @@ div#image4{
 	float:left;
 	width:100%;
 	margin-top:-30%;
-	margin-left:-1%;
+	margin-top:2%;
 }
 div#image4 p{
 margin-top:44%;
 margin-left:2%;
 }
 div#image5{
-width:48%;
+width:46%;
 height:auto;
 margin-bottom: 4%;
-margin-top:-15%;
+margin-top:0%;
 }
 div#image5 p{
 margin-top:70%;
 margin-left:2%;
 }
 div#image6{
-width:49%;
+width:48%;
 height:auto;
 margin-bottom: 4%;
-margin-top:-51%;
-margin-left:52%;
+margin-top:0%;
+margin-left:4%;
 }
 div#image6 p{
 margin-top:69%;
 margin-left:2%;
 }
 div#image7{
-width:48%;
+width:46%;
 height:auto;
 margin-bottom: 4%;
-margin-top:-8%;
-margin-left:-1%;
+margin-top:2%;
+margin-left:0%;
 }
 div#image7 p{
 margin-top:70%;
 margin-left:2%;
 }
 div#image8{
-width:48%;
+width:46%;
 height:auto;
 margin-bottom: 4%;
-margin-top:-8%;
-margin-left:1%;
+margin-top:2%;
+margin-left:0%;
 }
 div#image8 p{
 margin-top:70%;
@@ -588,10 +619,11 @@ div#archive p{
 	font-size:4;
 }
 div#search{
-	margin-top:15%;
+	margin-top:13%;
+	margin-left:15%;
 }
 div#searchtext {
-	margin-top:-16%;
+	margin-top:-11%;
 	margin-left:2%;
 	color:#000000;
 	font-size:11px;
