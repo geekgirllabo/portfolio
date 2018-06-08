@@ -281,6 +281,9 @@ div#address{
 	background-color:#000033;
 }
 @media only screen and (max-width:1340px) {
+div#main{
+	margin-top:20%;
+}
 div#gazou{
  	overflow:auto;
 }
@@ -378,7 +381,7 @@ margin-left:30%;
 }
 div#archive{
 	clear:both;
-	margin-top:30%;
+	margin-top:0%;
 }
 
 div#archive p{
@@ -435,9 +438,15 @@ div#b3 {
 }
 }
 @media only screen and (max-width:800px) {
-
+div#main{
+	margin-top:17%;
+}
 div#gazou{
 	overflow:auto;
+}
+div#archive {
+	clear:both;
+	margin-top:0%;
 }
 div#archive p{
 	margin-left:50%;
@@ -615,8 +624,8 @@ div#archive p{
 	table-layout: fixed;
 	color:#c5a05a;
 	margin-left:15%;
-	margin-top:-20%;
-	font-size:4;
+	margin-top:-18%;
+	font-size:3;
 }
 div#search{
 	margin-top:13%;
