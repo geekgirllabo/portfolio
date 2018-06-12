@@ -57,7 +57,7 @@ div#main{
 div#info1{
 	width:70%;
 	background-color:#f2f2f2;
-	margin-left:10%;
+	margin-left:15%;
 	text-align:center;
 }
 div#info1 p{
@@ -87,6 +87,7 @@ div#info2 p{
 div#gazou{
 width:80%;
 margin-left:10%;
+margin-top:3%;
 background-color:#f2f2f2;
 padding-bottom:10%;
 }
@@ -637,6 +638,23 @@ div#image8 p{
 margin-top:70%;
 margin-left:2%;
 }
+
+div#archivesearch{
+	display: flex;
+    flex-direction: column;
+}
+div#archivesearch div#search1{
+	 order:1;
+}
+div#archivesearch div#archive{
+	 order:2;
+}
+div#archivesearch div#archivetext1 div#archivetext2{
+	 order:3;
+}
+
+
+
 div#archive img{
 	margin-top:5%;
 }
@@ -669,6 +687,7 @@ div#searchtext p{
 	color:#000000;
 	font-size:11px;
 }
+
 div#b1{
 	float:left;
 	margin-top:-5%;
