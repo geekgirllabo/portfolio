@@ -209,12 +209,21 @@ div#archive{
 	margin:0px;
 	margin-top:-5%;
 }
-div#archive p{
+div#archivetext1 p{
 	table-layout: fixed;
 	color:#c5a05a;
 	margin-left:68%;
 	margin-top:-17%;
+	font-size:30px;
 }
+div#archivetext2 p{
+	table-layout: fixed;
+	color:#c5a05a;
+	margin-left:68%;
+	margin-top:-2%;
+	font-size:10px;
+}
+
 div#search {
 	width: 100%;
   max-width: 300px;
@@ -222,7 +231,7 @@ div#search {
   margin-right:10%;
 }
 div#searchtext {
-	margin-left:65%;
+	margin-left:68%;
 	margin-top:-3%;
 	color:#ffffff;
 	font-size:11px;
@@ -383,10 +392,13 @@ div#archive{
 	clear:both;
 	margin-top:0%;
 }
-
-div#archive p{
+div#archivetext1 p{
 	margin-left:60%;
 	margin-top:-15%;
+}
+div#archivetext2 p{
+	margin-left:60%;
+	margin-top:-1%;
 }
 div#search {
   margin-top:0%;
@@ -415,16 +427,20 @@ div#archive{
 	margin-top:20%;
 }
 
-div#archive p{
-	margin-left:60%;
+div#archivetext1 p{
+	margin-left:50%;
 	margin-top:-15%;
+}
+div#archivetext2 p{
+	margin-left:50%;
+	margin-top:-2%;
 }
 div#search {
   margin-top:-1%;
   margin-left:55%;
 }
 div#searchtext {
-	margin-top:-6%;
+	margin-top:-5%;
 	margin-left:50%;
 }
 div#b1 {
@@ -448,16 +464,20 @@ div#archive {
 	clear:both;
 	margin-top:0%;
 }
-div#archive p{
+div#archivetext1 p{
 	margin-left:50%;
 	margin-top:-15%;
+}
+div#archivetext2 p{
+	margin-left:50%;
+	margin-top:-4%;
 }
 div#search {
   margin-top:-3%;
   margin-left:55%;
 }
 div#searchtext {
-	margin-top:-8%;
+	margin-top:-6%;
 	margin-left:50%;
 }
 div#b1 {
@@ -620,18 +640,30 @@ margin-left:2%;
 div#archive img{
 	margin-top:5%;
 }
-div#archive p{
+div#archivetext1 p{
 	table-layout: fixed;
 	color:#c5a05a;
-	margin-left:15%;
+	margin-left:40%;
 	margin-top:-18%;
-	font-size:3;
+	font-size:18px;
+}
+div#archivetext2 p{
+	table-layout: fixed;
+	color:#c5a05a;
+	margin-left:40%;
+	margin-top:-5%;
+	font-size:8px;
 }
 div#search{
 	margin-top:13%;
 	margin-left:15%;
 }
 div#searchtext {
+	margin-top:-10%;
+	margin-left:3%;
+	color:#000000;
+}
+div#searchtext p{
 	margin-top:-11%;
 	margin-left:2%;
 	color:#000000;
