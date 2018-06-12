@@ -645,41 +645,42 @@ div#archivesearch{
 }
 div#archivesearch div#search1{
 	 order:1;
+	margin-left:-40%;
 }
 div#archivesearch div#archive{
 	 order:2;
 }
-div#archivesearch div#archivetext1 div#archivetext2{
-	 order:3;
-}
+
 
 
 
 div#archive img{
-	margin-top:5%;
+	margin-top:17%;
+	margin-bottom:5%;
+	width:100%;
 }
 div#archivetext1 p{
 	table-layout: fixed;
 	color:#c5a05a;
-	margin-left:40%;
+	margin-left:43%;
 	margin-top:-18%;
 	font-size:18px;
 }
 div#archivetext2 p{
 	table-layout: fixed;
 	color:#c5a05a;
-	margin-left:40%;
+	margin-left:43%;
 	margin-top:-5%;
 	font-size:8px;
 }
 div#search{
-	margin-top:13%;
-	margin-left:15%;
+	margin-top:3%;
+	margin-left:-130%;
+	width:200%;
 }
 div#searchtext {
 	margin-top:-10%;
-	margin-left:3%;
-	color:#000000;
+	margin-left:-160%;
 }
 div#searchtext p{
 	margin-top:-11%;
@@ -702,7 +703,7 @@ div#b1 img{
 div#b2{
 	float:left;
 	margin-top:-2%;
-	padding-left:43%;
+	padding-left:44%;
 	margin-bottom:0%;
 }
 div#b2 img{
