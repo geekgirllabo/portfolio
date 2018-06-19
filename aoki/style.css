@@ -336,13 +336,9 @@ ul#buttom1{
 	margin-top: 200px;
 	padding-left: 0%;
 	width: 100%;
-	position: relative;
-	left: 50%;
 }
 ul#buttom1 li{
 	float: left;
-	position: relative;
-	left: -42%;
 }
 ul#buttom1 li a{
 	display:block;
@@ -392,15 +388,11 @@ ul#buttom2{
 	clear: both;
 	list-style: none;
 	padding-left: 0%;
-	position: relative;
-	left: 50%;
 }
 ul#buttom2 li{
 	float: left;
 	margin-top: 100px;
 	margin-bottom: 15%;
-	position: relative;
-	left: -42%;
 }
 ul#buttom2 li a{
 	display:block;
