@@ -2,7 +2,7 @@ body{
 	margin: 0px;
 	background-image: url("img/gamen.gif");
 	background-repeat: repeat;
-	font-family: "HG明朝E",sans-serif;
+	font-family: "HG明朝E",Georgia, "游明朝体", "YuMincho", "游明朝", "Yu Mincho", "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN W3", HiraMinProN-W3, "ヒラギノ明朝 ProN", "Hiragino Mincho ProN", "ヒラギノ明朝 Pro", "Hiragino Mincho Pro", "HGS明朝E", "ＭＳ Ｐ明朝", "MS PMincho",serif;
 }
 div#wrapper{
 	max-width: 2000px;
@@ -87,7 +87,6 @@ ul#globalnav{
 	margin-left: 6%;
 	width: 88%;
 	padding: 0px;
-	
 	margin-top: 16px;
 	display: flex;
 	font-size: 0.93vw;
@@ -99,13 +98,13 @@ ul#globalnav li{
 }
 ul#globalnav li a{
 	display: block;
-	padding: 0 0 16px;
+	padding: 6px 0px 6px;
 	position: relative;
 	text-decoration: none;
 }
 ul#globalnav li a::before,
 ul#globalnav li a::after{
-	border-bottom: solid 2px #e9e2b6;
+	border-bottom: solid 2.5px #e9e2b6;
  	bottom: 0;
  	content: "";
  	display: block;
@@ -362,31 +361,31 @@ li.buttom1-img a{
 li.buttom1-img a:hover{
 	height: 251px;
 	width: 251px;
-	background-position: -10px -270px;
+	background-position: -10px -300px;
 }
 li.buttom2-img{
 	margin-right: 14%;
 }
 li.buttom2-img a{
-	height: 251px;
-	width: 251px;
-	background-position: -271px -10px;
+	height: 252px;
+	width: 252px;
+	background-position: -300px -10px;
 }
 li.buttom2-img a:hover{
-	height: 251px;
-	width: 251px;
-	background-position: -271px -270.5px;
+	height: 252px;
+	width: 252px;
+	background-position: -300px -300px;
 }
 
 li.buttom3-img a{
 	height: 250px;
-	width: 249px;
-	background-position: -532px -10px;
+	width: 250px;
+	background-position: -600px -10px;
 }
 li.buttom3-img a:hover{
 	height: 250px;
-	width: 249px;
-	background-position: -532px -271.61245px;
+	width: 250px;
+	background-position: -600px -300px;
 }
 ul#buttom2{
 	width: 100%;
@@ -410,37 +409,37 @@ li.buttom4-img{
 	margin-right: 14%;
 }
 li.buttom4-img a{
-	height: 251px;
-	width: 251px;
-	background-position: -791px -11px;
+	height: 252px;
+	width: 252px;
+	background-position: -900px -10px;
 }
 li.buttom4-img a:hover{
-	height: 251px;
-	width: 251px;
-	background-position: -791px -274.5px;
+	height: 252px;
+	width: 252px;
+	background-position: -900px -300px;
 }
 li.buttom5-img{
 	margin-right: 14%;
 }
 li.buttom5-img a{
-	height: 250px;
-	width: 250px;
-	background-position: -1050.6px -11px;
+	height: 252px;
+	width: 252px;
+	background-position: -1200px -10px;
 }
 li.buttom5-img a:hover{
-	height: 250px;
-	width: 250px;
-	background-position: -1050.6px -272px;
+	height: 252px;
+	width: 252px;
+	background-position: -1200px -300px;
 }
 li.buttom6-img a{
 	height: 253px;
 	width: 251px;
-	background-position: -1310px -11px;
+	background-position: -1500px -10px;
 }
 li.buttom6-img a:hover{
 	height: 253px;
 	width: 251px;
-	background-position: -1310px -272px;
+	background-position: -1500px -300px;
 }
 .news-title{
 	text-align: center;
