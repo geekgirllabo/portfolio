@@ -200,7 +200,7 @@ div#content{
 	padding-bottom: 10%;
 }
 div#banner1{
-	width: 100%;
+	width: 88%;
 	margin-left: 6%;
 	margin-right: 6%;
 	margin-top: 250px;
@@ -233,7 +233,7 @@ div#banner1-right{
 }
 
 div#banner2{
-	width: 100%;
+	width: 88%;
 	margin-top:200px;
 	display: inline-block;
 	margin-left: 6%;
@@ -265,7 +265,7 @@ div#banner2-left{
 	width: 100%;
 }
 div#banner3{
-	width: 100%;
+	width: 88%;
 	margin-top: 200px;
 	display: inline-block;
 	margin-left: 6%;
@@ -297,7 +297,7 @@ div#banner3-right{
 	margin-top: 70px;
 }
 div#banner4{
-	width: 100%;
+	width: 88%;
 	margin-top:200px;
 	display: inline-block;
 	margin-left: 6%;
@@ -327,6 +327,10 @@ div#banner4-left{
 	width: 100%;
 }
 div#buttom{
+	width: 88%;
+	margin-left: 6%;
+	margin-right: 6%;
+	clear: both;
 	position: relative;
 	overflow: hidden;
 }
@@ -339,6 +343,7 @@ ul#buttom1{
 }
 ul#buttom1 li{
 	float: left;
+	width: 24%;
 }
 ul#buttom1 li a{
 	display:block;
@@ -393,6 +398,7 @@ ul#buttom2 li{
 	float: left;
 	margin-top: 100px;
 	margin-bottom: 15%;
+	width: 24%;
 }
 ul#buttom2 li a{
 	display:block;
