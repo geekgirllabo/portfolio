@@ -12,7 +12,7 @@ div#wrapper{
 }
 div#header{
 	width: 100%;
-	height: 200px;
+	height: 216px;
 	background-color: #f4f2e5;
 	position: fixed;
 	top: 0;
@@ -88,6 +88,7 @@ ul#globalnav{
 	width: 88%;
 	padding: 0px;
 	margin-top: 16px;
+	margin-bottom: 0px;
 	display: flex;
 	font-size: 0.93vw;
 }
@@ -98,7 +99,7 @@ ul#globalnav li{
 }
 ul#globalnav li a{
 	display: block;
-	padding: 6px 0px 6px;
+	padding: 0px 0px 16px;
 	position: relative;
 	text-decoration: none;
 }
@@ -169,7 +170,7 @@ ul#globalnav li a:hover::after{
 }
 .mainvisual img{
 	width: 100%;
-	margin-top: 205px;
+	margin-top: 216px;
 }
 .mainvisual img{
 	position: relative;
@@ -330,7 +331,6 @@ div#buttom{
 	margin-left: 6%;
 	margin-right: 6%;
 	clear: both;
-	position: relative;
 	overflow: hidden;
 }
 ul#buttom1{
@@ -347,45 +347,49 @@ ul#buttom1 li{
 ul#buttom1 li a{
 	display:block;
 	text-indent:-9999px;
-	background-image: url("img/buttom.jpg");
-	background-repeat: no-repeat;
 }
 li.buttom1-img{
 	margin-right: 14%;
 }
 li.buttom1-img a{
-	height: 251px;
-	width: 251px;
-	background-position: -10px -10px;
+	height: 250px;
+	width: 250px;
+	background-image: url("img/buttom1.png");
+	background-repeat: no-repeat;
 }
 li.buttom1-img a:hover{
-	height: 251px;
-	width: 251px;
-	background-position: -10px -300px;
+	height: 250px;
+	width: 250px;
+	background-image: url("img/buttom1over.png");
+	background-repeat: no-repeat;
 }
 li.buttom2-img{
 	margin-right: 14%;
 }
 li.buttom2-img a{
-	height: 252px;
-	width: 252px;
-	background-position: -300px -10px;
+	height: 250px;
+	width: 250px;
+	background-image: url("img/buttom2.png");
+	background-repeat: no-repeat;
 }
 li.buttom2-img a:hover{
-	height: 252px;
-	width: 252px;
-	background-position: -300px -300px;
+	height: 250px;
+	width: 250px;
+	background-image: url("img/buttom2over.png");
+	background-repeat: no-repeat;
 }
 
 li.buttom3-img a{
 	height: 250px;
 	width: 250px;
-	background-position: -600px -10px;
+	background-image: url("img/buttom3.png");
+	background-repeat: no-repeat;
 }
 li.buttom3-img a:hover{
 	height: 250px;
 	width: 250px;
-	background-position: -600px -300px;
+	background-image: url("img/buttom3over.png");
+	background-repeat: no-repeat;
 }
 ul#buttom2{
 	width: 100%;
@@ -402,44 +406,48 @@ ul#buttom2 li{
 ul#buttom2 li a{
 	display:block;
 	text-indent:-9999px;
-	background-image: url("img/buttom.jpg");
-	background-repeat: no-repeat;
 }
 li.buttom4-img{
 	margin-right: 14%;
 }
 li.buttom4-img a{
-	height: 252px;
-	width: 252px;
-	background-position: -900px -10px;
+	height: 250px;
+	width: 250px;
+	background-image: url("img/buttom4.png");
+	background-repeat: no-repeat;
 }
 li.buttom4-img a:hover{
-	height: 252px;
-	width: 252px;
-	background-position: -900px -300px;
+	height: 250px;
+	width: 250px;
+	background-image: url("img/buttom4over.png");
+	background-repeat: no-repeat;
 }
 li.buttom5-img{
 	margin-right: 14%;
 }
 li.buttom5-img a{
-	height: 252px;
-	width: 252px;
-	background-position: -1200px -10px;
+	height: 250px;
+	width: 250px;
+	background-image: url("img/buttom5.png");
+	background-repeat: no-repeat;
 }
 li.buttom5-img a:hover{
-	height: 252px;
-	width: 252px;
-	background-position: -1200px -300px;
+	height: 250px;
+	width: 250px;
+	background-image: url("img/buttom5over.png");
+	background-repeat: no-repeat;
 }
 li.buttom6-img a{
-	height: 253px;
-	width: 251px;
-	background-position: -1500px -10px;
+	height: 250px;
+	width: 250px;
+	background-image: url("img/buttom6.png");
+	background-repeat: no-repeat;
 }
 li.buttom6-img a:hover{
-	height: 253px;
-	width: 251px;
-	background-position: -1500px -300px;
+	height: 250px;
+	width: 250px;
+	background-image: url("img/buttom6over.png");
+	background-repeat: no-repeat;
 }
 .news-title{
 	text-align: center;
