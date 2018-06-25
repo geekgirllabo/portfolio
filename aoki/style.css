@@ -176,9 +176,9 @@ ul#globalnav li a:hover::after{
 	position: relative;
 }
 .maintext{
-	position: absolute;
-	left: 6%;
-	top: 47%;
+	margin-top: -28%;
+	margin-left: 5%;
+	width: 20%;
 	background-color: #FFFFFF;
 	filter:alpha(opacity=70);
 	-moz-opacity:0.7;
@@ -188,7 +188,6 @@ ul#globalnav li a:hover::after{
 	padding-top: 1.5%;
 	padding-bottom: 1.5%;
 	line-height: 250%;
-	margin-top: 0px;
 	margin-bottom: 0px;
 	font-size: 1vw;
 }
@@ -338,17 +337,18 @@ ul#buttom1{
 	margin-top: 200px;
 	padding-left: 0%;
 	width: 100%;
+	text-align: center;
 }
 ul#buttom1 li{
-	float: left;
-	width: 24%;
+	display: inline-block;
+	width: 20.5%;
+	padding: 0 6%;
 }
 ul#buttom1 li a{
 	display:block;
 	text-indent:-9999px;
 }
 li.buttom1-img{
-	margin-right: 14%;
 }
 li.buttom1-img a{
 	height: 250px;
@@ -363,7 +363,6 @@ li.buttom1-img a:hover{
 	background-repeat: no-repeat;
 }
 li.buttom2-img{
-	margin-right: 14%;
 }
 li.buttom2-img a{
 	height: 250px;
@@ -391,23 +390,24 @@ li.buttom3-img a:hover{
 	background-repeat: no-repeat;
 }
 ul#buttom2{
-	width: 100%;
 	clear: both;
 	list-style: none;
+	margin-top: 100px;
+	margin-bottom: 200px;
 	padding-left: 0%;
+	width: 100%;
+	text-align: center;
 }
 ul#buttom2 li{
-	float: left;
-	margin-top: 100px;
-	margin-bottom: 15%;
-	width: 24%;
+	display: inline-block;
+	width: 20.5%;
+	padding: 0 6%;
 }
 ul#buttom2 li a{
 	display:block;
 	text-indent:-9999px;
 }
 li.buttom4-img{
-	margin-right: 14%;
 }
 li.buttom4-img a{
 	height: 250px;
@@ -422,7 +422,6 @@ li.buttom4-img a:hover{
 	background-repeat: no-repeat;
 }
 li.buttom5-img{
-	margin-right: 14%;
 }
 li.buttom5-img a{
 	height: 250px;
@@ -647,6 +646,7 @@ div#footer-right3{
 div#wrapper{
 	max-width: 1300px;
 	min-width: 701px;
+	width: 100%;
 }
 ul#globalnav{
 	font-size: 0.92vw;
@@ -659,20 +659,32 @@ ul#globalnav{
 	padding-bottom: 3%;
 }
 div#banner1-right{
-	clear: both;
+	float: none;
 }
 .banner1-img{
-	clear: both;
+	float: none;
 	text-align: center;
 }
 div#banner2-left{
-	clear: both;
+	float: none;
+}
+.banner2-img{
+	float: none;
+	text-align: center;
 }
 div#banner3-right{
-	clear: both;
+	float: none;
+}
+.banner3-img{
+	float: none;
+	text-align: center;
 }
 div#banner4-left{
-	clear: both;
+	float: none;
+}
+.banner4-img{
+	float: none;
+	text-align: center;
 }
 
 
@@ -706,36 +718,51 @@ ul#globalnav li{
 	padding-right: 6%;
 	padding-top: 0px;
 	padding-bottom: 0px;
-	
+	pointer-events: none;
 }
 .mainvisual img{
 	width: 100%;
 	margin-top: 39%;
 }
+ul#buttom1{
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+}
 ul#buttom1 li{
-	clear: both;
+	display: block;
 	margin-right: 0px;
 	margin-bottom: 10%;
 }
+ul#buttom2{
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0px;
+}
 ul#buttom2 li{
-	clear: both;
+	display: block;
 	margin-top: 0px;
 	margin-bottom: 10%;
 	margin-right: 0px;
 }
 div#news1-content{
-	width: 60%;
-	margin-right: 0px;
+	float: none;
+	width: 65%;
+	margin-left: auto;
+	margin-right: auto;
 }
 div#news2-content{
-	clear: both;
-	width: 60%;
-	margin-right: 0px;
+	float: none;
+	width: 65%;
+	margin-left: auto;
+	margin-right: auto;
 }
 div#news3-content{
-	clear: both;
-	width: 60%;
-	margin-right: 0px;
+	float: none;
+	width: 65%;
+	margin-left: auto;
+	margin-right: auto;
 }
 div#footer{
 	padding-bottom: 35%;
@@ -815,14 +842,10 @@ ul#globalnav li{
 	margin-top: 49%;
 }
 .maintext{
-	position: absolute;
-	left: 25%;
-	top:52%;
-	margin-top:20px;
-	padding-bottom: 5%;
+	display: none;
 }
 div#banner1{
-	margin-top: 100%;
+	margin-top: 250px;
 }
 .banner1-img{
 	clear: both;
@@ -909,21 +932,18 @@ div#banner4-left{
 .banner4-text br{
 	display: none;
 }
-ul#buttom1 li{
-	clear: both;
-	margin-right: 0px;
-	left: -38%;
-	margin-bottom: 10%;
+ul#buttom1{
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
 }
-ul#buttom2 li{
-	clear: both;
-	margin-top: 0px;
-	margin-bottom: 10%;
-	margin-right: 0px;
-	left: -38%;
+ul#buttom2{
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
 }
-.news-title{
-	margin-top: 57%;
+.buttom6-img{
+	margin-bottom: 200px;
 }
 div#news-content{
 	position: static;
