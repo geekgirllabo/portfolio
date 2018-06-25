@@ -176,7 +176,6 @@ ul#globalnav li a:hover::after{
 	position: relative;
 }
 .maintext{
-	
 	position: absolute;
 	left: 6%;
 	top: 47%;
@@ -643,6 +642,107 @@ div#footer-right3{
 	margin-top: 0px;
 }
 
+@media only screen and (max-width: 1200px){
+
+div#wrapper{
+	max-width: 1300px;
+	min-width: 701px;
+}
+ul#globalnav{
+	font-size: 0.92vw;
+}
+.maintext{
+	position: absolute;
+	left: 6%;
+	top:40%;
+	margin-top:20px;
+	padding-bottom: 3%;
+}
+div#banner1-right{
+	clear: both;
+}
+.banner1-img{
+	clear: both;
+	text-align: center;
+}
+div#banner2-left{
+	clear: both;
+}
+div#banner3-right{
+	clear: both;
+}
+div#banner4-left{
+	clear: both;
+}
+
+
+}
+
+@media only screen and (max-width: 700px){
+
+div#wrapper{
+	max-width: 800px;
+	min-width: 500px;
+	width: 100%;
+}
+div#header{
+	height: 35%;
+	width: 100%;
+
+}
+div#logo{
+	position:absolute;
+	left: 6%;
+	transform: translate(0%,0%);
+	margin-top: 6%;
+}
+ul#globalnav li{
+	-webkit-writing-mode: vertical-rl;
+	-ms-writing-mode: tb-rl;
+	writing-mode: vertical-rl;
+	text-align: left;
+	width: 50%;
+	padding-left: 0px;
+	padding-right: 6%;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	
+}
+.mainvisual img{
+	width: 100%;
+	margin-top: 39%;
+}
+ul#buttom1 li{
+	clear: both;
+	margin-right: 0px;
+	margin-bottom: 10%;
+}
+ul#buttom2 li{
+	clear: both;
+	margin-top: 0px;
+	margin-bottom: 10%;
+	margin-right: 0px;
+}
+div#news1-content{
+	width: 60%;
+	margin-right: 0px;
+}
+div#news2-content{
+	clear: both;
+	width: 60%;
+	margin-right: 0px;
+}
+div#news3-content{
+	clear: both;
+	width: 60%;
+	margin-right: 0px;
+}
+div#footer{
+	padding-bottom: 35%;
+}
+
+}
+
 @media only screen and (max-width: 479px){
 body{
 	margin: 0px;
@@ -653,7 +753,7 @@ div#wrapper{
 	width: 100%;
 }
 div#header{
-	height: 30%;
+	height: 27%;
 	width: 100%;
 
 }
@@ -698,7 +798,6 @@ div#letter-buttom{
 	font-size: 4px;
 }
 ul#globalnav{
-	margin-top: 10px;
 }
 ul#globalnav li{
 	-webkit-writing-mode: vertical-rl;
@@ -706,8 +805,14 @@ ul#globalnav li{
 	writing-mode: vertical-rl;
 	text-align: left;
 	width: 50%;
-	padding: 0px;
+	padding-top: 0px;
+	padding-left: 0px;
 	padding-right: 5%;
+	padding-bottom: 0px;
+}
+.mainvisual img{
+	width: 100%;
+	margin-top: 49%;
 }
 .maintext{
 	position: absolute;
@@ -860,10 +965,10 @@ div#footer-right1{
 div#footer-right2{
 	margin-top: 10%;
 	margin-right: 14.6%;
-	margin-left: 5%;
+	margin-left: 7%;
 }
 div#footer-right3{
-	margin-top: 0px;
-	margin-left: 5%;
+	margin-top: 10%;
+	margin-left: -5%;
 }
 }
