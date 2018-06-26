@@ -201,7 +201,7 @@ div#banner1{
 	width: 88%;
 	margin-left: 6%;
 	margin-right: 6%;
-	margin-top: 250px;
+	margin-top: 400px;
 	display: inline-block;
 }
 .banner1-img{
@@ -835,6 +835,7 @@ div#letter-buttom{
 	width: 140px;
 	height: 10px;
 	margin-bottom: 10px;
+	padding-right: 3%;
 }
 .letter-img img{
 	width:15px;
@@ -865,7 +866,7 @@ ul#globalnav li{
 	display: none;
 }
 div#banner1{
-	margin-top: 250px;
+	margin-top: 40%;
 }
 .banner1-img{
 	clear: both;
