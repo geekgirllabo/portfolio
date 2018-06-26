@@ -652,11 +652,20 @@ ul#globalnav{
 	font-size: 0.92vw;
 }
 .maintext{
-	position: absolute;
-	left: 6%;
-	top:40%;
-	margin-top:20px;
-	padding-bottom: 3%;
+	margin-top: -28%;
+	margin-left: 5%;
+	width: 20%;
+	background-color: #FFFFFF;
+	filter:alpha(opacity=70);
+	-moz-opacity:0.7;
+	opacity: 0.7;
+	padding-left: 2.6%;
+	padding-right: 5%;
+	padding-top: 1.5%;
+	padding-bottom: 1.5%;
+	line-height: 250%;
+	margin-bottom: 0px;
+	font-size: 1vw;
 }
 div#banner1-right{
 	float: none;
@@ -686,11 +695,20 @@ div#banner4-left{
 	float: none;
 	text-align: center;
 }
-
+ul#buttom1 li{
+	display: inline-block;
+	width: 20.5%;
+	padding: 0 5%;
+}
+ul#buttom2 li{
+	display: inline-block;
+	width: 20.5%;
+	padding: 0 5%;
+}
 
 }
 
-@media only screen and (max-width: 700px){
+@media only screen and (max-width: 800px){
 
 div#wrapper{
 	max-width: 800px;
@@ -698,7 +716,7 @@ div#wrapper{
 	width: 100%;
 }
 div#header{
-	height: 35%;
+	height: 26%;
 	width: 100%;
 
 }
@@ -722,12 +740,13 @@ ul#globalnav li{
 }
 .mainvisual img{
 	width: 100%;
-	margin-top: 39%;
+	margin-top: 36%;
 }
 ul#buttom1{
 	width: 50%;
 	margin-left: auto;
 	margin-right: auto;
+	padding-right: 15%;
 }
 ul#buttom1 li{
 	display: block;
@@ -739,6 +758,7 @@ ul#buttom2{
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 0px;
+	padding-right: 15%;
 }
 ul#buttom2 li{
 	display: block;
@@ -780,7 +800,7 @@ div#wrapper{
 	width: 100%;
 }
 div#header{
-	height: 27%;
+	height: 30%;
 	width: 100%;
 
 }
@@ -839,7 +859,7 @@ ul#globalnav li{
 }
 .mainvisual img{
 	width: 100%;
-	margin-top: 49%;
+	margin-top: 50%;
 }
 .maintext{
 	display: none;
@@ -936,6 +956,7 @@ ul#buttom1{
 	width: 80%;
 	margin-left: auto;
 	margin-right: auto;
+
 }
 ul#buttom2{
 	width: 80%;
