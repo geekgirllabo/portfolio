@@ -82,6 +82,9 @@ hr.sen1{
 	background-color: #e9e2b6;
 	border: 0;
 }
+div#ham-menu{
+	display: none;
+}
 ul#globalnav{
 	margin-right: 6%;
 	margin-left: 6%;
@@ -648,6 +651,9 @@ div#wrapper{
 	min-width: 701px;
 	width: 100%;
 }
+div#ham-menu{
+	display: none;
+}
 ul#globalnav{
 	font-size: 0.92vw;
 }
@@ -726,6 +732,9 @@ div#logo{
 	transform: translate(0%,0%);
 	margin-top: 6%;
 }
+div#ham-menu{
+	display: none;
+}
 ul#globalnav li{
 	-webkit-writing-mode: vertical-rl;
 	-ms-writing-mode: tb-rl;
@@ -746,7 +755,6 @@ ul#buttom1{
 	width: 50%;
 	margin-left: auto;
 	margin-right: auto;
-	padding-right: 15%;
 }
 ul#buttom1 li{
 	display: block;
@@ -758,7 +766,6 @@ ul#buttom2{
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 0px;
-	padding-right: 15%;
 }
 ul#buttom2 li{
 	display: block;
@@ -845,19 +852,57 @@ div#letter-buttom{
 .minchou{
 	font-size: 4px;
 }
+div#ham-menu{
+	display: block;
+	 background-color: #fff; /*メニュー背景色*/
+    box-sizing: border-box;
+    height: 100%;
+    padding: 10px 40px; /*メニュー内部上下左右余白*/
+    position: fixed;
+    right: -300px; /*メニュー横幅①と合わせる*/
+    top: 0;
+    transition: transform 0.3s linear 0s; /*0.3s は変化するのにかかる時間*/
+    width: 300px; /*メニュー横幅①*/
+    z-index: 1000;
+}
+div#ham-menu::before {
+    background-color: #fff; /*ボタン部分背景色*/
+    border-radius: 0 0 0 10px; /*左下角丸*/
+    color: #333; /*アイコン（フォント）色*/
+    content: "≡"; /*メニューアイコン*/
+    display: block;
+    font-size: 50px; /*アイコン（フォント）サイズ*/
+    height: 50px;
+    line-height: 50px; /*縦位置中央化*/
+    position: absolute;
+    right: 100%;
+    text-align: center;
+    top: 80px;
+    width: 50px;
+}
+div#menu-background {
+    background-color: #333; /*黒背景部分背景色*/
+    display: block;
+    height: 100%;
+    opacity: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+    transition: all 0.3s linear 0s; /*0.3s は変化するのにかかる時間*/
+    width: 100%;
+    z-index: -1;
+}
+div#ham-menu:hover {
+    transform: translate(-300px); /*メニュー横幅①と合わせる*/
+}
+#ham-menu:hover + #menu-background {
+    opacity: 0.5; /*黒背景部分透過度*/
+    z-index: 999;
+}
 ul#globalnav{
+	display: none;
 }
-ul#globalnav li{
-	-webkit-writing-mode: vertical-rl;
-	-ms-writing-mode: tb-rl;
-	writing-mode: vertical-rl;
-	text-align: left;
-	width: 50%;
-	padding-top: 0px;
-	padding-left: 0px;
-	padding-right: 5%;
-	padding-bottom: 0px;
-}
+
 .mainvisual img{
 	width: 100%;
 	margin-top: 50%;
@@ -953,17 +998,39 @@ div#banner4-left{
 .banner4-text br{
 	display: none;
 }
-ul#buttom1{
-	width: 80%;
+div#buttom{
+	width: 100%;
 	margin-left: auto;
 	margin-right: auto;
-	padding-right: 3%;
+	text-align: center;
+}
+ul#buttom1{
+	width: 100%;
+	display: inline-block;
+}
+ul#buttom1 li{
+	width: 100%;
+	display: inline-block;
+	padding: 0 7%;
+}
+ul#buttom1 li a{
+	background-size: 80%;
+	padding: 0;
+	display: inline-block;
 }
 ul#buttom2{
-	width: 80%;
-	margin-left: auto;
-	margin-right: auto;
-	padding-right: 3%;
+	width: 100%;
+	display: inline-block;
+}
+ul#buttom2 li{
+	width: 100%;
+	display: inline-block;
+	padding: 0 7%;
+}
+ul#buttom2 li a{
+	background-size: 80%;
+	padding: 0;
+	display: inline-block;
 }
 .buttom6-img{
 	margin-bottom: 200px;
