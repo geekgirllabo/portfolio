@@ -745,6 +745,7 @@ ul#globalnav{
 div#banner1-right{
 	float: none;
 	width: 100%;
+	margin-left: 0px;
 }
 .banner1-midashi{
 	display: block;
@@ -757,6 +758,7 @@ div#banner1-right{
 div#banner2-left{
 	float: none;
 	width: 100%;
+	margin-left: 0px;
 }
 .banner2-img{
 	float: none;
@@ -766,6 +768,7 @@ div#banner2-left{
 div#banner3-right{
 	float: none;
 	width: 100%;
+	margin-left: 0px;
 }
 .banner3-midashi{
 	display: block;
@@ -778,12 +781,14 @@ div#banner3-right{
 div#banner4-left{
 	float: none;
 	width: 100%;
+	margin-left: 0px;
 }
 .banner4-img{
 	float: none;
 	text-align: center;
 	width: 100%;
 }
+
 ul#buttom1 li{
 	display: inline-block;
 	width: 20.5%;
@@ -834,8 +839,57 @@ ul#globalnav li{
 	width: 100%;
 	margin-top: 36%;
 }
+div#banner1{
+	margin-top: 30%;
+}
+div#banner1-right{
+	float: none;
+	width: 100%;
+	margin-left: 0px;
+}
+.banner1-midashi{
+	display: block;
+}
+.banner1-img{
+	float: none;
+	text-align: center;
+	width: 100%;
+}
+div#banner2-left{
+	float: none;
+	width: 100%;
+	margin-left: 0px;
+}
+.banner2-img{
+	float: none;
+	text-align: center;
+	width: 100%;
+}
+div#banner3-right{
+	float: none;
+	width: 100%;
+	margin-left: 0px;
+}
+.banner3-midashi{
+	display: block;
+}
+.banner3-img{
+	float: none;
+	text-align: center;
+	width: 100%;
+}
+div#banner4-left{
+	float: none;
+	width: 100%;
+	margin-left: 0px;
+}
+.banner4-img{
+	float: none;
+	text-align: center;
+	width: 100%;
+}
 ul#buttom1{
-	width: 50%;
+	width: 40%;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -845,7 +899,7 @@ ul#buttom1 li{
 	margin-bottom: 10%;
 }
 ul#buttom2{
-	width: 50%;
+	width: 40%;
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 0px;
@@ -877,7 +931,9 @@ div#news3-content{
 div#footer{
 	padding-bottom: 35%;
 }
-
+div#footer-right3{
+	margin-top: 0px;
+}
 }
 
 @media only screen and (max-width: 479px){
