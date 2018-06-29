@@ -221,7 +221,6 @@ div#banner1-right{
 	text-align: center;
 }
 .banner1-midashi{
-	display: inline-block;
 	font-size: 30px;
 	font-weight: bold;
 }
@@ -645,6 +644,75 @@ div#footer-right3{
 	margin-top: 0px;
 }
 
+@media only screen and (max-width: 1400px){
+
+.banner1-img{
+	float: left;
+	width: 50%;
+}
+.banner1-img img{
+	width: 100%;
+}
+div#banner1-right{
+	float: left;
+	width: 40%;
+	text-align: center;
+	margin-left: 3%;
+}
+div#banner2{
+	clear: both;
+}
+.banner2-img{
+	float: right;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-bottom: 10px;
+	width: 50%;
+}
+.banner2-img img{
+	width: 100%;
+}
+div#banner2-left{
+	text-align: center;
+	padding-top: 3%;
+	width: 40%;
+	margin-left: 4%;
+}
+.banner3-img{
+	float: left;
+	width: 50%;
+}
+.banner3-img img{
+	width: 100%;
+}
+div#banner3-right{
+	float: left;
+	width: 40%;
+	text-align: center;
+	margin-left: 3%;
+}
+div#banner4{
+	clear: both;
+}
+.banner4-img{
+	float: right;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-bottom: 10px;
+	width: 50%;
+}
+.banner4-img img{
+	width: 100%;
+}
+div#banner4-left{
+	text-align: center;
+	padding-top: 3%;
+	width: 40%;
+	margin-left: 4%;
+}
+
+}
+
 @media only screen and (max-width: 1200px){
 
 div#wrapper{
@@ -676,31 +744,45 @@ ul#globalnav{
 }
 div#banner1-right{
 	float: none;
+	width: 100%;
+}
+.banner1-midashi{
+	display: block;
 }
 .banner1-img{
 	float: none;
 	text-align: center;
+	width: 100%;
 }
 div#banner2-left{
 	float: none;
+	width: 100%;
 }
 .banner2-img{
 	float: none;
 	text-align: center;
+	width: 100%;
 }
 div#banner3-right{
 	float: none;
+	width: 100%;
+}
+.banner3-midashi{
+	display: block;
 }
 .banner3-img{
 	float: none;
 	text-align: center;
+	width: 100%;
 }
 div#banner4-left{
 	float: none;
+	width: 100%;
 }
 .banner4-img{
 	float: none;
 	text-align: center;
+	width: 100%;
 }
 ul#buttom1 li{
 	display: inline-block;
