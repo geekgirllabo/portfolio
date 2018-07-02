@@ -792,12 +792,18 @@ div#banner4-left{
 ul#buttom1 li{
 	display: inline-block;
 	width: 20.5%;
-	padding: 0 5%;
+	padding: 0 6.7%;
 }
 ul#buttom2 li{
 	display: inline-block;
 	width: 20.5%;
 	padding: 0 5%;
+}
+ul#buttom1 li:first-child{
+	padding:0 6.7% 0 0;
+}
+ul#buttom2 li:first-child{
+	padding:0 6.7% 0 0;
 }
 
 }
@@ -909,6 +915,12 @@ ul#buttom2 li{
 	margin-top: 0px;
 	margin-bottom: 10%;
 	margin-right: 0px;
+}
+ul#buttom1 li:first-child{
+	padding:0 6.7%;
+}
+ul#buttom2 li:first-child{
+	padding:0 6.7%;
 }
 div#news1-content{
 	float: none;
@@ -1173,7 +1185,11 @@ ul#buttom2 li a{
 	padding: 0;
 	display: inline-block;
 }
-.buttom6-img{
+ul#buttom1 li:first-child{
+	padding:0 6.7%;
+}
+ul#buttom2 li:first-child{
+	padding:0 6.7%;
 }
 div#news-content{
 	position: static;
