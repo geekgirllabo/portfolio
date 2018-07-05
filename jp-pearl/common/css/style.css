@@ -53,7 +53,7 @@ div#right-header{
 	margin: 0;
 	float:right;
     width: 60%;
-    padding-top: 65px;
+    padding-top: 60px;
     padding-right: 20px;
     white-space: nowrap;
 }
@@ -100,7 +100,7 @@ position: absolute;
 top: 0%;
 left: 50%;
 padding: 5px;
-transform: translate(-50%, 20px);
+transform: translate(-50%, 25px);
 background-color:#cbb994;
 }
 .nav ul ul li {
@@ -304,25 +304,42 @@ div#footer img{
 }
 
 
-@media only screen and (max-width:768px){
+@media only screen and (max-width:800px){
 body{
 	margin:0;
-	min-width:630px;
+	min-width:715px;
+}
+h1{
+	margin: 0;
+	padding:10px 0 10px 20px;
+}
+div#header{
+	margin:0 ;
+	padding: 0;
+	width:100%;
+	height:auto;
+	overflow:hidden;
+	background-color: #000033;
 }
 div#left-header{
    float : left;
    width: 50%;
 }
 div#left-header img{
-	max-width:350px;
+	max-width:300px;
 	width: 100%;
-	padding:18px 0 10px 20px;
+	padding:0px 0 0px 20px;
 }
 div#right-header{
 	float:right;
     width: 45%;
     white-space: nowrap;
 }
+
+.nav{
+	display: none;
+}
+
 div#wrapper{
 	width: 90%;
 	margin-top:60px;
