@@ -1928,21 +1928,17 @@ div#taxi-title{
 }
 
 @media only screen and (max-width: 1200px){
-	div#maintext{
-	margin-top: -30%;
-	margin-left: 5%;
-	width: 30%;
-	background-color: #FFFFFF;
-	filter:alpha(opacity=70);
-	-moz-opacity:0.7;
-	opacity: 0.7;
-	padding-left: 3%;
-	padding-right: 6%;
-	padding-top: 2%;
-	padding-bottom: 2%;
-	line-height: 250%;
-	margin-bottom: 0px;
-	font-size: 1vw;
+div#maintext{
+	width: 91%;
+	margin-top: 3%;
+	margin-left: 0px;
+}
+.maintext1{
+	font-size: 3vw;
+}
+.maintext2{
+	font-size: 1.9vw;
+}
 }
 div#shacho{
 	margin-top: 30%;
@@ -2122,20 +2118,15 @@ div#access-left{
 @media only screen and (max-width: 800px){
 
 div#maintext{
-	margin-top: -35%;
-	margin-left: 5%;
-	width: 30%;
-	background-color: #FFFFFF;
-	filter:alpha(opacity=70);
-	-moz-opacity:0.7;
-	opacity: 0.7;
-	padding-left: 3%;
-	padding-right: 6%;
-	padding-top: 2%;
-	padding-bottom: 2%;
-	line-height: 250%;
-	margin-bottom: 0px;
-	font-size: 1vw;
+	width: 91%;
+	margin-top: 3%;
+	margin-left: 0px;
+}
+.maintext1{
+	font-size: 3vw;
+}
+.maintext2{
+	font-size: 1.9vw;
 }
 div#shacho{
 	margin-top: 30%;
@@ -2311,7 +2302,16 @@ div#access-left{
 @media only screen and (max-width: 479px){
 
 div#maintext{
-	display: none;
+	width: 91%;
+	margin-top: 3%;
+	margin-right: 0px;
+	margin-left: 0px;
+}
+.maintext1{
+	font-size: 3vw;
+}
+.maintext2{
+	font-size: 2vw;
 }
 div#shacho{
 	margin-top: 30%;
