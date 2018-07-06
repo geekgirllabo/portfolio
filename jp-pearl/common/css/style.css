@@ -260,16 +260,15 @@ div#footer-wrapper{
 }
 div#footer{
 	margin:0 auto;
-	max-width:976px;
 	width:100%;
 	overflow:hidden;
 	padding-top:38px; 
-	padding-left:24px;
 	padding-bottom:50px;
 
 }
 div#footer p{
 	font-size:10px;
+	padding-left:24px;
 	color: #ffffff;
 }
 div#footer a:hover {
@@ -330,7 +329,7 @@ div#header{
 }
 div#left-header{
    float : left;
-   width: 50%;
+   width: 80%;
    height: 75px;
 }
 div#left-header img{
@@ -339,7 +338,16 @@ div#left-header img{
 	padding:0px 0 0px 20px;
 }
 div#right-header{
-display: none;
+	margin: 0;
+	float:right;
+    width: 20%;
+    padding-top: 0;
+    padding-right: 0;
+    white-space: none;
+}
+
+.nav{
+	display: none;
 }
 
 div#wrapper{
@@ -396,7 +404,9 @@ table-type th{
   	height: 50px;
   	margin: 10px;
 	}
-
+p#menuWrap{
+	margin-left: 90%;
+}
 #menuBtn{
   	display: block;
   	position: absolute;
@@ -542,7 +552,7 @@ div#header{
 }
 div#left-header{
    float : left;
-   width: 40%;
+   width: 70%;
    height: 60px;
 }
 div#left-header img{
@@ -550,6 +560,15 @@ div#left-header img{
 	padding:8px 0 0px 20px;
 }
 div#right-header{
+	margin: 0;
+	float:right;
+    width: 30%;
+    padding-top: 0;
+    padding-right: 0;
+    white-space: none;
+}
+
+.nav{
 	display: none;
 }
 
@@ -681,6 +700,10 @@ div#footer img{
   	height: 50px;
   	margin: 10px;
 	}
+p#menuWrap{
+	margin-left: 80%;
+	height: 60px;
+}
 
 #menuBtn{
   	display: block;
@@ -738,7 +761,7 @@ a#menu .close:after{
 		overflow: hidden;
 		position: relative;
 		left: 0;
-		top: -26px;
+		top: -11px;
 		z-index: 100;
 	}
 
