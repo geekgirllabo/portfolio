@@ -248,9 +248,8 @@ hr{
 	border: none;
 	height: 1px;
 	background-color: #bbb;
-	max-width:800px;
 	text-align: center;
-	margin:25px auto;
+	margin:25px 4%;
 
 }
 
@@ -309,10 +308,10 @@ div#footer img{
 
 
 
-/* タブレット用css　現在はコメントアウトをしております
+/* タブレット用css　*/
 
 
-@media only screen and (max-width:799px) and (min-width:479px){
+@media only screen and (max-width:800px) and (min-width:481px){
 body{
 	margin:0;
 	min-width:480px;
@@ -520,8 +519,7 @@ background: #eddab3;
 		-webkit-transform: rotate(45deg);
 		transform: rotate(45deg);
 	}
-
-*/
+}
 
 /* スマホ用css*/
 
@@ -806,3 +804,4 @@ background: #eddab3;
 		-webkit-transform: rotate(45deg);
 		transform: rotate(45deg);
 	}
+}
