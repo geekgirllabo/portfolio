@@ -2117,62 +2117,92 @@ div#maintext{
 div#shacho{
 	margin-top: 30%;
 }
+.shacho-img{
+	float: none;
+	margin: 0px;
+}
+.shacho-img img{
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 50px;
+}
 .shacho-text1{
-	font-size: 2vw;
+	font-size: 3vw;
 }
 .shacho-text2{
-	font-size: 1.7vw;
+	font-size: 2.5vw;
 }
 .shacho-text2 br{
 	display: none;
 }
 .shacho-text3{
-	font-size: 1.7vw;
+	font-size: 2.5vw;
 }
 .shacho-text3 br{
 	display: none;
 }
 .shacho-text4{
-	font-size: 1.7vw;
+	font-size: 2.5vw;
 }
 .shacho-text4 br{
 	display: none;
 }
 .shacho-text5{
-	font-size: 2vw;
+	font-size: 3vw;
 }
 div#okami{
 	margin-top: 30%;
 }
 .okami-img{
+	float: none;
+	margin: 0px;
+}
+.okami-img img{
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 50px;
+}
+.okami-img{
 	margin-bottom: 10%;
 }
 .okami-text1{
-	font-size: 2vw;
+	font-size: 3vw;
 }
 .okami-text2{
-	font-size: 1.7vw;
+	font-size: 2.5vw;
 }
 .okami-text2 br{
 	display: none;
 }
 .okami-text3 {
-	font-size: 2vw;
+	font-size: 3vw;
 }
 div#wakaokami{
 	margin-top: 30%;
 }
+.wakaokami-img{
+	float: none;
+	margin: 0px;
+}
+.wakaokami-img img{
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 50px;
+}
 .wakaokami-text1{
-	font-size: 2vw;
+	font-size: 3vw;
 }
 .wakaokami-text2{
-	font-size: 1.7vw;
+	font-size: 2.5vw;
 }
 .wakaokami-text2 br{
 	display: none;
 }
 .wakaokami-text3 {
-	font-size: 2vw;
+	font-size: 3vw;
 }
 dt{
 	width: 100%;
@@ -2589,6 +2619,23 @@ div#access-left{
 .tenpo-img img{
 	width: 100%;
 }
+}
+
+@media only screen and (max-width: 420px){
+	div#maintext{
+	margin-top: -30%;
+	line-height: 50%;
+	width: 50%;
+}
+}
+
+@media only screen and (max-width: 360px){
+	div#maintext{
+	margin-top: -32.5%;
+	line-height: 50%;
+	width: 50%;
+}
+
 }
 
 @media only screen and (max-width: 320px){
