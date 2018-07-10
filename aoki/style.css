@@ -2844,11 +2844,11 @@ div#maintext{
 @media only screen and (max-width: 600px){
 div#maintext{
 	width: 40%;
-	margin-top: -32.5%;
-	line-height: 100%;
+	margin-top: -33%;
+	line-height: 90%;
 }
 .kimono-maintext1{
-	font-size: 12px;
+	font-size: 10px;
 }
 .kimono-maintext2{
 	font-size: 8px;
