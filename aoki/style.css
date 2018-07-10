@@ -2666,10 +2666,10 @@ div#maintext{
 	margin-bottom: 0px;
 }
 .kimono-maintext1{
-	font-size: 1.9vw;
+	font-size: 24px;
 }
 .kimono-maintext2{
-	font-size: 0.9vw;
+	font-size: 14px;
 }
 div#text1{
 	width: 64%;
@@ -2751,6 +2751,12 @@ div#text3{
 div#maintext{
 	margin-top: -33.5%;
 }
+.kimono-maintext1{
+	font-size: 16px;
+}
+.kimono-maintext2{
+	font-size: 10px;
+}
 div#text1{
 	margin-top: 250px;
 }
@@ -2794,7 +2800,18 @@ div#text1{
 	width: 100%;
 }
 }
-
+@media only screen and (max-width: 900px){
+div#maintext{
+	margin-top: -32%;
+	line-height: 140%;
+}
+.kimono-maintext1{
+	font-size: 14px;
+}
+.kimono-maintext2{
+	font-size: 10px;
+}
+}
 @media only screen and (max-width: 800px){
 
 div#maintext{
@@ -2802,21 +2819,53 @@ div#maintext{
 	margin-top: -32%;
 	line-height: 130%;
 }
+.kimono-maintext1{
+	font-size: 16px;
+}
+.kimono-maintext2{
+	font-size: 10px;
+}
+}
+
+@media only screen and (max-width: 740px){
+div#maintext{
+	width: 40%;
+	margin-top: -30%;
+	line-height: 100%;
+}
+.kimono-maintext1{
+	font-size: 12px;
+}
+.kimono-maintext2{
+	font-size: 8px;
+}
 }
 
 @media only screen and (max-width: 600px){
 div#maintext{
 	width: 40%;
-	margin-top: -34%;
+	margin-top: -32.5%;
 	line-height: 100%;
+}
+.kimono-maintext1{
+	font-size: 12px;
+}
+.kimono-maintext2{
+	font-size: 8px;
 }
 }
 
 @media only screen and (max-width: 479px){
 div#maintext{
 	width: 40%;
-	margin-top: -34%;
+	margin-top: -31%;
 	line-height: 50%;
+}
+.kimono-maintext1{
+	font-size: 9px;
+}
+.kimono-maintext2{
+	font-size: 8px;
 }
 div#text1{
 	margin-top: 150px;
@@ -2840,7 +2889,13 @@ div#text3{
 
 @media only screen and (max-width: 420px){
 div#maintext{
-	margin-top: -31.5%;
+	margin-top: -33%;
+}
+.kimono-maintext1{
+	font-size: 8px;
+}
+.kimono-maintext2{
+	font-size: 5px;
 }
 }
 
