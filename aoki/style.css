@@ -612,6 +612,7 @@ div#tatesen{
 	height: 190px;
 	margin-top: 5%;
 	margin-left: 10%;
+	margin-bottom: 5%;
 }
 div#footer-right1{
 	float: left;
@@ -1381,6 +1382,7 @@ div#tatesen{
 div#footer-right1{
 	margin-top: 10%;
 	margin-left: 14.6%;
+	margin-bottom: 10%;
 }
 div#footer-right2{
 	margin-top: 10%;
@@ -2644,5 +2646,208 @@ div#maintext{
 	margin-top: -34.5%;
 	line-height: 50%;
 	width: 50%;
+}
+}
+
+
+div#maintext{
+	margin-top: -30%;
+	margin-left: 5%; 
+	width: 35%;
+	background-color: #FFFFFF;
+	filter:alpha(opacity=70);
+	-moz-opacity:0.7;
+	opacity: 0.7;
+	padding-left: 3%;
+	padding-right: 6%;
+	padding-top: 1.5%;
+	padding-bottom: 1.5%;
+	line-height: 200%;
+	margin-bottom: 0px;
+}
+.kimono-maintext1{
+	font-size: 1.9vw;
+}
+.kimono-maintext2{
+	font-size: 0.9vw;
+}
+div#text1{
+	width: 64%;
+	margin-top: 350px;
+	margin-left: 18%;
+	margin-right: 18%;
+}
+.kimono-text1{
+	font-size: 24px;
+}
+.kimono-text2{
+	font-size: 14px;
+	margin-top: 70px;
+	line-height: 160%;
+}
+div#img1{
+	width: 60%;
+	margin-left: 20%;
+	margin-right: 20%;
+	margin-top: 70px;
+}
+.kimono-img1{
+	float: left;
+	margin-top: 0px;
+	margin-right: 10%;
+}
+.kimono-img2{
+	margin:0px;
+}
+div#text2{
+	width: 64%;
+	margin-top: 200px;
+	margin-left: 18%;
+	margin-right: 18%;
+}
+.kimono-text3{
+	font-size: 24px;
+}
+.kimono-text4{
+	font-size: 14px;
+	margin-top: 70px;
+	line-height: 160%;
+}
+div#img2{
+	width: 60%;
+	margin-left: 20%;
+	margin-right: 20%;
+	margin-top: 70px;
+}
+.kimono-img3{
+	float: left;
+	margin-top: 0px;
+	margin-right: 10%;
+}
+.kimono-img4{
+	margin:0px;
+}
+div#text3{
+	width: 64%;
+	margin-top: 200px;
+	margin-left: 18%;
+	margin-right: 18%;
+}
+.kimono-text5{
+	font-size: 24px;
+}
+.kimono-text6{
+	font-size: 14px;
+	margin-top: 70px;
+	line-height: 160%;
+}
+.buttom{
+	text-align: center;
+	margin-top: 100px;
+}
+
+@media only screen and (max-width: 1200px){
+
+div#maintext{
+	margin-top: -33.5%;
+}
+div#text1{
+	margin-top: 250px;
+}
+.kimono-text1{
+	line-height: 150%;
+}
+.kimono-img1{
+	float: none;
+	margin-right: 0px;
+	margin-bottom: 50px;
+}
+.kimono-img1 img{
+	width: 100%;
+}
+.kimono-img2 img{
+	width: 100%;
+}
+.kimono-text3{
+	line-height: 150%;
+}
+.kimono-img3{
+	float: none;
+	margin-right: 0px;
+	margin-bottom: 50px;
+}
+.kimono-img3 img{
+	width: 100%;
+}
+.kimono-img4 img{
+	width: 100%;
+}
+.kimono-text5{
+	line-height: 150%;
+}
+.buttom{
+	width: 60%;
+	margin-left: 20%;
+	margin-right: 20%;
+}
+.buttom img{
+	width: 100%;
+}
+}
+
+@media only screen and (max-width: 800px){
+
+div#maintext{
+	width: 40%;
+	margin-top: -32%;
+	line-height: 130%;
+}
+}
+
+@media only screen and (max-width: 600px){
+div#maintext{
+	width: 40%;
+	margin-top: -34%;
+	line-height: 100%;
+}
+}
+
+@media only screen and (max-width: 479px){
+div#maintext{
+	width: 40%;
+	margin-top: -34%;
+	line-height: 50%;
+}
+div#text1{
+	margin-top: 150px;
+}
+.kimono-text1{
+	font-size: 18px;
+}
+div#text2{
+	margin-top: 150px;
+}
+.kimono-text3{
+	font-size: 18px;
+}
+div#text3{
+	margin-top: 150px;
+}
+.kimono-text5{
+	font-size: 18px;
+}
+}
+
+@media only screen and (max-width: 420px){
+div#maintext{
+	margin-top: -31.5%;
+}
+}
+
+@media only screen and (max-width: 320px){
+div#maintext{
+	width: 45%;
+	margin-top: -35.5%;
+	line-height: 45%;
 }
 }
