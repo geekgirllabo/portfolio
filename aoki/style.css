@@ -2649,13 +2649,7 @@ div#maintext{
 }
 }
 
-.mainvisual-sample{
-	margin: 0px;
-}
-.mainvisual-sample img{
-	width: 100%;
-	margin-top: 216px;
-}
+
 div#maintext{
 	margin-top: -30%;
 	margin-left: 5%; 
@@ -2757,9 +2751,6 @@ div#text3{
 
 @media only screen and (max-width: 1200px){
 
-.mainvisual-sample img{
-	margin-top: 23%;
-}
 .mainvisual{
 	display: none;
 }
@@ -2777,10 +2768,10 @@ div#maintext{
 	padding-left: 5%;
 }
 .kimono-maintext1{
-	font-size: 20px;
+	font-size: 21px;
 }
 .kimono-maintext2{
-	font-size: 15px;
+	font-size: 17px;
 }
 div#text1{
 	margin-top: 250px;
