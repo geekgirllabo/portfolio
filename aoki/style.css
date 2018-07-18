@@ -2853,3 +2853,698 @@ div#text3{
 	font-size: 18px;
 }
 }
+
+
+.catalog-title{
+	margin-top: 300px;
+	font-size: 24px;
+	text-align: center;
+}
+div#catalog-line1{
+	width: 88%;
+	margin-right: 6%;
+	margin-left: 6%;
+	margin-top: 5%;
+}
+.catalog-img1{
+	float: left;
+	display: inline-block;
+	margin-right: 2.5%;
+	margin-left: 1.5%;
+}
+.catalog-img2{
+	float: left;
+	display: inline-block;
+	margin-right: 2.5%;
+}
+.catalog-img3{
+	float: left;
+	display: inline-block;
+	margin-right: 2.5%;
+}
+.catalog-img4{
+	display: inline-block;
+}
+div#catalog-line2{
+	width: 88%;
+	margin-right: 6%;
+	margin-left: 6%;
+	margin-top: 2%;
+}
+.catalog-img5{
+	clear: both;
+	float: left;
+	display: inline-block;
+	margin-right: 2.5%;
+	margin-left: 1.5%;
+}
+.catalog-img6{
+	float: left;
+	display: inline-block;
+	margin-right: 2.5%;
+}
+.catalog-img7{
+	float: left;
+	display: inline-block;
+	margin-right: 2.5%;
+}
+.catalog-img8{
+	display: inline-block;
+	float: left;
+}
+.gallery-title{
+	clear: both;
+	font-size: 24px;
+	text-align: center;
+	padding-top: 250px;
+}
+div#gallery-line1{
+	width: 88%;
+	margin-right: 6%;
+	margin-left: 6%;
+	margin-top: 5%;
+}
+.gallery-img1{
+	float: left;
+	display: inline-block;
+	margin-right: 2.5%;
+	margin-left: 1.5%;
+}
+.gallery-img2{
+	float: left;
+	display: inline-block;
+	margin-right: 2.5%;
+}
+.gallery-img3{
+	float: left;
+	display: inline-block;
+	margin-right: 2.5%;
+}
+.gallery-img4{
+	display: inline-block;
+}
+div#gallery-line2{
+	width: 88%;
+	margin-right: 6%;
+	margin-left: 6%;
+	margin-top: 2%;
+}
+.gallery-img5{
+	clear: both;
+	float: left;
+	display: inline-block;
+	margin-right: 2.5%;
+	margin-left: 1.5%;
+}
+.gallery-img6{
+	float: left;
+	display: inline-block;
+	margin-right: 2.5%;
+}
+.gallery-img7{
+	float: left;
+	display: inline-block;
+	margin-right: 2.5%;
+}
+.gallery-img8{
+	display: inline-block;
+	float: left;
+}
+.tokuten-title{
+	clear: both;
+	text-align: center;
+	font-size: 24px;
+	padding-top: 250px;
+}
+.tokuten11-title{
+	font-size: 24px;
+	width: 35%;
+	background-color: #e9e2b6;
+	border-radius:20px 20px 20px 20px;
+	text-align: center;
+	padding-top: 0.7%;
+	padding-bottom: 0.7%;
+
+}
+div#tokuten11-haikei{
+	background-color: #ffffff;
+	width: 35%;
+	padding: 1%;
+	float: left;
+}
+.tokuten11-text1{
+	width: 100%;
+	display: inline-block;
+	vertical-align: middle;
+	padding-left: 50px;
+	background-image: url("img/tokuten11dai-01.png");
+	background-repeat: no-repeat;	
+	background-position: left middle;
+	font-size: 14px;
+	padding-top: 1.3%;
+	padding-bottom: 1.5%;
+}
+.tokuten11-text2{
+	width: 100%;
+	display: inline-block;
+	vertical-align: middle;
+	padding-left: 50px;
+	background-image: url("img/tokuten11dai-02.png");
+	background-repeat: no-repeat;	
+	background-position: left middle;
+	font-size: 14px;
+	padding-top: 1.3%;
+	padding-bottom: 1.5%;
+}
+.tokuten11-text3{
+	width: 100%;
+	display: inline-block;
+	vertical-align: middle;
+	padding-left: 50px;
+	background-image: url("img/tokuten11dai-03.png");
+	background-repeat: no-repeat;	
+	background-position: left middle;
+	font-size: 14px;
+	padding-top: 1.3%;
+	padding-bottom: 1.5%;
+}
+.tokuten11-text4{
+	width: 100%;
+	display: inline-block;
+	vertical-align: middle;
+	padding-left: 50px;
+	background-image: url("img/tokuten11dai-04.png");
+	background-repeat: no-repeat;	
+	background-position: left middle;
+	font-size: 14px;
+	padding-top: 1.3%;
+	padding-bottom: 1.5%;
+	margin-bottom: 0px;
+}
+.tokuten11-text4-2{
+	font-size: 12px;
+	text-indent: 50px;
+	margin-top: 0px;
+}
+.tokuten11-text5{
+	width: 100%;
+	display: inline-block;
+	vertical-align: middle;
+	padding-left: 50px;
+	background-image: url("img/tokuten11dai-05.png");
+	background-repeat: no-repeat;	
+	background-position: left middle;
+	font-size: 14px;
+	padding-top: 1.3%;
+	padding-bottom: 1.5%;
+}
+.tokuten11-text6{
+	width: 100%;
+	display: inline-block;
+	vertical-align: middle;
+	padding-left: 50px;
+	background-image: url("img/tokuten11dai-06.png");
+	background-repeat: no-repeat;	
+	background-position: left middle;
+	font-size: 14px;
+	padding-top: 1.3%;
+	padding-bottom: 1.5%;
+}
+.tokuten11-text7{
+	width: 100%;
+	display: inline-block;
+	vertical-align: middle;
+	padding-left: 50px;
+	background-image: url("img/tokuten11dai-07.png");
+	background-repeat: no-repeat;	
+	background-position: left middle;
+	font-size: 14px;
+	padding-top: 1.3%;
+	padding-bottom: 1.5%;
+}
+.tokuten11-text8{
+	width: 100%;
+	display: inline-block;
+	vertical-align: middle;
+	padding-left: 50px;
+	background-image: url("img/tokuten11dai-08.png");
+	background-repeat: no-repeat;	
+	background-position: left middle;
+	font-size: 14px;
+	padding-top: 1.3%;
+	padding-bottom: 1.5%;
+}
+.tokuten11-text9{
+	width: 100%;
+	display: inline-block;
+	vertical-align: middle;
+	padding-left: 50px;
+	background-image: url("img/tokuten11dai-09.png");
+	background-repeat: no-repeat;	
+	background-position: left middle;
+	font-size: 14px;
+	padding-top: 1.3%;
+	padding-bottom: 1.5%;
+	margin-bottom: 0px;
+}
+.tokuten11-text9-2{
+	font-size: 12px;
+	text-indent: 50px;
+	margin-top: 0px;
+}
+.tokuten11-text10{
+	width: 100%;
+	display: inline-block;
+	vertical-align: middle;
+	padding-left: 50px;
+	background-image: url("img/tokuten11dai-10.png");
+	background-repeat: no-repeat;	
+	background-position: left middle;
+	font-size: 14px;
+	padding-top: 1.3%;
+	padding-bottom: 1.5%;
+}
+.tokuten11-text11{
+	width: 100%;
+	display: inline-block;
+	vertical-align: middle;
+	padding-left: 50px;
+	background-image: url("img/tokuten11dai-11.png");
+	background-repeat: no-repeat;	
+	background-position: left middle;
+	font-size: 14px;
+	padding-top: 1.3%;
+	padding-bottom: 1.5%;
+}
+.tokuten10-title{
+	font-size: 24px;
+	width: 35%;
+	background-color: #e9e2b6;
+	border-radius:20px 20px 20px 20px;
+	text-align: center;
+	padding-top: 0.7%;
+	padding-bottom: 0.7%;
+	float: left;
+}
+div#tokuten10-haikei{
+	background-color: #ffffff;
+	width: 35%;
+	padding: 1%;
+	float: left;
+}
+.tokuten10-text1{
+	width: 100%;
+	display: inline-block;
+	vertical-align: middle;
+	padding-left: 50px;
+	background-image: url("img/tokuten10dai-01.png");
+	background-repeat: no-repeat;	
+	background-position: left middle;
+	font-size: 14px;
+	padding-top: 1.3%;
+	padding-bottom: 1.5%;
+}
+.tokuten10-text2{
+	width: 100%;
+	display: inline-block;
+	vertical-align: middle;
+	padding-left: 50px;
+	background-image: url("img/tokuten10dai-02.png");
+	background-repeat: no-repeat;	
+	background-position: left middle;
+	font-size: 14px;
+	padding-top: 1.3%;
+	padding-bottom: 1.5%;
+	margin-bottom: 0px;
+}
+.tokuten10-text2-2{
+	font-size: 12px;
+	text-indent: 50px;
+	margin-top: 0px;
+}
+.tokuten10-text3{
+	width: 100%;
+	display: inline-block;
+	vertical-align: middle;
+	padding-left: 50px;
+	background-image: url("img/tokuten10dai-03.png");
+	background-repeat: no-repeat;	
+	background-position: left middle;
+	font-size: 14px;
+	padding-top: 1.3%;
+	padding-bottom: 1.5%;
+}
+.tokuten10-text4{
+	width: 100%;
+	display: inline-block;
+	vertical-align: middle;
+	padding-left: 50px;
+	background-image: url("img/tokuten10dai-04.png");
+	background-repeat: no-repeat;	
+	background-position: left middle;
+	font-size: 14px;
+	padding-top: 1.3%;
+	padding-bottom: 1.5%;
+	margin-bottom: 0px;
+}
+.tokuten10-text4-2{
+	font-size: 12px;
+	text-indent: 50px;
+	margin-top: 0px;
+}
+.tokuten10-text5{
+	width: 100%;
+	display: inline-block;
+	vertical-align: middle;
+	padding-left: 50px;
+	background-image: url("img/tokuten10dai-05.png");
+	background-repeat: no-repeat;	
+	background-position: left middle;
+	font-size: 14px;
+	padding-top: 1.3%;
+	padding-bottom: 1.5%;
+}
+.tokuten10-text6{
+	width: 100%;
+	display: inline-block;
+	vertical-align: middle;
+	padding-left: 50px;
+	background-image: url("img/tokuten10dai-06.png");
+	background-repeat: no-repeat;	
+	background-position: left middle;
+	font-size: 14px;
+	padding-top: 1.3%;
+	padding-bottom: 1.5%;
+}
+.tokuten10-text7{
+	width: 100%;
+	display: inline-block;
+	vertical-align: middle;
+	padding-left: 50px;
+	background-image: url("img/tokuten10dai-07.png");
+	background-repeat: no-repeat;	
+	background-position: left middle;
+	font-size: 14px;
+	padding-top: 1.3%;
+	padding-bottom: 1.5%;
+	margin-bottom: 0px;
+}
+.tokuten10-text7-2{
+	font-size: 12px;
+	text-indent: 50px;
+	margin-top: 0px;
+}
+.tokuten10-text8{
+	width: 100%;
+	display: inline-block;
+	vertical-align: middle;
+	padding-left: 50px;
+	background-image: url("img/tokuten10dai-08.png");
+	background-repeat: no-repeat;	
+	background-position: left middle;
+	font-size: 14px;
+	padding-top: 1.3%;
+	padding-bottom: 1.5%;
+}
+.tokuten10-text9{
+	width: 100%;
+	display: inline-block;
+	vertical-align: middle;
+	padding-left: 50px;
+	background-image: url("img/tokuten10dai-09.png");
+	background-repeat: no-repeat;	
+	background-position: left middle;
+	font-size: 14px;
+	padding-top: 1.3%;
+	padding-bottom: 1.5%;
+	margin-bottom: 0px;
+}
+.tokuten10-text9-2{
+	font-size: 12px;
+	text-indent: 50px;
+	margin-top: 0px;
+}
+.tokuten10-text10{
+	width: 100%;
+	display: inline-block;
+	vertical-align: middle;
+	padding-left: 50px;
+	background-image: url("img/tokuten10dai-10.png");
+	background-repeat: no-repeat;	
+	background-position: left middle;
+	font-size: 14px;
+	padding-top: 1.3%;
+	padding-bottom: 1.5%;
+}
+div#tokuten{
+
+
+}
+div#tokuten11{
+}
+div#tokuten10{
+	
+}
+div#furisode-banner{
+	width: 80%;
+	margin-right: 10%;
+	margin-left: 10%;
+}
+.furisode-banner1{
+	clear: both;
+	float: left;
+	display: inline-block;
+	margin-right: 15%;
+}
+.furisode-banner2{
+	display: inline-block;
+}
+
+@media only screen and (max-width: 1200px){
+
+div#catalog-line1{
+	margin-top: 0px;
+}
+div#catalog-line2{
+	margin-top: 0px;
+}
+.catalog-img1{
+	margin-left: 15%;
+}
+.catalog-img3{
+	margin-left: 15%;
+	margin-top: 5%;
+}
+.catalog-img4{
+	margin-top: 5%;
+}
+.catalog-img5{
+	margin-left: 15%;
+	margin-top: 5%;
+}
+.catalog-img6{
+	margin-top: 5%;
+}
+.catalog-img7{
+	margin-left: 15%;
+	margin-top: 5%;
+}
+.catalog-img8{
+	margin-top: 5%;
+}
+div#gallery-line1{
+	margin-top: 0px;
+}
+div#gallery-line2{
+	margin-top: 0px;
+}
+.gallery-img1{
+	margin-left: 15%;
+}
+.gallery-img3{
+	margin-left: 15%;
+	margin-top: 5%;
+}
+.gallery-img4{
+	margin-top: 5%;
+}
+.gallery-img5{
+	margin-left: 15%;
+	margin-top: 5%;
+}
+.gallery-img6{
+	margin-top: 5%;
+}
+.gallery-img7{
+	margin-left: 15%;
+	margin-top: 5%;
+}
+.gallery-img8{
+	margin-top: 5%;
+}
+.furisode-banner1{
+	float: none;
+	margin-left: 20%;
+}
+.furisode-banner2{
+	margin-left: 20%;
+}
+}
+
+@media only screen and (max-width: 800px){
+
+.catalog-img1{
+	float: none;
+	margin-left: 27.5%;
+}
+.catalog-img2{
+	float: none;
+	margin-left: 27.5%;
+	margin-top: 5%;
+}
+.catalog-img3{
+	float: none;
+	margin-left: 27.5%;
+}
+.catalog-img4{
+	float: none;
+	margin-left: 27.5%;
+}
+.catalog-img5{
+	float: none;
+	margin-left: 27.5%;
+}
+.catalog-img6{
+	float: none;
+	margin-left: 27.5%;
+}
+.catalog-img7{
+	float: none;
+	margin-left: 27.5%;
+}
+.catalog-img8{
+	float: none;
+	margin-left: 27.5%;
+}
+.gallery-img1{
+	float: none;
+	margin-left: 27.5%;
+}
+.gallery-img2{
+	float: none;
+	margin-left: 27.5%;
+	margin-top: 5%;
+}
+.gallery-img3{
+	float: none;
+	margin-left: 27.5%;
+}
+.gallery-img4{
+	float: none;
+	margin-left: 27.5%;
+}
+.gallery-img5{
+	float: none;
+	margin-left: 27.5%;
+}
+.gallery-img6{
+	float: none;
+	margin-left: 27.5%;
+}
+.gallery-img7{
+	float: none;
+	margin-left: 27.5%;
+}
+.gallery-img8{
+	float: none;
+	margin-left: 27.5%;
+}
+.furisode-banner1{
+	margin-left: 10%;
+}
+.furisode-banner2{
+	margin-left: 10%;
+}
+}
+
+@media only screen and (max-width: 479px){
+
+.catalog-img1{
+	margin-left: 4.5%;
+	margin-right: 0px;
+}
+.catalog-img2{
+	margin-left: 4.5%;
+	margin-right: 0px;
+}
+.catalog-img3{
+	margin-left: 4.5%;
+	margin-right: 0px;
+}
+.catalog-img4{
+	margin-left: 4.5%;
+	margin-right: 0px;
+}
+.catalog-img5{
+	margin-left: 4.5%;
+	margin-right: 0px;
+}
+.catalog-img6{
+	margin-left: 4.5%;
+	margin-right: 0px;
+}
+.catalog-img7{
+	margin-left: 4.5%;
+	margin-right: 0px;
+}
+.catalog-img8{
+	margin-left: 4.5%;
+	margin-right: 0px;
+}
+.gallery-img1{
+	margin-left: 4.5%;
+	margin-right: 0px;
+}
+.gallery-img2{
+	margin-left: 4.5%;
+	margin-right: 0px;
+}
+.gallery-img3{
+	margin-left: 4.5%;
+	margin-right: 0px;
+}
+.gallery-img4{
+	margin-left: 4.5%;
+	margin-right: 0px;
+}
+.gallery-img5{
+	margin-left: 4.5%;
+	margin-right: 0px;
+}
+.gallery-img6{
+	margin-left: 4.5%;
+	margin-right: 0px;
+}
+.gallery-img7{
+	margin-left: 4.5%;
+	margin-right: 0px;
+}
+.gallery-img8{
+	margin-left: 4.5%;
+	margin-right: 0px;
+}
+.furisode-banner1{
+	margin-right: 0px;
+	margin-left: 0px;
+}
+.furisode-banner1 img{
+	width: 100%;
+}
+.furisode-banner2{
+	margin-right: 0px;
+	margin-left: 0px;
+}
+.furisode-banner2 img{
+	width: 100%;
+}
+}
