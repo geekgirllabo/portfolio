@@ -1403,6 +1403,16 @@ div#footer-right3{
 }
 
 
+
+
+
+
+
+
+
+
+/*下層ページ「きものブティックあおき」*/
+
 div#maintext{
 	margin-top: -28.6%;
 	margin-left: 5%; 
@@ -2650,6 +2660,16 @@ div#maintext{
 }
 
 
+
+
+
+
+
+
+
+
+/*下層ページ「あおきのきもの」*/
+
 div#maintext{
 	margin-top: -30%;
 	margin-left: 5%; 
@@ -2855,6 +2875,37 @@ div#text3{
 }
 
 
+
+
+
+
+
+
+
+
+/*下層ページ「あおきの振袖」*/
+
+div#furisode-maintext{
+	margin-top: -31%;
+	margin-left: 5%; 
+	width: 40%;
+	background-color: #FFFFFF;
+	filter:alpha(opacity=70);
+	-moz-opacity:0.7;
+	opacity: 0.7;
+	padding-left: 3%;
+	padding-right: 6%;
+	padding-top: 1.5%;
+	padding-bottom: 1.5%;
+	line-height: 200%;
+	margin-bottom: 0px;
+}
+.furisode-maintext1{
+	font-size: 1.9vw;
+}
+.furisode-maintext2{
+	font-size: 0.9vw;
+}
 .catalog-title{
 	margin-top: 300px;
 	font-size: 24px;
@@ -3366,6 +3417,18 @@ div#furisode-banner{
 
 @media only screen and (max-width: 1200px){
 
+div#furisode-maintext{
+	width: 90%;
+	margin: 0px;
+	padding-right: 5%;
+	padding-left: 5%;
+}
+.furisode-maintext1{
+	font-size: 21px;
+}
+.furisode-maintext2{
+	font-size: 17px;
+}
 div#catalog-line1{
 	margin-top: 0px;
 }
@@ -3527,6 +3590,15 @@ div#tokuten10{
 
 @media only screen and (max-width: 479px){
 
+.furisode-maintext1{
+	font-size: 15px;
+}
+.furisode-maintext2{
+	font-size: 12px;
+}
+.catalog-title{
+	margin-top: 200px;
+}
 .catalog-img1{
 	margin-left: 9%;
 	margin-right: 9%;
@@ -3737,43 +3809,47 @@ div#tokuten10{
 	width: 100%;
 }
 }
-@media only screen and (max-width: 375px){
+@media only screen and (max-width: 376px){
 
 div#catalog-line1{
-	margin-left: 0px;
-	margin-right: 0px;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+div#catalog-line2{
+	margin-left: 10%;
+	margin-right: 10%;
 }
 .catalog-img1{
 	margin-left: 0px;
 	margin-right: 0px;
 }
 .catalog-img2{
-	margin-left: 5%;
-	margin-right: 5%;
+	margin-left: 0px;
+	margin-right: 0px;
 }
 .catalog-img3{
-	margin-left: 5%;
-	margin-right: 5%;
+	margin-left: 0px;
+	margin-right: 0px;
 }
 .catalog-img4{
-	margin-left: 5%;
-	margin-right: 5%;
+	margin-left: 0px;
+	margin-right: 0px;
 }
 .catalog-img5{
-	margin-left: 5%;
-	margin-right: 5%;
+	margin-left: 0px;
+	margin-right: 0px;
 }
 .catalog-img6{
-	margin-left: 5%;
-	margin-right: 5%;
+	margin-left: 0px;
+	margin-right: 0px;
 }
 .catalog-img7{
-	margin-left: 5%;
-	margin-right: 5%;
+	margin-left: 0px;
+	margin-right: 0px;
 }
 .catalog-img8{
-	margin-left: 5%;
-	margin-right: 5%;
+	margin-left: 0px;
+	margin-right: 0px;
 }
 .gallery-img1{
 	margin-left: 5%;
@@ -4015,4 +4091,750 @@ div#gallery-line2{
 	padding-top: 4%;
 	padding-bottom: 4%;
 }
+}
+
+
+
+
+
+
+
+
+
+
+/*下層ページ「前結び教室」*/
+
+div#maemusubi-maintext{
+	margin-top: -28.6%;
+	margin-left: 5%; 
+	width: 38.5%;
+	background-color: #FFFFFF;
+	filter:alpha(opacity=70);
+	-moz-opacity:0.7;
+	opacity: 0.7;
+	padding-left: 3%;
+	padding-right: 6%;
+	padding-top: 1.5%;
+	padding-bottom: 1.5%;
+	line-height: 200%;
+	margin-bottom: 0px;
+}
+.maemusubi-maintext1{
+	font-size: 1.9vw;
+}
+.maemusubi-maintext2{
+	font-size: 0.9vw;
+}
+.maemusubi-aisatsu{
+	font-size: 24px;
+	margin-top: 350px;
+	text-align: center;
+}
+div#maemusubi-okami{
+	width: 70%;
+	margin-left: 15%;
+	margin-right: 15%;
+	margin-top: 100px;
+	display: inline-block;
+}
+.maemusubi-okami-img{
+	float: left;
+	margin-right: 20%;
+}
+.maemusubi-okami-text1{
+	font-size: 20px;
+}
+.maemusubi-okami-text2{
+	font-size: 14px;
+	line-height: 155%;
+}
+.maemusubi-okami-text3{
+	font-size: 14px;
+	display: inline-block;
+	margin-left: 21%;
+	margin-top: 3%;
+}
+.maemusubi-okami-text4{
+	font-size: 16px;
+	display: inline-block;
+}
+.tokucho-title{
+	font-size: 24px;
+	margin-top: 200px;
+	text-align: center;
+}
+div#tokucho-haikei{
+	background-color: #ffffff;
+	padding: 3%;
+	width: 64%;
+	margin-top: 100px;
+	margin-right: 15%;
+	margin-left: 15%;
+}
+.miryoku1-title{
+	font-size: 20px;
+	display: inline-block;
+	vertical-align: middle;
+	padding-left: 200px;
+	background-image: url("img/miryoku1.png");
+	background-repeat: no-repeat;
+	background-position: left middle;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+.under{
+	border-bottom: solid 3px #e9e2b6;
+	padding-bottom: 15px;
+}
+.miryoku1-text{
+	font-size: 14px;
+	width: 47%;
+	margin-left: 20.5%;
+	margin-right: 10%;
+	float: left;
+	line-height: 150%;
+}
+.miryoku1-img{
+	margin-top: -10%;
+}
+.miryoku2-title{
+	font-size: 20px;
+	display: inline-block;
+	vertical-align: middle;
+	padding-left: 200px;
+	background-image: url("img/miryoku2.png");
+	background-repeat: no-repeat;
+	background-position: left middle;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+.miryoku2-text{
+	font-size: 14px;
+	width: 47%;
+	margin-left: 20.5%;
+	margin-right: 0%;
+	float: left;
+	line-height: 150%;
+}
+div#miryoku2-img1{
+	margin-top: -10%;
+	margin-right: 11%;
+	float: left;
+}
+.miryoku2-img1-text1{
+	font-size: 10px;
+	text-align: center;
+}
+.miryoku2-img1-text2{
+	font-size: 10px;
+	text-align: center;
+}
+div#miryoku2-img2{
+	margin-top: -10%;
+}
+.miryoku2-img2-text1{
+	font-size: 10px;
+	text-align: center;
+}
+.miryoku2-img2-text2{
+	font-size: 10px;
+	text-align: center;
+}
+.miryoku3-title{
+	width: 100%;
+	font-size: 20px;
+	display: inline-block;
+	vertical-align: middle;
+	padding-left: 200px;
+	background-image: url("img/miryoku3.png");
+	background-repeat: no-repeat;
+	background-position: left middle;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+.miryoku3-text{
+	width: 100%;
+	font-size: 14px;
+	width: 47%;
+	margin-left: 20.5%;
+	margin-right: 10%;
+	float: left;
+	line-height: 150%;
+}
+.miryoku4-title{
+	width: 100%;
+	font-size: 20px;
+	display: inline-block;
+	vertical-align: middle;
+	padding-left: 200px;
+	background-image: url("img/miryoku4.png");
+	background-repeat: no-repeat;
+	background-position: left middle;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+.miryoku4-text{
+	font-size: 14px;
+	width: 100%;
+	margin-left: 20.5%;
+	margin-right: 10%;
+	float: left;
+	line-height: 150%;
+}
+.miryoku5-title{
+	width: 100%;
+	font-size: 20px;
+	display: inline-block;
+	vertical-align: middle;
+	padding-left: 200px;
+	background-image: url("img/miryoku5.png");
+	background-repeat: no-repeat;
+	background-position: left middle;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+.miryoku5-text1{
+	font-size: 14px;
+	width: 100%;
+	margin-left: 20.5%;
+	margin-right: 10%;
+	float: left;
+}
+.miryoku5-text2{
+	width: 100%;
+	font-size: 10px;
+	margin-left: 20.5%;
+}
+.miryoku6-title{
+	width: 100%;
+	font-size: 20px;
+	display: inline-block;
+	vertical-align: middle;
+	padding-left: 200px;
+	background-image: url("img/miryoku6.png");
+	background-repeat: no-repeat;
+	background-position: left middle;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+.miryoku6-text{
+	font-size: 14px;
+	width: 100%;
+	margin-left: 20.5%;
+	margin-right: 10%;
+	float: left;
+	line-height: 150%;
+}
+.miryoku7-title{
+	width: 100%;
+	font-size: 20px;
+	display: inline-block;
+	vertical-align: middle;
+	padding-left: 200px;
+	background-image: url("img/miryoku7.png");
+	background-repeat: no-repeat;
+	background-position: left middle;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+.miryoku7-text{
+	font-size: 14px;
+	width: 100%;
+	margin-left: 20.5%;
+	margin-right: 10%;
+	float: left;
+	line-height: 150%;
+}
+.miryoku8-title{
+	width: 100%;
+	font-size: 20px;
+	display: inline-block;
+	vertical-align: middle;
+	padding-left: 200px;
+	background-image: url("img/miryoku8.png");
+	background-repeat: no-repeat;
+	background-position: left middle;
+	padding-top: 7px;
+	padding-bottom: 7px;
+}
+.miryoku8-title img{
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: 3%;
+}
+.miryoku8-text1{
+	font-size: 14px;
+	width: 70%;
+	margin-left: 20.5%;
+	margin-right: 10%;
+	float: left;
+}
+.miryoku8-text2{
+	clear: both;
+	width: 100%;
+	font-size: 10px;
+	margin-left: 20.5%;
+}
+.moushikomi-buttom{
+	text-align: center;
+	margin-top: 10%;
+}
+.curriculum-title{
+	font-size: 24px;
+	text-align: center;
+	margin-top: 200px;
+}
+div#sakura-haikei{
+	background-color: #ffffff;
+	width: 70%;
+	margin-top: 100px;
+	margin-right: 15%;
+	margin-left: 15%;
+	padding-bottom: 3%;
+}
+.sakura-title1{
+	font-size: 24px;
+	font-weight: bold;
+	width: 100%;
+	display: inline-block;
+	vertical-align: middle;
+	padding-left: 170px;
+	background-image: url("img/sakura-img.png");
+	background-repeat: no-repeat;
+	background-position: left middle;
+	padding-top: 30px;
+	padding-bottom: 35px;
+}
+.sakura-title2{
+	font-size: 18px;
+	font-weight: bold;
+	margin-left: 170px;
+	margin-top: -50px;
+}
+div#sakura-title{
+	margin: 3%;
+}
+div#sakura-teacher{
+	float: left;
+	margin-right: 10%;
+}
+.sakura-name1{
+	font-size: 14px;
+	text-align: center;
+}
+.sakura-name2{
+	font-size: 14px;
+	text-align: center;
+}
+div#sakura-kaihi{
+	padding-top: 40px;
+}
+.sakura-title{
+	font-size: 16px;
+}
+.sakura-text1{
+	font-size: 14px;
+	display: inline-block;
+}
+.sakura-text2{
+	font-size: 18px;
+	display: inline-block;
+}
+.sakura-text2 img{
+	vertical-align: middle;
+}
+.sakura-text3{
+	font-size: 14px;
+	margin-top: 0px;
+}
+.sakura-text4{
+	font-size: 14px;
+	line-height: 150%;
+	margin-bottom: 160px;
+}
+div#sakura-description{
+	width: 80%;
+	margin-top: 4%;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+table.sakura{
+	clear: both;
+	border: solid 1px #efb9ce;
+	text-align: center;
+	width: 80%;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+table.sakura th.chuuou{
+	background-color: #efb9ce;
+	border: solid 1px #ecc8d6;
+	font-size: 16px;
+	text-align: center;
+	width: 10%;
+	padding-top: 2%;
+	padding-bottom: 2%;
+}
+table.sakura th.hidari{
+	background-color: #efb9ce;
+	border: solid 1px #ecc8d6;
+	font-size: 16px;
+	text-align: left;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	padding-left: 3%;
+}
+table.sakura td.chuuou{
+	border: solid 1px #ecc8d6;
+	font-size: 14px;
+	text-align: center;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-top: 1%;
+	padding-bottom: 1%;
+}
+table.sakura td.hidari{
+	border: solid 1px #ecc8d6;
+	font-size: 14px;
+	text-align: left;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	padding-left: 3%;
+}
+div#kaede-haikei{
+	background-color: #ffffff;
+	width: 70%;
+	margin-top: 100px;
+	margin-right: 15%;
+	margin-left: 15%;
+	padding-bottom: 3%;
+}
+.kaede-title1{
+	font-size: 24px;
+	font-weight: bold;
+	width: 100%;
+	display: inline-block;
+	vertical-align: middle;
+	padding-left: 170px;
+	background-image: url("img/kaede-img.png");
+	background-repeat: no-repeat;
+	background-position: left middle;
+	padding-top: 40px;
+	padding-bottom: 35px;
+}
+.kaede-title2{
+	font-size: 18px;
+	font-weight: bold;
+	margin-left: 170px;
+	margin-top: -50px;
+}
+div#kaede-title{
+	margin: 3%;
+}
+div#kaede-teacher{
+	float: left;
+	margin-right: 10%;
+}
+.kaede-name1{
+	font-size: 14px;
+	text-align: center;
+}
+.kaede-name2{
+	font-size: 14px;
+	text-align: center;
+}
+div#kaede-kaihi{
+	padding-top: 40px;
+}
+.kaede-title{
+	font-size: 16px;
+}
+.kaede-text1{
+	font-size: 14px;
+	display: inline-block;
+}
+.kaede-text2{
+	font-size: 18px;
+	display: inline-block;
+}
+.kaede-text2 img{
+	vertical-align: middle;
+}
+.kaede-text3{
+	font-size: 14px;
+	margin-top: 0px;
+}
+.kaede-text4{
+	font-size: 14px;
+	line-height: 150%;
+	margin-bottom: 160px;
+}
+div#kaede-description{
+	width: 80%;
+	margin-top: 4%;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+table.kaede{
+	clear: both;
+	border: solid 1px #e7976b;
+	text-align: center;
+	width: 80%;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+table.kaede th.chuuou{
+	background-color: #e7976b;
+	border: solid 1px #e3b297;
+	font-size: 16px;
+	text-align: center;
+	width: 10%;
+	padding-top: 2%;
+	padding-bottom: 2%;
+}
+table.kaede th.hidari{
+	background-color: #e7976b;
+	border: solid 1px #e3b297;
+	font-size: 16px;
+	text-align: left;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	padding-left: 3%;
+}
+table.kaede td.chuuou{
+	border: solid 1px #e3b297;
+	font-size: 14px;
+	text-align: center;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-top: 1%;
+	padding-bottom: 1%;
+}
+table.kaede td.hidari{
+	border: solid 1px #e3b297;
+	font-size: 14px;
+	text-align: left;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	padding-left: 3%;
+}
+.kaede-text5{
+	font-size: 14px;
+	margin-left: 10%;
+	line-height: 150%;
+}
+div#botan-haikei{
+	background-color: #ffffff;
+	width: 70%;
+	margin-top: 100px;
+	margin-right: 15%;
+	margin-left: 15%;
+	padding-bottom: 3%;
+}
+.botan-title1{
+	font-size: 24px;
+	font-weight: bold;
+	width: 100%;
+	display: inline-block;
+	vertical-align: middle;
+	padding-left: 170px;
+	background-image: url("img/botan-img.png");
+	background-repeat: no-repeat;
+	background-position: left middle;
+	padding-top: 38px;
+	padding-bottom: 35px;
+}
+.botan-title2{
+	font-size: 18px;
+	font-weight: bold;
+	margin-left: 170px;
+	margin-top: -50px;
+}
+div#botan-title{
+	margin: 3%;
+}
+div#botan-teacher{
+	float: left;
+	margin-right: 10%;
+}
+.botan-name1{
+	font-size: 14px;
+	text-align: center;
+}
+.botan-name2{
+	font-size: 14px;
+	text-align: center;
+}
+div#botan-kaihi{
+	padding-top: 40px;
+}
+.botan-title{
+	font-size: 16px;
+}
+.botan-text1{
+	font-size: 14px;
+	display: inline-block;
+}
+.botan-text2{
+	font-size: 18px;
+	display: inline-block;
+}
+.botan-text2 img{
+	vertical-align: middle;
+}
+.botan-text3{
+	font-size: 14px;
+	margin-top: 0px;
+}
+.botan-text4{
+	font-size: 14px;
+	line-height: 150%;
+	margin-bottom: 160px;
+}
+div#botan-description{
+	width: 80%;
+	margin-top: 4%;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+table.botan{
+	clear: both;
+	border: solid 1px #e18c89;
+	text-align: center;
+	width: 80%;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+table.botan th.chuuou{
+	background-color: #e18c89;
+	border: solid 1px #e2aba9;
+	font-size: 16px;
+	text-align: center;
+	width: 10%;
+	padding-top: 2%;
+	padding-bottom: 2%;
+}
+table.botan th.hidari{
+	background-color: #e18c89;
+	border: solid 1px #e2aba9;
+	font-size: 16px;
+	text-align: left;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	padding-left: 3%;
+}
+table.botan td.chuuou{
+	border: solid 1px #e2aba9;
+	font-size: 14px;
+	text-align: center;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-top: 1%;
+	padding-bottom: 1%;
+}
+table.botan td.hidari{
+	border: solid 1px #e2aba9;
+	font-size: 14px;
+	text-align: left;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	padding-left: 3%;
+}
+.botan-text5{
+	font-size: 14px;
+	margin-left: 10%;
+	line-height: 150%;
+}
+.koushi-title{
+	font-size: 24px;
+	text-align: center;
+	margin-top: 200px;
+}
+div#teacher1{
+	float: left;
+	line-height: 150%;
+	margin-right: 10%;
+}
+.teacher1-img{
+	float: left;
+	margin-right: 10%;
+}
+.teacher1-text1{
+	font-size: 14px;
+	font-weight: bold;
+}
+.teacher1-text2{
+	font-size: 14px;
+}
+div#teacher2{
+	float: left;
+	line-height: 150%;
+}
+.teacher2-img{
+	float: left;
+	margin-right: 10%;
+}
+.teacher2-text1{
+	font-size: 14px;
+	font-weight: bold;
+}
+.teacher2-text2{
+	font-size: 14px;
+}
+div#teacher{
+	width: 75%;
+	margin-left: 12.5%;
+	margin-right: 12.5%;
+	margin-top: 100px;
+}
+.classroom-title{
+	clear: both;
+	font-size: 24px;
+	text-align: center;
+	padding-top: 200px;
+}
+.classroom-img1{
+	float: left;
+	margin-right: 7%;
+}
+.classroom-img2{
+	float: left;
+}
+div#classroom-img{
+	width: 71%;
+	margin-left: 14.5%;
+	margin-right: 14.5%;
+	margin-top: 100px;
+}
+.moushikomi-title{
+	clear: both;
+	font-size: 24px;
+	text-align: center;
+	padding-top: 200px;
+}
+input{
+	border:solid 1px #000000;
+	font-size: 14px;
+	width: 50%;
+}
+ul{
+	width:50%;
+	margin-top: 100px;
+	margin-left: auto;
+	margin-right: auto;
+}
+ul li{
+	list-style: none;
+	margin-top: 2%;
+}
+label{
+	font-size: 14px;
+	margin-right: 10px;
+	width: 31%;
+	float: left;
+	text-align: right;
+}
+.submit-buttom{
+	text-align: center;
+	margin-top: 80px;
 }
