@@ -1,0 +1,9 @@
+div#wrapper {
+	width: 970px;
+	margin: 0 auto;
+}
+ul#globalnav li{
+	float:left;
+	width:150px;
+	list-style-type:none;
+	background-color:#F2F2F2;
