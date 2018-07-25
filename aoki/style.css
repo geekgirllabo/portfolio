@@ -1657,19 +1657,19 @@ dt{
 	margin-top: 250px;
 	margin-bottom: 150px;
 }
-table{
+table.aoki-saiyou{
 	width:60%;
 	margin-left: 20%;
 	margin-right: 20%;
 	border-collapse: collapse;
 }
-table th{
+table.aoki-saiyou th{
 	background-color: #e5e5e5;
 	border: solid 1px #000000;
 	font-size: 12px;
 	vertical-align: text-top;
 }
-table td{
+table.aoki-saiyou td{
 	background-color: #FFFFFF;
 	border: solid 1px #000000;
 	font-size: 12px;
@@ -4186,6 +4186,9 @@ div#tokucho-haikei{
 	border-bottom: solid 3px #e9e2b6;
 	padding-bottom: 15px;
 }
+.miryoku1-icon{
+	display: none;
+}
 .miryoku1-text{
 	font-size: 14px;
 	width: 47%;
@@ -4196,6 +4199,9 @@ div#tokucho-haikei{
 }
 .miryoku1-img{
 	margin-top: -10%;
+}
+.miryoku2-icon{
+	display: none;
 }
 .miryoku2-title{
 	font-size: 20px;
@@ -4240,8 +4246,11 @@ div#miryoku2-img2{
 	font-size: 10px;
 	text-align: center;
 }
+.miryoku3-icon{
+	display: none;
+}
 .miryoku3-title{
-	width: 100%;
+	width: 70%;
 	font-size: 20px;
 	display: inline-block;
 	vertical-align: middle;
@@ -4261,8 +4270,11 @@ div#miryoku2-img2{
 	float: left;
 	line-height: 150%;
 }
+.miryoku4-icon{
+	display: none;
+}
 .miryoku4-title{
-	width: 100%;
+	width: 70%;
 	font-size: 20px;
 	display: inline-block;
 	vertical-align: middle;
@@ -4281,8 +4293,11 @@ div#miryoku2-img2{
 	float: left;
 	line-height: 150%;
 }
+.miryoku5-icon{
+	display: none;
+}
 .miryoku5-title{
-	width: 100%;
+	width: 70%;
 	font-size: 20px;
 	display: inline-block;
 	vertical-align: middle;
@@ -4305,8 +4320,11 @@ div#miryoku2-img2{
 	font-size: 10px;
 	margin-left: 20.5%;
 }
+.miryoku6-icon{
+	display: none;
+}
 .miryoku6-title{
-	width: 100%;
+	width: 70%;
 	font-size: 20px;
 	display: inline-block;
 	vertical-align: middle;
@@ -4325,8 +4343,11 @@ div#miryoku2-img2{
 	float: left;
 	line-height: 150%;
 }
+.miryoku7-icon{
+	display: none;
+}
 .miryoku7-title{
-	width: 100%;
+	width: 70%;
 	font-size: 20px;
 	display: inline-block;
 	vertical-align: middle;
@@ -4345,8 +4366,11 @@ div#miryoku2-img2{
 	float: left;
 	line-height: 150%;
 }
+.miryoku8-icon{
+	display: none;
+}
 .miryoku8-title{
-	width: 100%;
+	width: 70%;
 	font-size: 20px;
 	display: inline-block;
 	vertical-align: middle;
@@ -4395,7 +4419,7 @@ div#sakura-haikei{
 .sakura-title1{
 	font-size: 24px;
 	font-weight: bold;
-	width: 100%;
+	width: 70%;
 	display: inline-block;
 	vertical-align: middle;
 	padding-left: 170px;
@@ -4492,6 +4516,7 @@ table.sakura td.chuuou{
 	padding-right: 0px;
 	padding-top: 1%;
 	padding-bottom: 1%;
+	vertical-align: middle;
 }
 table.sakura td.hidari{
 	border: solid 1px #ecc8d6;
@@ -4512,7 +4537,7 @@ div#kaede-haikei{
 .kaede-title1{
 	font-size: 24px;
 	font-weight: bold;
-	width: 100%;
+	width: 70%;
 	display: inline-block;
 	vertical-align: middle;
 	padding-left: 170px;
@@ -4609,6 +4634,7 @@ table.kaede td.chuuou{
 	padding-right: 0px;
 	padding-top: 1%;
 	padding-bottom: 1%;
+	vertical-align: middle;
 }
 table.kaede td.hidari{
 	border: solid 1px #e3b297;
@@ -4634,7 +4660,7 @@ div#botan-haikei{
 .botan-title1{
 	font-size: 24px;
 	font-weight: bold;
-	width: 100%;
+	width: 70%;
 	display: inline-block;
 	vertical-align: middle;
 	padding-left: 170px;
@@ -4731,6 +4757,7 @@ table.botan td.chuuou{
 	padding-right: 0px;
 	padding-top: 1%;
 	padding-bottom: 1%;
+	vertical-align: middle;
 }
 table.botan td.hidari{
 	border: solid 1px #e2aba9;
@@ -4744,6 +4771,10 @@ table.botan td.hidari{
 	font-size: 14px;
 	margin-left: 10%;
 	line-height: 150%;
+}
+.curriculum-moushikomi-buttom{
+	text-align: center;
+	margin-top: 10%;
 }
 .koushi-title{
 	font-size: 24px;
@@ -4817,13 +4848,13 @@ input{
 	font-size: 14px;
 	width: 50%;
 }
-ul{
+ul.moushikomi-form{
 	width:50%;
 	margin-top: 100px;
 	margin-left: auto;
 	margin-right: auto;
 }
-ul li{
+ul.moushikomi-form li{
 	list-style: none;
 	margin-top: 2%;
 }
@@ -4837,4 +4868,1388 @@ label{
 .submit-buttom{
 	text-align: center;
 	margin-top: 80px;
+}
+
+@media only screen and (max-width: 1300px){
+
+div#maemusubi-maintext{
+	width: 90%;
+	margin: 0px;
+	padding-right: 5%;
+	padding-left: 5%;
+}
+.maemusubi-maintext1{
+	font-size: 21px;
+}
+.maemusubi-maintext2{
+	font-size: 17px;
+}
+.maemusubi-aisatsu{
+	margin-top: 200px;
+}
+.maemusubi-okami-text1{
+	font-size: 18px;
+}
+.maemusubi-okami-text3{
+	margin-left: 0px;
+}
+.maemusubi-okami-img{
+	margin-bottom: 80px;
+}
+.maemusubi-okami-text4{
+	margin-top: 0px;
+}
+.miryoku1-icon{
+	display: none;
+}
+.miryoku1-img{
+	margin-top: 0px;
+	margin-left: 31%;
+}
+.miryoku1-text{
+	width: 60%;
+	margin-left: 31%;
+}
+.miryoku2-icon{
+	display: none;
+}
+.miryoku2-text{
+	width: 60%;
+	margin-left: 31%;
+}
+div#miryoku2-img1{
+	float: none;
+	margin-top: 0px;
+	margin-left: 31%;
+	display: inline-block;
+}
+div#miryoku2-img2{
+	margin-top: 0px;
+	display: inline-block;
+}
+.miryoku3-icon{
+	display: none;
+}
+.miryoku3-text{
+	width: 60%;
+	margin-left: 31%;
+}
+.miryoku4-icon{
+	display: none;
+}
+.miryoku4-text{
+	width: 60%;
+	margin-left: 31%;
+}
+.miryoku5-icon{
+	display: none;
+}
+.miryoku5-text1{
+	width: 60%;
+	margin-left: 31%;
+}
+.miryoku5-text2{
+	width: 60%;
+	margin-left: 31%;
+}
+.miryoku6-icon{
+	display: none;
+}
+.miryoku6-text{
+	width: 60%;
+	margin-left: 31%;
+}
+.miryoku7-icon{
+	display: none;
+}
+.miryoku7-title{
+	width: 57%;
+	line-height: 250%;
+	padding-top: 0px;
+}
+.miryoku7-text{
+	width: 60%;
+	margin-left: 31%;
+}
+.miryoku8-icon{
+	display: none;
+}
+.miryoku8-title{
+	width: 57%;
+	line-height: 250%;
+	padding-top: 0px;
+}
+.miryoku8-text1{
+	width: 60%;
+	margin-left: 31%;
+}
+.miryoku8-text2{
+	width: 60%;
+	margin-left: 31%;
+}
+.sakura-title{
+	font-size: 15px;
+}
+.sakura-text1{
+	font-size: 12px;
+}
+.sakura-text2{
+	font-size: 14px;
+	margin-top: 0px;
+}
+.sakura-text3{
+	font-size: 12px;
+}
+.sakura-text4{
+	font-size: 12px;
+}
+.kaede-title{
+	font-size: 15px;
+}
+.kaede-text1{
+	font-size: 12px;
+}
+.kaede-text2{
+	font-size: 14px;
+	margin-top: 0px;
+}
+.kaede-text3{
+	font-size: 12px;
+}
+.kaede-text4{
+	font-size: 12px;
+}
+.botan-title{
+	font-size: 15px;
+}
+.botan-text1{
+	font-size: 12px;
+}
+.botan-text2{
+	font-size: 14px;
+	margin-top: 0px;
+}
+.botan-text3{
+	font-size: 12px;
+}
+.botan-text4{
+	font-size: 12px;
+}
+div#teacher1{
+	clear: both;
+	margin-right: 0px;
+}
+div#teacher{
+	width: 50%;
+	margin-left: 25%;
+	margin-right: 25%;
+}
+.classroom-img1{
+	clear: both;
+	margin-right: 0px;
+	width: 100%;
+	text-align: center;
+}
+.classroom-img1 img{
+	width: 100%;
+}
+.classroom-img2{
+	clear: both;
+	width: 100%;
+	text-align: center;
+}
+.classroom-img2 img{
+	width: 100%;
+}
+}
+
+@media only screen and (max-width: 1000px){
+
+.maemusubi-okami-img{
+	width: 100%;
+	text-align: center;
+	margin-right: 0px;
+}
+.maemusubi-okami-img img{
+	width: 100%;
+	text-align: center;
+}
+.miryoku1-icon{
+	display: none;
+}
+.miryoku1-title{
+	line-height: 250%;
+	padding-top: 0px;
+}
+.miryoku1-img{
+	margin-left: 41%;
+}
+.miryoku1-text{
+	width: 55%;
+	margin-left: 41%;
+}
+.miryoku2-icon{
+	display: none;
+}
+.miryoku2-title{
+	line-height: 250%;
+	padding-top: 0px;
+}
+.miryoku2-text{
+	width: 55%;
+	margin-left: 41%;
+}
+div#miryoku2-img1{
+	margin-left: 41%;
+}
+.miryoku3-icon{
+	display: none;
+}
+.miryoku3-title{
+	line-height: 250%;
+	padding-top: 0px;
+}
+.miryoku3-text{
+	width: 55%;
+	margin-left: 41%;
+}
+.miryoku4-icon{
+	display: none;
+}
+.miryoku4-title{
+	width: 57%;
+	line-height: 250%;
+	padding-top: 0px;
+}
+.miryoku4-text{
+	width: 55%;
+	margin-left: 41%;
+}
+.miryoku5-icon{
+	display: none;
+}
+.miryoku5-text1{
+	width: 55%;
+	margin-left: 41%;
+}
+.miryoku5-text2{
+	width: 55%;
+	margin-left: 41%;
+}
+.miryoku6-icon{
+	display: none;
+}
+.miryoku6-title{
+	width: 57%;
+	line-height: 250%;
+	padding-top: 0px;
+}
+.miryoku6-text{
+	width: 55%;
+	margin-left: 41%;
+}
+.miryoku7-icon{
+	display: none;
+}
+.miryoku7-text{
+	width: 55%;
+	margin-left: 41%;
+}
+.miryoku8-icon{
+	display: none;
+}
+.miryoku8-text1{
+	width: 55%;
+	margin-left: 41%;
+}
+.miryoku8-text2{
+	width: 55%;
+	margin-left: 41%;
+}
+.sakura-title1{
+	font-size: 22px;
+	padding-bottom: 40px;
+}
+.sakura-title2{
+	font-size: 16px;
+	margin-top: -55px;
+}
+div#sakura-teacher{
+	float: none;
+	margin-right: 0px;
+}
+.sakura-img{
+	width: 100%;
+	text-align: center;
+}
+.sakura-img img{
+	margin-top: 10%;
+}
+div#sakura-kaihi{
+	width: 90%;
+	margin-right: 5%;
+	margin-left: 5%;
+
+}
+.kaede-title1{
+	font-size: 22px;
+	padding-bottom: 40px;
+}
+.kaede-title2{
+	font-size: 16px;
+	margin-top: -55px;
+}
+div#kaede-teacher{
+	float: none;
+	margin-right: 0px;
+}
+.kaede-img{
+	width: 100%;
+	text-align: center;
+}
+.kaede-img img{
+	margin-top: 10%;
+}
+div#kaede-kaihi{
+	width: 90%;
+	margin-right: 5%;
+	margin-left: 5%;
+
+}
+.botan-title1{
+	font-size: 22px;
+	padding-bottom: 40px;
+}
+.botan-title2{
+	font-size: 16px;
+	margin-top: -55px;
+}
+div#botan-teacher{
+	float: none;
+	margin-right: 0px;
+}
+.botan-img{
+	width: 100%;
+	text-align: center;
+}
+.botan-img img{
+	margin-top: 10%;
+}
+div#botan-kaihi{
+	width: 90%;
+	margin-right: 5%;
+	margin-left: 5%;
+}
+.teacher1-img{
+	width: 100%;
+	text-align: center;
+}
+.teacher1-text1{
+	text-align: center;
+}
+.teacher1-text2{
+	margin-top: 5%;
+}
+.teacher2-img{
+	width: 100%;
+	text-align: center;
+}
+.teacher2-img img{
+	margin-top: 10%;
+}
+.teacher2-text1{
+	text-align: center;
+}
+.teacher2-text2{
+	margin-top: 5%;
+}
+input{
+	font-size: 10px;
+}
+label{
+	font-size: 10px;
+}
+}
+
+@media only screen and (max-width: 700px){
+
+.miryoku1-title{
+	padding-left: 41%;
+}
+div#miryoku2-img2{
+	margin-left: 41%;
+}
+.miryoku2-title{
+	padding-left: 41%;
+}
+.miryoku3-title{
+	width: 57%;
+	padding-left: 41%;
+}
+.miryoku4-title{
+	padding-left: 41%;
+}
+.miryoku5-title{
+	padding-left: 41%;
+}
+.miryoku6-title{
+	padding-left: 41%;
+}
+.miryoku7-title{
+	padding-left: 41%;
+}
+.miryoku8-title{
+	padding-left: 41%;
+}
+.miryoku8-title img{
+	width: 100%;
+}
+.moushikomi-buttom img{
+	width: 100%;
+}
+}
+
+@media only screen and (max-width: 476px){
+
+.maemusubi-maintext1{
+	font-size: 15px;
+}
+.maemusubi-maintext2{
+	font-size: 12px;
+}
+.maemusubi-aisatsu{
+	font-size: 22px;
+}
+.tokucho-title{
+	font-size: 22px;
+}
+.miryoku1-icon{
+	display: block;
+	float: left;
+}
+.miryoku1-title{
+	background-image: none;
+	padding-left: 0px;
+	margin-top: 0px;
+	width: 100%;
+}
+.miryoku1-text{
+	width: 100%;
+	margin-left: 0px;
+	margin-top: 0px;
+}
+.miryoku1-img{
+	width: 100%;
+	text-align: center;
+	margin-left: 0px;
+}
+.miryoku2-icon{
+	display: block;
+	float: left;
+}
+.miryoku2-title{
+	background-image: none;
+	padding-left: 0px;
+	margin-top: 0px;
+	width: 100%;
+}
+.miryoku2-text{
+	width: 100%;
+	margin-left: 0px;
+	margin-top: 0px;
+}
+div#miryoku2-img1{
+	margin-right: 0px;
+	margin-left: 0px;
+}
+div#miryoku2-img2{
+	float: right;
+}
+.miryoku3-icon{
+	display: block;
+	float: left;
+}
+.miryoku3-title{
+	background-image: none;
+	padding-left: 0px;
+	margin-top: 0px;
+	width: 100%;
+}
+.miryoku3-text{
+	width: 100%;
+	margin-left: 0px;
+	margin-top: 0px;
+}
+.miryoku4-icon{
+	display: block;
+	float: left;
+}
+.miryoku4-title{
+	background-image: none;
+	padding-left: 0px;
+	margin-top: 0px;
+	width: 100%;
+}
+.miryoku4-text{
+	width: 100%;
+	margin-left: 0px;
+	margin-top: 0px;
+}
+.miryoku5-icon{
+	display: block;
+	float: left;
+}
+.miryoku5-title{
+	background-image: none;
+	padding-left: 0px;
+	margin-top: 0px;
+	width: 100%;
+}
+.miryoku5-text1{
+	width: 100%;
+	margin-left: 0px;
+	margin-top: 0px;
+}
+.miryoku5-text2{
+	width: 100%;
+	margin-left: 0px;
+	margin-top: 0px;
+}
+.miryoku6-icon{
+	display: block;
+	float: left;
+}
+.miryoku6-title{
+	background-image: none;
+	padding-left: 0px;
+	margin-top: 0px;
+	width: 100%;
+	line-height: 250%;
+	padding-top: 0px;
+}
+.miryoku6-text{
+	width: 100%;
+	margin-left: 0px;
+	margin-top: 0px;
+}
+.miryoku7-icon{
+	display: block;
+	float: left;
+}
+.miryoku7-title{
+	background-image: none;
+	padding-left: 0px;
+	margin-top: 0px;
+	width: 100%;
+}
+.miryoku7-text{
+	width: 100%;
+	margin-left: 0px;
+	margin-top: 0px;
+}
+.miryoku8-icon{
+	display: block;
+	float: left;
+}
+.miryoku8-title{
+	background-image: none;
+	padding-left: 0px;
+	margin-top: 0px;
+	width: 100%;
+}
+.miryoku8-title img{
+	width: 100%;
+}
+.miryoku8-text1{
+	width: 100%;
+	margin-left: 0px;
+	margin-top: 0px;
+}
+.miryoku8-text2{
+	width: 100%;
+	margin-left: 0px;
+	margin-top: 0px;
+}
+.curriculum-title{
+	font-size: 22px;
+}
+.sakura-title1{
+	padding-left: 100px;
+	padding-top: 33px;
+}
+.sakura-title2{
+	margin-left: 0px;
+	margin-top: 0px;
+}
+div#sakura-teacher{
+	margin-right: 0px;
+}
+.sakura-text2{
+	line-height: 200%;
+}
+.kaede-title1{
+	padding-left: 100px;	
+}
+.kaede-title2{
+	margin-left: 0px;
+	margin-top: 0px;
+}
+div#kaede-teacher{
+	margin-right: 0px;
+}
+.kaede-text2{
+	line-height: 200%;
+}
+.botan-title1{
+	padding-left: 100px;
+}
+.botan-title2{
+	margin-left: 0px;
+	margin-top: 0px;
+}
+div#botan-teacher{
+	margin-right: 0px;
+}
+.botan-text2{
+	line-height: 200%;
+}
+.curriculum-moushikomi-buttom img{
+	width: 70%;
+}
+.teacher1-img{
+	margin-right: 0px;
+}
+.teacher1-img img{
+	width: 100%;
+	text-align: center;
+}
+.teacher2-img{
+	margin-right: 0px;
+}
+.teacher2-img img{
+	width: 100%;
+	text-align: center;
+}
+.moushikomi-title{
+	font-size: 22px;
+}
+ul.moushikomi-form{
+	padding-left: 0px;
+	width: 100%;
+}
+label{
+	width: 37.5%;
+}
+.submit-buttom img{
+	width: 70%;
+	text-align: center;
+}
+}
+
+@media only screen and (max-width: 321px){
+
+.maemusubi-aisatsu{
+	font-size: 20px;
+}
+.maemusubi-okami-text1{
+	font-size: 16px;
+}
+.maemusubi-okami-text2{
+	font-size: 12px;
+}
+.maemusubi-okami-text3{
+	font-size: 14px;
+}
+.maemusubi-okami-text5{
+	font-size: 15px;
+}
+.tokucho-title{
+	font-size: 20px;
+}
+.curriculum-title{
+	font-size: 20px;
+}
+.sakura-title1{
+	font-size: 18px;
+	padding-top: 35px;
+}
+.sakura-img img{
+	width: 100%;
+	text-align: center;
+}
+.kaede-title1{
+	font-size: 18px;
+	padding-top: 43px;
+}
+.kaede-img img{
+	width: 100%;
+	text-align: center;
+}
+.botan-title1{
+	font-size: 18px;
+	padding-top: 40px;
+}
+.botan-img img{
+	width: 100%;
+	text-align: center;
+}
+.koushi-title{
+	font-size: 20px;
+}
+.classroom-title{
+	font-size: 20px;
+}
+.moushikomi-title{
+	font-size: 20px;
+}
+label{
+	width: 40%;
+}
+}
+
+
+
+
+
+
+
+
+
+/*下層ページ「フォトスタジオ」*/
+
+div#photostudio-maintext{
+	margin-top: -30%;
+	margin-left: 5%; 
+	width: 38.5%;
+	background-color: #FFFFFF;
+	filter:alpha(opacity=70);
+	-moz-opacity:0.7;
+	opacity: 0.7;
+	padding-left: 3%;
+	padding-right: 6%;
+	padding-top: 1.5%;
+	padding-bottom: 1.5%;
+	line-height: 200%;
+	margin-bottom: 0px;
+}
+.photostudio-maintext1{
+	font-size: 1.9vw;
+}
+.photostudio-maintext2{
+	font-size: 0.9vw;
+}
+.KIMONOpre-title{
+	font-size: 24px;
+	margin-top: 350px;
+	text-align: center;
+}
+.KIMONOpre-text{
+	font-size: 14px;
+	text-align: center;
+}
+.KIMONOpre-img{
+	text-align: center;
+	margin-top: 50px;
+	width: 85%;
+	margin-right: auto;
+	margin-left: auto;
+}
+.KIMONOpre-img img{
+	width: 100%;
+}
+.studioplan-title{
+	font-size: 24px;
+	margin-top: 200px;
+	text-align: center;
+}
+.studioplan-img1{
+	float: left;
+	margin-right: 3%;
+}
+.studioplan-img2{
+	float: left;
+	margin-right: 3%;
+}
+.studioplan-img3{
+	float: left;
+}
+div#studioplan-img{
+	width: 84.5%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 100px;
+}
+.locationplan-title{
+	clear: both;
+	font-size: 24px;
+	text-align: center;
+	padding-top: 200px;
+}
+.locationplan-img1{
+	float: left;
+	margin-right: 3%;
+}
+.locationplan-img2{
+	float: left;
+	margin-right: 3%;
+}
+.locationplan-img3{
+	float: left;
+}
+div#locationplan-img{
+	width: 84.5%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 100px;
+}
+.album-title{
+	clear: both;
+	font-size: 24px;
+	text-align: center;
+	padding-top: 200px;
+}
+div#album-haikei{
+	background-color: #ffe4d8;
+	width: 74.5%;
+	height: 60%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 100px;
+	padding-top: 5%;
+	padding-right: 5%;
+	padding-bottom: 5%;
+	padding-left: 5%;
+}
+.album-img1{
+	float: left;
+	margin-right: 7%;
+}
+.album-img2{
+	float: left;
+	margin-right: 5%;
+}
+.album-img3{
+	float: left;
+}
+div#ryoukin-haikei{
+	clear: both;
+	background-color: #ffffff;
+	border-radius:20px 20px 20px 20px;
+	padding-top: 1%;
+	padding-right: 2%;
+	padding-bottom: 1%;
+	padding-left: 2%;
+	border: solid 1px #000000;
+	margin-top: 33%;
+}
+.ryoukin-title{
+	font-size: 24px;
+}
+div#ryoukin-text1{
+	float: left;
+	font-size: 14px;
+	width: 100%;
+}
+.ryoukin-text1{
+	display: inline-block;
+	margin-right: 18%;
+	margin-left: 1%;
+}
+.ryoukin-text2{
+	display: inline-block;
+	margin-right: 43%;
+}
+.ryoukin-text3{
+	display: inline-block;
+}
+div#ryoukin-text2{
+	clear: both;
+	font-size: 14px;
+	width: 100%;
+}
+.ryoukin-text4{
+	display: inline-block;
+	margin-right: 16%;
+	margin-left: 1%;
+}
+.ryoukin-text5{
+	display: inline-block;
+	margin-right: 16%;
+}
+.ryoukin-text6{
+	display: inline-block;
+}
+.seijinshiki-title{
+	font-size: 24px;
+	margin-top: 200px;
+	text-align: center;
+}
+.seijinshiki-text1{
+	font-size: 20px;
+	text-align: center;
+	margin-top: 100px;
+}
+div#seijinshiki-img1{
+	width: 60%;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 3%;
+}
+.seijinshiki-img1{
+	float: left;
+	margin-right: 10%;
+}
+.seijinshiki-img2{
+	float: left;
+}
+.seijinshiki-text2{
+	clear: both;
+	font-size: 20px;
+	text-align: center;
+	padding-top: 70px;
+}
+div#seijinshiki-img2{
+	width: 60%;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 3%;
+}
+.seijinshiki-img3{
+	float: left;
+	margin-right: 10%;
+}
+.seijinshiki-img4{
+	float: left;
+}
+.ryoukinplan-title{
+	clear: both;
+	font-size: 20px;
+	text-align: center;
+	padding-top: 70px;
+}
+table.ryoukin{
+	text-align: center;
+	border-collapse: collapse;
+	border: solid 1px #e9e2b6;
+	width: 70%;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 50px;
+}
+table.ryoukin th{
+	background-color: #e9e2b6;
+	border: solid 1px #f4f2e5;
+	vertical-align: middle;
+	padding-top: 1.5%;
+	padding-bottom: 1.5%;
+	font-size: 14px;
+	font-weight: normal;
+}
+table.ryoukin td{
+	background-color: #ffffff;
+	border: solid 1px #f4f2e5;
+	padding-left: 0px;
+	padding-top: 1.5%;
+	padding-bottom: 1.5%;
+	font-size: 14px;
+}
+div#ryoukin2-haikei{
+	clear: both;
+	background-color: #ffffff;
+	border-radius:20px 20px 20px 20px;
+	padding-top: 1%;
+	padding-right: 2%;
+	padding-bottom: 1%;
+	padding-left: 2%;
+	border: solid 1px #000000;
+	margin-top: 3.5%;
+	width: 66%;
+	margin-right: auto;
+	margin-left: auto;
+}
+.ryoukin2-title{
+	font-size: 24px;
+}
+div#ryoukin2-text1{
+	float: left;
+	font-size: 14px;
+	width: 100%;
+}
+.ryoukin2-text1{
+	display: inline-block;
+	margin-right: 18%;
+	margin-left: 1%;
+}
+.ryoukin2-text2{
+	display: inline-block;
+	margin-right: 43%;
+}
+.ryoukin2-text3{
+	display: inline-block;
+}
+div#ryoukin2-text2{
+	clear: both;
+	font-size: 14px;
+	width: 100%;
+}
+.ryoukin2-text4{
+	display: inline-block;
+	margin-right: 16%;
+	margin-left: 1%;
+}
+.ryoukin2-text5{
+	display: inline-block;
+	margin-right: 13.5%;
+}
+.ryoukin2-text6{
+	display: inline-block;
+}
+
+@media only screen and (max-width: 1200px){
+
+.KIMONOpre-title{
+	margin-top: 200px;
+}
+div#photostudio-maintext{
+	width: 90%;
+	margin: 0px;
+	padding-right: 5%;
+	padding-left: 5%;
+}
+.photostudio-maintext1{
+	font-size: 21px;
+}
+.photostudio-maintext2{
+	font-size: 17px;
+}
+.studioplan-img1{
+	float: none;
+	text-align: center;
+	margin-right: 0px;
+}
+.studioplan-img2{
+	float: none;
+	margin-right: 0px;
+	margin-top: 5%;
+	text-align: center;
+}
+.studioplan-img3{
+	float: none;
+	text-align: center;
+	margin-top: 5%;
+}
+.locationplan-img1{
+	float: none;
+	text-align: center;
+	margin-right: 0px;
+}
+.locationplan-img2{
+	float: none;
+	margin-right: 0px;
+	text-align: center;
+	margin-top: 5%;
+}
+.locationplan-img3{
+	float: none;
+	text-align: center;
+	margin-top: 5%;
+}
+.ryoukin-text1{
+	margin-right: 13%;
+}
+.ryoukin-text2{
+	margin-right: 41%;
+}
+.ryoukin-text4{
+	margin-right: 10%;
+}
+.ryoukin-text5{
+	margin-right: 1%;
+}
+.seijinshiki-img1{
+	float: none;
+	margin-right: 0px;
+	text-align: center;
+	margin-top: 5%;
+}
+.seijinshiki-img2{
+	float: none;
+	text-align: center;
+	margin-top: 5%;
+}
+.seijinshiki-img3{
+	float: none;
+	margin-right: 0px;
+	text-align: center;
+	margin-top: 5%;
+}
+.seijinshiki-img4{
+	float: none;
+	text-align: center;
+	margin-top: 5%;
+}
+.ryoukin2-text1{
+	margin-right: 13%;
+}
+.ryoukin2-text2{
+	margin-right: 44.5%;
+}
+.ryoukin2-text4{
+	margin-right: 10%;
+}
+.ryoukin2-text5{
+	margin-right: 1%;
+}
+}
+
+@media only screen and (max-width: 800px){
+
+.album-img1{
+	float: none;
+	margin-right: 0px;
+	text-align: center;
+}
+.album-img2{
+	float: none;
+	margin-right: 0px;
+	text-align: center;
+}
+.album-img3{
+	float: none;
+	text-align: center;
+}
+.ryoukin-text1{
+	margin-right: 13%;
+}
+.ryoukin-text2{
+	margin-right: 33%;
+}
+.ryoukin-text4{
+	margin-right: 9%;
+}
+.ryoukin-text5{
+	margin-right: 0px;
+}
+.ryoukin-text6{
+	display: block;
+	margin-left: 1%;
+}
+table.ryoukin th{
+	font-size: 12px;
+}
+table.ryoukin td{
+	font-size: 12px;
+}
+.ryoukin2-text1{
+	margin-right: 13%;
+}
+.ryoukin2-text2{
+	margin-right: 33%;
+}
+.ryoukin2-text4{
+	margin-right: 9%;
+}
+.ryoukin2-text5{
+	margin-right: 0px;
+}
+.ryoukin2-text6{
+	display: block;
+	margin-left: 1%;
+}
+}
+
+@media only screen and (max-width: 476px){
+
+.photostudio-maintext1{
+	font-size: 15px;
+}
+.photostudio-maintext2{
+	font-size: 12px;
+}
+.KIMONOpre-title{
+	font-size: 18px;
+	width: 84.5%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.KIMONOpre-text{
+	font-size: 12px;
+}
+.studioplan-title{
+	font-size: 18px;
+	width: 84.5%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.studioplan-img1 img{
+	width: 100%;
+}
+.studioplan-img2 img{
+	width: 100%;
+}
+.studioplan-img3 img{
+	width: 100%;
+}
+.locationplan-title{
+	font-size: 18px;
+	width: 84.5%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.locationplan-img1 img{
+	width: 100%;
+}
+.locationplan-img2 img{
+	width: 100%;
+}
+.locationplan-img3 img{
+	width: 100%;
+}
+.album-title{
+	font-size: 18px;
+	width: 84.5%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.album-img1 img{
+	width: 100%;
+}
+.album-img2 img{
+	width: 100%;
+}
+.album-img3 img{
+	width: 100%;
+}
+.ryoukin-title{
+	font-size: 18px;
+	text-align: center;
+}
+.ryoukin-text1{
+	display: block;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+.ryoukin-text2{
+	display: block;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+.ryoukin-text3{
+	display: block;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+.ryoukin-text4{
+	display: block;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+.ryoukin-text5{
+	display: block;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+.ryoukin-text6{
+	display: block;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+.seijinshiki-title{
+	font-size: 18px;
+	width: 84.5%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.seijinshiki-text1{
+	width: 84.5%;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 12px;
+	text-align: left;
+}
+div#seijinshiki-img1{
+	width: 84.5%;
+}
+.seijinshiki-img1{
+	float: none;
+	margin-right: 0px;
+}
+.seijinshiki-img1 img{
+	width: 100%;
+}
+.seijinshiki-img2{
+	float: none;
+}
+.seijinshiki-img2 img{
+	width: 100%;
+}
+.seijinshiki-text2{
+	width: 84.5%;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 12px;
+	text-align: left;
+}
+div#seijinshiki-img2{
+	width: 84.5%;
+}
+.seijinshiki-img3{
+	float: none;
+	margin-right: 0px;
+}
+.seijinshiki-img3 img{
+	width: 100%;
+}
+.seijinshiki-img4{
+	float: none;
+}
+.seijinshiki-img4 img{
+	width: 100%;
+}
+.ryoukinplan-title{
+	font-size: 18px;
+	width: 84.5%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.ryoukin2-title{
+	font-size: 18px;
+	text-align: center;
+}
+.ryoukin2-text1{
+	display: block;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+.ryoukin2-text2{
+	display: block;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+.ryoukin2-text3{
+	display: block;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+.ryoukin2-text4{
+	display: block;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+.ryoukin2-text5{
+	display: block;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+.ryoukin2-text6{
+	display: block;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+table.ryoukin th{
+	font-size: 10px;
+}
+table.ryoukin td{
+	font-size: 10px;
+}
 }
