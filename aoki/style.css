@@ -5735,15 +5735,16 @@ div#ryoukin-haikei{
 	clear: both;
 	background-color: #ffffff;
 	border-radius:20px 20px 20px 20px;
-	padding-top: 1%;
+	padding-top: 2%;
 	padding-right: 2%;
-	padding-bottom: 1%;
+	padding-bottom: 2%;
 	padding-left: 2%;
 	border: solid 1px #000000;
 	margin-top: 33%;
 }
 .ryoukin-title{
 	font-size: 24px;
+	margin-top: 0px;
 }
 div#ryoukin-text1{
 	float: left;
@@ -5766,18 +5767,22 @@ div#ryoukin-text2{
 	clear: both;
 	font-size: 14px;
 	width: 100%;
+	margin-bottom: 0px;
 }
 .ryoukin-text4{
 	display: inline-block;
 	margin-right: 16%;
 	margin-left: 1%;
+	margin-bottom: 0px;
 }
 .ryoukin-text5{
 	display: inline-block;
 	margin-right: 16%;
+	margin-bottom: 0px;
 }
 .ryoukin-text6{
 	display: inline-block;
+	margin-bottom: 0px;
 }
 .seijinshiki-title{
 	font-size: 24px;
@@ -5857,9 +5862,9 @@ div#ryoukin2-haikei{
 	clear: both;
 	background-color: #ffffff;
 	border-radius:20px 20px 20px 20px;
-	padding-top: 1%;
+	padding-top: 2%;
 	padding-right: 2%;
-	padding-bottom: 1%;
+	padding-bottom: 2%;
 	padding-left: 2%;
 	border: solid 1px #000000;
 	margin-top: 3.5%;
@@ -5869,6 +5874,7 @@ div#ryoukin2-haikei{
 }
 .ryoukin2-title{
 	font-size: 24px;
+	margin-top: 0px;
 }
 div#ryoukin2-text1{
 	float: left;
@@ -5891,18 +5897,22 @@ div#ryoukin2-text2{
 	clear: both;
 	font-size: 14px;
 	width: 100%;
+	margin-bottom: 0px;
 }
 .ryoukin2-text4{
 	display: inline-block;
 	margin-right: 16%;
 	margin-left: 1%;
+	margin-bottom: 0px;
 }
 .ryoukin2-text5{
 	display: inline-block;
 	margin-right: 13.5%;
+	margin-bottom: 0px;
 }
 .ryoukin2-text6{
 	display: inline-block;
+	margin-bottom: 0px;
 }
 
 @media only screen and (max-width: 1200px){
