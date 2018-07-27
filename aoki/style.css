@@ -1,3 +1,5 @@
+/*トップページ*/
+
 body{
 	margin: 0px;
 	background-image: url("img/gamen.gif");
@@ -1885,7 +1887,7 @@ div#map embed{
 }
 div#access-gaiyou{
 	width: 56%;
-	height: 125px;
+	height: 100%;
 	background-color: #e9e2b6;
 	border-radius:20px 20px 20px 20px;
 	margin-left: 20%;
@@ -6069,6 +6071,7 @@ table.ryoukin td{
 }
 
 @media only screen and (max-width: 476px){
+
 
 .photostudio-maintext1{
 	font-size: 15px;
