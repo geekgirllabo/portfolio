@@ -180,10 +180,13 @@ ul#globalnav li a:hover::after{
 .mainvisual img{
 	position: relative;
 }
+.mainvisual-smaho{
+	display: none;
+}
 .maintext{
-	margin-top: -28%;
+	margin-top: -27.1%;
 	margin-left: 5%; 
-	width: 20%;
+	width: 23%;
 	background-color: #FFFFFF;
 	filter:alpha(opacity=70);
 	-moz-opacity:0.7;
@@ -194,7 +197,7 @@ ul#globalnav li a:hover::after{
 	padding-bottom: 2%;
 	line-height: 250%;
 	margin-bottom: 0px;
-	font-size: 1vw;
+	font-size: 16px;
 }
 div#content{
 	width: 100%;
@@ -227,9 +230,11 @@ div#banner1-right{
 	font-weight: bold;
 }
 .banner1-text{
+	width: 35%;
 	display: inline-block;
 	text-align: left;
 	line-height: 190%;
+	font-size: 16px;
 }
 .banner1-buttom{
 	margin-top: 70px;
@@ -254,6 +259,8 @@ div#banner2-left{
 	display: inline-block;
 	text-align: left;
 	line-height: 190%;
+	width: 35%;
+	font-size: 16px;
 }
 .banner2-buttom{
 	margin-top: 70px;
@@ -295,6 +302,8 @@ div#banner3-right{
 	display: inline-block;
 	text-align: left;
 	line-height: 190%;
+	width: 35%;
+	font-size: 16px;
 }
 .banner3-buttom{
 	margin-top: 70px;
@@ -308,7 +317,7 @@ div#banner4{
 }
 div#banner4-left{
 	text-align: center;
-	padding-top: 3%;
+	padding-top: 4%;
 }
 .banner4-midashi{
 	font-size: 30px;
@@ -318,6 +327,8 @@ div#banner4-left{
 	display: inline-block;
 	text-align: left;
 	line-height: 190%;
+	width: 35%;
+	font-size: 16px;
 }
 .banner4-buttom{
 	margin-top: 70px;
@@ -650,17 +661,20 @@ div#footer-right3{
 @media only screen and (max-width: 1400px){
 
 .banner1-img{
-	float: left;
 	width: 50%;
-}
-.banner1-img img{
-	width: 100%;
 }
 div#banner1-right{
 	float: left;
 	width: 40%;
-	text-align: center;
 	margin-left: 3%;
+	padding-top: 1%;
+}
+.banner1-midashi{
+	font-size: 24px;
+}
+.banner1-text{
+	font-size: 14px;
+	width: 76%;
 }
 div#banner2{
 	clear: both;
@@ -677,9 +691,16 @@ div#banner2{
 }
 div#banner2-left{
 	text-align: center;
-	padding-top: 3%;
+	padding-top: 0.5%;
 	width: 40%;
 	margin-left: 4%;
+}
+.banner2-midashi{
+	font-size: 24px;
+}
+.banner2-text{
+	font-size: 14px;
+	width: 76%;
 }
 .banner3-img{
 	float: left;
@@ -694,18 +715,27 @@ div#banner3-right{
 	text-align: center;
 	margin-left: 3%;
 }
+.banner3-midashi{
+	font-size: 24px;
+}
+.banner3-text{
+	font-size: 14px;
+	width: 76%;
+}
 div#banner4{
 	clear: both;
 }
 .banner4-img{
-	float: right;
 	margin-top: 0px;
-	margin-bottom: 0px;
 	padding-bottom: 10px;
 	width: 50%;
 }
-.banner4-img img{
-	width: 100%;
+.banner4-midashi{
+	font-size: 24px;
+}
+.banner4-text{
+	font-size: 14px;
+	width: 76%;
 }
 div#banner4-left{
 	text-align: center;
@@ -806,25 +836,25 @@ div#nav-content8{
 ul#globalnav{
 	display: none;
 }
+.mainvisual{
+	display: none;
+}
+.mainvisual-smaho{
+	display: block;
+}
+.mainvisual-smaho img{
+	width: 100%;
+	margin-top: 23%;
+}
 .mainvisual img{
 	width: 100%;
 	margin-top: 18%;
 }
 .maintext{
-	margin-top: -28%;
-	margin-left: 5%;
-	width: 23%;
-	background-color: #FFFFFF;
-	filter:alpha(opacity=70);
-	-moz-opacity:0.7;
-	opacity: 0.7;
-	padding-left: 3%;
-	padding-right: 6%;
-	padding-top: 2%;
-	padding-bottom: 2%;
-	line-height: 250%;
-	margin-bottom: 0px;
-	font-size: 1vw;
+	width: 90%;
+	margin: 0px;
+	padding-right: 5%;
+	padding-left: 5%;
 }
 div#banner1-right{
 	float: none;
@@ -832,7 +862,7 @@ div#banner1-right{
 	margin-left: 0px;
 }
 .banner1-midashi{
-	display: block;
+	width: 100%;
 }
 .banner1-img{
 	float: none;
@@ -849,13 +879,16 @@ div#banner2-left{
 	text-align: center;
 	width: 100%;
 }
+.banner2-midashi{
+	width: 100%;
+}
 div#banner3-right{
 	float: none;
 	width: 100%;
 	margin-left: 0px;
 }
 .banner3-midashi{
-	display: block;
+	width: 100%;
 }
 .banner3-img{
 	float: none;
@@ -870,6 +903,9 @@ div#banner4-left{
 .banner4-img{
 	float: none;
 	text-align: center;
+	width: 100%;
+}
+.banner4-midashi{
 	width: 100%;
 }
 
@@ -987,26 +1023,6 @@ div#nav-content8{
 }
 ul#globalnav{
 	display: none;
-}
-.maintext{
-	margin-top: -30%;
-	margin-left: 5%;
-	width: 28%;
-	background-color: #FFFFFF;
-	filter:alpha(opacity=70);
-	-moz-opacity:0.7;
-	opacity: 0.7;
-	padding-left: 3%;
-	padding-right: 6%;
-	padding-top: 2%;
-	padding-bottom: 2%;
-	line-height: 250%;
-	margin-bottom: 0px;
-	font-size: 1vw;
-}
-.mainvisual img{
-	width: 100%;
-	margin-top: 21%;
 }
 div#banner1{
 	margin-top: 30%;
@@ -1213,14 +1229,6 @@ div#nav-content8{
 ul#globalnav{
 	display: none;
 }
-
-.mainvisual img{
-	width: 100%;
-	margin-top: 23%;
-}
-.maintext{
-	display: none;
-}
 div#banner1{
 	margin-top: 30%;
 }
@@ -1236,10 +1244,7 @@ div#banner1-right{
 	padding-top: 0px;
 }
 .banner1-midashi{
-	font-size: 26px;
-}
-.banner1-text br{
-	display: none;
+	font-size: 23px;
 }
 div#banner2{
 	display: flex;
@@ -1260,10 +1265,7 @@ div#banner2-left{
 	margin-bottom: 50px;
 }
 .banner2-midashi{
-	font-size: 26px;
-}
-.banner2-text br{
-	display: none;
+	font-size: 23px;
 }
 div#banner3{
 	margin-top: 30%;
@@ -1280,10 +1282,7 @@ div#banner3-right{
 	padding-top: 0px;
 }
 .banner3-midashi{
-	font-size: 26px;
-}
-.banner3-text br{
-	display: none;
+	font-size: 23px;
 }
 div#banner4{
 	display: flex;
@@ -1304,10 +1303,7 @@ div#banner4-left{
 	margin-bottom: 50px;
 }
 .banner4-midashi{
-	font-size: 26px;
-}
-.banner4-text br{
-	display: none;
+	font-size: 23px;
 }
 div#buttom{
 	width: 100%;
@@ -1415,7 +1411,7 @@ div#footer-right3{
 
 /*下層ページ「きものブティックあおき」*/
 
-div#maintext{
+div#aoki-maintext{
 	margin-top: -28.6%;
 	margin-left: 5%; 
 	width: 30%;
@@ -1430,11 +1426,11 @@ div#maintext{
 	line-height: 200%;
 	margin-bottom: 0px;
 }
-.maintext1{
-	font-size: 1.9vw;
+.aoki-maintext1{
+	font-size: 24px;
 }
-.maintext2{
-	font-size: 0.9vw;
+.aoki-maintext2{
+	font-size: 14px;
 }
 div#content2{
 	width: 100%;
@@ -1453,19 +1449,24 @@ div#shacho{
 	margin-right: 5%;
 }
 .shacho-text1{
-	font-size: 1.3vw;
+	font-size: 18px;
 	font-weight: bold;
+}
+.shacho-text2{
+	font-size: 14px;
 }
 .shacho-text3{
 	margin-top: 30px;
+	font-size: 14px;
 }
 .shacho-text4{
 	margin-top: 30px;
+	font-size: 14px;
 }
 .shacho-text5{
 	margin-top: 30px;
 	float: right;
-	font-size: 1.3vw;
+	font-size: 18px;
 }
 div#okami{
 	display: inline-block;
@@ -1479,16 +1480,17 @@ div#okami{
 	margin-right: 5%;
 }
 .okami-text1{
-	font-size: 1.3vw;
+	font-size: 18px;
 	font-weight: bold;
 }
 .okami-text2{
 	line-height: 150%;
+	font-size: 14px;
 }
 .okami-text3{
 	margin-top: 30px;
 	float: right;
-	font-size: 1.3vw;
+	font-size: 18px;
 }
 div#wakaokami{
 	display: inline-block;
@@ -1502,16 +1504,17 @@ div#wakaokami{
 	margin-right: 5%;
 }
 .wakaokami-text1{
-	font-size: 1.3vw;
+	font-size: 18px;
 	font-weight: bold;
 }
 .wakaokami-text2{
 	line-height: 150%;
+	font-size: 14px;
 }
 .wakaokami-text3{
 	margin-top: 30px;
 	float: right;
-	font-size: 1.3vw;
+	font-size: 18px;
 }
 .gaiyou-title{
 	text-align: center;
@@ -1689,7 +1692,7 @@ table.aoki-saiyou td{
 }
 div#shitsumon1{
 	width: 56%;
-	height: 200px;
+	height: 100%;
 	background-color: #FFFFFF;
 	border-radius:20px 20px 20px 20px;
 	margin-left: 20%;
@@ -1715,7 +1718,7 @@ div#A1{
 .A1-img{
 	clear: both;
 	float: left;
-	margin-right: 3%;
+	margin-right: 3%; 
 }
 .A1-text{
 	font-size: 24px;
@@ -1723,7 +1726,7 @@ div#A1{
 }
 div#shitsumon2{
 	width: 56%;
-	height: 175px;
+	height: 100%;
 	background-color: #FFFFFF;
 	border-radius:20px 20px 20px 20px;
 	margin-left: 20%;
@@ -1757,7 +1760,7 @@ div#A2{
 }
 div#shitsumon3{
 	width: 56%;
-	height: 280px;
+	height: 100%;
 	background-color: #FFFFFF;
 	border-radius:20px 20px 20px 20px;
 	margin-left: 20%;
@@ -1792,7 +1795,7 @@ div#A3{
 }
 div#shitsumon4{
 	width: 56%;
-	height: 175px;
+	height: 100%;
 	background-color: #FFFFFF;
 	border-radius:20px 20px 20px 20px;
 	margin-left: 20%;
@@ -1826,7 +1829,7 @@ div#A4{
 }
 div#shitsumon5{
 	width: 56%;
-	height: 175px;
+	height: 100%;
 	background-color: #FFFFFF;
 	border-radius:20px 20px 20px 20px;
 	margin-left: 20%;
@@ -1943,69 +1946,26 @@ div#taxi-title{
 }
 
 @media only screen and (max-width: 1200px){
-div#maintext{
-	margin-top: -29.5%;
-	line-height: 150%;
+div#aoki-maintext{
+	width: 90%;
+	margin: 0px;
+	padding-right: 5%;
+	padding-left: 5%;
+}
+.aoki-maintext1{
+	font-size: 21px;
+}
+.aoki-maintext2{
+	font-size: 17px;
 }
 div#shacho{
 	margin-top: 30%;
 }
-.shacho-text1{
-	font-size: 2vw;
-}
-.shacho-text2{
-	font-size: 1.7vw;
-}
-.shacho-text2 br{
-	display: none;
-}
-.shacho-text3{
-	font-size: 1.7vw;
-}
-.shacho-text3 br{
-	display: none;
-}
-.shacho-text4{
-	font-size: 1.7vw;
-}
-.shacho-text4 br{
-	display: none;
-}
-.shacho-text5{
-	font-size: 2vw;
-}
 div#okami{
 	margin-top: 20%;
 }
-.okami-img{
-	margin-bottom: 10%;
-}
-.okami-text1{
-	font-size: 2vw;
-}
-.okami-text2{
-	font-size: 1.7vw;
-}
-.okami-text2 br{
-	display: none;
-}
-.okami-text3 {
-	font-size: 2vw;
-}
 div#wakaokami{
 	margin-top: 20%;
-}
-.wakaokami-text1{
-	font-size: 2vw;
-}
-.wakaokami-text2{
-	font-size: 1.7vw;
-}
-.wakaokami-text2 br{
-	display: none;
-}
-.wakaokami-text3 {
-	font-size: 2vw;
 }
 dt{
 	width: 100%;
@@ -2061,32 +2021,11 @@ dt{
 	margin-top: 20%;
 	margin-bottom: 20%;
 }
-div#shitsumon1{
-	height: 100%;
-}
 .A1-img{
 	margin-bottom: 16%;
 }
-.A1-text br{
-	display: none;
-}
-div#shitsumon2{
-	height: 100%;
-}
-div#shitsumon3{
-	height: 100%;
-}
-.A3-text br{
-	display: none;
-}
-div#shitsumon4{
-	height: 100%;
-}
 .A3-img{
 	margin-bottom: 20%;
-}
-div#shitsumon5{
-	height: 100%;
 }
 .access-title{
 	margin-top: 20%;
@@ -2124,10 +2063,6 @@ div#access-left{
 
 @media only screen and (max-width: 800px){
 
-div#maintext{
-	margin-top: -30%;
-	line-height: 100%;
-}
 div#shacho{
 	margin-top: 30%;
 }
@@ -2142,28 +2077,19 @@ div#shacho{
 	margin-bottom: 50px;
 }
 .shacho-text1{
-	font-size: 3vw;
+	font-size: 24px;
 }
 .shacho-text2{
-	font-size: 2.5vw;
-}
-.shacho-text2 br{
-	display: none;
+	font-size: 18px;
 }
 .shacho-text3{
-	font-size: 2.5vw;
-}
-.shacho-text3 br{
-	display: none;
+	font-size: 18px;
 }
 .shacho-text4{
-	font-size: 2.5vw;
-}
-.shacho-text4 br{
-	display: none;
+	font-size: 18px;
 }
 .shacho-text5{
-	font-size: 3vw;
+	font-size: 24px;
 }
 div#okami{
 	margin-top: 30%;
@@ -2178,20 +2104,14 @@ div#okami{
 	margin-left: auto;
 	margin-bottom: 50px;
 }
-.okami-img{
-	margin-bottom: 10%;
-}
 .okami-text1{
-	font-size: 3vw;
+	font-size: 24px;
 }
 .okami-text2{
-	font-size: 2.5vw;
-}
-.okami-text2 br{
-	display: none;
+	font-size: 18px;
 }
 .okami-text3 {
-	font-size: 3vw;
+	font-size: 24px;
 }
 div#wakaokami{
 	margin-top: 30%;
@@ -2207,58 +2127,13 @@ div#wakaokami{
 	margin-bottom: 50px;
 }
 .wakaokami-text1{
-	font-size: 3vw;
+	font-size: 24px;
 }
 .wakaokami-text2{
-	font-size: 2.5vw;
-}
-.wakaokami-text2 br{
-	display: none;
+	font-size: 18px;
 }
 .wakaokami-text3 {
-	font-size: 3vw;
-}
-dt{
-	width: 100%;
-}
-.gaiyou-text2{
-	width: 100%;
-}
-.gaiyou-text3{
-	width: 100%;
-}
-.gaiyou-text4{
-	width: 100%;
-	margin-left: 20%;
-	margin-top: 5%;
-}
-.gaiyou-text5{
-	width: 100%;
-	margin-left: 20%;
-	margin-top: 5%;
-}
-.gaiyou-text12{
-	width: 100%;
-}
-.gaiyou-text13{
-	width: 100%;
-}
-.gaiyou-text14{
-	width: 100%;
-}
-.gaiyou-text15{
-	width: 100%;
-}
-.gaiyou-text16{
-	width: 100%;
-	margin-left: 20%;
-	margin-top: 5%;
-}
-.gaiyou-text17{
-	width: 100%;
-	margin-left: 20%;
-	margin-top: 5%;
-	margin-bottom: 0px;
+	font-size: 24px;
 }
 .saiyou-title{
 	margin-top: 20%;
@@ -2268,32 +2143,8 @@ dt{
 	margin-top: 20%;
 	margin-bottom: 20%;
 }
-div#shitsumon1{
-	height: 100%;
-}
-.A1-img{
-	margin-bottom: 16%;
-}
-.A1-text br{
-	display: none;
-}
-div#shitsumon2{
-	height: 100%;
-}
-div#shitsumon3{
-	height: 100%;
-}
-.A3-text br{
-	display: none;
-}
-div#shitsumon4{
-	height: 100%;
-}
 .A3-img{
 	margin-bottom: 41%;
-}
-div#shitsumon5{
-	height: 100%;
 }
 .access-title{
 	margin-top: 20%;
@@ -2331,108 +2182,52 @@ div#access-left{
 
 @media only screen and (max-width: 479px){
 
-div#maintext{
-	line-height: 53%;
-	width: 36.5%;
-	margin-top: -31.8%;
-}
-
-div#shacho{
-	margin-top: 30%;
-}
-.shacho-img{
-	clear: both;
-	margin: 0px;
-}
-.shacho-img img{
-	width: 100%;
-	margin-right: auto;
-	margin-left: auto;
-	margin-bottom: 50px;
-}
 .shacho-text1{
 	text-align: center;
-	font-size: 5vw;
+	font-size: 20px;
 }
 .shacho-text2{
-	font-size: 4vw;
-}
-.shacho-text2 br{
-	display: none;
+	font-size: 16px;
+	width: 100%;
 }
 .shacho-text3{
-	font-size: 4vw;
-}
-.shacho-text3 br{
-	display: none;
+	font-size: 16px;
+	width: 100%;
 }
 .shacho-text4{
-	font-size: 4vw;
-}
-.shacho-text4 br{
-	display: none;
+	font-size: 16px;
+	width: 100%;
 }
 .shacho-text5{
-	font-size: 5vw;
-}
-div#okami{
-	margin-top: 30%;
-}
-.okami-img{
-	clear: both;
-	margin: 0px;
-}
-.okami-img img{
-	width: 100%;
-	margin-right: auto;
-	margin-left: auto;
-	margin-bottom: 50px;
+	font-size: 20px;
 }
 .okami-text1{
 	text-align: center;
-	font-size: 5vw;
+	font-size: 20px;
 }
 .okami-text2{
-	font-size: 4vw;
-}
-.okami-text2 br{
-	display: none;
-}
-.okami-text3 {
-	font-size: 5vw;
-}
-div#wakaokami{
-	margin-top: 30%;
-}
-.wakaokami-img{
-	clear: both;
-	margin: 0px;
-}
-.wakaokami-img img{
+	font-size: 16px;
 	width: 100%;
-	margin-right: auto;
-	margin-left: auto;
-	margin-bottom: 50px;
+}
+.okami-text3{
+	font-size: 20px;
 }
 .wakaokami-text1{
 	text-align: center;
-	font-size: 5vw;
+	font-size: 20px;
 }
 .wakaokami-text2{
-	font-size: 4vw;
+	font-size: 16px;
+	width: 100%;
 }
-.wakaokami-text2 br{
-	display: none;
-}
-.wakaokami-text3 {
-	font-size: 5vw;
+.wakaokami-text3{
+	font-size: 20px;
 }
 .gaiyou-title{
 	margin-top: 30%;
 	margin-bottom: 30%;
 }
 dt{
-	width: 100%;
 	margin-left: 0px;
 }
 .gaiyou-text1{
@@ -2443,28 +2238,24 @@ dt{
 	margin-bottom: 0px;
 }
 .gaiyou-text2{
-	width: 100%;
 	margin-top:3%;
 	margin-right: 0px;
 	margin-left: 0px;
 	margin-bottom: 0px;
 }
 .gaiyou-text3{
-	width: 100%;
 	margin-top:3%;
 	margin-right: 0px;
 	margin-left: 0px;
 	margin-bottom: 0px;
 }
 .gaiyou-text4{
-	width: 100%;
 	margin-top:3%;
 	margin-right: 0px;
 	margin-left: 0px;
 	margin-bottom: 0px;
 }
 .gaiyou-text5{
-	width: 100%;
 	margin-top:3%;
 	margin-right: 0px;
 	margin-left: 0px;
@@ -2513,42 +2304,36 @@ dt{
 	margin-bottom: 0px;
 }
 .gaiyou-text12{
-	width: 100%;
 	margin-top:3%;
 	margin-right: 0px;
 	margin-left: 0px;
 	margin-bottom: 0px;
 }
 .gaiyou-text13{
-	width: 100%;
 	margin-top:3%;
 	margin-right: 0px;
 	margin-left: 0px;
 	margin-bottom: 0px;
 }
 .gaiyou-text14{
-	width: 100%;
 	margin-top:3%;
 	margin-right: 0px;
 	margin-left: 0px;
 	margin-bottom: 0px;
 }
 .gaiyou-text15{
-	width: 100%;
 	margin-top:3%;
 	margin-right: 0px;
 	margin-left: 0px;
 	margin-bottom: 0px;
 }
 .gaiyou-text16{
-	width: 100%;
 	margin-top:3%;
 	margin-right: 0px;
 	margin-left: 0px;
 	margin-bottom: 0px;
 }
 .gaiyou-text17{
-	width: 100%;
 	margin-top:3%;
 	margin-right: 0px;
 	margin-left: 0px;
@@ -2579,27 +2364,6 @@ th{
 .shitsumon-title{
 	margin-top: 30%;
 	margin-bottom: 30%;
-}
-div#shitsumon1{
-	height: 100%;
-}
-.A1-text br{
-	display: none;
-}
-div#shitsumon2{
-	height: 100%;
-}
-div#shitsumon3{
-	height: 100%;
-}
-.A3-text br{
-	display: none;
-}
-div#shitsumon4{
-	height: 100%;
-}
-div#shitsumon5{
-	height: 100%;
 }
 .access-title{
 	margin-top: 30%;
@@ -2635,32 +2399,6 @@ div#access-left{
 }
 }
 
-@media only screen and (max-width: 420px){
-	div#maintext{
-	margin-top: -30%;
-	line-height: 50%;
-	width: 50%;
-}
-}
-
-@media only screen and (max-width: 360px){
-	div#maintext{
-	margin-top: -32.5%;
-	line-height: 50%;
-	width: 50%;
-}
-
-}
-
-@media only screen and (max-width: 320px){
-
-div#maintext{
-	margin-top: -34.5%;
-	line-height: 50%;
-	width: 50%;
-}
-}
-
 
 
 
@@ -2692,9 +2430,6 @@ div#maintext{
 }
 .kimono-maintext2{
 	font-size: 14px;
-}
-.mainvisual-smaho{
-	display: none;
 }
 div#text1{
 	width: 64%;
@@ -2773,16 +2508,6 @@ div#text3{
 
 @media only screen and (max-width: 1200px){
 
-.mainvisual{
-	display: none;
-}
-.mainvisual-smaho{
-	display: block;
-}
-.mainvisual-smaho img{
-	width: 100%;
-	margin-top: 23%;
-}
 div#maintext{
 	width: 90%;
 	margin: 0px;
@@ -3886,6 +3611,49 @@ div#catalog-line2{
 	margin-right: 5%;
 }
 
+}
+
+@media only screen and (max-width: 361px){
+div#catalog-line1{
+	margin-left: 8.75%;
+	margin-right: 8.75%;
+}
+div#catalog-line2{
+	margin-left: 8.75%;
+	margin-right: 8.75%;
+}
+.gallery-img1{
+	margin-left: 2.5%;
+	margin-right: 2.5%;
+}
+.gallery-img2{
+	margin-left: 2.5%;
+	margin-right: 2.5%;
+}
+.gallery-img3{
+	margin-left: 2.5%;
+	margin-right: 2.5%;
+}
+.gallery-img4{
+	margin-left: 2.5%;
+	margin-right: 2.5%;
+}
+.gallery-img5{
+	margin-left: 2.5%;
+	margin-right: 2.5%;
+}
+.gallery-img6{
+	margin-left: 2.5%;
+	margin-right: 2.5%;
+}
+.gallery-img7{
+	margin-left: 2.5%;
+	margin-right: 2.5%;
+}
+.gallery-img8{
+	margin-left: 2.5%;
+	margin-right: 2.5%;
+}
 }
 
 @media only screen and (max-width: 320px){
@@ -5366,6 +5134,7 @@ div#miryoku2-img1{
 }
 div#miryoku2-img2{
 	float: right;
+	margin-left: 0px;
 }
 .miryoku3-icon{
 	display: block;
