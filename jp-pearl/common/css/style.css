@@ -1,3 +1,4 @@
+
 body{
 	margin: 0px;
 	padding: 0px;
@@ -5,7 +6,7 @@ body{
 	max-width:100%;
 	font-size:12px;
 	line-height: 20px;
-	color: #000000
+	color: #000000;
 	font-family: 'Arial',YuGothic,'Yu Gothic','Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3','メイリオ', Meiryo,'ＭＳ ゴシック',sans-serif;
 }
 a {
@@ -132,8 +133,8 @@ line-height: 1;
 
 }
 .nav ul ul li:not(:first-child) {
-border: 0px 
-border-top: none;
+border: 0px ;
+border-top:none;
 }
 .nav ul ul ul {
 position: absolute;
@@ -148,7 +149,7 @@ display: block;
 }
 
 .icon-nav{
-font-size:10px
+font-size:10px;
 -webkit-transform:scale(0.4);
 -moz-transform:scale(0.4);
 -ms-transform:scale(0.4);
@@ -469,7 +470,7 @@ div#content-search {
 	width: 100%;
 	min-height: 214px;
 	background-color:#000;
-	background-image:url("../../image/banner_09.jpg");no-repeat center center;
+	background-image:url("../../image/banner_09.jpg")no-repeat center center;
 	background-size:cover;
 	background-position:50%;
 	margin:24px auto;
@@ -697,7 +698,7 @@ div#content-search {
 	width: 98%;
 	max-height: 214px;
 	background-color:#000;
-	background-image:url("../../image/banner_09.jpg");no-repeat center center;
+	background-image:url("../../image/banner_09.jpg")no-repeat center center;
 	background-size:cover;
 	background-position:50%;
 	margin:24px auto;
@@ -1166,13 +1167,13 @@ table{
 .table-type th{
 	width: 100%;
 	vertical-align:top;
-	padding-bottom: 10px: 
+	padding-bottom: 10px;
 }
 
 .table-type td.block{
     width: 100%;
     text-align:center;
-    padding-bottom: 10px: 
+    padding-bottom: 10px;
 
 }
 .table-type td.prap{
@@ -1190,7 +1191,7 @@ div#content-search {
 	width: 100%;
 	min-height: 214px;
 	background-color:#000;
-	background-image:url("../../image/banner_09.jpg");no-repeat center center;
+	background-image:url("../../image/banner_09.jpg")no-repeat center center;
 	background-size:cover;
 	background-position:40%;
 	margin:0 auto;
