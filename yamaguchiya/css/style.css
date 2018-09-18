@@ -125,8 +125,9 @@ h2{
 		color: #0e2145;
 	}
 
-	.global_nav li a:hover:before {
+.global_nav li a#top:hover:before {
   content: '';
+  left:13%;
   position: absolute;
   display: inline-block;
   width: 1.5%;/*線の長さ*/
@@ -136,8 +137,107 @@ h2{
   -ms-transform: translateX(50%);
   transform: translateY(35px) translateX(50%);/*位置調整*/
   background-color: #0e2145;/*線の色*/
-
+ 
 }
+.global_nav li a#lineup:hover:before {
+  content: '';
+  left:24.5%;
+  position: absolute;
+  display: inline-block;
+  width: 1.5%;/*線の長さ*/
+  height: 1px;/*線の太さ*/
+  -moz-transform: translateX(50%);
+  -webkit-transform: translateX(50%);
+  -ms-transform: translateX(50%);
+  transform: translateY(35px) translateX(50%);/*位置調整*/
+  background-color: #0e2145;/*線の色*/
+ 
+}
+.global_nav li a#gallery:hover:before {
+  content: '';
+  left:37%;
+  position: absolute;
+  display: inline-block;
+  width: 1.5%;/*線の長さ*/
+  height: 1px;/*線の太さ*/
+  -moz-transform: translateX(50%);
+  -webkit-transform: translateX(50%);
+  -ms-transform: translateX(50%);
+  transform: translateY(35px) translateX(50%);/*位置調整*/
+  background-color: #0e2145;/*線の色*/
+ 
+}
+.global_nav li a#plan:hover:before {
+  content: '';
+  left:46.2%;
+  position: absolute;
+  display: inline-block;
+  width: 1.5%;/*線の長さ*/
+  height: 1px;/*線の太さ*/
+  -moz-transform: translateX(50%);
+  -webkit-transform: translateX(50%);
+  -ms-transform: translateX(50%);
+  transform: translateY(35px) translateX(50%);/*位置調整*/
+  background-color: #0e2145;/*線の色*/
+ 
+}
+.global_nav li a#maedori:hover:before {
+  content: '';
+  left:53.6%;
+  position: absolute;
+  display: inline-block;
+  width: 1.5%;/*線の長さ*/
+  height: 1px;/*線の太さ*/
+  -moz-transform: translateX(50%);
+  -webkit-transform: translateX(50%);
+  -ms-transform: translateX(50%);
+  transform: translateY(35px) translateX(50%);/*位置調整*/
+  background-color: #0e2145;/*線の色*/
+ 
+}
+.global_nav li a#step:hover:before {
+  content: '';
+  left:65%;
+  position: absolute;
+  display: inline-block;
+  width: 1.5%;/*線の長さ*/
+  height: 1px;/*線の太さ*/
+  -moz-transform: translateX(50%);
+  -webkit-transform: translateX(50%);
+  -ms-transform: translateX(50%);
+  transform: translateY(35px) translateX(50%);/*位置調整*/
+  background-color: #0e2145;/*線の色*/
+ 
+}
+.global_nav li a#hakama:hover:before {
+  content: '';
+  left:74.4%;
+  position: absolute;
+  display: inline-block;
+  width: 1.5%;/*線の長さ*/
+  height: 1px;/*線の太さ*/
+  -moz-transform: translateX(50%);
+  -webkit-transform: translateX(50%);
+  -ms-transform: translateX(50%);
+  transform: translateY(35px) translateX(50%);/*位置調整*/
+  background-color: #0e2145;/*線の色*/
+ 
+}
+.global_nav li a#contact_us:hover:before {
+  content: '';
+  left:82.5%;
+  position: absolute;
+  display: inline-block;
+  width: 1.5%;/*線の長さ*/
+  height: 1px;/*線の太さ*/
+  -moz-transform: translateX(50%);
+  -webkit-transform: translateX(50%);
+  -ms-transform: translateX(50%);
+  transform: translateY(35px) translateX(50%);/*位置調整*/
+  background-color: #0e2145;/*線の色*/
+ 
+}
+
 
 /* top main スライドショー */
 .bg-slider {
