@@ -564,6 +564,101 @@ div#footer img{
     opacity: 0.85 ;
 }
 
+div#image-wrapper{
+	width:100%;
+	margin:0 auto;
+	overflow: hidden;
+	padding: 0;
+}	
+
+.top-image {
+	height: 100%;
+	height: 100%;
+	max-width: 1500px;
+	position: relative;
+}
+
+.top-image::before{
+	content: "";
+	display: block;
+	padding-top: 24%;
+}
+
+.top-image img{
+	width: 100%;
+	height: auto;
+	position: absolute;
+	bottom: 0;
+}
+
+div#wrapper-content{
+	width: 83.5%;
+	margin: 6.5% auto 20px auto;
+}	
+
+div#content-title{
+	font-size: 23px;
+	font-weight: bold;
+	line-height: 2.5em;
+	color: #ffffff;
+	background-color: #000033;
+	padding-left: 3%;
+}
+
+div#content-visual img{
+	width: 100%;
+	vertical-align: bottom;
+}
+
+.content{
+	margin: 0 auto;
+	padding-bottom: 50px;
+	background-color: #ffffff;
+}
+
+.row{
+	width: 94%;
+	margin: 0 auto;
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+
+.row + .row{
+	border-top: 1.4px solid #E6E6E6;
+}
+
+.box-title{
+	float: left;
+	width: 22.5%;
+	font-size: 23px;
+	font-weight: bold;
+	padding-left: 8.5%;
+	line-height: 1.5;
+}
+
+.box-image{
+	float: left;
+	width: 25%;
+	height: auto;
+}
+
+.box-image img{
+	width: 88%;
+	padding: 2% 9% 0 3%;
+}
+
+.box-description{
+	float: left;
+	width: 39%;
+	padding-right: 5%;
+}
+
+.box-description p{
+	font-size: 16px;
+	line-height: 1.7em;
+}
+
+
 
 
 /* タブレット用css　*/
@@ -872,6 +967,28 @@ background: #eddab3;
 		-webkit-transform: rotate(45deg);
 		transform: rotate(45deg);
 	}
+
+.box-title{
+	width: 22%;
+	font-size: 14px;
+	padding-left: 6%;
+}
+
+.box-image{
+	width: 28%;
+	height: auto;
+}
+
+.box-image img{
+	width: 78%;
+	padding-left: 12%;
+	padding-right: 10%;
+	vertical-align: top;
+}
+
+.box-description p{
+	font-size: 13px;
+}	
 }
 
 /* スマホ用css*/
@@ -1397,4 +1514,59 @@ background: #eddab3;
 		-webkit-transform: rotate(45deg);
 		transform: rotate(45deg);
 	}
+
+div#wrapper-content{
+	width: 92%;
+}	
+
+div#content-title{
+	font-size: 15px;
+	padding-left: 0;
+	text-align: center;
+}
+
+.content{
+	background-color: #ffffff;
+}
+
+.row{
+	width: 70%;
+	padding-top: 35px;
+	padding-bottom: 45px;
+}
+
+.box-title{
+	float: none;
+	width: 100%;
+	font-size: 20px;
+	font-weight: bold;
+	padding-left: 0;
+	text-align: center;
+}
+
+.box-image{
+	float: none;
+	width: 100%;
+	height: auto;
+	text-align: center;
+	padding: 25px 0 15px;
+}
+
+.box-image img{
+	width: 100%;
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.box-description{
+	float: none;
+	width: 100%;
+	padding-right: 0;
+	margin: 0 auto;
+}
+
+.box-description p{
+	font-size: 13px;
+	text-align: left;
+}
 }
