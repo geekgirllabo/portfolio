@@ -7,11 +7,12 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
 		<title>日本真珠振興会　真珠検定</title>
 		<link rel="stylesheet" type="text/css" href="common/css/top.css">
-		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-		<script>
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js">
+		</script>   
+		<script type="text/javascript">
 			$(function() {
     			$('.navToggle').click(function() {
-        			$(this).toggleClass('active');
+       				$(this).toggleClass('active');
  
         			if ($(this).hasClass('active')) {
             			$('.globalMenuSp').addClass('active');
@@ -20,37 +21,39 @@
         			}
     			});
 			});
+
+			$(function() {
+				$('.navToggle').click(function() {
+					$(this).toggleClass('is-open');
+
+					if ($(this).hasClass('is-open')) {
+						$('.overlay').addClass('is-open');
+					} else {
+						$('.overlay').removeClass('is-open');
+					}
+				});
+			});
 		</script>
 	</head>
 	
 	<body>
 		<div id="wrapper-all">
+			<div class="overlay"></div>
 
 	<!-- ヘッダー -->
 			<div id="header">
+				<img src="../画像/検定/kentei_logo.png" alt="日本真珠振興会　真珠検定"/>
 				
-					<img src="../画像/検定/kentei_logo.png" alt="日本真珠振興会　真珠検定"/>
-				
-	<!-- グローバルナビ SP -->
-					<nav class="globalMenuSp">
-						<ul>
-							<li><a href="#">真珠検定</a></li>
-							<li><a href="#">検定の種類</a></li>
-							<li><a href="#">検定スケジュール</a></li>
-							<li><a href="#">全国のSA・SP検定</a></li>
-							<li><a href="#">団体概要</a></li>
-							<li><a href="#">お問合せ</a></li>
-						</ul>
-					</nav>
-
-					<div class="navToggle">
-						<span></span><span></span><span></span>
-					</div>
-			</div>
-	<!-- グローバルナビ SP-->
+	<!-- ハンバーガーボタン -->
+				<div class="navToggle">
+   					 <span></span>
+   					 <span></span>
+   					 <span></span>
 				</div>
-			</div>
-	<!-- ヘッダー -->
+	<!-- ハンバーガーボタン ここまで-->
+			</div>	
+	<!-- ヘッダー ここまで-->
+
 
 	<!-- グローバルナビ -->
 			<nav class="navi-top">
@@ -63,15 +66,30 @@
 					<li><a href="#">お問合せ</a></li>
 				</ul>
 			</nav>
-	<!-- グローバルナビ 		 -->
+	<!-- グローバルナビ  ここまで-->
+
+	<!-- グローバルナビ SP-->
+			<nav class="globalMenuSp">
+    			<ul>
+        			<li><a href="#">真珠検定</a></li>
+					<li><a href="#">検定の種類</a></li>
+					<li><a href="#">検定スケジュール</a></li>
+					<li><a href="#">全国のSA・SP検定</a></li>
+					<li><a href="#">団体概要</a></li>
+					<li><a href="#">お問合せ</a></li>
+    			</ul>
+			</nav>
+	<!-- グローバルナビ SP ここまで-->		
+
 
 	<!-- メイン画像 -->
 			<div class="mainvisual">
 				<img src="../画像/検定/hanbai_top.jpg" alt="" />
 				<p>真珠のエキスパートになる。</p>
 			</div>
-	<!-- メイン画像 -->
+	<!-- メイン画像 ここまで-->
 
+	
 	<!-- コンテンツ -->
 			<div id="wrapper-content">
 				<div id="three-boxes">
@@ -94,13 +112,15 @@
 					</div>
 				</div>
 
-				<div id="message">
-					<h2>真珠のプロを目指しませんか？</h2>
-					<p class="sentences">真珠は、分かりにくいといわれます。<br>その理由は、鉱石と違い、ひとと自然と貝の共同作業により偶然生み出される宝石であり、ひとつとして同じ珠はなく、<br>テリやマキ、色、形、サイズ、連相といった美しさの要素がそれぞれ相関性を持って成り立つからでしょう。<br></p>
-					<p class="sentences">真珠のプロとして大切なことは、画一的に語ることのできない真珠の美しさや価値について、まず正しく理解すること<br>そして、的確に説明できる知識と選択眼を見につけていくことだといえるでしょう。<br></p>
-					<p class="sentences">（一社）日本真珠振興会では、曖昧だった真珠にまつわる価値基準や諸説を整理し、<br>真珠関係者への教育と資格認定を行う「真珠検定」を２０１４年よりスタートしました。<br>一般消費者の方に、真珠の美しさや魅力、価値について正しく語ることのできる「真珠の専門家・アドバイザー」の育成に力を入れています。<br></p>
-					<p class="sentences">資格取得が目的でなく、真に真珠のプロとしてお客様に信頼されるアドバイザーとして行動いただくためのプログラムです</p>
-				</div>
+				<section>
+					<div id="message">
+						<h1>真珠のプロを目指しませんか？</h1>
+						<p class="sentences">真珠は、分かりにくいといわれます。<br>その理由は、鉱石と違い、ひとと自然と貝の共同作業により偶然生み出される宝石であり、ひとつとして同じ珠はなく、<br>テリやマキ、色、形、サイズ、連相といった美しさの要素がそれぞれ相関性を持って成り立つからでしょう。<br></p>
+						<p class="sentences">真珠のプロとして大切なことは、画一的に語ることのできない真珠の美しさや価値について、まず正しく理解すること<br>そして、的確に説明できる知識と選択眼を見につけていくことだといえるでしょう。<br></p>
+						<p class="sentences">（一社）日本真珠振興会では、曖昧だった真珠にまつわる価値基準や諸説を整理し、<br>真珠関係者への教育と資格認定を行う「真珠検定」を２０１４年よりスタートしました。<br>一般消費者の方に、真珠の美しさや魅力、価値について正しく語ることのできる「真珠の専門家・アドバイザー」の育成に力を入れています。<br></p>
+						<p class="sentences">資格取得が目的でなく、真に真珠のプロとしてお客様に信頼されるアドバイザーとして行動いただくためのプログラムです</p>
+					</div>
+				</section>
 
 				<div id="others">
 					<div class="box">
@@ -126,7 +146,7 @@
 					</div>
 				</div>
 			</div>
-	<!-- コンテンツ -->
+	<!-- コンテンツ ここまで-->
 
 	<!-- フッター -->
 			<footer>
