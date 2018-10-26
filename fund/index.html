@@ -24,14 +24,12 @@
 						<div class="mainlogo">
 							<img src="image/top/top_06.png" alt="MORNINGSTAR_logo">
 						</div>
-						<div class="radio-search">
-							<div class="radio">
-								<p id="left">投資信託</p>
-								<p id="right">株式</p>
-							</div>
-							<div class="radio">
-								<img src="image/common/search.jpg">
-							</div>
+						<div class="searchbox">
+							<input type="radio" name="select" id="toushi" checked><label for="toushi">投資信託</label>
+							<input type="radio" name="select" id="kabushiki"><label for="kabushiki">株式</label>
+							<form id="searchform" name="searchform" action="#" method="get">
+								<input id="keyword" name="keyword" type="text">
+							</form>
 						</div>
 
 						<div class="toggle">
@@ -253,107 +251,109 @@
 			<div id="back-to-top"><a href="#"><img src="image/top/top_137.png"></a></div>
 
 <!-- ボトムナビ -->
-			<div id="nav-bottom">
-				<ul class="menu-bottom">
-					<li><a href="#">投資信託</a></li>
-					<li><a href="#">株式</a></li>
-					<li><a href="#">ETF</a></li>
-					<li><a href="#">マーケット情報</a></li>
-					<li><a href="#">企業・IR情報</a></li>
-				</ul>
-			</div>
+			<div class="container">
+				<div id="nav-bottom">
+					<ul class="menu-bottom">
+						<li><a href="#">投資信託</a></li>
+						<li><a href="#">株式</a></li>
+						<li><a href="#">ETF</a></li>
+						<li><a href="#">マーケット情報</a></li>
+						<li><a href="#">企業・IR情報</a></li>
+					</ul>
+				</div>
 
-			<div id="submenu-bottom">
-				<div class="column">
-					<p class="option">はじめての方へ</p>
-					<ul>
-						<li class="arrow"><a href="#"></a>モーニングスターサイトの<br>使い方</li>
-						<li class="arrow"><a href="#"></a>賢いファンドの選び方</li>
-						<li class="arrow"><a href="#"></a><span class="size">★ ★ ★ ★ ★ </span>が選ばれる<br>5つの理由</li>
-						<li class="arrow"><a href="#"></a>投資信託講座</li>
-						<li class="arrow"><a href="#"></a>投資信託用語集</li>
-					</ul>
+				<div id="submenu-bottom">
+					<div class="column">
+						<p class="option">はじめての方へ</p>
+						<ul>
+							<li class="arrow"><a href="#"></a>モーニングスターサイトの<br>使い方</li>
+							<li class="arrow"><a href="#"></a>賢いファンドの選び方</li>
+							<li class="arrow"><a href="#"></a><span class="size">★ ★ ★ ★ ★ </span>が選ばれる<br>5つの理由</li>
+							<li class="arrow"><a href="#"></a>投資信託講座</li>
+							<li class="arrow"><a href="#"></a>投資信託用語集</li>
+						</ul>
+							<p></p>
+							<p class="sub-title">ファンド検索その前に<span lang="ja">…</span></p>
+						<ul>
+							<li class="arrow"><a href="#"></a>運用利回りシュミレーション</li>
+							<li class="arrow"><a href="#"></a>運用スタイルシュミレーション</li>
+							<li class="arrow"><a href="#"></a>ファンドらくらくナビ</li>
+						</ul>
+					</div>
+			
+					<div class="column">
+						<p class="option">ファンドを探す</p>
+						<p class="sub-title">複数条件検索</p>
+						<ul>
+							<li class="arrow"><a href="#"></a>かんたんファンド検索</li>
+							<li class="arrow"><a href="#"></a>こだわりファンド検索</li>
+						</ul>
 						<p></p>
-						<p class="sub-title">ファンド検索その前に<span lang="ja">…</span></p>
-					<ul>
-						<li class="arrow"><a href="#"></a>運用利回りシュミレーション</li>
-						<li class="arrow"><a href="#"></a>運用スタイルシュミレーション</li>
-						<li class="arrow"><a href="#"></a>ファンドらくらくナビ</li>
-					</ul>
-				</div>
+						<p class="sub-title">特定条件検索</p>
+						<ul>
+							<li class="arrow"><a href="#"></a>ファンド名から探す</li>
+							<li class="arrow"><a href="#"></a>毎月分配型ファンドから探す</li>
+							<li class="arrow"><a href="#"></a>最大下落率を把握して探す</li>
+							<li class="arrow"><a href="#"></a>リスク・リターンを<br>確認しながら探す</li>
+							<li class="arrow"><a href="#"></a>相性のよいファンドから探す</li>
+							<li class="arrow"><a href="#"></a>投信会社名一覧から探す</li>
+							<li class="arrow"><a href="#"></a>モーニングスターSRI<br>インデックス<img src=""></li>
+							<li class="arrow"><a href="#"></a>J-REIT（不動産投資）<img src=""></li>
+							<li class="arrow"><a href="#"></a>外国籍投資信託情報</li>
+						</ul>
+					</div>
 			
-				<div class="column">
-					<p class="option">ファンドを探す</p>
-					<p class="sub-title">複数条件検索</p>
-					<ul>
-						<li class="arrow"><a href="#"></a>かんたんファンド検索</li>
-						<li class="arrow"><a href="#"></a>こだわりファンド検索</li>
-					</ul>
-					<p></p>
-					<p class="sub-title">特定条件検索</p>
-					<ul>
-						<li class="arrow"><a href="#"></a>ファンド名から探す</li>
-						<li class="arrow"><a href="#"></a>毎月分配型ファンドから探す</li>
-						<li class="arrow"><a href="#"></a>最大下落率を把握して探す</li>
-						<li class="arrow"><a href="#"></a>リスク・リターンを<br>確認しながら探す</li>
-						<li class="arrow"><a href="#"></a>相性のよいファンドから探す</li>
-						<li class="arrow"><a href="#"></a>投信会社名一覧から探す</li>
-						<li class="arrow"><a href="#"></a>モーニングスターSRI<br>インデックス<img src=""></li>
-						<li class="arrow"><a href="#"></a>J-REIT（不動産投資）<img src=""></li>
-						<li class="arrow"><a href="#"></a>外国籍投資信託情報</li>
-					</ul>
-				</div>
+					<div class="column">
+						<p class="option">ファンドランキング</p>
+						<ul>
+							<li class="arrow"><a href="#"></a>レーティング</li>
+							<li class="arrow"><a href="#"></a>シャープレシオ</li>
+							<li class="arrow"><a href="#"></a>コスト</li>
+							<li class="arrow"><a href="#"></a>純資産</li>
+							<li class="arrow"><a href="#"></a>ネット販社ランキング</li>
+							<li class="arrow"><a href="#"></a>ポートフォリオ登録数<br>年代別ランキング</li>
+							<li class="arrow"><a href="#"></a>アナリストの視点</li>
+						</ul>
+					</div>
 			
-				<div class="column">
-					<p class="option">ファンドランキング</p>
-					<ul>
-						<li class="arrow"><a href="#"></a>レーティング</li>
-						<li class="arrow"><a href="#"></a>シャープレシオ</li>
-						<li class="arrow"><a href="#"></a>コスト</li>
-						<li class="arrow"><a href="#"></a>純資産</li>
-						<li class="arrow"><a href="#"></a>ネット販社ランキング</li>
-						<li class="arrow"><a href="#"></a>ポートフォリオ登録数<br>年代別ランキング</li>
-						<li class="arrow"><a href="#"></a>アナリストの視点</li>
-					</ul>
+					<div class="column">
+						<p class="option">ニュース</p>
+						<ul>
+							<li class="arrow"><a href="#"></a>最新ニュース</li>
+							<li class="arrow"><a href="#"></a>MSレーティング情報<span class="size">★ ★ ★ ★ ★ </span></li>
+							<li class="arrow"><a href="#"></a>新設ファンド情報</li>
+							<li class="arrow"><a href="#"></a>当社推計資金流出入サマリー<br>（月一回更新）</li>
+							<li class="arrow"><a href="#"></a>ファンドの変更情報</li>
+							<li class="arrow"><a href="#"></a>ビデオレポート</li>
+							<li class="arrow"><a href="#"></a>分配金速報分配金変動チェック</li>
+						</ul>
+					</div>
 				</div>
-			
-				<div class="column">
-					<p class="option">ニュース</p>
-					<ul>
-						<li class="arrow"><a href="#"></a>最新ニュース</li>
-						<li class="arrow"><a href="#"></a>MSレーティング情報<span class="size">★ ★ ★ ★ ★ </span></li>
-						<li class="arrow"><a href="#"></a>新設ファンド情報</li>
-						<li class="arrow"><a href="#"></a>当社推計資金流出入サマリー<br>（月一回更新）</li>
-						<li class="arrow"><a href="#"></a>ファンドの変更情報</li>
-						<li class="arrow"><a href="#"></a>ビデオレポート</li>
-						<li class="arrow"><a href="#"></a>分配金速報分配金変動チェック</li>
-					</ul>
-				</div>
-			</div>
 <!-- ボトムナビ -->
 
 <!-- フッター -->
-			<footer>
-				<div class="container">
-					<div class="logo-bl">
-						<img src="image/img/logo_black.png">
+				<footer>
+					<div class="container">
+						<div class="logo-bl">
+							<img src="image/img/logo_black.png">
+						</div>
+						<div class="global">
+							<p class="small">投資信託評価のグローバルスタンダード モーニングスター<br>世界のモーニングスター | U.S.A | Canada<br>UK | Asia | China | Australia</p>
+						</div>
+						<div class="privacy">
+							<img src="image/common/pmark.png">
+						</div>
+						<div class="p-exp">
+							<p class="small">私達は個人情報を取り扱う<br>ために必要なプライバシー<br>マークを取得しております。</p>
+						</div>
+						<div class="policy">
+							<p>・当サイトのご利用について</p>
+							<p>・個人情報保護方針</p>
+							<p>・履歴情報の取得について</p>
+						</div>
 					</div>
-					<div class="global">
-						<p class="small">投資信託評価のグローバルスタンダード モーニングスター<br>世界のモーニングスター | U.S.A | Canada<br>UK | Asia | China | Australia</p>
-					</div>
-					<div class="privacy">
-						<img src="image/common/pmark.png">
-					</div>
-					<div class="p-exp">
-						<p class="small">私達は個人情報を取り扱う<br>ために必要なプライバシー<br>マークを取得しております。</p>
-					</div>
-					<div class="policy">
-						<p>・当サイトのご利用について</p>
-						<p>・個人情報保護方針</p>
-						<p>・履歴情報の取得について</p>
-					</div>
-				</div>
-			</footer>
+				</footer>
+			</div>
 <!-- フッター -->
 		</div>
 		<script type="text/javascript">
