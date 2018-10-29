@@ -1162,6 +1162,10 @@ nav#nav-sp.active {
 	border-top: 1px solid #999999;
 }
 
+.sub li a {
+	padding: 10px 0;
+}
+
 .first li img {
 	position: absolute;
 	top: 33%;
@@ -1589,6 +1593,10 @@ nav#nav-sp.active {
 
 .sub li + li {
 	border-top: 1px solid #999999;
+}
+
+.sub li a {
+	padding: 10px 0;
 }
 
 .first li img {

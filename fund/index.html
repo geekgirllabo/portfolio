@@ -79,7 +79,7 @@
 			</nav>
 <!-- グローバルナビ  -->
 
-<!-- スマホ用ナビ -->
+<!-- グローバルナビ SP -->
 			<nav id="nav-sp">
 				<div class="top">
 					<p>ホーム</p>
@@ -105,12 +105,12 @@
 					<ul class="first">
 						<li class="toushi">投資信託<img src="image/top/top_85.png">
 							<ul class="sub">
-								<li>▼ ファンドを探す</li>
-								<li>ファンドを見直す</li>
-								<li>▼ ファンドランキング</li>
-								<li>アナリストの視点</li>
-								<li>▼ ニュース</li>
-								<li>▼ はじめての方</li>
+								<li><a href="link.html">▼ ファンドを探す</a></li>
+								<li><a href="link.html">ファンドを見直す</a></li>
+								<li><a href="link.html">▼ ファンドランキング</a></li>
+								<li><a href="link.html">アナリストの視点</a></li>
+								<li><a href="link.html">▼ ニュース</a></li>
+								<li><a href="link.html">▼ はじめての方</a></li>
 							</ul>
 						</li>
 						<li class="other">株式<img src="image/top/top_85.png"></li>
@@ -127,10 +127,10 @@
 				</div>
 
 				<div id="close-btn">
-					<p>x とじる</p>
+					<p class="close">x とじる</p>
 				</div>	
 			</nav>
-<!-- スマホ用ナビ -->
+<!-- グローバルナビ SP -->
 
 			<div class="container">
 <!-- メインコンテンツ -->
@@ -381,6 +381,11 @@
 					$('.first li img').toggle()
 					$('.other').toggle()
 					$('.other-sp').toggle()
+				});
+
+				$('.close').click(function(event) {
+					$('#nav-sp').removeClass('active')
+					$('.toggle').removeClass('active')
 				});
 
 			});
