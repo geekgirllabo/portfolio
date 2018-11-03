@@ -71,9 +71,11 @@ ul#globalnav ul li{
 
 ul#globalnav ul li a{
 	line-height: 35px;
+	color: #000033;
 }
 ul#globalnav ul li a:hover{
 	background-color: #cbb994;
+	color: #ffffff;
 }
 
 span.tab{
