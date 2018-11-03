@@ -47,12 +47,35 @@ a:hover{
 
 ul#globalnav ul{
 	display: none;
+	margin: 0px;
+	padding:0px;
 	position: absolute;
 }
 
 ul#globalnav li:hover ul{
 	display: block;
 }
+
+ul#globalnav ul li{
+	float: none;
+	width: 135px;
+	height: 30px;
+	color: #000033;
+	font-size: 13px;
+	font-weight: bold;
+	padding-left:3px;
+	padding-top:5px;
+	background-color: #cbb994;
+	text-align: left;
+
+}
+ul#globalnav ul li a{
+	line-height: 35px;
+}
+ul#globalnav ul li a:hover{
+	background-color: #cbb994;
+}
+
 
 span.tab{
 	font-size: 10px;
