@@ -1,23 +1,23 @@
 header{
 	width: 100%;
-	height: 380px;
+	height: 350px;
 	background-image: url(../image/1108top2.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
 }
 div#nav{
-	background-color: #2e0101;
+	background-color: #000033;
 	overflow: visible;
-	widows: 100%;
-	height: 140px;
+	width: 100%;
+	height: 38%;
 }
-p.logo{
-	margin: 0;
-	padding-top: 35px;
+.logo{
+	width: 40%;
+	padding: 2% 0px 0px 3%;
+	margin: 0; 
 }
-
-.logop{
-	width: 30%;
+.logo img{
+	width: 400px;
 	height: auto;
 }
 
@@ -25,35 +25,37 @@ ul#globalnav{
 	margin: 0px;
 	font-size: 14px;
 	color: #ffffff;
-	width: 50%;
+	width: 55%;
 	height: auto;
 	float: right;
 	display: flex;
 	justify-content: space-between;
 	margin-right: 3%;
+	padding-bottom: 10px;
 }
 
 ul#globalnav li{
-	
 	list-style-type: none;
 	text-align: center;
 }
-a{
+ul#globalnav a{
+	line-height: 37px;
 	color: #ffffff;
 	text-decoration: none;
-	
+	display: block;	
 }
-a:hover{
+ul#globalnav a:hover{
 	color: #cc9933;
 }
 
 ul#globalnav ul{
 	display: none;
+	margin: 0px;
 	padding:0px;
-	position: absolute;
+	position: relative;
 }
 
-ul#globalnav li:hover>ul{
+ul#globalnav li:hover ul{
 	display: block;
 }
 
@@ -94,9 +96,9 @@ div#content{
 }
 
 h1{
-	background-color: #2e0101;
+	background-color: #000033;
 	color: #ffffff;
-	font-size: 2.5vw;
+	font-size: 2vw;
 	padding:8px 3%;
 	font-weight: 600;
 	margin-bottom: 0px;
@@ -166,17 +168,11 @@ table td{
 	height: auto;	
 }
 
-@media only screen and (max-width: 1900px){
-	
-header{
-	width: 100%;
-	height: 400px;
-}
-p.logo{
-	margin: 0;
-	padding-top: 15px;
-}
+@media only screen and (max-width: 1920px){
 
+header{
+	height: 370px;
+}
 div#content{
 	width: 70%;
 }
@@ -191,8 +187,7 @@ header{
 }	
 
 div#nav{
-	width: 100%;
-	height: 100px;
+	height: 120px;
 }
 ul#globalnav{
 	width: 80%;
@@ -211,23 +206,14 @@ table th{
 @media only screen and (max-width: 800px){
 
 ul#globalnav{
-	width: 90%;
-	padding-top: 40px;
-}	
-header{
-	width: 100%;
-	height: 280px;
-}
-
-div#nav{
-	width: 100%;
-	height: 80px;
-}
-
-ul#globalnav{
-	width: 90%;
+	width: 95%;
 	padding-top: 0px;
 }
+
+ul#globalnav ul li{
+	font-size: 11px;
+}
+
 table, tbody, tr, th, td{
 	display: block;
 }
@@ -238,7 +224,7 @@ table th{
 
 }
 
-@media only screen and (max-width: 479px){
+@media only screen and (max-width: 610px){
 
 header{
 	background-image: none;
@@ -251,7 +237,7 @@ div#nav{
 ul#globalnav {
 	display: block;
 	color: #000000;
-	width: 50%;
+	width: 100%;
 	float: left;
 	padding-left: 0px;
 }
