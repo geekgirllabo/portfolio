@@ -1,3 +1,7 @@
+body{
+	margin:0;
+}
+
 header{
 	width: 100%;
 	height: 350px;
@@ -10,6 +14,7 @@ div#nav{
 	overflow: visible;
 	width: 100%;
 	height: 38%;
+	position: relative;
 }
 .logo{
 	width: 40%;
@@ -183,12 +188,9 @@ div#content{
 
 header{
 	width: 100%;
-	height: 300px;
+	height: 330px;
 }	
 
-div#nav{
-	height: 120px;
-}
 ul#globalnav{
 	width: 80%;
 	padding-top: 0px;
@@ -204,6 +206,16 @@ table th{
 }
 }
 @media only screen and (max-width: 800px){
+
+header{
+	width: 100%;
+	height: 320px;
+}
+
+div#nav{
+	width: 100%
+	height:340px;
+}	
 
 ul#globalnav{
 	width: 95%;
@@ -228,6 +240,7 @@ table th{
 
 header{
 	background-image: none;
+	height: 300px;
 }
 
 div#nav{
@@ -240,15 +253,19 @@ ul#globalnav {
 	width: 100%;
 	float: left;
 	padding-left: 0px;
+	padding-bottom: 0px;
 }
 
 ul#globalnav li{
 	background-color: #cbb994;
-	border: 1px solid #ffffff;
+	border: 0.5px solid #ffffff;
 	padding-top: 5px;
 	height:30px;
 }
 
+ul#globalnav a{
+	line-height: 30px;
+}
 
 div#content{
 	width: 100%;
