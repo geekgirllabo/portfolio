@@ -44,7 +44,7 @@ ul#globalnav li{
 	text-align: center;
 }
 ul#globalnav a{
-	line-height: 37px;
+
 	color: #ffffff;
 	text-decoration: none;
 	display: block;	
@@ -56,7 +56,7 @@ ul#globalnav a:hover{
 ul#globalnav ul{
 	display: none;
 	margin: 0px;
-	padding:0px;
+	padding:17px 0px 0px 0px;
 	position: relative;
 }
 
@@ -265,6 +265,11 @@ ul#globalnav li{
 
 ul#globalnav a{
 	line-height: 30px;
+}
+
+ul#globalnav ul li{
+	background-color: #ffffff;
+	color: #000033;
 }
 
 div#content{
