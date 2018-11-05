@@ -57,7 +57,7 @@ ul#globalnav ul{
 	display: none;
 	margin: 0px;
 	padding:17px 0px 0px 0px;
-	position: relative;
+	position: absolute;
 }
 
 ul#globalnav li:hover ul{
