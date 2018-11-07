@@ -8,6 +8,7 @@ header#type{
 	background-image: url(../image/1108top2.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
+	background-position: center;
 }
 div#nav{
 	background-color: #000033;
@@ -193,7 +194,7 @@ table td{
 
 #index h1{
 	color: #ffffff;
-	font-size: 26px;
+	font-size: 2vw;
 	text-align: center;
 	background-color: transparent;
 	font-family: serif,MS 明朝;
@@ -217,17 +218,17 @@ table td{
 
 #index #infomation p.sample{
 	font-size: 10px;
-	line-height: normal;
 	width: 100%;
 	padding: 5px 20px 0px 20px;
 	text-align: center;
 }
-
 #index hr{
 	border: none;
 	margin: 0px,20px;
 	border-top: dashed 1px #b0b0b0;
 }
+
+
 
 #project1{
 	width: 48.5%;
@@ -264,7 +265,7 @@ table td{
 
 .projecttext{
 	width: 100%;
-	font-size: 18px;
+	font-size: 1.4vw;
 	text-align: center;
 }
 
@@ -272,7 +273,7 @@ table td{
 #other1{
 	width: 22.5%;
 	height: auto;
-	padding-right: 38px;
+	padding-right: 3.4%;
 	float: left;
 	margin-top: 40px;
 }
@@ -280,7 +281,7 @@ table td{
 #other2{
 	width: 22.5%;
 	height: auto;
-	padding-right: 30px;
+	padding-right: 3%;
 	float: left;
 	margin-top: 40px;
 }
@@ -290,7 +291,7 @@ table td{
 	width: 22.5%;
 	height: auto;
 	float: right;
-	padding-right: 38px;
+	padding-right: 3.4%;
 	margin-top: 40px;
 }
 #other3{
@@ -302,14 +303,114 @@ table td{
 
 .othertext{
 	width: 100%;
-	font-size: 18px;
+	font-size: 1.4vw;
 	text-align: center;
+	margin-bottom: 90px;
 }
 
 .otherphoto{
-	width: 100%;
-	
+	width: 100%;	
 }
+
+
+#index #archive{
+	clear: both;
+	margin-top: 70px;
+	width: 100%;
+	height: 270px;
+	background-image: url(../image/banner_09.jpg);
+	background-size: cover;
+	background-repeat:no-repeat;
+	background-position: center;
+}
+
+#index h3{
+	color: #cc9933;
+	font-size: 2.5vw;
+	font-weight: normal;
+	padding-top: 50px;
+	padding-left:58%;
+}
+
+span.small2{
+	font-size: 1.6vw;
+}
+
+#archive p{
+	color: #ffffff;
+	font-size: 20px;
+	padding-top: 14px;
+	padding-left:58%;
+	width: 100px;
+	margin: 0px;
+	float: left;
+}
+
+#search{
+	background-color: #ffffff;
+	width: 20%;
+	height: 30px;
+	margin: 0px 0px 0px 1%;
+	float:left;
+}
+
+
+#index #content2{
+	clear: both;
+	width: 70%;
+	margin: 0 auto;
+	height: 270px;
+	text-align: center;
+}
+
+.bigpearl{
+	display: inline-block;
+	padding-right: 20px;
+	margin-top: 60px;
+	width: 30%;
+}
+
+.bigpearl img{
+		width: 25%;
+}
+
+.bigpearltext{
+	font-size: 1.4vw;
+	width: 100%;
+}
+
+footer{
+	width: 100%;
+	height: 270px;
+	background-color: #000033; 
+	overflow: visible;
+}
+
+
+.footertext{
+	color: #ffffff;
+	font-size: 0.9vw;
+	letter-spacing: -0.05em;
+	width: 45%;
+	height: 110px;
+	line-height: 1.9;
+	padding-top: 3%;
+	padding-left: 10%;
+}
+
+#banners{
+	padding-left: 10%;
+}
+.banner{
+	width: auto;
+	max-height: 40px;
+	padding-right: 1%;
+}
+
+
+
+
+
 
 
 
@@ -347,6 +448,11 @@ div#content{
 table th{
 	font-size: 15px;
 }
+
+#index #content2{
+	width: 100%;
+}
+
 }
 @media only screen and (max-width: 768px){
 
@@ -391,16 +497,40 @@ table td{
 .img_block{
 	text-align: center;
 }
+
+.projecttext{
+	font-size: 1.6vw;
+}
+
+.othertext{
+	font-size: 1.6vw;
+}	
+
+.bigpearl{
+	margin-top: 45px;
+}
+.bigpearltext{
+	font-size: 17px;
+}	
+
+#index h1{
+	font-size: 2.8vw;
+	padding-top: 170px;
+}
 }
 
 @media only screen and (max-width: 610px){
 
 header{
 	background-image: none;
-	height: 300px;
+	height: 260px;
 }
 
 div#nav{
+	height: auto;
+}
+.logo img{
+	width: 240px;
 	height: auto;
 }
 
@@ -435,20 +565,20 @@ div#content{
 }
 
 h1{
-	font-size: 25px;
+	font-size: 20px;
 	text-align: center;
 	margin: 0;
 }
 
 span.small{
-	font-size: 14px;
+	font-size: 11px;
 	display: block;
 }
 
 
 
 .title{
-	font-size: 28px;
+	font-size: 20px;
 	text-align: center;
 	float:none;
 	margin-left: 0px;
@@ -479,26 +609,86 @@ table td{
 	margin: auto;
 }
 
+#index h1{
+	font-size: 3.5vw;
+	margin-top: 80px;
 }
 
-@media only screen and (max-width: 610px){
-
-header{
-	height: 260px;
-}
-.logo img{
-	width: 240px;
+#project1, #project2, #project3, #project4 {
+	float: none;
+	width: 75%;
 	height: auto;
+	margin: 0 auto;
+	padding-top: 30px;
 }
 
-h1{
-	font-size: 20px;
+#project1{
+	margin-top: 30px;
 }
 
-span.small{
-	font-size: 11px;
+.projecttext{
+	font-size: 14px;
+	word-wrap:break-word;
+	line-height: 2;
+}
+
+.bigpearltext{
+	font-size: 2.7vw;
 }	
 
-.title{
-	font-size: 20px;
+#other3, #other4{
+	float: none;
+	margin-top: 0px;
 }
+
+#other3{
+	clear: both;
+	float: left;
+	padding-right: 3.4%;
+}
+#other4{
+	float: left;
+}	
+#other1, #other2, #other3, #other4{
+	width: 40%;
+}
+
+#other1, #other3{
+	margin-left: 9%;
+}
+
+.othertext{
+	font-size: 14px;
+	word-wrap:break-word;
+	line-height: 2;
+}
+#index #archive{
+	background-image: none;
+	background-color: #000000;
+}
+
+#index h3{
+	padding-left: 0px;
+	text-align: center;
+	font-size: 18px;
+	padding-bottom: 30px;
+}
+span.small2{
+	font-size: 13px;
+}
+#archive p{
+	padding-left: 25%;
+	font-size: 15px;
+	width: 20%;
+}
+#search{
+	width: 110px;
+	height: 25px;
+	margin-left: 0px;	
+}
+.footertext{
+	font-size: 8px;
+}
+
+}
+
