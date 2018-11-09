@@ -182,7 +182,7 @@ table td{
 }
 
 
-#index header{                                   /*index.html*/          /*ここからindex.html*/
+#index header{                                     /*ここからindex.html*/
 	width: 100%;
 	height: 780px;
 	background-image: url(../image/top3b.jpg);
@@ -366,10 +366,28 @@ span.small2{
 
 #search{
 	background-color: #ffffff;
-	width: 20%;
+	width: 16%;
 	height: 30px;
 	margin: 0px 0px 0px 1%;
 	float:left;
+	border-radius: 2px;
+}
+
+#searchbutton{
+	background-color: #d7d7d7;
+	width: 5%;
+	height: 30px;
+	margin-left: 1%;
+	float: left;
+}
+
+#searchbutton p{
+	color: #414141;
+	text-align: center;
+	font-size: 15px;
+	width: 100%;
+	padding-left: 0px;
+	padding-top: 16px;
 }
 
 
@@ -539,6 +557,11 @@ table td{
 	font-size: 2.8vw;
 	padding-top: 170px;
 }
+
+#searchbutton p{
+	font-size: 13px;
+}
+
 }
 
 @media only screen and (max-width: 610px){
@@ -699,16 +722,28 @@ span.small2{
 	font-size: 13px;
 }
 #archive p{
-	padding-left: 28%;
-	padding-right: 5%;
-	font-size: 13px;
-	width: 15%;
+	padding-left: 18%;
+	padding-right: 2%;
+	font-size: 12px;
+	width: 16%;
 }
 #search{
 	width: 110px;
 	height: 25px;
-	margin-left: 0px;	
+	margin-left: 0px;
 }
+
+#searchbutton{
+	width: 40px;
+	height: 25px;
+}
+
+#searchbutton p{
+	width: 100%;
+	padding-left: 0px;
+	padding-top: 13px;
+}
+
 .footertext{
 	font-size: 8px;
 }
