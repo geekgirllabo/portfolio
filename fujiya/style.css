@@ -1,0 +1,222 @@
+body{
+	width:100%;
+	margin: 0;
+	padding: 0;
+	font-family: "HG明朝E","游明朝体";
+}
+
+h1 {
+	padding: 0;
+	margin: 0;
+}
+
+header{
+	background-image: url("images/header-background.png");
+
+}
+
+
+.logo{
+	width: 8%;
+	height:auto;
+	float: left;
+	margin:13px 2% 20px 2%;
+}
+#headerright{
+	float: left;
+	margin-left: 70%;
+	margin-top: 30px;
+}
+
+.sns{
+	height:20px;
+	width: auto;
+	margin: 0 10px;
+}
+ul.globalnav{
+	clear: both;
+	font-size: 20px;
+	width: 100%;
+	height: 45px;     /*高さをつけないと背景色が出ない*/
+	margin: 0;
+	padding: 0;
+	background-color: #663366;
+	list-style-type: none;
+}
+
+ul.globalnav li{
+	color: #ffffff;
+	width: 15%;
+	margin-top: 13px;
+	border-right: 2px solid #a8a8a8;
+}	
+
+ul li.access{
+	border-right: hidden;
+}
+
+.globalnav{
+	text-align: center;
+}	
+.globalnav li{
+	display: inline-block;
+}
+
+.mainvisual{
+	width: 100%;
+	height: auto;
+}
+#about{
+	margin-top: 120px;
+	margin-bottom: 100px;
+}
+h1{
+	text-align: center;
+	font-weight: normal;
+	font-size: 28px;
+}
+.subtitle{
+	text-align: center;
+	font-size: 18px;
+}
+.maintext{
+	text-align: center;
+	margin-top: 40px;
+}
+.text{
+	display: inline-block;     /*テキストは左寄せのため*/
+	text-align: left;
+	line-height: 2;
+}
+.ribbon{
+	text-align: center;
+	margin-bottom: 50px;
+}
+.ribbon img{
+	width: 28%;
+}
+#reasonbox{
+	width: 100%;
+	text-align: center;
+	margin-top: 50px;
+}
+.reasons{
+	width: 22%;
+	height: auto;
+	margin: 0 1% 40px 1%;
+}
+.button{
+	margin-left: 75%;
+}
+#collection{
+	margin-top: 40px;
+	padding-top: 60px;
+	padding-bottom: 40px;
+	background-image: url("images/collection-background.png");
+}
+.button img{
+	width: 150px;
+	height: auto;
+}
+#collectionbox{
+	width: 100%;
+	text-align:center;
+	margin-top: 40px;
+	align-items: center;             /*縦横中央揃え*/
+	display: flex;
+	justify-content: center;
+}
+.collections{
+	width: 20%;
+	height: auto;
+	margin-right: 1%;
+	margin-left: 1%;
+}
+
+.arrow{
+	width: 30px;
+	height: auto;
+}
+.imagebutton{
+	margin-left: 75%;
+	margin-top: 50px;
+
+	
+}
+.imagebutton img{
+	width: 200px;
+	height: auto;
+}
+
+#plan{
+	padding-top: 60px;
+}
+
+#planbox{
+	width: 100%;
+	text-align: center;
+	margin-top: 70px;
+}
+
+.plans{
+	width: 22%;
+	height: auto;
+}
+.kentou-button{
+	text-align: center;
+	margin-top: 50px;
+}
+.kentou-button img{
+	width: 25%;
+	height: auto;
+}
+#guide{
+	margin-top: 60px;
+	padding-top: 60px;
+	background-image: url("images/guide-background.png");
+}
+
+#over{
+	width: 100%;
+	text-align: center;
+}
+.over2{
+	width: 20%;
+	height: auto;
+}
+.kakunin{
+	width: 17%;
+	height:auto;
+}
+#under{
+	width: 100%;
+	text-align: center;
+	padding-bottom: 30px;
+}
+.under2{
+	width: 20%;
+	height: auto;
+	margin: 1% 2%;
+}
+.instabunner{
+	text-align: center;
+	padding-top: 50px;
+}
+.instabunner img{
+	width: 35%;
+}
+.underlink{
+	width: 100%;
+	text-align: center;
+	display: inline-block;
+}
+.links{
+	display: inline-block;
+	width: 27%;
+	margin:2% 1%;
+}
+.links img{
+	width: 100%;
+	height: auto;
+
+}
