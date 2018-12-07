@@ -43,38 +43,68 @@ ul.globalnav{
 	padding: 0;
 	background-color: #663366;
 	list-style-type: none;
+	text-align: center;
 }
 
 ul.globalnav li{
 	color: #ffffff;
 	width: 15%;
-	margin-top: 13px;
+	margin-top: 8px;
 	border-right: 2px solid #a8a8a8;
+	display: inline-block;
+	position: relative;
+	line-height: 2;
 }	
 
 ul li.access{
 	border-right: hidden;
 }
 
-.globalnav{
-	text-align: center;
-}	
-.globalnav li{
-	display: inline-block;
-}
-
 a.nav{
 	color: #ffffff;
 	text-decoration: none;
+	display: block;
 }
 a.nav:hover{
 	text-decoration: none;
 	background-color: #d8d8d8;
 	color:#663366;
 	border-radius: 5px;
-	padding: 5px;
+
+}
+ul.globalnav ul{
+	display: none;
+	margin: 0px;
+	padding:0px;
+	position: absolute;
 }
 
+ul.globalnav li:hover ul{
+	display: block;                      /*マウスポインタが載っている項目の内部にあるリストを表示*/
+}
+
+ul.globalnav ul li{
+	width: 200px;
+	background-color: #f9f9f9;
+	text-align: left;
+	margin: 0px;
+	line-height: 1.5;
+	font-size: 13px;
+}
+
+ul.globalnav ul li a{
+	line-height:35px;
+	text-align: left;
+	padding-left: 5px;
+	font-weight: normal;
+	display: block;
+	text-decoration: none;
+}
+
+ul.globalnav ul li a:hover{
+	background-color: #bcc879;
+	color: #005500;
+}
 .mainvisual{
 	width: 100%;
 	height: auto;
@@ -182,15 +212,51 @@ h1{
 	padding-top: 60px;
 }
 
-#planbox{
+.planbox{
 	width: 100%;
 	text-align: center;
 	margin-top: 70px;
+}
+.planbox1{
+	width: 21%;
+	height: 280px;
+	background-image: url("images/kounyuplan.png");
+	background-size: cover;
+}
+.planbox2{
+	width: 21%;
+	height: 280px;
+	background-image: url("images/orderrentalplan.png");
+	background-size: cover;
+}
+.planbox3{
+	width: 21%;
+	height: 280px;
+	background-image: url("images/shitateagariplan.png");
+	background-size: cover;
+}
+.planbox4{
+	width: 21%;
+	height: 280px;
+	background-image: url("images/photoplan.png");
+	background-size: cover;
+}
+
+.planbox1,.planbox2,.planbox3,.planbox4{
+	display: inline-block;
+}
+
+.kuwasiku{
+	width: 90px;
+	height: auto;
+	margin: 0;
+	padding: 215px 0 0 0;
 }
 
 .plans{
 	width: 22%;
 	height: auto;
+	position: relative;
 }
 .kentou-button{
 	text-align: center;
@@ -383,7 +449,17 @@ width:85%;
 	margin-bottom: 0;
 	margin-top: 0px;
 	color: #ffffff;
-	height: 40px;
+	height: 8px;
 	padding-top: 1px;
+}	
+#footersns{
+	background-color: #663366;
+	text-align: right;
+	padding-bottom: 5px;
+	padding-right: 20px;
+}
+@media only screen and (max-width: 1920px){
+}
 
+@media only screen and (max-width: 610px){
 }
