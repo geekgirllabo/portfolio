@@ -27,7 +27,7 @@ header{
 }
 #headerright{
 	float: left;
-	margin-left: 73%;
+	margin-left: 65%;
 	margin-top: 30px;
 }
 
@@ -384,7 +384,7 @@ margin-top: 75%;
 }
 .instabunner{
 	text-align: center;
-	padding-top: 50px;
+	padding-top: 40px;
 }
 .instabunner img{
 	width: 35%;
@@ -397,7 +397,7 @@ margin-top: 75%;
 .links{
 	display: inline-block;
 	width: 27%;
-	margin:2% 1%;
+	margin:25px 1%;
 }
 .links img{
 	width: 100%;
@@ -528,14 +528,14 @@ width:85%;
 
 #copyright{
 	background-color: #663366;
-	font-size: 15px;
+	font-size: 12px;
 	text-align: center;
 	clear: both;
 	margin-bottom: 0;
 	margin-top: 0px;
 	color: #ffffff;
 	height: 8px;
-	padding-top: 1px;
+	padding-top: 0.2px;
 }	
 #footersns{
 	background-color: #663366;
@@ -544,6 +544,10 @@ width:85%;
 	padding-right: 20px;
 }
 @media only screen and (max-width: 1920px){
+
+.logo{
+	width: 12%;
+}
 #nav-open {
 	display: none;
 }	
@@ -554,16 +558,16 @@ width:85%;
 	width: 9.5%;
 }
 .button{
-	margin-left: 82%;
+	margin-left: 80%;
 }
 .button img{
 	width: 200px;
 }
 .imagebutton{
-	margin-left: 72%;	
+	margin-left: 70%;	
 }
 .imagebutton img{
-	width: 250px;
+	width: 280px;
 }
 .planbox{
 	height: 420px;
@@ -576,12 +580,23 @@ width:85%;
 	margin-top: 73%;
 	width: 35%;
 }
+.mobilemail{
+	display: block;
+	float: right;
+	width: 12%;
+	padding-right: 50px;
+	padding-top: 30px;
+}
+.mailbutton{
+	display: none;
+}
 
 #headerright{
-	margin-top: 60px;
+	margin-top: 90px;         /*レスポンシブ対応で上に上がらないように*/
 }
 }
 @media only screen and (max-width: 1230px){
+
 .globalnav li{
 	font-size: 13px;
 }
@@ -626,11 +641,14 @@ width:85%;
 .mailbutton{
 	display: none;
 }
+.imagebutton{
+	margin-left: 66%;
+}
 }
 
 @media only screen and (max-width: 800px){
-.globalnavli{
-	font-size: 13px;
+ul.globalnav li{
+	font-size: 11px;
 }
 .maintext{
 	width: 85%;
@@ -702,7 +720,8 @@ width:85%;
 
 }
 
-@media only screen and (max-width: 650px){
+@media only screen and (max-width: 680px){
+
 #nav-open {
 	display: block;
 }
@@ -715,6 +734,7 @@ width:85%;
 }
 .reserve1{
 	width: 18%;
+	left:80%;
 }	
 .logo{
 	width: 18%;
@@ -741,7 +761,7 @@ ul.globalnav ul li{
 	z-index: 3;
 }
 #headerright{
-	margin-top: 0px;
+	margin-top: 20px;
 }
 .sns{
 	height:15px;
@@ -808,7 +828,7 @@ h1{
 	margin: 30px auto 0px 65%;
 }
 .imagebutton img{
-	width: 80%;
+	width: 90%;
 }
 .planbox{
 	margin-top: 30px;
@@ -950,6 +970,11 @@ td img{
 }
 
 @media only screen and (max-width: 450px){
+
+#headerright{
+	margin-left:65%;
+	margin-top: 20px;
+}	
 .planbox1,.planbox2,.planbox3,.planbox4{
 	display: block;
 	width:38%;
@@ -970,7 +995,7 @@ td img{
 
 @media only screen and (max-width: 400px){
 #headerright{
-	margin-left: 75%;
+	margin-left: 65%;
 }
 .maintext{
 	font-size: 13px;
@@ -1010,8 +1035,8 @@ td img{
 }
 
 .sns{
-	margin-left: 0;
-	margin-right:0;
+	margin-left: 5px;
+	margin-right:5px;
 }
 }
 
@@ -1023,4 +1048,7 @@ td img{
 .planbox1,.planbox2,.planbox3,.planbox4{
 	width: 39%;
 	height: 120px;
+}
+.address{
+	font-size: 10px;
 }
