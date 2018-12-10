@@ -296,49 +296,50 @@ h1{
 
 .planbox{
 	width: 100%;
+	height: 300px;
 	text-align: center;
 	margin-top: 70px;
 }
+
 .planbox1{
-	width: 22%;
-	height: auto;
+	width: 20%;
+	height: 250px;
 	background-image: url("images/kounyuplan.png");
-	background-size: cover;
+	background-size: contain;
+	background-repeat: no-repeat;
 }
 .planbox2{
-	width: 22%;
-	height: auto;
+	width: 20%;
+	height: 250px;
 	background-image: url("images/orderrentalplan.png");
-	background-size: cover;
+	background-size: contain;
+	background-repeat: no-repeat;
 }
 .planbox3{
-	width: 22%;
-	height: auto;
+	width: 20%;
+	height: 250px;
 	background-image: url("images/shitateagariplan.png");
-	background-size: cover;
+	background-size: contain;
+	background-repeat: no-repeat;
 }
 .planbox4{
-	width: 22%;
-	height:auto;
+	width: 20%;
+	height: 250px;
 	background-image: url("images/photoplan.png");
-	background-size: cover;
+	background-size: contain;
+	background-repeat: no-repeat;
 }
 
 .planbox1,.planbox2,.planbox3,.planbox4{
 	display: inline-block;
 }
-
-.kuwasiku{
-	width: 90px;
-	height: auto;
-	margin: 0;
-	padding: 215px 0 0 0;
+.planbox1 a img,.planbox2 a img,.planbox3 a img,.planbox4 a img{
+width: 35%;
+margin-top: 75%;
 }
-
 
 .kentou-button{
 	text-align: center;
-	margin-top: 90px;
 }
 .kentou-button img{
 	width: 35%;
@@ -568,12 +569,18 @@ width:85%;
 .imagebutton img{
 	width: 250px;
 }
+.planbox{
+	height: 420px;
+}
 .planbox1,.planbox2,.planbox3,.planbox4{
-	
+	height: 360px;
 }
-.kuwasiku{
-	padding-top: 300px;
+.planbox1 a img,.planbox2 a img,.planbox3 a img,.planbox4 a img{
+	margin-right: 5%;
+	margin-top: 73%;
+	width: 35%;
 }
+
 #headerright{
 	margin-top: 60px;
 }
@@ -588,7 +595,16 @@ width:85%;
 	top:7%;
 	left:81%;
 	width: 9.5%;
-}		
+}
+.button{
+	margin-left: 70%;
+}
+.planbox{
+	height: 280px;
+}
+.planbox1,.planbox2,.planbox3,.planbox4{
+	height: 280px;
+}				
 .map{
 	margin-left: 0;
 }
@@ -626,8 +642,13 @@ width:85%;
 .globalnav li{
 	font-size: 13px;
 	}
-
-
+.button{
+	margin-left: 68%;
+}
+.imagebutton{
+	margin-left: 65%;
+}
+}
 @media only screen and (max-width: 800px){
 .catalog1{
 	top:7%;
@@ -644,7 +665,7 @@ width:85%;
 	margin: 0 auto;
 }
 .button{
-	margin-left: 70%;
+	margin-left: 67%;
 }
 .button img{
 	width: 150px;
@@ -664,6 +685,7 @@ width:85%;
 	height: 295px;
 	margin:0 auto;
 	margin-bottom:20px;
+	background-size: contain
 }
 .planbox1{
 	float: left;
@@ -683,8 +705,9 @@ width:85%;
 	margin-right: 73px;
 	margin-bottom: 70px;
 }
+
 .kuwasiku{
-	padding-top: 220px;
+	margin-top: 75%;
 }
 .kentou-button img{
 	width: 320px;
@@ -791,7 +814,10 @@ h1{
 	margin-bottom:15px;
 }
 .button{
-	margin: 30px auto 10px 60%;
+	margin: 30px 3% 10px 70%;
+}
+.button img{
+	width: 80%;
 }
 
 #collection{
@@ -812,41 +838,45 @@ h1{
 .imagebutton{
 	margin: 30px auto 0px 65%;
 }
+.imagebutton img{
+	width: 80%;
+}
 .planbox{
 	margin-top: 30px;
 }
 .planbox1,.planbox2,.planbox3,.planbox4{
 	display: block;
 	width:37%;
-	height: 217px;
+	height: 150px;
 	margin:0 auto;
 	margin-bottom:20px;
 }
 .planbox1{
 	float: left;
-	margin-left: 60px;
+	margin-left: 50px;
 }
 .planbox2{
 	float:right;
-	margin-right: 60px;
+	margin-right: 50px;
 }
 .planbox3{
 	float: left;
-	margin-left: 60px;
+	margin-left: 50px;
 }
 .planbox4{
 	float:right;
-	margin-right: 60px;
+	margin-right: 50px;
 }
-img.kuwasiku{
-	padding-top: 165px;
-	width: 38%;
-}
+.planbox1 a img,.planbox2 a img,.planbox3 a img,.planbox4 a img{
+	
+	margin-top: 75%;
+	width: 30%;
+}	
 .kentou-button{
 	margin-top: 50px;
 }
 .kentou-button img{
-	width: 75%;
+	width: 753;
 	clear:both;
 	margin-top: 20px;
 }	
@@ -951,16 +981,33 @@ td img{
 
 @media only screen and (max-width: 400px){
 #headerright{
-	margin-left: 62%;
+	margin-left: 75%;
+}
+.button{
+	margin-left: 60%;
 }
 .imagebutton{
-	margin-left: 50%;
+	margin-left: 60%;
 }
 .planbox1,.planbox2,.planbox3,.planbox4{
-	float: none;
-	width: 58%;
-	margin: 0px auto 10px auto;
-	
+	width: 37%;
+	height: 120px;
+}
+.planbox1,.planbox3{
+	margin-left: 40px;
+}
+.planbox2,.planbox4{
+	margin-right: 40px;	
+}
+.planbox1 a img,.planbox2 a img,.planbox3 a img,.planbox4 a img{
+	margin-top: 65%;
+	width: 30%;
+}	
+.kentou-button img{
+	width: 60%;
 }
 
-
+.sns{
+	margin-left: 0;
+	margin-right:0;
+}
