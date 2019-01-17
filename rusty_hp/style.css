@@ -1,0 +1,195 @@
+body{
+	margin: 0;
+	padding: 0;
+	color: #3C3B3C;
+}
+section{
+	width: 80%;
+	margin: 0 auto;
+	text-align: center;
+}
+#wrapper{
+	width: 100%;
+}
+#header{
+	width: 100%;
+	height: 600px;
+	padding-top: 1%;
+	background: url('./img/top.jpg') no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+header{
+	height: 100px;
+	padding-right: 2%;
+	background: url('./img/pjo_logo.png') no-repeat;
+	background-size: 20% auto;
+	background-position: 5% 15%;
+}
+nav ul{
+	color: #ffffff;
+	margin: 0;
+	padding: 0;
+	text-align: right;
+}
+nav li{
+	display:inline-block;
+	padding: 0 1%;
+}
+header li:last-child{
+	padding: 5px 20px;
+	border-radius: 0.2em;
+	border: solid;
+	border-color: #ffffff;
+	border-width: 1px;
+}
+button{
+	padding: 10px 50px;
+	border-radius: 0.2em;
+	font-size: 15px;
+}
+.head_msg{
+	color: #ffffff;
+}
+.head_msg h1{
+	font-size: 300%;
+}
+.head_msg button{
+	color: #ffffff;
+	background-color: #00BDF0;
+	border-style: none;
+}
+.message{
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
+.message span{
+	color: #00BDF0;
+}
+.about{
+	padding-top: 5%;
+	height: 480px;
+	background-color: #E3E3E9;
+}
+.about article{
+	font-size: 12px;
+	padding-right: 2%;
+	width: 30%;
+	float: left;
+}
+.about img{
+	width: 100%;
+}
+.about h2{
+	color: #00BDF0;
+	height: 50px;
+}
+.contents{
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
+.title{
+	color: #00BDF0;
+	padding-bottom: 5%;
+}
+.contents article{
+	width: 48%;
+	float: left;
+	margin-right: 1%;
+}
+.contents img{
+	width: 38%;
+	height: auto;
+	float: left;
+	padding-right: 2%;
+}
+.contents h2{
+	text-align: left;
+	font-size: 18px;
+	margin: 0;
+}
+.contents p{
+	text-align: left;
+	width: 60%;
+	float: left;
+}
+.contents button{
+	margin-top: 5%;
+	border-style: solid;
+	background-color: #ffffff;
+	color: #3C3B3C;
+	border-width: 2px;
+	border-color: #B1B1B1;
+}
+.info{
+	padding-top: 5%;
+	width: 100%;
+	height: 850px;
+	background: url('./img/info_bg.jpg') no-repeat;
+	background-size: cover;
+	background-position: center;
+	color: #ffffff;
+}
+.info h1{
+	margin-bottom: 0;
+}
+.info div{
+	width: 100%;
+	height: 150px;
+	margin-bottom: 2%;
+}
+.info article{
+	width: 78%;
+	margin-right: 2%;
+	text-align: left;
+	float: left;
+}
+.info time{
+	font-size: 16px;
+	padding: 0;
+}
+.info h2{
+	margin-top: 5px;
+	font-size: 18px;
+}
+.info img{
+	width: 20%;
+	height: auto;
+}
+.info button{
+	margin-top: 5%;
+	border-style: solid;
+	background-color: transparent;
+	color: #ffffff;
+	border-width: 2px;
+	border-color: #ffffff;
+}
+.info_icon{
+	margin-left: 10px;
+	font-size: 12px;
+	border-style: none;
+	background-color: #00BDF0;
+	color: #ffffff;
+	padding: 5px 15px;
+}
+.bg_arrow{
+	background: url('./img/arrow.png') no-repeat;
+	background-position: 90% 50%;
+}
+#footer{
+	width: 100%;
+	height: 100px;
+	background-color: #545454;
+	padding-top: 5%;
+}
+footer{
+	width: 80%;
+	height: 50px;
+	margin: 0 auto;
+	background: url('./img/pjo_logo.png') no-repeat;
+	background-size: 20% auto;
+}
+footer img{
+	width: 25px;
+}
+
