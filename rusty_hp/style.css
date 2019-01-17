@@ -26,6 +26,9 @@ header{
 	background-size: 20% auto;
 	background-position: 5% 15%;
 }
+nav button{
+	display: none;
+}
 nav ul{
 	color: #ffffff;
 	margin: 0;
@@ -192,4 +195,90 @@ footer{
 footer img{
 	width: 25px;
 }
+
+
+@media only screen and (max-width: 479px) {
+header button{
+	display: inline;
+	position: absolute;
+	top: 17px;
+	right: 25px;
+	background-color: transparent;
+	border: none;
+	cursor: pointer;
+}
+p{
+	font-size: 12px;
+}
+h1{
+	font-size: 16px;
+}
+#header{
+	height: 500px;
+}
+header ul{
+	display: none;
+	list-style-type: none;
+	text-align: left;
+	padding: 5% 5%;
+	font-size: 20px;
+}
+header li{
+	display: block;
+}
+header li:last-child{
+	padding-left: 5px;
+	border: none;
+}
+.about{
+	height: 1200px;
+}
+.about article{
+	font-size: 12px;
+	padding-right: 0;
+	width: 100%;
+}
+.about h2{
+	height: 40px;
+}
+.about p{
+	padding-bottom: 5%;
+}
+.contents article{
+	width: 100%;
+	margin-bottom: 5%;
+}
+.contents h2{
+	font-size: 12px;
+}
+.contents p{
+	font-size: 10px;
+	margin: 0;
+
+}
+.info{
+	height: 650px;
+}
+.info time{
+	font-size: 12px;
+}
+.info h2{
+	font-size: 14px;
+}
+.info p{
+	font-size: 10px;
+}
+.info article{
+	width: 68%;
+}
+.info img{
+	width: 30%;
+}
+footer ul{
+	padding-top: 10%;
+	font-size: 12px;
+}
+
+}
+
 
