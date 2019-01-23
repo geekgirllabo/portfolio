@@ -2,8 +2,12 @@
 
 #wrapper{width:100%; height:100%; background-color:#FBFBFD;}
 
-/*ヘッダー部分*/
-#header{width:100%; padding-top:50px; text-align:center;}
+
+/*ハンバーガーメニュー*/
+#hm_wrap{display:none;}
+
+/*トップ部分*/
+#textra{width:100%; padding-top:50px; text-align:center;}
 
 h1{width:400px; float:left;}
 .hd1{font-size:9px; font-family:serif; font-weight:lighter; color:#0E2145;}
@@ -56,14 +60,44 @@ h2{font-family:serif; font-size:30px; font-weight:lighter; letter-spacing:1px; c
 {
 body{margin:0;}
 
-/*ヘッダー部分*/
+/*ハンバーガーメニュー*/
+.hmenucb{display:none;}
+#hm_wrap{display:inline-block; position:fixed; top:15px; right:0; width:50px; padding:10px; background:#FBFBFD;}
+ 
+.hmbtn{position:relative; width:50px; height:30px; cursor:pointer; display:block; float:right; z-index:2;}
+.hmbtn::before{-webkit-box-shadow:#000 0 12px 0; box-shadow:#000 0 12px 0;}
+.hmbtn::after{bottom:0;}
+.hmbtn::before, .hmbtn::after{width:40px; height:6px; background:#0E2145;; display:block;
+	content:''; position:absolute; -webkit-transition:-webkit-box-shadow 0.2s linear, -webkit-transform 0.2s 0.2s;
+	transition:box-shadow 0.2s linear, transform 0.2s 0.2s;}
+ 
+.hmenuwrap{height:400px; background:#FBFBFD; position:absolute; right:-250px;
+	top:0; -webkit-transition: right 0.4s; transition:right 0.4s;}
+ 
+.hmenucb:checked ~ .hmbtn::before{-webkit-box-shadow: transparent 0 0 0; box-shadow:transparent 0 0 0;
+	-webkit-transform:rotate(45deg) translate3d(6px, 11px, 0); transform:rotate(45deg) translate3d(6px, 11px, 0);}
+.hmenucb:checked ~ .hmbtn::after{-webkit-transform: rotate(-45deg) translate3d(6px, -11px, 0);
+	transform:rotate(-45deg) translate3d(6px, -11px, 0);}
+.hmenucb:checked ~ .hmenuwrap{left:-250px;}
+ 
+.hmlist{list-style-type:none; margin-top:50px; margin-left:50px; padding:0;}
+.hmlist li a{color:#777; display:block; overflow:hidden; padding:8px 22px;
+	position:relative; text-decoration:none; z-index:1;}
+.hmlist li a::before{background:#eee; content:''; position:absolute;
+	top:0; right:0; bottom:94%; left:0; -webkit-transition:bottom 0.4s;
+	transition:bottom 0.4s; z-index:-1;}
+
+
+/*トップ部分*/
 .hd1{display:none;}
 #headericon{display:none;}
+#textra{padding-top:15px;}
+.logot{float:left; width:70px; margin-left:20px;}
 
 #header{padding-top:15px; margin-bottom:20px;}
 
 /*グローバルナビ部分*/
-#globalnav li{width:100%; text-align:center; padding-top:3px;}
+#globalnav li{display:none;}
 
 /*お客様のトップ声部分*/
 #midtxt{width:80%; margin-left:10%; margin-right:10%; margin-bottom:0;}
@@ -78,3 +112,4 @@ body{margin:0;}
 #footericon{display:none;}
 .nameb{margin-left:0;}
 }
+
