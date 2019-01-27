@@ -104,12 +104,14 @@ body{margin:0;}
 
 /*お客様の声部分*/
 .vc1{width:100%; text-align:center; margin-top:0px;}
-.face1{width:300px; margin-top:80px;}
+.face1{width:250px; margin-top:80px;}
+h2{font-size:140%;}
 .vctxt{width:90%; margin:left:5%; margin-right:5%; margin-bottom:40px;}
 
 /*フッター部分*/
 #footer{margin-top:30px; text-align:center;}
 #footericon{display:none;}
 .nameb{margin-left:0;}
+.addb{margin-left:15px;}
 }
 
