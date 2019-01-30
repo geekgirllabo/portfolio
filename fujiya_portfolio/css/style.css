@@ -1,7 +1,7 @@
 html {
 	font-family:'ヒラギノ明朝 ProN','Hiragino Mincho ProN','Yu Mincho Light','YuMincho','Yu Mincho','游明朝体',serif;
 	font-size: 62.5%;
-	letter-spacing: 1px;
+	letter-spacing: 1.5px;
 	color: #1a1a19;
 	margin: 0;
 	padding: 0;
@@ -58,30 +58,30 @@ img.logo {
 }
 
 .header-upper-center {
-	flex-basis: 22%;
+	flex-basis: 28.5%;
 	box-sizing: border-box;
 	margin-left: auto;
 }
 .number img {
-	width: 36px;
+	width: 43px;
 }
 
 .free-dial {
 	display: inline-block;
-	font-size: 2.85rem;
-	letter-spacing: 1.7px;
+	font-size: 3.8rem;
+	letter-spacing: 2.5px;
 	line-height: 1.2;
 	font-weight: bold;
 }
 
 .business-hour {
-	font-size: 1.2rem;
+	font-size: 1.62rem;
 	font-family: sans-serif;
 	line-height: 1.1;
 }
 
 .header-upper-right {
-	flex-basis: 22.5%;
+	flex-basis: 22%;
 }
 
 .header-upper-right img {
@@ -96,7 +96,7 @@ img.logo {
 nav.nav-top {
 	clear: both;
 	width: 100%;
-	border-top: 4px solid #8e748c;
+	border-top: 7px solid #8e748c;
 	position: relative;
 }
 
@@ -104,7 +104,7 @@ nav.nav-top:after {
 	content: "";
 	border-top: 1px solid #c6b9c5;
 	position: absolute;
-	top: 2px;
+	top: 4px;
 	width: 100%
 }
 
@@ -116,17 +116,20 @@ nav.nav-top:after {
 	margin: 0 auto;
 }
 
-.nav-common li {
+.nav-common li, .nav-common-footer li {
 	display: inline-block;
 }
 
 .nav-common li + li {
-	margin-left: 30px;
+	margin-left: 2.5%;
 }
 
-.nav-common li a {
-	font-size: 1.4rem;
-	font-family: sans-serif;
+.nav-common-footer li + li {
+	margin-left: 40px;
+}
+
+.nav-common li a, .nav-common-footer li a  {
+	font-size: 1.63rem;
 }
 
 .nav-common li a:hover {
@@ -154,13 +157,12 @@ nav.nav-top:after {
 }
 
 .button-fixed {
-	width: 35%;
+	width: 40%;
 	position: absolute;
-	right: 12%;
+	right: 10%;
 	bottom: 0;
 	z-index: 99;
 }
-
 
 .button-fixed p {
 	display: inline-block;
@@ -175,12 +177,12 @@ nav.nav-top:after {
 	width: 100%;
 }
 
-/*.button-fixed.fixed {
+.button-fixed.fixed {
 	position: fixed;
 	bottom: 0;
 	z-index: 100;
 }
-*/
+
 .banner-all {
 	margin: 5% 1%;
 }
@@ -206,7 +208,7 @@ nav.nav-top:after {
 }
 
 .title-common {
-	font-size: 2.5rem;
+	font-size: 3.5rem;
 	margin: 2% 0;
 	display: flex;
 	align-items: center;
@@ -225,8 +227,8 @@ nav.nav-top:after {
 }
 
 .caption {
-	font-size: 1.6rem;
-	line-height: 1.8;
+	font-size: 2.3rem;
+	line-height: 1.5;
 }
 
 #plan-top {
@@ -247,14 +249,14 @@ nav.nav-top:after {
 }
 
 .visual-top-collection img {
-	width: 43%;
+	width: 42%;
 	align-self: flex-start;
 
 }
 
 .visual-top-collection-text {
 	display: inline-block;
-	width: 57%;
+	width: 58%;
 	padding: 8% 3%;
 	box-sizing: border-box;
 	color: #fff;
@@ -278,31 +280,33 @@ nav.nav-top:after {
 }
 
 .collection-number {
-	font-size: 2.4rem;
+	font-size: 3.3rem;
 	border-bottom: 1px solid #fff;
 	text-align: center;
 	line-height: 1.8;
+	letter-spacing: 2.0px;
 }
 
 .fullset {
 	font-family: sans-serif;
-	font-size: 1.5rem;
+	font-size: 2.0rem;
 	padding: 7% 0 0 7%;
 }
 
 .price {
-	font-size: 2.5rem;
+	font-size: 3.8rem;
 	letter-spacing: 2px;
 	padding-left: 7%;
 }
 
 .tax {
-	font-size: 1.5rem;
+	font-size: 2.0rem;
+	font-family: sans-serif;
 }
 
 .details-button {
 	border: 1px solid #fff;
-	font-size: 1.5rem;
+	font-size: 2.0rem;
 	color: #fff;
 	text-align: center;
 	margin-top: 7%;
@@ -315,7 +319,7 @@ nav.nav-top:after {
 
 .see-more {
 	text-align: center;
-	font-size: 1.5rem;
+	font-size: 2.1rem;
 	border: 1px solid #8e748c;
 	padding: 1.5% 0;
 	margin: 5% 34% 10%;
@@ -338,7 +342,7 @@ nav.nav-top:after {
 }
 
 .four-boxes-title {
-	font-size: 2.0rem;
+	font-size: 2.8rem;
 	text-align: center;
 	padding: 7% 0;
 	line-height: 1.3;
@@ -346,13 +350,13 @@ nav.nav-top:after {
 }
 
 .purchase-plan {
-	padding: 12% 0;
+	padding: 13% 0;
 }
 
 .four-boxes-description {
 	color: #626262;
 	padding: 3% 7% 8%;
-	font-size: 1.4rem;
+	font-size: 1.9rem;
 }
 
 .align-bottom {
@@ -361,23 +365,23 @@ nav.nav-top:after {
 
 .plan-fullset-price {
 	font-family: sans-serif;
-	font-size: 1.2rem;
+	font-size: 1.7rem;
 	letter-spacing: 0;
-	padding-left: 7%;
+	padding: 0 7%;
 }
 
 .plan-price {
-	font-size: 2.6rem;
+	font-size: 3.5rem;
 	padding-left: 7%;
 }
 
 .yen {
-	font-size: 1.5rem;
+	font-size: 2.2rem;
 }
 
 .tax-not-included {
 	text-align: right;
-	font-size: 1.3rem;
+	font-size: 1.9rem;
 	font-family: sans-serif;
 	margin-bottom: 5%;
 	padding-right: 7%;
@@ -387,7 +391,7 @@ nav.nav-top:after {
 	border-top: 1px solid #b2b2b2;
 	margin: 0 7%;
 	padding: 7% 0;
-	font-size: 1.4rem;
+	font-size: 1.9rem;
 	font-family: sans-serif;
 	position: relative;
 }
@@ -416,16 +420,16 @@ nav.nav-top:after {
 .voice-top-title {
 	display: inline-block;
 	width: 74%;
-	font-size: 1.7rem;
+	font-size: 2.3rem;
 	background-image: url("../images/top_voice_title_back.png");
-	padding: 1% 0 1% 3%;
+	padding: 1% 0 1% 2%;
 	box-sizing: border-box;
 }
 
 .voice-top-name {
 	display: inline-block;
 	width: 26%;
-	font-size: 1.7rem;
+	font-size: 2.3rem;
 	color: #fff;
 	text-align: center;
 	background-color: #ca8398;
@@ -449,8 +453,9 @@ nav.nav-top:after {
 .customer-comments {
 	display: inline-block;
 	width: 70%;
-	font-size: 1.35rem;
+	font-size: 1.85rem;
 	font-family: sans-serif;
+	line-height: 1.6;
 	vertical-align: top;
 	padding: 3% 6% 0 2%;
 	box-sizing: border-box;
@@ -489,7 +494,7 @@ nav.nav-top:after {
 .flow-top-text {
 	font-family: sans-serif;
 	margin-top: 15px;
-	font-size: 1.5rem;
+	font-size: 1.8rem;
 }
 
 .flow-top-arrow {
@@ -534,7 +539,7 @@ dl {
 }
 
 dt.date {
-	font-size: 1.5rem;
+	font-size: 2.0rem;
 	font-weight: bold;
 	margin: 0;
 	padding: 0;
@@ -542,13 +547,13 @@ dt.date {
 
 dd.news-title {
 	display: inline-block;
-	font-size: 1.8rem;
-	border-bottom: 1px solid #ccc;
+	font-size: 2.5rem;
+	border-bottom: 1px solid #1a1a19;
 	margin: 2% 0;
 }
 
 dd.news-description {
-	font-size: 1.35rem;
+	font-size: 1.85rem;
 	font-family: sans-serif;
 	margin-left: 0;
 }
@@ -579,13 +584,13 @@ dd.news-description {
 }
 
 .sns-top-box + .sns-top-box {
-	margin-left: 3%;
+	margin-left: 4%;
 }
 
 .sns-title {
 	margin: 0 30%;
 	padding-bottom: 4px;
-	font-size: 2.5rem;
+	font-size: 3.5rem;
 	text-align: center;
 	border-bottom: 1px solid #8e748c;
 }
@@ -612,7 +617,7 @@ dd.news-description {
 	opacity: 0.8;
 	position: fixed;
 	right: 35px;
-	bottom: 35px;
+	bottom: 45px;
 	z-index: 100;
 }
 
@@ -669,7 +674,7 @@ nav.nav-top-footer:after {
 }
 
 .shop-info {
-	font-size: 1.35rem;
+	font-size: 1.9rem;
 	font-family: sans-serif;
 }
 
@@ -685,14 +690,14 @@ nav.nav-top-footer:after {
 	width: 48%;
 }
 
-.buttons img + img {
+.buttons a + a {
 	margin-left: 2%;
 }
 
 .copyright {
 	position: absolute;
 	bottom: 0;
-	font-size: 1.4rem;
+	font-size: 1.8rem;
 	font-family: sans-serif;
 }
 
@@ -708,7 +713,28 @@ nav.nav-top-footer:after {
 }
 
 .header-upper-center {
-	flex-basis: 29%;
+	flex-basis: 35%;
+}
+
+.free-dial {
+	font-size: 3.2rem;
+}
+
+.business-hour {
+	font-size: 1.4rem;
+	letter-spacing: 1.3px;
+}
+
+ul.nav-common li + li {
+	margin-left: 1%;
+}
+
+ul.nav-common-footer li + li {
+	margin-left: 1%;
+}
+
+ul.nav-common li a, ul.nav-common-footer li a {
+	font-size: 1.5rem;
 }
 
 .main-visual-message {
@@ -719,6 +745,34 @@ nav.nav-top-footer:after {
 	right: 8%;
 }
 
+.caption {
+	font-size: 2.0rem;
+}
+
+.price {
+	font-size: 3.1rem;
+}
+
+.see-more {
+	margin: 5% 25% 10%;
+}
+
+.four-boxes-title {
+	font-size: 2.3rem;
+}
+
+.purchase-plan {
+	padding: 15% 0;
+}
+
+.plan-price {
+	font-size: 3.0rem;
+}
+
+.plan-details-here {
+	font-size: 1.3rem;
+}
+
 .flow-top-arrow {
 	right: -17%;
 	top: 13.5%;
@@ -726,6 +780,14 @@ nav.nav-top-footer:after {
 
 .flow-top-arrow-pc {
 	width: 45%;
+}
+
+.footer-logo {
+	flex-basis: 28%;
+}
+
+.shop-info {
+	font-size: 1.5rem;
 }
 }
 
@@ -862,12 +924,26 @@ nav.globalMenuSp.active {
 }
 
 .button-fixed {
+	width: 60%;
 	right: 6.5%;
 }
 
 .explanatory-text-top {
 	margin: 15% 3% 5%;
 }
+
+.title-common {
+	font-size: 3.0rem;
+}
+
+.caption {
+	/*text-align: left;*/
+	font-size: 1.8rem;
+}
+
+/*.caption br {
+	display: none;
+}*/
 
 .visual-top-collection {
 	display: block;
@@ -897,7 +973,7 @@ nav.globalMenuSp.active {
 }
 
 .purchase-plan {
-	padding: 11.5% 0;
+	padding: 12.5% 0;
 }
 
 .plan-details-here img{
@@ -924,6 +1000,10 @@ nav.globalMenuSp.active {
 	font-size: 1.5rem;
 }
 
+.customer-comments br {
+	display: none;
+}
+
 .flow-top-five-boxes {
 	flex-basis: 28%;
 }
@@ -940,9 +1020,12 @@ nav.globalMenuSp.active {
 	margin-top: 5%;
 }
 
-
 .flow-top-text {
 	font-size: 1.8rem;
+}
+
+.flow-top-text br {
+	display: none;
 }
 
 .flow-top-arrow {
@@ -967,12 +1050,25 @@ nav.globalMenuSp.active {
 	width: 65%;
 }
 
+.sns-title {
+	margin: 0 18%;
+	font-size: 3.0rem;
+}
+
+dd.news-title {
+	font-size: 2.3rem;
+}
+
 nav.nav-top-footer {
 	padding-bottom: 0;
 }
 
 ul.nav-common-footer {
 	padding-bottom: 0;
+}
+
+ul.nav-common-footer li a {
+	font-size: 0;
 }
 
 .contact-info {
@@ -994,6 +1090,7 @@ ul.nav-common-footer {
 .number img {
 	width: 28px;
 }
+
 .free-dial {
 	font-size: 2rem;
 }
@@ -1018,12 +1115,12 @@ ul.nav-common-footer {
 	font-size: 2.1rem;
 }
 
-.caption {
-	font-size: 1.5rem;
-}
-
 .price {
 	font-size: 2.1rem;
+}
+
+.see-more {
+	margin: 8% 15% 15%;
 }
 
 .purchase-plan {
@@ -1055,13 +1152,13 @@ ul.nav-common-footer {
 	top: 9%;
 }
 
-.sns-title {
-	margin: 0 21%;
-	font-size: 2.1rem;
-}
-
 .facebook-title-border {
 	margin: 0 7%;
+}
+
+.sns-title {
+	margin: 0 20%;
+	font-size: 3.2rem;
 }
 
 .sns-top-image img{
@@ -1245,6 +1342,7 @@ nav.globalMenuSp.active {
 
 .caption {
 	text-align: left;
+	font-size: 1.6rem;
 }
 
 .caption br{
@@ -1290,8 +1388,9 @@ nav.globalMenuSp.active {
 }
 
 .see-more {
-	margin: 10% 10% 15%;
+	margin: 10% 3% 15%;
 	padding: 5% 0;
+	font-size: 1.8rem;
 }
 
 .visual-top-four-boxes {
@@ -1340,7 +1439,7 @@ nav.globalMenuSp.active {
 .voice-top-title, .voice-top-name {
 	display: block;
 	width: 100%;
-	font-size: 1.5rem;
+	font-size: 1.4rem;
 	padding: 4% 0;
 	text-align: center;
 }
@@ -1399,6 +1498,10 @@ nav.globalMenuSp.active {
 	width: 20%;
 }
 
+.flow-top-text br {
+	display: none;
+}
+
 .news-body {
 	padding: 5% 10%;
 	box-sizing: border-box;
@@ -1424,6 +1527,8 @@ nav.globalMenuSp.active {
 
 .sns-title {
 	padding-bottom: 0;
+	margin: 0 20%;
+	font-size: 3.0rem;
 }
 
 .sns-top-image {
@@ -1433,6 +1538,23 @@ nav.globalMenuSp.active {
 
 .sns-top-image img{
 	margin-top: 15px;
+}
+
+#back-to-top {
+	width: 50px;
+	height: 50px;
+	right: 25px;
+}
+
+#back-to-top a {
+	font-size: 1rem;
+	width: 40px;
+	height: 40px;
+}
+
+.button-fixed {
+	width: 60%;
+	right: 25px;
 }
 
 footer {
@@ -1445,6 +1567,10 @@ footer .visual-top {
 
 ul.nav-common-footer {
 	padding: 2% 0;
+}
+
+ul.nav-common-footer li a {
+	font-size: 0;
 }
 
 .footer-info {
