@@ -1,0 +1,228 @@
+div#wrapper{
+	max-width:862px;
+	width:100%;
+	margin:0 auto;
+}
+div#header{
+	width:97.1%;
+	height:50px;
+	padding-left:3%;
+	background-color:#191970;
+	color:white;
+}
+div#header h3{
+	float:left;
+	width:28%;
+	height:38px;
+	margin:0%;
+	padding-top:12px;
+}
+div#header span{
+	float:left;
+	width:40%;
+	height:32px;
+	margin:0%;
+	padding-top:18px;
+}
+div#title{
+	width:100%;
+	height:150px;
+	clear:both;
+	background-image: url("../image/sa.png");
+	background-repeat:no-repeat;
+}
+h1{
+	width:20%;
+	color:#191970;
+	padding-top:3%;
+	padding-left:40%;
+	margin:0%;
+}
+
+div#kind1{
+	width:100%;
+	height:150px;
+}
+div#kind1 h4{
+	width:20%;
+	float:left;
+	margin-top:0%;
+	padding-left:2%;
+}
+div#kind1 img{
+	width:25%;
+	float:left;
+}
+div#kind1 p{
+	width:50%;
+	float:left;
+	margin:0%;
+	font-size:75%;
+	text-align:justify;
+}
+
+div#kind2{
+	width:100%;
+	height:150px;
+	clear:both;
+}
+div#kind2 h4{
+	width:20%;
+	float:left;
+	margin-top:0%;
+	padding-left:2%;
+}
+div#kind2 img{
+	width:25%;
+	float:left;
+}
+div#kind2 p{
+	width:50%;
+	float:left;
+	margin:0%;
+	font-size:75%;
+	text-align:justify;
+}
+
+div#kind3{
+	width:100%;
+	height:150px;
+	clear:both;
+}
+div#kind3 h4{
+	width:20%;
+	float:left;
+	margin-top:0%;
+	padding-left:2%;
+}
+div#kind3 img{
+	width:25%;
+	float:left;
+}
+div#kind3 p{
+	width:50%;
+	float:left;
+	margin:0%;
+	font-size:75%;
+	text-align:justify;
+}
+hr{
+	margin-bottom:30px;
+}
+div#footer{
+	width:100%;
+	height:200px;
+}
+
+@media only screen and (max-width:479px){
+
+body{
+	margin:0;
+}
+div#wrapper{
+	margin-left:8px;
+	margin-right:8px;
+	width:auto;
+}
+div#wrapper img{
+	width: 100%;
+	height: auto;
+}
+
+div#header{
+	width:97.1%;
+	height:75px;
+	padding-left:3%;
+	background-color:#191970;
+	color:white;
+}
+div#header h3{
+	width:100%;
+	height:20px;
+	margin:0%;
+	padding-top:12px;
+}
+div#header span{
+	width:100%;
+	height:32px;
+	margin:0%;
+	padding-top:10px;
+}
+
+div#title{
+	width:100%;
+	height:350px;
+	clear:both;
+	background-image: url("../image/banner_13.jpg");
+	background-repeat:no-repeat;
+}
+h1{
+	width:50%;
+	color:#191970;
+	padding-top:3%;
+	padding-left:52%;
+	margin:0%;
+}
+
+div#kind1{
+	width:100%;
+	height:430px;
+}
+div#kind1 h4{
+	width:100%;
+	margin-top:0%;
+	padding-left:2%;
+}
+div#kind1 img{
+	width:90%;
+	padding-left:5%;
+}
+div#kind1 p{
+	width:84%;
+	margin:0%;
+	font-size:75%;
+	text-align:justify;
+	padding-left:8%;
+}
+
+div#kind2{
+	width:100%;
+	height:430px;
+}
+div#kind2 h4{
+	width:100%;
+	margin-top:0%;
+	padding-left:2%;
+}
+div#kind2 img{
+	width:90%;
+	padding-left:5%;
+}
+div#kind2 p{
+	width:84%;
+	margin:0%;
+	font-size:75%;
+	text-align:justify;
+	padding-left:8%;
+}
+
+div#kind3{
+	width:100%;
+	height:430px;
+}
+div#kind3 h4{
+	width:100%;
+	margin-top:0%;
+	padding-left:2%;
+}
+div#kind3 img{
+	width:90%;
+	padding-left:5%;
+}
+div#kind3 p{
+	width:84%;
+	margin:0%;
+	font-size:75%;
+	text-align:justify;
+	padding-left:8%;
+}
