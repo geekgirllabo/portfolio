@@ -1,59 +1,297 @@
-div#wrapper{
+.home div#wrapper{
+	max-width:2000px;
+	width:100%;
+	margin:0 auto;
+	background-color:#f5f5f5;
+}
+.home div#mobilemenu{
+	display:none;
+}
+.home div#header{
+	width:100%;
+	height:600px;
+	padding:0%;
+	background-image:url("../image/top3b.jpg");
+	background-size:100% 100%;
+	background-repeat:no-repeat;
+}
+.home div#header img{
+	width:32%;
+	height:64%;
+	float:left;
+	padding-left:4%;
+	padding-top:2%;
+}
+.home ul#glnav{
+	width:46%;
+	height:40%;
+	list-style-type:none;
+	display:inline-block;
+	margin:0%;
+	padding-left:12%;
+	padding-top:5%;
+}
+.home ul#glnav li{
+	float:left;
+	padding-left:3%;
+	font-size:14px;
+	color:white;
+}
+.home ul#glnav p{
+}
+.home div#topheader{
+	width:100%;
+	height:20%;
+	background-color:#000033;
+
+}
+.home div#headerword{
+	padding-top:15%;
+}
+.home div#headerword p{
+	text-align:center;
+	font-size:25px;
+	color:white;
+	margin:0%;
+}
+.home div#update{
+	width:90%;
+	padding-left:10%;
+}
+.home div#update p{
+	padding-left:42%;
+	font-size:25px;
+}
+.home div#post{
+	background-color:white;
+	width:88%;
+	height:30%;
+}
+.home div#update dl{
+	width:100%;
+	padding-left:4%;
+	padding-top:2%;
+} 
+.home div#update dt{
+	width:7%;
+	font-size:11px;
+	float:left;
+	clear:left;
+	padding-top:12px;
+	padding-bottom:2px;
+	font-weight:600;
+}
+.home div#update dd{
+	width:90%;
+	font-size:11px;
+	margin:0%;
+	padding:0%;
+	border-bottom: 2px dotted black;
+	padding-top:12px;
+	padding-bottom:2px;
+}
+.home div#link1{
+	width:100%;
+	clear:both;
+}
+.home div#biglink{
+	width:100%;
+	padding-top:2%;
+}
+.home ul#biglink1{
+	list-style-type:none;
+	width:92%;
+	height:240px;
+	padding-left:8%;
+	margin:0%;
+}
+.home ul#biglink1 li{
+	width:45%;
+	display:inline-block;
+}
+.home ul#biglink1 img{
+	width:90%;
+	display:block;
+	margin:0 auto;
+}
+.home ul#biglink1 p{
+	text-align:center;
+	margin-top:0%;	
+}
+.home ul#biglink2{
+	list-style-type:none;
+	width:92%;
+	height:230px;
+	padding-left:8%;
+	margin:0%;
+}
+.home ul#biglink2 li{
+	width:45%;
+	display:inline-block;
+}
+.home ul#biglink2 img{
+	width:90%;
+	display:block;
+	margin:0 auto;
+}
+.home ul#biglink2 p{
+	text-align:center;
+	margin-top:0%;
+}
+.home div#smalllink{
+	width:90%;
+	height:250px;
+	padding-top:2%;
+	padding-left:4%;
+	clear:both;
+}
+.home div#smalllink ul{
+	list-style-type:none;
+}
+.home div#smalllink li{
+	width:24%;
+	display:inline-block;
+}
+.home div#smalllink img{
+	display:block;
+	margin:0 auto;
+}
+.home div#smalllink p{
+	text-align:center;
+	margin-top:0%;
+}
+.home div#book{
+	width:100%;
+	height:300px;
+	margin:0%;
+	background-image:url("../image/banner_09.jpg");
+	background-size:contain;
+	background-repeat:no-repeat;
+	clear:both;
+}
+.home div#bookword{
+	width:45%;
+	padding-top:5%;
+	padding-left:54%;
+}
+.home div#bookword p{
+	margin:0%;
+}
+.home div#book form{
+	width:45%;
+	padding-left:54%;
+	float:left;
+}
+.home div#book form font{
+	padding-top:1%;
+	padding-right:2%;
+	float:left;
+}
+
+.home div#pearl{
+	width:100%;
+	height:250px;
+}
+.home div#paerl img{
+	display:block;
+	margin:0 auto;
+}
+.home div#pearl p{
+	margin:0%;
+}
+.home div#pearl ul{
+	width:70%;
+	list-style-type:none;
+	text-align:center;
+	padding-left:18%;
+	padding-top:4%;
+}
+.home div#pearl li{
+	width:30%;
+	float:left;
+}
+
+.home div#footer{
+	width:100%;
+	height:300px;
+	background-color:#000033;
+	clear:both;
+}
+.home div#footerdetail{
+	width:50%;
+	padding-top:4%;
+	padding-left:10%;
+}
+.home div#footerdetail p{
+	margin:0%;
+	color:white;
+}
+.home div#footerdetail img{
+	margin-top:4%;
+}
+.home div#spfooterimg{
+	display:none;
+}
+
+
+
+
+.pagepearlkind div#wrapper{
 	max-width:862px;
 	width:100%;
 	margin:0 auto;
 }
-div#header{
+.pagepearlkind div#header{
 	width:97.1%;
 	height:50px;
 	padding-left:3%;
-	background-color:#191970;
+	background-color:#000033;
 	color:white;
 }
-div#header h3{
+.pagepearlkind div#header h3{
 	float:left;
 	width:28%;
 	height:38px;
 	margin:0%;
 	padding-top:12px;
 }
-div#header span{
+.pagepearlkind div#header span{
 	float:left;
 	width:40%;
 	height:32px;
 	margin:0%;
 	padding-top:18px;
 }
-div#title{
+.pagepearlkind div#title{
 	width:100%;
 	height:150px;
 	clear:both;
 	background-image: url("../image/sa.png");
 	background-repeat:no-repeat;
 }
-h1{
+.pagepearlkind h1{
 	width:20%;
-	color:#191970;
+	color:#000033;
 	padding-top:3%;
 	padding-left:40%;
 	margin:0%;
 }
 
-div#kind1{
+.pagepearlkind div#kind1{
 	width:100%;
 	height:150px;
 }
-div#kind1 h4{
+.pagepearlkind div#kind1 h4{
 	width:20%;
 	float:left;
 	margin-top:0%;
 	padding-left:2%;
 }
-div#kind1 img{
+.pagepearlkind div#kind1 img{
 	width:25%;
 	float:left;
 }
-div#kind1 p{
+.pagepearlkind div#kind1 p{
 	width:50%;
 	float:left;
 	margin:0%;
@@ -61,22 +299,22 @@ div#kind1 p{
 	text-align:justify;
 }
 
-div#kind2{
+.pagepearlkind div#kind2{
 	width:100%;
 	height:150px;
 	clear:both;
 }
-div#kind2 h4{
+.pagepearlkind div#kind2 h4{
 	width:20%;
 	float:left;
 	margin-top:0%;
 	padding-left:2%;
 }
-div#kind2 img{
+.pagepearlkind div#kind2 img{
 	width:25%;
 	float:left;
 }
-div#kind2 p{
+.pagepearlkind div#kind2 p{
 	width:50%;
 	float:left;
 	margin:0%;
@@ -84,32 +322,32 @@ div#kind2 p{
 	text-align:justify;
 }
 
-div#kind3{
+.pagepearlkind div#kind3{
 	width:100%;
 	height:150px;
 	clear:both;
 }
-div#kind3 h4{
+.pagepearlkind div#kind3 h4{
 	width:20%;
 	float:left;
 	margin-top:0%;
 	padding-left:2%;
 }
-div#kind3 img{
+.pagepearlkind div#kind3 img{
 	width:25%;
 	float:left;
 }
-div#kind3 p{
+.pagepearlkind div#kind3 p{
 	width:50%;
 	float:left;
 	margin:0%;
 	font-size:75%;
 	text-align:justify;
 }
-hr{
+.pagepearlkind hr{
 	margin-bottom:30px;
 }
-div#footer{
+.pagepearlkind div#footer{
 	width:100%;
 	height:200px;
 }
@@ -119,44 +357,251 @@ div#footer{
 body{
 	margin:0;
 }
-div#wrapper{
+
+.home div#wrapper{
 	margin-left:8px;
 	margin-right:8px;
 	width:auto;
 }
-div#wrapper img{
+.home div#topheader{
+	width:100%;
+	height:30%;
+	background-color:#000033;
+}
+.home div#topheader img{
+	width:66%;
+}
+
+.home div#header{
+	width:100%;
+	height:250px;
+	background-image:url("../image/top3b.jpg");
+	background-size:100% 100%;
+	background-repeat:no-repeat;
+}
+.home div#headerword{
+	width:100%;
+}
+.home div#headerword p{
+	font-size:13px;
+}
+
+.home div#mobilemenu{
+	display:block;
+	list-style-type:none;
+	width:100%;
+	height:200px;
+}
+.home div#mobilemenu ul{
+	width:100%;
+	margin:0%;
+	padding:0%;
+	list-style-type:none;
+}
+.home div#mobilemenu li{
+	width:100%;
+	height:30px;
+	background-color:#000033;
+	color:white;
+}
+.home div#mobilemenu p{
+	text-align:center;
+	margin:0%;
+	font-size:14px;
+	padding-top:1%;
+}
+.home ul#glnav{
+	display:none;
+}
+
+.home div#update{
+	width:96%;
+	height:400px;
+	padding:0%;
+	padding-left:6%;
+}
+.home div#update p{
+	padding:0%;
+	padding-left:30%;
+}
+.home div#post{
+	width:88%;
+	height:300px;
+	padding-left:2%;
+}
+.home div#update dl{
+	width:100%;
+} 
+.home div#update dt{
+	width:100%;
+	font-size:11px;
+	font-weight:600;
+}
+.home div#update dd{
+	width:90%;
+	font-size:11px;
+}
+
+.home div#biglink{
+	width:100%;
+	height:750px;
+}
+.home ul#biglink1{
+	height:360px;
+	padding:0%;
+	padding-left:4%;
+}
+.home ul#biglink1 li{
+	width:100%;
+	display:block;
+}
+.home ul#biglink1 img{
+	width:100%;
+	margin:0 auto;
+}
+.home ul#biglink1 p{
+	font-size:14px;
+}
+.home ul#biglink2{
+	height:360px;
+	padding:0%;
+	padding-left:4%;
+}
+.home ul#biglink2 li{
+	display:block;
+	width:100%;
+}
+.home ul#biglink2 img{
+	width:100%;
+	margin:0 auto;
+}
+.home ul#biglink2 p{
+	font-size:14px;
+}
+.home div#smalllink{
+	width:90%;
+	height:900px;
+}
+.home div#smalllink ul{
+	padding:0%;
+}
+.home div#smalllink li{
+	display:block;
+	width:100%;
+}
+.home div#smalllink img{
+	width:80%;
+	margin:0 auto;
+}
+.home div#smalllink p{
+	font-size:14px;
+}
+
+.home div#book{
+	width:100%;
+	height:300px;
+	background-color:black;
+}
+.home div#bookword{
+	width:98%;
+	padding:0%;
+	padding-top:20%;
+	padding-left:2%;
+}
+.home div#book form{
+	width:98%;
+	padding:0%;
+	padding-left:2%;
+}
+
+.home div#pearl{
+	width:90%;
+	padding-left:10%;
+}
+.home div#pearl ul{
+	width:90%;
+	height:200px;
+	padding:0%;
+	padding-top:12%;
+	margin:0%;
+}
+.home div#pearl li{
+	width:94%;
+	display:block;
+}
+.home div#pearl img{
+	width:18%;
+	float:left;
+}
+.home div#pearl p{
+	width:60%;
+	float:left;
+	padding-top:6%;
+	text-align:left;
+	font-size:14px;
+}
+.home div#footer{
+	width:100%;
+	height:200px;
+}
+
+.home div#footerdetail{
+	width:95%;
+	padding:0%;
+	padding-left:5%;
+	padding-top:4%;
+}
+.home div#footerdetail p{
+	width:95%;
+	font-size:10px;
+}
+.home div#spfooterimg{
+	display:inline;
+	width:95%;
+}
+
+.home div#footer .pc{
+	display:none;
+}
+
+.pagepearlkind div#wrapper{
+	margin-left:8px;
+	margin-right:8px;
+	width:auto;
+}
+.pagepearlkind div#wrapper img{
 	width: 100%;
 	height: auto;
 }
 
-div#header{
+.pagepearlkind div#header{
 	width:97.1%;
 	height:75px;
 	padding-left:3%;
 	background-color:#191970;
 	color:white;
 }
-div#header h3{
+.pagepearlkind div#header h3{
 	width:100%;
 	height:20px;
 	margin:0%;
 	padding-top:12px;
 }
-div#header span{
+.pagepearlkind div#header span{
 	width:100%;
 	height:32px;
 	margin:0%;
 	padding-top:10px;
 }
 
-div#title{
+.pagepearlkind div#title{
 	width:100%;
 	height:350px;
 	clear:both;
 	background-image: url("../image/banner_13.jpg");
 	background-repeat:no-repeat;
 }
-h1{
+.pagepearlkind h1{
 	width:50%;
 	color:#191970;
 	padding-top:3%;
@@ -164,20 +609,20 @@ h1{
 	margin:0%;
 }
 
-div#kind1{
+.pagepearlkind div#kind1{
 	width:100%;
 	height:430px;
 }
-div#kind1 h4{
+.pagepearlkind div#kind1 h4{
 	width:100%;
 	margin-top:0%;
 	padding-left:2%;
 }
-div#kind1 img{
+.pagepearlkind div#kind1 img{
 	width:90%;
 	padding-left:5%;
 }
-div#kind1 p{
+.pagepearlkind div#kind1 p{
 	width:84%;
 	margin:0%;
 	font-size:75%;
@@ -185,20 +630,20 @@ div#kind1 p{
 	padding-left:8%;
 }
 
-div#kind2{
+.pagepearlkind div#kind2{
 	width:100%;
 	height:430px;
 }
-div#kind2 h4{
+.pagepearlkind div#kind2 h4{
 	width:100%;
 	margin-top:0%;
 	padding-left:2%;
 }
-div#kind2 img{
+.pagepearlkind div#kind2 img{
 	width:90%;
 	padding-left:5%;
 }
-div#kind2 p{
+.pagepearlkind div#kind2 p{
 	width:84%;
 	margin:0%;
 	font-size:75%;
@@ -206,23 +651,24 @@ div#kind2 p{
 	padding-left:8%;
 }
 
-div#kind3{
+.pagepearlkind div#kind3{
 	width:100%;
 	height:430px;
 }
-div#kind3 h4{
+.pagepearlkind div#kind3 h4{
 	width:100%;
 	margin-top:0%;
 	padding-left:2%;
 }
-div#kind3 img{
+.pagepearlkind div#kind3 img{
 	width:90%;
 	padding-left:5%;
 }
-div#kind3 p{
+.pagepearlkind div#kind3 p{
 	width:84%;
 	margin:0%;
 	font-size:75%;
 	text-align:justify;
 	padding-left:8%;
+}
 }
