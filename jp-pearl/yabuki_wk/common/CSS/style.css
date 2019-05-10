@@ -1,0 +1,960 @@
+body{
+	margin:0;
+}
+
+header#type{
+	width: 100%;
+	height: 350px;
+	background-image: url(../image/1108top2.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+div#nav{
+	background-color: #000033;
+	overflow: visible;
+	width: 100%;
+	height: 38%;
+	position: relative;
+}
+.logo{
+	width: 40%;
+	padding: 2% 0px 0px 3%;
+	margin: 0; 
+}
+.logo img{
+	width: 400px;
+	height: auto;
+}
+
+#nav-drawer {
+  position: relative;
+}
+
+/*チェックボックス等は非表示に*/
+.nav-unshown {
+  display:none;
+}
+
+/*アイコンのスペース*/
+#nav-open {
+  display: inline-block;
+  width: 40px;
+  height: 32px;
+  vertical-align: middle;
+  padding-top: 10px;
+  padding-left: 15px;
+}
+
+/*ハンバーガーアイコンをCSSだけで表現*/
+#nav-open span, #nav-open span:before, #nav-open span:after {
+  position: absolute;
+  height: 3px;/*線の太さ*/
+  width: 25px;/*長さ*/
+  border-radius: 3px;
+  background: #ffffff;
+  display: block;
+  content: '';
+  cursor: pointer;
+}
+#nav-open span:before {
+  bottom: -8px;
+}
+#nav-open span:after {
+  bottom: -16px;
+}
+
+/*閉じる用の薄黒カバー*/
+#nav-close {
+  display: none;/*はじめは隠しておく*/
+  position: fixed;
+  z-index: 99;
+  top: 0;/*全体に広がるように*/
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: black;
+  opacity: 0;
+  transition: .3s ease-in-out;
+}
+
+/*中身*/
+#nav-content {
+  overflow: auto;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;/*最前面に*/
+  width: 90%;/*右側に隙間を作る（閉じるカバーを表示）*/
+  max-width: 330px;/*最大幅（調整してください）*/
+  height: 100%;
+  background: #000033;/*背景色*/
+  transition: .3s ease-in-out;/*滑らかに表示*/
+  -webkit-transform: translateX(-105%);
+  transform: translateX(-105%);/*左に隠しておく*/
+}
+
+/*チェックが入ったらもろもろ表示*/
+#nav-input:checked ~ #nav-close {
+  display: block;/*カバーを表示*/
+  opacity: .5;
+}
+
+#nav-input:checked ~ #nav-content {
+  -webkit-transform: translateX(0%);
+  transform: translateX(0%);/*中身を表示（右へスライド）*/
+  box-shadow: 6px 0 25px rgba(0,0,0,.15);
+}
+
+.drawerlogo{
+	width: 280px;
+	padding-bottom: 20px;
+}
+
+.drawerlogo img{
+	width: 100%;
+}
+
+ul#globalnav{
+	margin: 0px;
+	font-size: 14px;
+	color: #ffffff;
+	width: 55%;
+	height: auto;
+	float: right;
+	display: flex;
+	justify-content: space-between;
+	margin-right: 3%;
+	padding-bottom: 10px;
+}
+
+ul#globalnav li{
+	list-style-type: none;
+	text-align: center;
+	position: relative;
+}
+ul#globalnav a{
+	color: #ffffff;
+	text-decoration: none;
+	display: block;	
+	line-height: 3em;
+}
+ul#globalnav a:hover{
+	color: #cc9933;
+}
+
+ul#globalnav ul{
+	display: none;
+	margin: 0px;
+	padding:1.7% 0px 0px 0px;
+	position: absolute;
+}
+
+ul#globalnav li:hover ul{
+	display: block;
+}
+
+ul#globalnav ul li{
+	float: none;
+	width: 220px;
+	margin-left: -35%;
+	height: 30px;
+	color: #000033;
+	font-size: 14px;
+	padding:5px 12px;
+	font-weight: bold;
+	background-color: #cbb994;
+	text-align: left;
+}
+
+ul#globalnav ul li a{
+	line-height: 35px;
+	color: #000033;
+}
+ul#globalnav ul li a:hover{
+	background-color: #cbb994;
+	color: #ffffff;
+}
+
+span.tab{
+	font-size: 10px;
+}
+body{
+	clear: both;
+	background-color: #f0f0f0;
+}
+
+div#content{
+	width: 85%;
+	margin: 60px auto;
+	background-color: #ffffff;
+	padding-bottom: 30px;	
+}
+
+h1{
+	background-color: #000033;
+	color: #ffffff;
+	font-size: 2vw;
+	padding:8px 3%;
+	font-weight: 600;
+	margin-bottom: 0px;
+}
+
+span.small{
+	font-size: 1.5vw;
+}
+p{
+	width: 38%;
+	height: auto;
+	line-height: 0;
+}
+.pearl{
+	max-width: 100%;
+	max-height: 100%;
+	object-fit: cover;
+}
+.title{
+	font-size: 3.5vw;
+	font-weight: 500;
+	margin: 0px  0px 0px 10%;
+	padding-left: 5%;
+}
+.pealtype p{
+	margin: 0px;
+	display: inline-block;
+	vertical-align: middle
+}	
+
+
+hr{
+	margin: 0px;
+	border-top: 2px solid #2e0101;
+}
+
+table{
+	width: 95%;
+	margin: 30px auto;
+	padding: 40px 0px 30px 0px;
+	border-collapse: collapse;   
+}	
+
+table tr{
+	border-bottom: 2px solid #e7e7e7;
+	
+}
+
+tr.white{
+	border-bottom: none;
+}
+
+table th{
+	width: 19%;
+	vertical-align: top;
+	font-size: 20px;
+	font-weight: bold;
+	text-align: left;
+	padding:30px 0px 20px 0px;
+
+}	
+
+table td{
+	padding: 30px 2% 30px 0px; 
+	vertical-align: top;
+	line-height: 1.7;
+}
+
+
+.shell{
+	width: 276px;
+	height: auto;	
+}
+
+
+#index header{                                     /*ここからindex.html*/
+	width: 100%;
+	height: 780px;
+	background-image: url(../image/top3b.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#index #nav{
+	height:18%;
+}
+
+#index h1{
+	color: #ffffff;
+	font-size: 2vw;
+	text-align: center;
+	background-color: transparent;
+	font-family: serif,MS 明朝;
+	padding-top:240px;
+}
+#index #content{
+	background-color: transparent;
+	width: 82%;
+}
+#index h2{
+	font-weight: normal;
+	text-align: center;
+	margin-top:10px;
+}
+
+.infomation{
+	width: 100%;
+	height: auto;
+	background-color: #ffffff;
+}
+
+.infomation .note{
+	width: 95%;
+	margin: 10px;
+	padding: 20px 0 15px 0;
+	background: #ffffff;
+}
+
+.infomation .note p{
+	width: 95%;
+	font-size: 12px;
+	line-height: 30px;
+	margin: 0 10px;
+	word-wrap:normal;
+}
+
+.updatelist{
+	text-align: right;
+	font-weight: bold;
+}
+
+span.arrow{
+	letter-spacing: -0.3em;
+	font-size: 8px;
+}
+
+hr{
+	border: 1px dashed #dcdcdc;
+}
+
+
+#project1{
+	width: 48.5%;
+	height: auto;
+	float: left;
+	margin-top:60px;
+}
+
+#project2{
+	width: 48.5%;
+	height: auto;
+	float: right;
+	margin-top: 60px;
+}
+
+#project3{
+	width: 48.5%;
+	height: auto;
+	float: left;
+	margin-top:30px;
+}
+
+#project4{
+	width: 48.5%;
+	height: auto;
+	float: right;
+	margin-top: 30px;
+}
+
+.projectphoto{
+	width: 100%;
+	height: auto;
+}
+
+.projecttext{
+	width: 100%;
+	font-size: 1.4vw;
+	text-align: center;
+}
+
+
+#other1{
+	width: 22.5%;
+	height: auto;
+	padding-right: 3.4%;
+	float: left;
+	margin-top: 40px;
+}
+
+#other2{
+	width: 22.5%;
+	height: auto;
+	padding-right: 3%;
+	float: left;
+	margin-top: 40px;
+}
+
+
+#other4{                    /*真珠の知識*/
+	width: 22.5%;
+	height: auto;
+	float: right;
+	padding-right: 3.4%;
+	margin-top: 40px;
+}
+#other3{
+	width: 22.5%;
+	height: auto;
+	float: right;
+	margin-top: 40px;
+}
+
+.othertext{
+	width: 100%;
+	font-size: 1.4vw;
+	text-align: center;
+	margin-bottom: 90px;
+}
+
+.otherphoto{
+	width: 100%;	
+}
+
+
+#index #archive{
+	clear: both;
+	margin-top: 70px;
+	width: 100%;
+	height: 270px;
+	background-image: url(../image/banner_09.jpg);
+	background-size: cover;
+	background-repeat:no-repeat;
+	background-position: center;
+}
+
+#index h3{
+	color: #cc9933;
+	font-size: 2.5vw;
+	font-weight: normal;
+	padding-top: 50px;
+	padding-left:58%;
+}
+
+span.small2{
+	font-size: 1.6vw;
+}
+
+#archive p{
+	color: #ffffff;
+	font-size: 20px;
+	padding-top: 14px;
+	padding-left:58%;
+	width: 100px;
+	margin: 0px;
+	float: left;
+}
+
+#search{
+	background-color: #ffffff;
+	width: 16%;
+	height: 30px;
+	margin: 0px 0px 0px 1%;
+	float:left;
+	border-radius: 2px;
+}
+
+#searchbutton{
+	background-color: #d7d7d7;
+	width: 5%;
+	height: 30px;
+	margin-left: 1%;
+	float: left;
+}
+
+#searchbutton p{
+	color: #414141;
+	text-align: center;
+	font-size: 15px;
+	width: 100%;
+	padding-left: 0px;
+	padding-top: 16px;
+}
+
+
+#index #content2{
+	clear: both;
+	width: 70%;
+	margin: 0 auto;
+	height: 270px;
+	text-align: center;
+}
+
+.bigpearl{
+	display: inline-block;
+	padding-right: 20px;
+	margin-top: 60px;
+	width: 30%;
+}
+
+.bigpearl img{
+		width: 25%;
+}
+
+.bigpearltext{
+	font-size: 1.4vw;
+	width: 100%;
+}
+
+footer{
+	width: 100%;
+	height: 270px;
+	background-color: #000033; 
+	overflow: visible;
+}
+
+
+.footertext{
+	color: #ffffff;
+	font-size: 0.9vw;
+	letter-spacing: -0.05em;
+	width: 45%;
+	height: 110px;
+	line-height: 1.9;
+	padding-top: 3%;
+	padding-left: 10%;
+}
+
+#banners{
+	padding-left: 10%;
+}
+.banner{
+	width: auto;
+	max-height: 40px;
+	padding-right: 1%;
+}
+
+/* 下層ページのためのCSS */
+#lower-wrapper{
+	font-size: 16px;
+}
+#lower-wrapper a{
+	text-decoration: none;
+	color: inherit;
+}
+#lower-header{
+	width: 100%;
+	height: 30vw;
+	background-image: url(../image/top1b.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	overflow: hidden;
+}
+#lower-logo img{
+	width: 40%;
+	margin-top: 3.2vw;
+	margin-left: 5%;
+}
+#lower-globalnav{
+	float: right;
+}
+#lower-globalnav{
+	float: right;
+	margin: 0 5% 0 0;
+	padding-left: 0;
+}
+#lower-globalnav li{
+	list-style-type: none;
+	margin: 0 0 0 1em;
+	float: left;
+	font-size: 1em;
+}
+#lower-globalnav a{
+	float: left;
+}
+#lower-contents #content01{
+	width: 86%;
+	margin: 4em auto;
+	background-color: #ffffff;
+	overflow: hidden;
+	padding-bottom: 15em;
+}
+#lower-contents #content01 h1{
+	margin-top: 0;
+	font-size: 1.5em;
+}
+span#h1description{
+	font-size: 0.625em;
+	color: #ffffff;
+	padding-left: 0.25em;
+}
+#lower-contents #content01 #text01{
+	width: 94%;
+	margin: 1em auto;
+}
+#lower-contents #content01 #text01 p{
+	width: 100%;
+	line-height: 1.5em;
+	font-size: 1em;
+	font-weight: 600;
+	color: #000033;
+}
+#lower-contents #content01 .left-menu{
+	clear: both;
+	width: 34%;
+	margin: 1em 1% 1em 15%;
+	float: left;
+}
+#lower-contents #content01 .right-menu{
+	width: 34%;
+	margin: 1em 15% 1em 1%;
+	float: left;
+}
+#lower-contents #content01 img{
+	width: 100%;
+}
+#lower-contents #content01 h2{
+	text-align: center;
+	font-size: 1em;
+	margin: 0 auto;
+}
+
+
+
+@media only screen and (max-width: 1920px){                  /*レスポンシブ対応*/
+
+header{
+	height: 370px;
+}
+
+#nav-open{
+	display: none;
+}
+
+div#drawernav ul#globalnav{
+	display: none;
+}
+
+div#content{
+	width: 70%;
+}
+
+#index #archive{
+	height: 300px;
+}
+
+}
+
+@media only screen and (max-width: 1100px){
+
+header{
+	width: 100%;
+	height: 330px;
+}	
+
+ul#globalnav{
+	width: 80%;
+	padding-top: 0px;
+}	
+
+div#content{
+	width: 85%;
+	height: auto;
+}
+
+table th{
+	font-size: 15px;
+}
+
+#index #content2{
+	width: 100%;
+}
+
+}
+@media only screen and (max-width: 768px){
+
+header{
+	width: 100%;
+	height: 320px;
+}
+
+div#nav{
+	width: 100%
+	height:340px;
+}	
+
+ul#globalnav{
+	width: 95%;
+	padding-top: 0px;
+}
+
+ul#globalnav ul li{
+	font-size: 11px;
+}
+
+table, tbody, tr, th, td{
+	display: block;
+}
+
+table{
+	padding-top: 0px;
+}
+
+table th{
+	width: 100%;
+	text-align: center;
+	margin-right: 0px;
+	font-size: 20px;
+}
+
+table td{
+	width: 100%;
+	margin: 0 auto;
+}
+.img_block{
+	text-align: center;
+}
+
+.projecttext{
+	font-size: 1.6vw;
+}
+
+.othertext{
+	font-size: 1.6vw;
+}	
+
+.bigpearl{
+	margin-top: 45px;
+}
+.bigpearltext{
+	font-size: 17px;
+}	
+
+#index h1{
+	font-size: 2.8vw;
+	padding-top: 170px;
+}
+
+#searchbutton p{
+	font-size: 13px;
+}
+
+}
+
+@media only screen and (max-width: 610px){
+
+header{
+	background-image: none;
+	height: 2px;
+}
+
+div#nav{
+	height: auto;
+}
+.logo img{
+	width: 240px;
+	height: auto;
+}
+
+#nav-open{
+	display: block;
+}
+
+div#normalnav ul#globalnav{
+	display: none;
+}
+
+div#drawernav ul#globalnav{
+	display: block;
+}
+
+ul#globalnav {
+	display: block;
+	color: #000000;
+	width: 100%;
+	float: left;
+	padding-left: 0px;
+	padding-bottom: 0px;
+}
+
+ul#globalnav li{
+	background-color: #cbb994;
+	border: 0.5px solid #ffffff;
+	padding-top: 20px;
+	height:50px;
+	font-size: 16px;
+}
+
+ul#globalnav a{
+	line-height: 30px;
+}
+
+ul#globalnav ul li{
+	background-color: #ffffff;
+	color: #000033;
+	z-index: 3;
+	width: 400px;
+	height: 40px;
+	font-size: 16px;
+	margin-left: 0px;
+	font-weight: normal;
+}
+
+ul#globalnav ul li a:hover{
+	background-color: #bfbfbf;
+	color: #ffffff;
+}
+
+
+div#content{
+	width: 100%;
+	margin-top: 0px;
+}
+
+h1{
+	font-size: 20px;
+	text-align: center;
+	margin: 0;
+}
+
+span.small{
+	font-size: 11px;
+	display: block;
+}
+
+
+
+.title{
+	font-size: 20px;
+	text-align: center;
+	float:none;
+	margin-left: 0px;
+	padding-left: 0px;
+}
+
+table, tbody, tr, th, td{
+	display: block;
+}
+
+table{
+	padding: 0px 10px;
+	margin-top: 0px;
+}
+
+table th{
+	width: 100%;
+	text-align: center;
+	margin-right: 0px;
+}
+
+table td{
+	width: 100%;
+	margin: 0 auto;
+}
+.img_block img{
+	display: block;
+	margin: auto;
+}
+
+#index h1{
+	font-size: 3.6vw;
+	margin-top: 10px;
+	padding-top: 70px;
+}
+
+#index header{
+	height: 500px;
+}
+
+#index #nav{
+height: 18%;
+}
+
+#project1, #project2, #project3, #project4 {
+	float: none;
+	width: 75%;
+	height: auto;
+	margin: 0 auto;
+	padding-top: 30px;
+}
+
+#project1{
+	margin-top: 30px;
+}
+
+.projecttext{
+	font-size: 14px;
+	word-wrap:break-word;
+	line-height: 2;
+}
+
+.bigpearltext{
+	font-size: 2.7vw;
+}	
+
+#other3, #other4{
+	float: none;
+	margin-top: 0px;
+}
+
+#other3{
+	clear: both;
+	float: left;
+	padding-right: 3.4%;
+}
+#other4{
+	float: left;
+}	
+#other1, #other2, #other3, #other4{
+	width: 40%;
+}
+
+#other1, #other3{
+	margin-left: 9%;
+}
+
+.othertext{
+	font-size: 14px;
+	word-wrap:break-word;
+	line-height: 2;
+}
+#index #archive{
+	background-image: none;
+	background-color: #000000;
+}
+
+#index h3{
+	padding-left: 0px;
+	text-align: center;
+	font-size: 18px;
+	padding-bottom: 30px;
+}
+span.small2{
+	font-size: 13px;
+}
+#archive p{
+	padding-left: 18%;
+	padding-right: 2%;
+	font-size: 12px;
+	width: 16%;
+}
+#search{
+	width: 110px;
+	height: 25px;
+	margin-left: 0px;
+}
+
+#searchbutton{
+	width: 40px;
+	height: 25px;
+}
+
+#searchbutton p{
+	width: 100%;
+	padding-left: 0px;
+	padding-top: 13px;
+}
+
+.footertext{
+	font-size: 8px;
+}
+
+}
+
