@@ -1,0 +1,349 @@
+@charset "UTF-8";
+body {
+	font-family: 'メイリオ', 'hiragino Kaku Gotic Pro', sans-serif;
+	background-color: #f5f5f5;
+}
+
+#wrapper{
+	background-color: #ffffff;
+}
+
+.title1{
+	background-color: #000033;
+	color: #ffffff;
+}
+
+.pearlimg{
+	width: 100%;
+	height: auto;
+}
+
+@media screen and ( max-width:479px) {
+.title1{
+	padding-left: 10px;
+}
+h1{
+	font-size: 20px;
+	text-align: center;
+	padding:0;
+	margin:0;
+}
+.title1 p{
+	font-size: 15px;
+	text-align: center;
+	padding:0;
+	margin:0;
+}
+
+.title2{
+	border-bottom: solid 1.5px black;
+	position: relative;
+}
+.topimg{
+	width: 50%;
+	height: auto;
+	vertical-align: bottom;
+}
+h2{
+	font-size: 20px;
+	font-weight: normal;
+	position: absolute;
+	top: 5%;
+	left: 55%;
+
+}
+.wrapcon{
+	padding: 20px 10px;
+}
+.kuro, .shiro{
+	border-top:1px #000000 dotted;
+	padding-top:10px;
+}
+h3{
+	font-size: 25px;
+	margin: 0;
+	font-weight: bold;
+	text-align: center;	
+}
+}
+
+@media screen and (min-width:480px) and ( max-width:767px) {
+.title1{
+	padding-left: 10px;
+}
+h1{
+	font-size: 25px;
+	text-align: center;
+	padding:0;
+	margin:0;
+}
+.title1 p{
+	font-size: 15px;
+	text-align: center;
+	padding:0;
+	margin:0;
+}
+
+.title2{
+	position: relative;
+	border-bottom: solid 2px black;
+}
+.topimg{
+	width: 40%;
+	height: auto;
+	vertical-align: bottom;
+}
+h2{
+	font-size: 30px;
+	font-weight: normal;
+	position: absolute;
+	top: 5%;
+	left: 50%;
+	transform: translateY(-5%);
+}
+.wrapcon{
+	padding: 20px 15px;
+}
+.akoya:after {
+	content:"";
+	display: block;
+	clear: both;
+}
+.kuro:after {
+	content:"";
+	display: block;
+	clear: both;
+}
+.shiro:after {
+	content:"";
+	display: block;
+	clear: both;
+}
+.akoya, .kuro, .shiro{
+	padding: 20px 0;
+}
+.kuro, .shiro{
+	border-top:1px #000000 dotted
+}
+.a1, .k1, .s1{
+	float: left;
+	width: 35%;	
+	padding-right:10px;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.a2, .k2, .s2{
+	float: left;
+	width: 65%;
+}
+.a3, .k3, .s3{
+	float: left;
+	width: 100%;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+h3{
+	font-size: 20px;
+	margin: 0;
+	font-weight: bold;
+}
+}
+
+@media screen and (min-width:768px) and ( max-width:1024px) {
+.title1{
+	padding-top: 4px;
+	padding-bottom: 4px;
+	padding-left: 10px;
+}
+.title1 p{
+	font-size: 15px;
+	margin-left: 8px;
+}
+.title2{
+	position: relative;
+	border-bottom: solid 2px black;
+}
+h2{
+	font-size: 35px;
+	font-weight: normal;
+	position: absolute;
+	top: 10%;
+	left: 50%;
+	transform: translateY(-10%);
+}
+.a1, .k1, .s1{
+	float: left;
+	width: 40%;	
+	padding-right:20px;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.a2, .k2, .s2{
+	float: left;
+	width: 60%;
+}
+.a3, .k3, .s3{
+	float: left;
+	width: 100%;
+	padding-top: 20px;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+h3{
+	font-size: 25px;
+	margin: 0;
+	font-weight: bold;
+}
+}
+
+@media screen and (min-width:768px){
+h1{
+	font-size: 18px;
+}
+.title1 h1, p{
+	display: inline;
+}
+.topimg{
+	width: 40%;
+	height: auto;
+	vertical-align: bottom;
+}
+.wrapcon{
+	padding: 50px 40px;
+}
+.akoya:after {
+	content:"";
+	display: block;
+	clear: both;
+}
+.kuro:after {
+	content:"";
+	display: block;
+	clear: both;
+}
+.shiro:after {
+	content:"";
+	display: block;
+	clear: both;
+}
+.akoya, .kuro, .shiro{
+	padding: 20px 0;
+}
+.kuro, .shiro{
+	border-top:1px #000000 dotted
+}
+}
+
+@media screen and (min-width:1025px) and ( max-width:1179px) {
+#wrapper{
+	width: 80%;
+	margin: 80px auto;
+	background-color: #ffffff;
+}
+.title1{
+	padding-top: 6px;
+	padding-bottom: 6px;
+	padding-left: 20px;
+}
+.title1 p{
+	font-size: 16px;
+	margin-left: 15px;
+}
+.title2{
+	position: relative;
+	border-bottom: solid 2px black;
+}
+h2{
+	font-size: 35px;
+	font-weight: normal;
+	position: absolute;
+	top: 16%;
+	left: 45%;
+	transform: translateY(-16%);
+}
+.a1, .k1, .s1{
+	float: left;
+	width: 20%;
+	padding-right: 10px;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.a2, .k2, .s2{
+	float: left;
+	width: 26%;
+}
+.a3, .k3, .s3{
+	float: left;
+	width: 54%;
+	padding-left: 30px;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+h3{
+	font-size: 19px;
+	margin: 0;
+	font-weight: bold;
+}
+}
+
+
+@media screen and (min-width:1180px) {
+#wrapper{
+	width: 80%;
+	margin: 80px auto;
+	background-color: #ffffff;
+}
+.title1{
+	padding-top: 6px;
+	padding-bottom: 6px;
+	padding-left: 20px;
+}
+.title1 p{
+	font-size: 16px;
+	margin-left: 15px;
+}
+.title2{
+	position: relative;
+	border-bottom: solid 2px black;
+}
+h2{
+	font-size: 40px;
+	font-weight: normal;
+	position: absolute;
+	top: 22%;
+	left: 45%;
+	transform: translateY(-22%);
+}
+.a1, .k1, .s1{
+	float: left;
+	width: 20%;
+	padding-right: 30px;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.a2, .k2, .s2{
+	float: left;
+	width: 26%;
+}
+.a3, .k3, .s3{
+	float: left;
+	width: 54%;
+	padding-left: 30px;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+h3{
+	font-size: 20px;
+	margin: 0;
+	font-weight: bold;
+}
+}
+
