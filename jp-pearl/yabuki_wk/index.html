@@ -6,6 +6,18 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>一般社団法人　日本真珠振興会</title>
 	<link rel="stylesheet" type="text/css" href="common/CSS/style.css">
+
+	<script>
+		(function(d) {
+			var config = {
+				kitId: 'bkp1csp',
+				scriptTimeout: 3000,
+				async: true
+			},
+			h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+		})(document);
+	</script>
+	
 </head>
 <body>
 	<div id="home-wrapper">
@@ -23,11 +35,29 @@
 						<a href="#"><li>会員一覧</li></a>
 					</ul>
 				</li>
-				<a href="knowledge/index.html"><li>真珠の知識<span class="dropdown-icon">▼</span></li></a>
-				<a href="archive.html"><li>真珠の書籍庫</li></a>
-				<a href="#"><li>事業<span class="dropdown-icon">▼</span></li></a>
-				<a href="#"><li>プライバシー・ポリシー<span class="dropdown-icon">▼</span></li></a>
-				<a href="#"><li>お問合せ</li></a>
+				<li>
+						<a href="knowledge/index.html">真珠の知識<span class="dropdown-icon">▼</span></a>
+					<ul>
+						<a href="#"><li>真珠の種類</li></a>
+						<a href="#"><li>主な品質評価項目</li></a>
+						<a href="#"><li>ネックレスの種類と呼称</li></a>
+						<a href="#"><li>メンテナンス方法</li></a>
+					</ul>
+				</li>
+				<li><a href="archive.html">真珠の書籍庫</a></li>
+				<li>
+					<a href="#">事業<span class="dropdown-icon">▼</span></a>
+					<ul>
+							<a href="#"><li>市場開拓及び需要拡大等支援事業</li></a>
+							<a href="#"><li>品質向上及び供給安定化等支援事業</li></a>
+							<a href="#"><li>真珠養殖等連携強化</li></a>
+							<a href="#"><li>成長展開事業（国庫補助事業)</li></a>
+							<a href="#"><li>教育事業（真珠検定)</li></a>
+					</ul>
+				</li>
+
+				<li><a href="#">プライバシー・ポリシー</a></li>
+				<li><a href="#">お問合せ</a></li>
 			</ul>
 			<div id="home-nav-drawer">
 				<input id="nav-input" type="checkbox" class="nav-unshown">
@@ -68,9 +98,9 @@
 			<h1>更新情報</h1>
 			<div id="notice">
 				<ul id="notice-list">
-					<li>2017.9.26　　　　真珠養殖業等連携強化・成長展開事業における 次世代中核的人材支援事業について</li>
-					<li>2017.9.19　　　　イベント2</li>
-					<li>2017.9.19　　　　イベント1</li>
+					<li>2017.9.26　　　真珠養殖業等連携強化・成長展開事業における 次世代中核的人材支援事業について</li>
+					<li>2017.9.19　　　イベント2</li>
+					<li>2017.9.19　　　イベント1</li>
 				</ul>
 				<p id="notice-more">更新情報一覧<span id="send-mark">≫</span></p>
 			</div>
@@ -91,7 +121,7 @@
 				<div class="two-column-left">
 						<a href="#">
 							<img src="common/image/banner_03.jpg">
-							<p>真珠養殖等連携強化・成長展開事業（国庫補助事業）</p>
+							<p>真珠養殖等連携強化・成長展開事業<wbr>（国庫補助事業）</p>
 						</a>
 					</div>
 					<div class="two-column-right">
@@ -178,9 +208,11 @@
 				東京都中央区京橋 3-6-15 真珠会館 4F<br>
 				TEL:03-3561-4355/FAX:03-3562-5270
 			</p>
-			<a href="#"><img src="common/image/fb.gif" alt="Facebook" class="snsicon"></a>
-			<a href="#"><img src="common/image/twitter.gif" alt="Twitter" class="snsicon"></a>
-			<a href="#"><img src="common/image/okage.jpg" alt="真珠婚おかげ参り" id="okagemairi"></a>
+			<div id="bunners-area">
+				<a href="#"><img src="common/image/fb.gif" alt="Facebook" class="snsicon"></a>
+				<a href="#"><img src="common/image/twitter.gif" alt="Twitter" class="snsicon"></a>
+				<a href="#"><img src="common/image/okage.jpg" alt="真珠婚おかげ参り" id="okagemairi"></a>
+			</div>
 		</div>
 	</div>
 </body>
