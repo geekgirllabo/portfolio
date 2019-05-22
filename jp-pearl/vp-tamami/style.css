@@ -92,7 +92,7 @@ div#color{
 	clear: both;
 }
 
-@media only screen and (max-width: 479px){
+@media only screen and (max-width: 480px){
 div#wrapper{
 	margin-right: 8px;
 	margin-left: 8px;
@@ -100,6 +100,10 @@ div#wrapper{
 }
 h3{
 	padding-right: 20px;
+}
+span.small{
+	display: block;
+	padding: 0;
 }
 div#banner_15{
 	width: 100%;
