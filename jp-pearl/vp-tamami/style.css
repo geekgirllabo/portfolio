@@ -1,11 +1,10 @@
 div#wrapper{
-	max-width: 1100px;
+	max-width: 1920px;
 	width: 100%;
 	margin: 0 auto;
-	background-color: #ffffff;
 }
 body{
-	background-color: #cccccc;
+	margin:0;
 }
 div.top{
 	border-bottom: 3px solid #000000;
@@ -14,8 +13,7 @@ h3{
 	padding-top: 10px;
 	padding-bottom: 10px;
 	padding-left: 20px;
-	margin-top: 50px;
-	margin-bottom: 0px;
+	margin: 0px;
 	background-color: #000033;
 	color: #ffffff;
 	clear: both;
@@ -25,92 +23,137 @@ span.small{
 	font-size: 12px;
 	color: #ffffff;
 }
-div#banner_15{
-	width: 310px;
-	height: 172px;
-	margin: 0px;
-	float: left;
+div#banner_15 {
+    width: 310px;
+    height: 178px;
+    margin: 0px;
+    float: left;
 }
 div#banner_15 img{
-	width: 310px;
-	height: 172px;
+	width: 100%;
+	height: 178px;
+}
+div#titel{
+	width: 100%;
+	height: 178px;
 }
 h1{
-	margin:0;
-	padding-top: 62px;
-	padding-bottom: 62px;
 	width: 100%;
+	padding-top: 65px;
+	padding-bottom: 65px;
+	margin: 0;
 	text-align: center;
 }
 p.kind{
-	width: 100px;
+	width: 13%;
 	float: left;
 	margin-top: 20px;
-	margin-left: 40px;
+	margin-left: 4%;
+	margin-right: 2%;
 	font-weight: bold;
+	font-size: larger;
 }
-div.box{
-	margin-bottom: 20px;
+div#box{
 	float: left;
-	width: 220px;
-	height: 210px;
+	width: 21%;	
+	margin-left: 1%;
+	margin-right: 2%;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+div.box1{
+	width: 100%;
+	padding-bottom: 90%;
 	border: solid 1px #000000;
 }
-p.comment{
-	margin-top:20px;
-	margin-left: 20px;
-	width: 700px;
-	float: left;
-}
+
 div.img{
 	margin-top: 20px;
 	margin-bottom: 20px;
-	width:230px;
+	margin-right: 2%;
+	margin-left: 1%;
+	width: 21%;
+	float: left;
+}
+div.img img{
+	width: 100%;
+	height:auto;
+}
+p.comment{
+	margin-top:20px;
+	margin-right: 3%;
+	margin-left: 1%;
+	width: 53%;
 	float: left;
 }
 div#color{
+	width: 100%;
 	padding-top: 100px;
 	clear: both;
 }
 
 @media only screen and (max-width: 479px){
-body{
-	margin: 0;
+div#wrapper{
+	margin-right: 8px;
+	margin-left: 8px;
+	width: auto;
 }
 h3{
 	padding-right: 20px;
 }
-div#banner_15 {
+div#banner_15{
 	width: 100%;
 	height: auto;
 }
-div#banner_15 img{
+div#titel{
 	width: 100%;
 	height: auto;
 }
 h1{
-	width: 100%;
-	padding-top: 100px;
-	padding-bottom: 20px;
-}
-div.box{
-	margin-left: 76px;
-	margin-right: 76px;
-	margin-top: 20px;
+	width:100%;
+	padding: 0;
+	font-size: x-large;
 }
 p.kind{
 	width: 100%;
-	margin: 0;
+	margin: 20px 0;
 	text-align: center;
 }
-p.comment{
-	width: 335px;
-	margin: 20px; 
+div#box{
+	width: 60%;
+	margin: 0 20%;
+}
+div.box1{
+	width: 100%;
 }
 div.img{
 	width: 100%;
+	margin: 0 auto;
 	text-align: center;
 }
+div.img img{
+	width: 60%;
+}
+
+p.comment{
+	width: 100%;
+	margin: 20px 0;
+}
+div#color{
+	width: 100%;
+	padding-top: 50px;
+}
+div#choker{
+	width: 100%;
+}
+div#matinee{
+	width: 100%;
+}
+div#opera{
+	width: 100%;
+}
+div#rope{
+	width: 100%;
 }
 
 }	
