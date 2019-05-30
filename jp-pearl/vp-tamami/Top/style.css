@@ -8,7 +8,7 @@ body{
 	margin: 0;
 }
 div#logo{
-	width: 60%;
+	width: 40%;
 }
 div#logo img{
 	width: 100%;
@@ -347,8 +347,8 @@ ul.globalnav{
   z-index: 9999;
   width: 90%;
   max-width: 320px;
-  height: 100%;
-  background: #FFFFFF;
+  height: 60%;
+  background:#cbb994;
   transition: .3s ease-in-out;
   -webkit-transform: translateX(-105%);
   transform: translateX(-105%);
@@ -363,9 +363,12 @@ ul.globalnav{
   transform: translateX(0%);
   box-shadow: 6px 0 25px rgba(0,0,0,.15);
 }
-
+ul{
+	list-style-type: none;
+	font-size: 12px;
 }
 
+}
 
 @media only screen and (max-width: 678px){
 div#wrapper{
