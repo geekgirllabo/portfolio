@@ -85,39 +85,47 @@ p.top3{
 	text-shadow: 2px 2px 1px #808080;
 }
 h2{
+	margin: 25px auto;
 	text-align: center;
+	font-weight: normal;
 }
 div#content{
-	width: 80%;
+	width: 85%;
 	background-color: #FFFFFF;
 	margin: 0 auto;
 }
 p.info{
-	padding-top: 20px;
 	padding-left: 5%;
 	margin-bottom: 0;
 	font-size: 12px;
 }
 p.info1{
+	margin: 0;
+	padding-left: 5%;
+	padding-top: 20px;
+	font-size: 12px;
+
+}
+p.info2{
 	text-align: right;
 	padding-right: 5%;
+	font-size: 14px;
 }
 span.text{
 	padding-left: 5%;
 }
 hr{
 	width: 90%;
-	margin-top: 0;
-	margin-bottom: 0;
 	border-top: 1px dashed #bbb;
 }
 div#content2{
 	display: inline-block;
+	margin-top: 12px;
 }
 div.left{
-	width: 38.5%;
-	padding-right: 1.5%;
-	padding-left: 10%; 
+	width: 41.3%;
+	padding-right: 1.2%;
+	padding-left: 7.5%; 
 	margin-top: 20px;
 	float: left;
 }
@@ -126,21 +134,21 @@ div.banner img{
 	height: auto;
 }
 p.comment{
-	font-size: 12px;
+	font-size: 15px;
 	text-align: center;
 	
 }
 div.right{
-	width: 38.5%;
-	padding-left: 1.5%;
-	padding-right: 10%;
+	width: 41.3%;
+	padding-left: 1.2%;
+	padding-right: 7.5%;
 	margin-top: 20px;
-	float: left;
+	float: right;
 }
 div.box1{
-	width:18%;
-	padding-left: 10%;
-	padding-right: 2%;
+	width:19.5%;
+	padding-left: 7.5%;
+	padding-right: 1.8%;
 	margin-top: 20px;
 	float: left; 
 	clear: both;
@@ -150,23 +158,23 @@ div.banner2 img{
 	height: auto;
 }
 div.box2{
-	width: 18%;
-	padding-right: 1.5%;
-	padding-left: 0.5%;
+	width: 19.5%;
+	padding-left:0.5%;
+	padding-right: 1.2%;
 	margin-top: 20px;
 	float: left;
 }
 div.box3{
-	width: 18%;
-	padding-left: 1.5%;
-	position-right: 0.5%;
+	width: 19.5%;
+	padding-left: 1.2%;
+	padding-right: 0.5%;
 	margin-top: 20px;
 	float: left;
 }
 div.box4{
-	width: 18%;
-	padding-right: 10%;
-	padding-left: 2%;
+	width: 19.5%;
+	padding-right: 7.5%;
+	padding-left: 1.8%;
 	margin-top: 20px;
 	float: left;
 }
@@ -177,7 +185,7 @@ div#search{
 	background-repeat: no-repeat;
 }
 div#Archive{
-	width: 48%;
+	width: 45%;
 	height: 250px;
 	float: right;
 }
@@ -186,6 +194,7 @@ h3{
 	padding-top: 30px;
 	margin: 0;
 	font-size: 27px;
+	font-weight: normal;
 }
 h4{
 	color: #cc9933;
@@ -196,10 +205,12 @@ p.search{
 	display: inline-block;
 	color: #FFFFFF;
 	margin: 0;	
+	font-weight: bold;
 }
 #form1{
 position:relative; 
 margin-bottom:20px;
+margin-top: 50px;
 display: inline-block;	
 
 }
@@ -232,21 +243,23 @@ color:#7fbfff;
 }
 
 div.pearl{
-	width: 30%;
-	padding-left: 5%;
+	width: 20%;
+	height: auto;
+	padding-left: 10%;
 	padding-top: 100px;
 	padding-bottom: 100px;
 	float: left;
 }
 div.pearl2{
-	width: 30%;
-	padding-top: 100px;
-	padding-bottom: 100px;
+	width: 20%;
+	height: auto;
+	padding:100px 10%;
 	float: left;
 }
 div.pearl3{
-	width: 30%;
-	padding-right: 5%;
+	width: 20%;
+	height: auto;
+	padding-right: 10%;
 	padding-top: 100px;
 	padding-bottom: 100px;
 	float: left;
@@ -255,6 +268,7 @@ div.image{
 	text-align: center;
 }
 p.text{
+	font-size: 15px;
 	text-align: center;
 }
 footer{
@@ -347,8 +361,8 @@ ul.globalnav{
   z-index: 9999;
   width: 90%;
   max-width: 320px;
-  height: 60%;
-  background:#cbb994;
+  height: 100%;
+  background:#cc9933;
   transition: .3s ease-in-out;
   -webkit-transform: translateX(-105%);
   transform: translateX(-105%);
@@ -370,7 +384,7 @@ ul{
 
 }
 
-@media only screen and (max-width: 678px){
+@media only screen and (max-width: 718px){
 div#wrapper{
 	margin-right: 8px;
 	margin-left: 8px;
@@ -398,11 +412,17 @@ span.text{
 	padding: 0 0 0 30px;
 }
 div.left{
-	width: 80%;
+	width: 90%;
+	padding: 0;
+	margin-left: 5%;
+	
+
 }
 div.right{
-	width: 80%;
-	padding-left: 10%;
+	width: 90%;
+	padding: 0;
+	margin-right: 5%;
+	
 }
 div.box1{
 	width: 70%;
@@ -425,6 +445,7 @@ div#search{
 }
 div#Archive{
 	width: 90%;
+	height: auto;
 	padding-top:5%;
 	padding-right: 10%;
 }
@@ -446,10 +467,11 @@ p.search{
 #form1{
 	display: block;
 	left: 7%;
+	margin: 0;
 }
 div.pearl{
 	width: 80%;
-	padding: 0;
+	padding: 20px 0;
 	margin-left: 10%;
 }
 div.pearl2{
@@ -459,7 +481,7 @@ div.pearl2{
 }
 div.pearl3{
 	width: 80%;
-	padding: 0;
+	padding: 20px 0;
 	margin-left: 10%;
 }
 footer{
