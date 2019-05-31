@@ -16,6 +16,10 @@ div#logo img{
 	margin-left: 5%;
 	margin-top: 2%;
 }
+span.small{
+	font-size: xx-small;
+	padding-left: 5%;
+}
 ul.globalnav li{
 	width: 140px;
 	position: relative;
