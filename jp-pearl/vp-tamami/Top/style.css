@@ -63,7 +63,7 @@ div.top1{
 }
 header{
 	width: 100%;
-	height: 780px;
+	height: 700px;
 	background-image: url(image/1108top.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -85,7 +85,8 @@ p.top3{
 	text-shadow: 2px 2px 1px #808080;
 }
 h2{
-	margin: 25px auto;
+	margin-top:60px;
+	margin-bottom: 25px;
 	text-align: center;
 	font-weight: normal;
 }
@@ -391,7 +392,7 @@ div#wrapper{
 	width: auto;
 }
 header{
-	height: 400px;
+	height: 350px;
 }
 div#logo{
 	width: 90%;
@@ -402,7 +403,7 @@ div#logo img{
 }
 p.top2{
 	font-size: 20px;
-	padding-top:80px;
+	padding-top: 30px;
 }
 p.top3{
 	font-size: 20px;
