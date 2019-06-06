@@ -68,9 +68,3 @@ div#topic{
 div#footer{
 	height:150px;
 }
-@media screen and (max-width: 320px) {
-div#sidebar { width: 100%; }
-}
-@media screen and (min-width: 800px) {
-div#sidebar { width: 240px }
-}
