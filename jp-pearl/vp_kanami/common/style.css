@@ -154,6 +154,22 @@ position:relative;
 	margin-left:50px;
 	background-color:#FFF
 }
+dt{
+	float:left;      
+	padding-top : 10px;    
+	padding-bottom : 10px;
+	padding-left : 10px;
+    width : 150px;
+    clear:both;
+}
+dd{
+  padding-top : 10px;
+  padding-left : 10px;
+  padding-right : 10px;
+  padding-bottom : 10px;
+  width : 300px;
+  margin-left : 160px;
+}
 .flexcontainerOne{
 	width:1320px;
 	display:flex;
@@ -229,9 +245,12 @@ position:relative;
 	width:1000px;
 	display:flex;
 	flex-wrap:wrap;
-	justify-content: space-between;
-	padding-left: 350px;	
+	justify-content: space-between;	
 	margin-top:100px;
+	margin-bottom:100px;
+	padding-left: 80px;
+	margin-left:150px;
+	color:#000033;
 }
 .picBottom{
 	position: relative;
@@ -248,11 +267,14 @@ position:relative;
 .picBottom img{
 	width:1450px;
 }
-div#pearlOne--Three{
-	
-}
-div#footer{
+.footer{
 	background-color:#000033;
 	overflow: auto;
 	width:1450px;
+	padding-top:50px;
+	padding-bottom:50px;
+}
+.letter{
+	color:#FFFFFF;
+	padding-bottom:50px;
 }
