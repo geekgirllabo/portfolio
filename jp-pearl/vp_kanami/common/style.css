@@ -138,6 +138,7 @@ position:relative;
 	transform:translate(-50%,-50%);
 	margin:0;
 	padding:0;
+	font-family:serif;
 }
 .top img{
 	width:1450px;
@@ -161,14 +162,16 @@ dt{
 	padding-left : 10px;
     width : 150px;
     clear:both;
+    border-bottom:1px dotted #000;
 }
 dd{
   padding-top : 10px;
   padding-left : 10px;
   padding-right : 10px;
   padding-bottom : 10px;
-  width : 300px;
+  width : 1160px;
   margin-left : 160px;
+  border-bottom:1px dotted #000;
 }
 .flexcontainerOne{
 	width:1320px;
@@ -176,13 +179,17 @@ dd{
 	flex-wrap:wrap;
 	justify-content: space-between;
 	padding-left: 50px;
+	text-align:center;
+	color:#000033
 }
 .picOne{
 	width:600px;
 	margin-bottom:50px;
+	font-weight:bold; 
 }
 .picTwo{
 	width:700px;
+	font-weight:bold; 
 }
 .picOne img{
 	width:600px;
@@ -194,9 +201,11 @@ dd{
 .picThree{
 	width:580px;
 	margin-bottom:50px;
+	font-weight:bold; 
 }
 .picFour{
 	width:700px;
+	font-weight:bold; 
 }
 .picThree img{
 	width:570px;
@@ -211,13 +220,17 @@ dd{
 	flex-wrap:wrap;
 	justify-content: space-between;
 	padding-left: 50px;
+	text-align:center;
+	color:#000033
 }
 .picFive{
 	width:300px;
 	margin-bottom:50px;
+	font-weight:bold; 
 }
 .picSix{
 	width:300px;
+	font-weight:bold; 
 }
 .picFive img{
 	width:300px;
@@ -229,9 +242,11 @@ dd{
 }
 .picSeven{
 	width:300px;
+	font-weight:bold; 
 }
 .picEight{
 	width:300px;
+	font-weight:bold; 
 }
 .picSeven img{
 	width:300px;
@@ -240,17 +255,6 @@ dd{
 .picEight img{
 	width:300px;
 	padding-left: 20px;
-}
-.flexcontainerThree{
-	width:1000px;
-	display:flex;
-	flex-wrap:wrap;
-	justify-content: space-between;	
-	margin-top:100px;
-	margin-bottom:100px;
-	padding-left: 80px;
-	margin-left:150px;
-	color:#000033;
 }
 .picBottom{
 	position: relative;
@@ -266,6 +270,20 @@ dd{
 }
 .picBottom img{
 	width:1450px;
+}
+.flexcontainerThree{
+	width:1000px;
+	display:flex;
+	flex-wrap:wrap;
+	justify-content: space-between;	
+	margin-top:100px;
+	margin-bottom:100px;
+	padding-left: 80px;
+	margin-left:150px;
+}
+.pearl{
+	font-weight:bold;
+	color:#000033
 }
 .footer{
 	background-color:#000033;
