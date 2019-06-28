@@ -13,51 +13,85 @@ float:left;
 .size{
 	font-size: 11px;
 }
-.navi::-webkit-scrollbar {
-  display: none;
+.navi {
+  width: 450px;
+  height: 40px;
+  margin: 0 auto;
+  padding: 0px;
+  display: flex;
 }
-ul.navi {
-	margin: 0px;
-   padding: 0px 0px 0px 15px; /* メニューバー内側の余白(左に15px) */
-   background-color: #000033;
+.navi li {
+  position: static;←変えない
+  list-style: none;
 }
-ul.navi li {
-   width: 125px;           /* メニュー項目の横幅(125px) */
-   display: inline-block;  /* ★1:横並びに配置する */
-   list-style-type: none;  /* ★2:リストの先頭記号を消す */
-   position: relative;     /* ★3:サブメニュー表示の基準位置にする */
+.navi li a {
+  display: block;
+  width: 150px;
+  height: 40px;
+  text-align: center;
+  color: #fff;
+  font-size: 14px;
+  line-height: 2.8;
+  background: #000033;
+  text-decoration: none;
+  border-right: 1px solid #eee;
+  box-sizing: border-box;
+ 
 }
-ul.navi a {
-   background-color: #000033; /* メニュー項目の背景色(濃い赤色) */
-   color:white;              /* メニュー項目の文字色(白色) */
-   line-height: 40px;         /* メニュー項目のリンクの高さ(40px) */
-   text-align: center;        /* メインメニューの文字列の配置(中央寄せ) */
-   text-decoration: none;     /* メニュー項目の装飾(下線を消す) */
-   font-weight: bold;         /* 太字にする */
-   display: block;            /* ★4:項目内全域をリンク可能にする */
+.navi > li:hover > a {/*layer-1*/
+  color: orange;
+  background: #afc6e2;
 }
-ul.navi a:hover {
-   background-color: #000033; /* メニュー項目にマウスが載ったときの背景色(淡いピンク) */
-   color: #FFFFFF;            /* メニュー項目にマウスが載ったときの文字色(濃い赤色) */
+.navi > li li:hover > a {/*layer-2*/
+  color: olive;
+  background: #afc6e2;
+        position: relative;←変えない
 }
-
-/* ▼サブメニューは、とりあえず非表示にしておく */
-ul.navi ul {
-   display: none;         /
+.navi li ul {
+  top: 40px;
+  left: -40px;
+  position: absolute;←変えない
+  z-index:1;←変えない
 }
-ul.navi ul {
-   display: none;       /* ★1:標準では非表示にする */
-   margin: 0px;         /* ★2:サブメニュー外側の余白(ゼロ) */
-   padding: 0px;        /* ★3:サブメニュー内側の余白(ゼロ) */
-   position: absolute;  /* ★4:絶対配置にする */
+.navi li ul li {
+  overflow: hidden;
+  height: 0;
+  position: relative;
 }
-ul.navi li:hover ul {
-   display: block;      /* ★5:マウスポインタが載っている項目の内部にあるリストを表示する */
-   z-index: 0 !important;
+.navi li ul li a {
+  border-top: 1px solid #eee;
 }
-ul.navi li:hover ul {   display: block;   }
+.navi li:hover > ul > li {
+  overflow: visible;
+  height: 40px;
+}
+  .navi li ul li ul {
+    top: 0;
+    left: 110px;
+  }
 .top{
-position:relative;	
+position:static;←変えない
+     
+}
+.top p{
+    position:absolute;
+    color:white;
+    font-size:1.5em;    
+    top:300px;
+    left:700px;
+    -ms-transform:translate(-50%,-50%);
+    -webkit-transform:(-50%,-50%);
+    transform:translate(-50%,-50%);
+    margin:0;
+    padding:0;
+    font-family:serif;
+     
+}
+.top img{
+    width:1450px;
+    position: relative;←変えない
+    z-index: 0;←変えない
+ 
 }
 .top p{
 	position:absolute;
