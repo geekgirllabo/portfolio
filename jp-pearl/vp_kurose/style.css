@@ -3,11 +3,10 @@ body{
 }
 #wrapper{
 	width:900px;
+	max-width: 100%;
 	margin:0 auto;
-	border-top:70px solid #EEEEEE;
-	border-bottom:30px solid #EEEEEE;
-	border-left:70px solid #EEEEEE;
-	border-right:70px solid #EEEEEE;
+	
+		
 }
 #header{
 	width:100%;
@@ -107,4 +106,108 @@ body{
 	margin-top:0;
 	text-align:justify;
 	
+}
+
+@media only screen and (max-width:479px){
+body{
+	margin:0;
+}
+#wrapper{
+	width:auto;
+}
+
+#header{
+	width:100%;
+	height:180px;
+}
+
+
+.header-subtitle{
+	width:100%;
+	height:35%;
+
+}
+.header-subtitle h3{
+	width:100%;
+	height:auto;
+	display:inline-block;
+	padding-left:0;
+	text-align: center;
+	margin-top:5px;
+	margin-bottom: 0;
+	padding-bottom: 0;
+
+}
+.header-subtitle h6{
+	width:100%;
+	height:auto;
+	padding-left: 0;
+	display: inline-block;
+	text-align: center;
+	margin-top:0;
+	margin-bottom: 5px;
+}
+
+#header-title{
+	width:100%;
+	height:65%;
+	position: relative;
+	display:table;
+}
+
+#header .banner{
+	width:100%;
+	height:100%;	
+    vertical-align: :middle;
+    display:table-cell;
+    opacity:0.9;
+
+}
+
+#header-title h1{
+	height:auto;
+	width:100%;
+	text-align: center;
+	text-shadow: 0 0 10px #fff,0 0 10px #fff;
+	opacity:0.8;
+	padding-bottom:10px;
+}
+
+
+#main{
+	width:100%;
+	margin-top:50px;
+
+}
+.main-inner{
+	width:90%;
+	margin:0 auto;
+}
+
+#main .item-name{
+	display: inline-block;
+	width:90%;
+	padding-left: 0px;
+	margin-left:5%;
+	margin-right:5%;
+	
+}
+#main h4{	
+	width:100%;
+	padding-left: 0px;
+	margin-left:5%;
+	margin-right:5%;
+}
+#main .photo{	
+	width:90%;
+	margin-left:5%;
+	margin-right:5%;
+	
+}
+#main .text{
+	width:90%;
+	margin:10% 5%;
+	
+}
+
 }
