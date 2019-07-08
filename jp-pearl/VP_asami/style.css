@@ -1,7 +1,13 @@
-
+/*
+evalutionのcss
+*/
 body{
-	margin: 10% 5%;
+	margin: auto;
+	display: table-cell;
 	background-color: #f5f5f5;
+}
+div#evolution{
+	margin: 10% 5%;
 }
 div#wrapper{
 	max-width: 940px;
@@ -80,7 +86,72 @@ div#content p{
 	overflow: hidden;
 	margin: 0px;
 }
+
+/*
+topのcss
+*/
+div#top{
+	max-width: 940PX;
+	width: 100%;
+}
+header{
+	background-color: #000033;
+	display: inline-block;
+	width: 100%;
+	padding: 1% 0;
+}
+header img{
+	width: 45%;
+}
+ul{
+	list-style-image: url(img/linkcon.png);
+	margin: 0;
+}
+ul#glovalnav li{
+	float: right;
+	list-style: none;
+	font-size: 14px;
+	padding-right: 5%;
+	display: inline-block;
+	position: relative;
+}
+ul#glovalnav li a{
+	color: #ffffff;
+	display: block;
+	text-decoration: none;
+}
+ul#glovalnav li a:hover{
+	color: #cc9933;
+}
+ul#glovalnav ul{
+	display: none;
+	position: absolute;
+	background-color: #cbb994;
+	padding: 0;
+	top: 30px;
+}
+ul#glovalnav ul li{
+	padding: 3px 10px;
+	float: left;
+	clear: both;
+	white-space: nowrap;
+}
+ul#glovalnav ul li {
+	color: #000033;
+}
+ul#glovalnav li:hover ul{
+	display: block;
+}
+div#visual_top img{
+	width: 100%;
+}
+div#archive img{
+	width: 100%;
+}
 @media (max-width: 600px){
+	/*
+	evalutionのcss
+	*/
 	h1{
 		height: auto;
 		padding: 5px 25px;
@@ -107,4 +178,7 @@ div#content p{
 		float: none;
 		width: 100%;
 	}
+	/*
+	topのcss
+	*/
 }
