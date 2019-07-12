@@ -1,5 +1,5 @@
 /*
-evalutionのcss   death
+evalutionのcss
 */
 body{
 	margin: auto;
@@ -10,7 +10,6 @@ div#evolution{
 	margin: 10% 5%;
 }
 div#wrapper{
-	max-width: 940px;
 	width: 100%;
 	margin: 0 auto;
 	background-color: #ffffff;
@@ -41,8 +40,8 @@ div#img_title{
 }
 div#img_title img{
 	width: 40%;
-	height: 99.5%;
-	position: absolute;
+	height: 99.6%;
+	position: 	absolute;
 	object-fit: cover;
 }
 div#img_title h2{
@@ -91,7 +90,6 @@ div#content_evalution p{
 topのcss
 */
 div#top{
-	max-width: 940PX;
 	width: 100%;
 }
 header{
@@ -444,5 +442,18 @@ div#footer_img img{
 	}
 	footer{
 		padding: 5% 0;
+	}
+}
+@media (min-width: 1080px){
+	header{
+		position: relative;
+	}
+	ul#glovalnav{
+		position: absolute;
+		right: 0;
+		bottom: 10%;
+	}
+	div.archive_right{
+		left: 65%;
 	}
 }
