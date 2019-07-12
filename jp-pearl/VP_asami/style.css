@@ -179,18 +179,20 @@ div#content_top dl{
 }
 div#content_top section{
 	border-bottom: 1px dotted;
-	line-height: 3.5;
+	height: 35px;
 	margin: 0 30px;
 }
 div#content_top dt{
 	float: left;
 	font-size: 10px;
 	font-weight: bold;
+	line-height: 3.5;
 	padding-right: 30px;
 	overflow: hidden;
 }
 div#content_top dd{
-	font-size: 9px;	
+	font-size: 9px;
+	line-height: 3.5;	
 	overflow: hidden;
 	margin: 0px;
 }
@@ -380,10 +382,15 @@ div#footer_img img{
 		font-size: 14px;
 	}
 	div#content_top section{
+		height: unset;
 		line-height: 2
 	}
 	div#content_top dt{
+		line-height: unset;
 		float: unset;
+	}
+	div#content_top dd{
+		line-height: unset;
 	}
 	div.top_large_left{
 		float: unset;
