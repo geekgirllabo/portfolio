@@ -580,8 +580,9 @@ ul.top-globalnav ul li a:hover {
 
 .footer-icon{	
 	width:auto;
-	height:40px;
+	height:auto;
 	padding-right:2%;
+	max-height:40px;
 }
 .fb{
 	padding-left:10%;
