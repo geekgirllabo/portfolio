@@ -1,3 +1,4 @@
+/******knowledge TOP******/
 body{
 	margin:0;
 	
@@ -11,7 +12,6 @@ body{
 	width:100%;
 	min-height:240px;
 	height:auto;
-	background: orange;
 	position: relative;
 	background-image:url(img/banner_11.jpg);
 	background-repeat:no-repeat;
@@ -50,7 +50,7 @@ body{
 }
 #wrapper{
 	width:100%;
-	height:1300px;
+	height:1700px;
 	background: #EEEEEE;
 	
 }
@@ -62,7 +62,7 @@ body{
 #inner-wrapper{
 	max-width:1040px;
 	width:100%;
-	height:1100px;
+	height:1400px;
 	background: white;
 	margin: 0 auto;
 
@@ -96,7 +96,7 @@ h3{
 }
 .main{
 	width:85%;
-	height:800px;
+	height:760px;
 	margin:0 auto;
 	
 }
@@ -220,7 +220,471 @@ h3{
 	
 }
 
+
+/******top******/
+#top-outer-wrapper{
+	width:100%;
+	height:auto;
+}	
+
+#top-header{
+	width:100%;	
+	min-height:600px;
+	height:auto;
+	position: relative;
+	background-repeat:no-repeat;
+	background-size:cover
+	margin: 0 auto;	
+	background-size: 100% 100%;
+	margin:0 auto;
+	position: relative;
+	background: linear-gradient(to bottom, rgba(0, 0, 0,0.7)18%,rgba(0, 0, 0,0.7)5%,rgba(255,255,255,0)),url(img/top3b.jpg);
+	background-size:cover;
+}
+
+.top-logo{
+	width:35%;
+	height:auto;
+	position: absolute;
+	top:3%;
+	left:5%;
+}
+
+.header-text-box{
+ margin:0;
+ padding:0;
+ border-left:0;
+ text-align:center;
+ line-height:400px;
+}
+.top-header-text{
+	color:white;
+	font-size:18px;
+	text-align: center;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	max-width: 100%;
+	transform: translate(-50%,-50%);
+	font-family: serif;
+}
+
+.nav-space{
+	width:100%;
+	height:100px;
+	background: black;
+}
+.top-globalnav{
+	width:55%;
+	float:right;
+}
+.case-479 {
+	display: none;
+}
+
+/* ▼メニューバーの装飾 */
+/* -------------------- */
+ul.top-globalnav {
+   margin: 0px;               /* メニューバー外側の余白(ゼロ) */
+   padding: 60px 0px 0px 15px; /* メニューバー内側の余白 */   
+}
+
+/* -------------------------- */
+/* ▼メインメニュー項目の装飾 */
+/* -------------------------- */
+ul.top-globalnav li {
+   display: inline-block;  /* ★1:横並びに配置する */
+   list-style-type: none;  /* ★2:リストの先頭記号を消す */
+   position: relative;     /* ★3:サブメニュー表示の基準位置にする */
+   width:auto;
+   padding-right:2%;
+  
+}
+ul.top-globalnav a {
+   color: white;              /* メニュー項目の文字色(白色) */
+   line-height: 40px;         /* メニュー項目のリンクの高さ(40px) */
+   text-align: center;        /* メインメニューの文字列の配置(中央寄せ) */
+   text-decoration: none;     /* メニュー項目の装飾(下線を消す) */
+   font-weight:normal;
+   display: block;            /* ★4:項目内全域をリンク可能にする */
+   font-size:11px;
+  
+}
+.dd-mark{
+	font-size:8px;
+	padding-left:5px;
+}
+ul.top-globalnav a:hover {
+   /*background-color: #ffdddd;*/ /* メニュー項目にマウスが載ったときの背景色(不要？)*/
+   color: #cc9933;            /* メニュー項目にマウスが載ったときの文字色*/
+
+}
+
+
+/* -------------------- */
+/* ▼サブメニューの装飾 */
+/* -------------------- */
+ul.top-globalnav ul {
+   display: none;       /* ★1:標準では非表示にする */
+   margin: 0px;         /* ★2:サブメニュー外側の余白(ゼロ) */
+   padding: 0px;        /* ★3:サブメニュー内側の余白(ゼロ) */
+   position: absolute;  /* ★4:絶対配置にする */
+
+
+}
+
+/* ---------------------------------- */
+/* ▼サブメニューがある場合に開く処理 */   /* ※サブメニューが1階層しか存在しない場合の記述 */
+/* ---------------------------------- */
+ul.top-globalnav li:hover ul {
+   display: block;      /* ★5:マウスポインタが載っている項目の内部にあるリストを表示する */
+
+}
+
+/* ------------------------ */
+/* ▼サブメニュー項目の装飾 */
+/* ------------------------ */
+ul.top-globalnav ul li {
+   width:200px;
+   text-align: center;
+   z-index: 10;
+
+}
+ul.top-globalnav ul li a {
+   line-height: 35px;   /* サブメニュー1項目の高さ(35px) */
+   text-align: left;    /* 文字列の配置(左寄せ) */
+   padding-left: 5px;   /* 文字列前方の余白(5px) */
+   font-weight: bold;
+   color:#000033;
+   background: #cbb994;
+
+   
+}
+ul.top-globalnav ul li a:hover {
+   background-color: #ffff80; /* サブメニュー項目にマウスが載ったときの背景色(淡い黄色) */
+   color: #005500; 
+}
+
+#top-inner-wrapper{
+	max-width:1040px;
+	width:100%;
+	height:1400px;
+	background:#EEEEEE;
+	margin:0 auto;
+}
+
+#top-main{
+	width:90%;
+	margin:0 auto;
+	height:1300px;
+	background:#EEEEEE;
+	height:auto;
+	
+}
+#update{
+	width:100%;
+	height:200px;
+	clear:both;
+	margin-bottom:10px;
+}
+.update-space{
+	width:100%;
+	height:5%;
+}
+.update-title {
+	width:100%;
+	height:20%;
+	margin-top:0;
+	text-align: center;
+	font-weight: 500;	
+	margin-bottom: 0;
+	color:black;
+}
+.update-title h3{
+	margin:0;
+	padding:0;
+}
+
+.update-info{
+	width:100%;
+	height:75%;
+	margin:0 auto;
+}
+.info-text-outer{
+	width:100%;
+	height:90%;
+	margin:0 auto;
+	background: white;	
+}
+
+.info-text-inner{
+	width:95%;
+	height:auto;
+	margin:0 auto;
+	padding-top:5px;	
+}
+.info-text{
+	font-size:8px;
+	padding-top:10px;
+	padding-bottom: 10px;
+	border-bottom: 1px dotted black;
+	line-height: 10px;
+}
+
+#section1{
+	width:100%;
+	height:720px;
+	margin:0 auto;
+	margin-top:30px;
+}
+.large{
+	width:100%;
+	height:480px;
+	margin:0 auto;
+	float:left;
+}
+
+.top-block1{
+	width:50%;
+	height:50%;
+	float:left;
+	box-sizing: border-box;	
+	margin-bottom: 10px;
+}
+.top-section-photo{
+	width:auto;
+    height:auto;
+    max-width:100%;
+    max-height:100%;
+}
+
+.left{
+	padding-right:1%;
+}
+.right{
+	padding-left:1%;
+}
+.top-section-name{
+	width:100%;
+	text-align: center;
+	margin-top:0;
+}
+
+.small{
+	width:100%;
+	height:200px;
+	margin:0 auto;
+	float:left;
+	box-sizing: border-box;
+	display:flex;
+	justify-content: space-between;
+	margin-top:20px;		
+	
+}
+.top-block2{
+	width:100%;
+	height:auto;
+	padding:1%;	
+}
+.first{
+	padding-left:0;
+}
+.last{
+	padding-right:0;
+}
+
+#search{
+	width:100%;
+	height:200px;
+	background: url(img/banner_09.jpg);
+	background-size: cover;
+}
+
+.search-textarea{
+	width:35%;
+	float:right;
+	margin-top:60px;
+}
+.search-text1{	
+	padding:0;
+	margin-bottom: 0;
+	font-weight: normal;
+	color:#cc9933;
+	width:100%;
+}
+.search-text2{	
+	margin-top:0;
+	font-weight: normal;
+	color:#cc9933;
+}
+.search-box{
+	color:white;
+	width:100%;
+}
+#search h5{
+	font-weight: normal;
+	display:inline-block;
+	font-size:12px;
+	margin-top:0;
+}
+
+#section2{
+	width:55%;
+	height:200px;	
+	margin:0 auto;
+	display:flex;
+	justify-content: space-between;
+	clear:both;
+}
+.section2-block{
+	width:30%;
+	height:auto;
+	
+}
+.pearl-icon{
+	width:50px;
+	height:50px;
+	margin: 0 auto;
+	display: block;
+	padding-top:40%;
+}
+.section2-section-name{
+	text-align: center;
+	margin-top:0;
+	text-decoration: none ;	
+}
+.section2-block a{
+	text-decoration: none ;
+}
+
+#top-footer{
+	width:100%;
+	height:200px;
+	background: #330000;
+}
+
+.footer-text-area{
+	width:100%;
+	height:70px;
+	margin:0;
+	padding-top:30px;
+	padding-bottom:30px;
+	padding-left:10%;
+
+}
+.footer-text p{
+	color:white;
+	margin:0;
+	font-size: 12px;
+}
+
+.footer-icon{	
+	width:auto;
+	height:40px;
+	padding-right:2%;
+}
+.fb{
+	padding-left:10%;
+}
+
+
+@media only screen and (min-width:700px) and (max-width: 950px){
+/******top******/
+.top-logo{
+	width:45%;	
+}
+.overview,.privacy-policy{
+	margin-left:50px;
+}
+
+.top-globalnav{
+	width:50%;
+	float:right;
+	padding-left:50px;
+}
+
+ul.top-globalnav {
+   margin: 0px;              
+   padding: 20px 0px 0px 0px; 
+}
+
+
+ul.top-globalnav li {  
+   display: inline-block;  
+   list-style-type: none; 
+   position: relative;     
+   width:auto;
+   padding-right:2%;  
+}
+
+ul.top-globalnav ul {   
+   position: absolute;  /* ★4:絶対配置にする */
+   top:100%;
+   right:5px;
+}
+
+.black-space{
+	display: none;
+}
+}
+
+@media only screen and (min-width:481px) and (max-width: 701px){
+/******top******/
+
+.top-logo{
+	width:55%;
+	height:auto;
+	position: absolute;
+	top:2%;
+	left:5%;
+}
+
+.top-globalnav{
+	width:100%;
+	float:left;
+	text-align: center;
+}
+
+.case-479 {
+	display: none;
+}
+
+ul.top-globalnav{
+	padding: 70px 0px 0px 15px;
+}
+
+#search{
+	background-image:background: url(img/banner_09.jpg);
+	background-size: cover;
+	position: relative;
+	min-height:200px;
+}
+.search-textarea{
+position: absolute;
+z-index: 2;
+top:0;
+left:65%;
+}
+
+.black-space{
+	width:70%;
+	height:100%;
+	position:absolute;
+	top:0;
+	left:30%;
+	z-index: 1;
+	background: linear-gradient(to left, rgba(0, 0, 0,0.8),rgba(255,255,255,0));
+}
+
+
+.box-name h5{
+	margin-bottom: 0;
+}
+}
+
+
 @media only screen and (min-width:480px) and (max-width: 900px){
+/******knowledge TOP******/
 #globalnav{
 	width:50%;
 	float:none;
@@ -245,11 +709,12 @@ h3{
 	font-weight: bold;
 	opacity: 0.7;
 	text-shadow: 0 0 10px #fff,0 0 10px #fff;
-
 }
+
 }
 
 @media only screen and (max-width:479px){
+/******knowledge TOP******/	
 body{
 	margin:0;
 }
@@ -263,8 +728,6 @@ body{
 	float:none;
 	position: absolute;
 	top:55%;
-
-
 }
 
 #globalnav li{
@@ -302,7 +765,6 @@ body{
 	padding-left:0;
 	text-align: center;
 }
-
 
 #space{
 	width:100%;	
@@ -408,16 +870,146 @@ body{
 #type-main .item-photo{	
 	width:90%;
 	margin-left:5%;
-	margin-right:5%;
-	
+	margin-right:5%;	
 }
 #type-main .item-text{
 	width:90%;
-	margin:10% 5%;
-	
-}
+	margin:10% 5%;	
 }
 
+
+/******top******/
+#top-outer-wrapper{
+	width:auto;
+}
+.top-logo{
+	width:90%;
+	height:auto;	
+	margin:0 auto;	
+	position: absolute;
+	z-index: 2;
+	margin-top:20px;
+}
+.nav-space{
+	position: relative;
+	z-index: 1;
+}
+.top-globalnav{
+	width:100%;
+	float:left;
+	text-align: center;
+	display: none;
+}
+
+ul.top-globalnav{
+	padding: 60px 0px 0px 0px;
+}	
+
+.case-479 {
+	display: inline;
+}
+
+#top-inner-wrapper{
+	width:100%;
+	height:auto;
+	margin:0 auto;
+}
+
+#top-main{
+	width:100%;
+	height:auto;	
+}
+#update{
+	width:100%;
+	height:auto;
+}
+#update h3{
+	margin:0;
+	padding:10px;
+}
+
+#section1{
+	width:100%;
+	height:auto;
+}
+.large{
+	width:85%;
+	height:auto;
+	float:none;
+}
+
+.top-block1{
+	width:100%;
+	height:auto;
+	float:none;
+}
+.top-section-photo{
+	width:100%;
+    height:auto;    
+}
+
+.left{
+	padding-right:0;
+}
+.right{
+	padding-left:0;
+}
+
+.small{
+	width:70%;
+	height:auto;
+	margin:0 auto;
+	float:none;	
+	display:block;	
+	margin-top:20px;	
+}
+.top-block2{
+	width:100%;
+	height:auto;
+	padding:1%;	
+}
+
+#search{
+	width:100%;
+	height:auto;
+	background: radial-gradient(rgba(0, 0, 0,0.8),rgba(255,255,255,0)),url(img/banner_09.jpg);
+	background-size: cover;
+	min-height: 200px;	
+}
+.search-textarea{
+	width:100%;
+	height: auto;
+	float:none;	
+	text-align: center;
+	padding-top-top:50%;
+	margin-top:30px;
+}
+.search-text1{	
+	padding:0;
+	margin-bottom: 0;
+	font-weight: normal;
+	color:#cc9933;
+	width:100%;
+	padding-top:70px;
+}
+
+#section2{
+	width:90%;
+	height:auto;
+}
+
+#top-footer{
+	width:100%;
+	height:auto;
+	background: #330000;
+	min-height: 200px;
+}
+
+#top-footer p{
+	color:white;
+	font-size:12px;
+}
+}
 
 
 @media only screen and (min-width:1024px){
