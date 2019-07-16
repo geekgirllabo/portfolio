@@ -238,7 +238,7 @@ h3{
 	background-size: 100% 100%;
 	margin:0 auto;
 	position: relative;
-	background: linear-gradient(to bottom, rgba(0, 0, 0,0.7)18%,rgba(0, 0, 0,0.7)5%,rgba(255,255,255,0)),url(img/top3b.jpg);
+	background: linear-gradient(to bottom, rgba(0, 0, 0,0.5)18%,rgba(255,255,255,0)30%),url(img/top3b.jpg);
 	background-size:cover;
 }
 
@@ -882,6 +882,11 @@ body{
 /******top******/
 #top-outer-wrapper{
 	width:auto;
+}
+#top-header{
+	width:100%;	
+	max-height:400px;
+	height:auto;
 }
 .top-logo{
 	width:90%;
