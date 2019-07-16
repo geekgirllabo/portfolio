@@ -101,7 +101,7 @@ header{
 header img{
 	width: 45%;
 }
-input#nav-input.nav-unshown{
+div#nav-drawer{
 	display: none;
 }
 ul{
@@ -355,18 +355,19 @@ div#footer_img img{
 	topのcss
 	*/
 	header{
-		padding: 2% 0 0 0;
+		padding: 6% 0 3% 0;
 	}
 	header img{
 		width: 60%;
 	}
-	ul{
-		float: unset;
+	ul#glovalnav{
+	display: none;
 	}
 	div#nav-drawer{
+		display: unset;
 		position: relative;
 		float: right;
-		padding: 3% 5%;
+		padding: 3% 5% 0% 5%;
 	}
 	.nav-unshown{
 		display: none;
@@ -377,7 +378,9 @@ div#footer_img img{
 		height: 22px;
 		vertical-align: middle;
 	}
-	#nav-open span, #nav-open span:before, #nav-open span:after{
+	#nav-open span,
+	#nav-open span:before,
+	#nav-open span:after{
 		position: absolute;
 		height: 3px;
 		width: 25px;
@@ -393,7 +396,6 @@ div#footer_img img{
 	#nav-open span:after{
 		bottom: -16px;
 	}
-
 	#nav-close{
 		display: none;
 		position: fixed;
@@ -402,6 +404,7 @@ div#footer_img img{
 		left: 0;
 		width: 100%;
 		height: 100%;
+		background: black;
 		opacity: 0;
 		transition: .3s ease-in-out;
 	}	
@@ -412,7 +415,7 @@ div#footer_img img{
 		right: 0;
   		z-index: 9999;
   		width: 100%;
-  		max-width: 150px;
+  		max-width: 230px;
   		height: 100%;
   		background: #000033;
   		transition: .3s ease-in-out;
@@ -428,11 +431,32 @@ div#footer_img img{
 		transform: translateX(0%);
 		box-shadow: 6px 0 25px rgba(0,0,0,.15);
 	}
-	ul#glovalnav li{
+	ul#glovalnav_drawer li{
 		width: 100%;
-		text-align: center;
 		padding: 0;
+		list-style: none;
+		display: inline-block;
+		font-size: 12px;
 	}
+	ul#glovalnav_drawer li a{
+		color: #ffffff;
+		text-decoration: none;
+	}
+	ul#glovalnav_drawer li a:hover{
+		color: #cc9933;
+	}
+	ul#glovalnav_drawer ul{
+		background-color: #cbb994;
+		position: unset;
+		transform: unset;
+
+	}
+	ul#glovalnav_drawer ul li{
+		padding: 3px 10px;
+	}
+	ul#glovalnav_drawer ul li a{
+		color: #000033;
+	} 
 	div#visual_top p{
 		font-size: 14px;
 	}
