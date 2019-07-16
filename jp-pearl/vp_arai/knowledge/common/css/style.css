@@ -1,0 +1,60 @@
+#wrapper {
+	width: 980px;
+}
+
+#header{
+	width: 980px;
+	margin: 0 auto;
+}
+
+#header-1{
+	background-color: #000050;
+	height: 50px;
+}
+
+h1{
+	font-size: 20px;
+	color: #FFFFFF;
+	padding: 10px 0px 10px 20px;
+}
+
+.h1_small{
+	font-size: 15px;
+}
+
+#header-2{
+	height: 146.58px;
+	border-bottom: 2px solid #000050;
+}
+
+#h-img img{
+	float: left;
+	width: 400px;
+}
+
+#h-midashi{
+	float: right;
+	width: 580px;
+	height: 146.58px;
+
+}
+
+h2{
+	font-family: HGSｺﾞｼｯｸM,sans-serif;
+	font-size: 42px;
+	color: #000050;
+	margin: 0px;
+	line-height: 146.58px;
+	padding-left: 40px;
+}
+
+
+#detail{
+	padding: 34px 55px 34px 55px;
+}
+
+#detail p{
+	font-family: MS ｺﾞｼｯｸ,sans-serif;
+	font-size: 14px;
+
+}
