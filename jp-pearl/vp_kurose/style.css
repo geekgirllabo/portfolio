@@ -52,6 +52,8 @@ body{
 	width:100%;
 	height:1700px;
 	background: #EEEEEE;
+
+
 	
 }
 #space{
@@ -238,7 +240,7 @@ h3{
 	background-size: 100% 100%;
 	margin:0 auto;
 	position: relative;
-	background: linear-gradient(to bottom, rgba(0, 0, 0,0.5)18%,rgba(255,255,255,0)30%),url(img/top3b.jpg);
+	background: linear-gradient(to bottom, rgba(0, 0, 0,0.7)18%,rgba(0, 0, 0,0.7)5%,rgba(255,255,255,0)),url(img/top3b.jpg);
 	background-size:cover;
 }
 
@@ -277,7 +279,6 @@ h3{
 .top-globalnav{
 	width:55%;
 	float:right;
-
 }
 .case-479 {
 	display: none;
@@ -288,7 +289,6 @@ h3{
 ul.top-globalnav {
    margin: 0px;               /* メニューバー外側の余白(ゼロ) */
    padding: 60px 0px 0px 15px; /* メニューバー内側の余白 */   
-
 }
 
 /* -------------------------- */
@@ -300,7 +300,6 @@ ul.top-globalnav li {
    position: relative;     /* ★3:サブメニュー表示の基準位置にする */
    width:auto;
    padding-right:2%;
-
   
 }
 ul.top-globalnav a {
@@ -349,7 +348,7 @@ ul.top-globalnav li:hover ul {
 /* ------------------------ */
 ul.top-globalnav ul li {
    width:200px;
- /*  text-align: center;*/
+   text-align: center;
    z-index: 10;
 
 }
@@ -369,24 +368,25 @@ ul.top-globalnav ul li a:hover {
 }
 
 #top-inner-wrapper{
-	max-width:1040px;
+	/*max-width:1040px;*/
 	width:100%;
-	height:1400px;
-	background:#EEEEEE;
+	/*height:1400px;*/
+	background:#EEEEEE;  
 	margin:0 auto;
+	height:auto;
 }
 
 #top-main{
 	width:90%;
 	margin:0 auto;
-	height:1300px;
+	height:70%;
 	background:#EEEEEE;
 	height:auto;
 	
 }
 #update{
 	width:100%;
-	height:200px;
+	height:10%;
 	clear:both;
 	margin-bottom:10px;
 }
@@ -436,29 +436,42 @@ ul.top-globalnav ul li a:hover {
 
 #section1{
 	width:100%;
-	height:720px;
+	height:800px;
 	margin:0 auto;
 	margin-top:30px;
 }
 .large{
 	width:100%;
-	height:480px;
+	height:540px;
 	margin:0 auto;
 	float:left;
 }
 
+.upper, .lower{
+	width:100%;
+	height:250px;
+	margin:0 auto;
+	float:left;
+	margin-bottom: 20px;
+}
+
 .top-block1{
 	width:50%;
-	height:50%;
+	height:100%;
 	float:left;
 	box-sizing: border-box;	
-	margin-bottom: 10px;
+	
 }
 .top-section-photo{
-	width:auto;
+	/*width:auto;
     height:auto;
     max-width:100%;
-    max-height:100%;
+    max-height:100%;*/
+
+    width:100%;
+    height:auto;
+    max-height:90%;
+    /*max-width:100%;*/
 }
 
 .left{
@@ -469,6 +482,7 @@ ul.top-globalnav ul li a:hover {
 }
 .top-section-name{
 	width:100%;
+	height:10%;
 	text-align: center;
 	margin-top:0;
 }
@@ -481,13 +495,15 @@ ul.top-globalnav ul li a:hover {
 	box-sizing: border-box;
 	display:flex;
 	justify-content: space-between;
-	margin-top:20px;		
+	
+	margin-bottom: 20px;	
 	
 }
 .top-block2{
 	width:100%;
-	height:auto;
-	padding:1%;	
+	height:100%;
+	padding:1%;
+	box-sizing: border-box;
 }
 .first{
 	padding-left:0;
@@ -496,11 +512,25 @@ ul.top-globalnav ul li a:hover {
 	padding-right:0;
 }
 
+.top-section-photo-s{
+	/*width:100%;
+	height:auto;
+	max-height:90%;*/
+
+	width:100%;
+    height:auto;
+    max-height:90%;
+    /*max-width:100%;*/
+
+}
+
 #search{
 	width:100%;
 	height:200px;
 	background: url(img/banner_09.jpg);
 	background-size: cover;
+
+
 }
 
 .search-textarea{
@@ -549,12 +579,15 @@ ul.top-globalnav ul li a:hover {
 	height:50px;
 	margin: 0 auto;
 	display: block;
-	padding-top:40%;
+	/*padding-top:40%;*/
+	padding-top:60px;
 }
 .section2-section-name{
 	text-align: center;
 	margin-top:0;
 	text-decoration: none ;	
+
+	height:20px;
 }
 .section2-block a{
 	text-decoration: none ;
@@ -586,7 +619,6 @@ ul.top-globalnav ul li a:hover {
 	height:auto;
 	padding-right:2%;
 	max-height:40px;
-	
 }
 .fb{
 	padding-left:10%;
@@ -606,13 +638,11 @@ ul.top-globalnav ul li a:hover {
 	width:50%;
 	float:right;
 	padding-left:50px;
-
 }
 
 ul.top-globalnav {
    margin: 0px;              
    padding: 20px 0px 0px 0px; 
-
 }
 
 
@@ -621,8 +651,7 @@ ul.top-globalnav li {
    list-style-type: none; 
    position: relative;     
    width:auto;
-   padding-right:2%; 
-
+   padding-right:2%;  
 }
 
 ul.top-globalnav ul {   
@@ -719,12 +748,6 @@ left:65%;
 	text-shadow: 0 0 10px #fff,0 0 10px #fff;
 }
 
-}
-
-@media screen and (min-width:480px) {
-  #nav-drawer {
-    display:none;
-  }
 }
 
 @media only screen and (max-width:479px){
@@ -860,7 +883,6 @@ body{
 	text-shadow: 0 0 10px #fff,0 0 10px #fff;
 	opacity:0.8;
 	padding-bottom:10px;
-
 }
 
 
@@ -896,17 +918,10 @@ body{
 #top-outer-wrapper{
 	width:auto;
 }
-
-#top-header{
-	width:100%;	
-	max-height:400px;
-	height:auto;
-}
-
 .top-logo{
-	width:80%;
+	width:90%;
 	height:auto;	
-	margin-left:10%;	
+	margin:0 auto;	
 	position: absolute;
 	z-index: 2;
 	margin-top:20px;
@@ -922,185 +937,13 @@ body{
 	display: none;
 }
 
-
-
-/* -------------------------- */
-/* ▼acdメインメニュー項目の装飾 */
-/* -------------------------- */
-.acd-label{
-    background:#cbb994;
-    color: #000033;
-    display: block;
-    font-weight: bolder;
-    margin-bottom: 1px;
-    padding: 10px;
-    text-align: center;
-    width:100%;
-    line-height:50px;
-    border:1px solid white;  
-    box-sizing: border-box;
-    font-size: 16px;
-}
-
-.acd-label a{
-	text-decoration: none;
-}
-
-.acd-label a:visited{
-	color:#000033;
-}
-
-.acd-content{
-    height: 0;
-    opacity: 0;
-    padding: 0 10px;
-    transition: .5s;
-    visibility: hidden;
-    
-}
-.acd-check:checked + .acd-label + .acd-content{
-    height: auto;
-    opacity: 1;
-    padding: 5px;
-    visibility: visible;
-    background:#C0AB8A;
-}
-.acd-check{
-    display: none;
-}
-
-.dd-mark{
-	font-size:8px;
-	padding-left:5px;
-}
-.acd-content a:hover {
-   background-color: #ffff80; /* メニュー項目にマウスが載ったときの背景色(不要？)*/
-   color: #cc9933;            /* メニュー項目にマウスが載ったときの文字色*/
- 
-}
-
-
-/* ---------------------------------- */
-/* ▼サブメニューがある場合に開く処理 */   
-/* ---------------------------------- */
-
-
-/* ------------------------ */
-/* ▼サブメニュー項目の装飾 */
-/* ------------------------ */
-.acd-content ul {
-	padding-left:0;
-	background: #C0AB8A;
-}
-
-.acd-content ul li {
-   width:100%;
-   text-align: center;
-   z-index: 10;
-   list-style-type: none;
-   background:#C0AB8A;
-}
-
-.acd-content ul li a {
-   line-height: 40px;
-   text-align: center;
-   font-weight: bolder;
-   color:#000033;
-   text-decoration: none;
-}
-.acd-content ul :hover {
-   background-color: #ffff80; /* サブメニュー項目にマウスが載ったときの背景色(淡い黄色) */
-   color: #005500; 
-}
-
+ul.top-globalnav{
+	padding: 60px 0px 0px 0px;
+}	
 
 .case-479 {
-	display: none;
+	display: inline;
 }
-
-
-/*ドロワー*/
-#nav-drawer{
-	position: relative;
-	top:10%;
-	left:2%;
-}
-/*チェックボックス等は非表示に*/
-.nav-unshown {
-  display:none;
-}
-
-/*アイコンのスペース*/
-#nav-open {
-  display: inline-block;
-  width: 30px;
-  height: 22px;
-  vertical-align: middle;
-}
-
-/*ハンバーガーアイコンをCSSだけで表現*/
-#nav-open span, #nav-open span:before, #nav-open span:after {
-  position: absolute;
-  height: 3px;/*線の太さ*/
-  width: 25px;/*長さ*/
-  border-radius: 3px;
-  background: 	#EEEEEE;
-  display: block;
-  content: '';
-  cursor: pointer;
-}
-#nav-open span:before {
-  bottom: -8px;
-}
-#nav-open span:after {
-  bottom: -16px;
-}
-
-/*閉じる用の薄黒カバー*/
-#nav-close {
-  display: none;/*はじめは隠しておく*/
-  position: fixed;
-  z-index: 99;
-  top: 0;/*全体に広がるように*/
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: black;
-  opacity: 0;
-  transition: .3s ease-in-out;
-}
-
-/*中身*/
-#nav-content {
-  overflow: auto;
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 9999;/*最前面に*/
-  width: 90%;/*右側に隙間を作る（閉じるカバーを表示）*/
-  max-width: 337px;/*最大幅（調整してください）*/
-  height: 100%;
-  background: #cbb994;/*背景色*/
-
-
-  transition: .3s ease-in-out;/*滑らかに表示*/
-  -webkit-transform: translateX(-105%);
-  transform: translateX(-105%);/*左に隠しておく*/
-}
-
-/*チェックが入ったらもろもろ表示*/
-#nav-input:checked ~ #nav-close {
-  display: block;/*カバーを表示*/
-  opacity: .5;
-}
-
-#nav-input:checked ~ #nav-content {
-  -webkit-transform: translateX(0%);
-  transform: translateX(0%);/*中身を表示（右へスライド）*/
-  box-shadow: 6px 0 25px rgba(0,0,0,.15);
-}
-
-
 
 #top-inner-wrapper{
 	width:100%;
@@ -1212,4 +1055,11 @@ body{
 	width:auto;
 	margin:0;
 	}
+
+.top-logo {
+max-height: 75px;
+height:100%;
+width:auto;
+
+}
 }
