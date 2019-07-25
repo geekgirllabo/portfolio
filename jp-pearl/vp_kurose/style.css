@@ -504,7 +504,7 @@ ul.top-globalnav ul li a:hover {
 	padding-top:10px;
 	padding-bottom: 5px;
 	border-bottom: 1px dotted black;
-	line-height: 10px;
+	line-height: auto;
 }
 
 
