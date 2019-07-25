@@ -456,7 +456,7 @@ ul.top-globalnav ul li a:hover {
 #top-inner-wrapper{
 	width:100%;
 	background:lightgray;	
-	height:1600px;
+	height:1800px;
 }
 #top-main{
 	width:85%;
@@ -509,7 +509,7 @@ ul.top-globalnav ul li a:hover {
 
 
 #update p{
-	font-size:1em;
+	font-size:0.7em;
 	border-bottom: 1px dotted black;	
 	margin-top:0;
 	margin-bottom: 0;
@@ -609,7 +609,6 @@ ul.top-globalnav ul li a:hover {
 	position:absolute;
 	z-index: 1;
 	left:50%;
-
 }
 
 .search-text-area{
@@ -622,7 +621,7 @@ ul.top-globalnav ul li a:hover {
 
 .search-upper-space{
 	width:100%;
-	height:20%;
+	height:25%;
 }
 .search-text-space{
 	width:100%;
@@ -684,7 +683,7 @@ h5.search-text2{
 }
 .section2-block{
 	width:100%;
-	height:auto;	
+	height:auto;
 }
 .section2-icon{
 	width:100%;
@@ -696,9 +695,10 @@ h5.search-text2{
 	width:auto;
 }
 .section2-icon-name{
-	width:90%;
+	width:85%;
 	height:30%;
 	text-align: center;
+	margin:0 auto;
 
 }
 h5.section2-section-name{
@@ -797,7 +797,7 @@ ul.top-globalnav ul {
 	display: none;
 }
 #top-inner-wrapper{
-	height:1400px;
+	height:1600px;
 }
 }
 
@@ -836,7 +836,7 @@ ul.top-globalnav{
 	padding: 55px 0px 0px 15px;
 }
 #top-inner-wrapper{
-	height:1200px;
+	height:1500px;
 }
 
 
@@ -844,17 +844,20 @@ ul.top-globalnav{
 	min-height: 148.5px;
 	font-size:16px;
 }
+.search-upper-space{
+	height:30%;
+}
 .search-text-area{
 	height:140px;
 }
 h3.search-text1{
-	font-size:0.7em;
+	font-size:1.4em;
 }
 h5.search-text2{
-	font-size:0.4em;
+	font-size:0.7em;
 }
 #search h5.box-name{
-	font-size:0.4em;
+	font-size:0.7em;
 }
 }
 
@@ -1410,7 +1413,7 @@ ul.top-globalnav ul li {
 /*******/
 
 #top-inner-wrapper{
-	height:2000px;
+	height:2200px;
 }
 
 #update h3{
@@ -1420,16 +1423,16 @@ ul.top-globalnav ul li {
 	height:40%;
 }
 .search-upper-space{
-	height:40%;
+	height:35%;
 }
 h3.search-text1{
-	font-size:1.2em;
+	font-size:1.3em;
 }
 h5.search-text2{
-	font-size:0.7em;
+	font-size:0.8em;
 }
 #search h5.box-name{
-	font-size:0.7em;
+	font-size:0.8em;
 }
 .box{
 	width:45%;
@@ -1470,7 +1473,7 @@ ul.top-globalnav a {
 }
 
 .search-upper-space{
-	height:50%;
+	height:40%;
 }
 h3.search-text1{
 	font-size:1.5em;
