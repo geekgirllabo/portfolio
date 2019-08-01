@@ -1000,11 +1000,20 @@ ul.store-nav ul li a:hover{
 	margin:0;
 	font-size:1em;
 	color:black;
-}	
+	padding-top:0;
+	padding-left:0;
+
+}
+.store-sec1-text2:hover{
+	opacity:0.8;
+	color: brown;
+}
+.store-sec1 a{
+	text-decoration: none;
+}
 
 .store-sec2{
 	width:100%;
-	/*height:45%;*/
 	margin-bottom: 5%;
 	clear: both;
 }
@@ -1936,6 +1945,9 @@ h5.search-text2{
 .store-sec1-inner{
 	width:80%;
 }
+.store-sec1-text1{
+	margin-top:1%;
+}
 
 }
 
@@ -2056,6 +2068,7 @@ h5.search-text2{
 }
 }
 
+
 @media only screen and (max-width: 479px){
 .kentei-logo-area{
 	width:100%;
@@ -2086,8 +2099,8 @@ h5.search-text2{
   display: none;
 }
 .hm_wrap {
-	/*display: inline-block;
-	position :fixed;*/
+	/*display: inline-block;*/
+	/*position :fixed;*/
 	top :0;
 	left :0;
 	width :10%;
@@ -2104,7 +2117,7 @@ h5.search-text2{
 	width: 30px;
 	height: 30px;
 	cursor: pointer;
-	/*display: block;*/
+	
 	float: left;
 	z-index: 2;
 	color: white;
@@ -2144,7 +2157,8 @@ h5.search-text2{
 	transition: left 0.4s;
 	
 	z-index: 98;
-	opacity:0.95
+	opacity:0.95;
+	position:fixed;
 }
  
 /* ▽▽開閉時のアニメーション▽▽ */
@@ -2247,15 +2261,15 @@ h5.search-text2{
 	width:85%;
 	margin:0 auto;
 }
-.store-sec1-text1{
-	font-size:0.7em;
-	margin-top:3%;
-}
-.store-sec1-text2{
-	font-size:0.9em;
-}
+
 .store-mainvisual-area{
 	object-position: 50% 50%;
+}
+.store-sec2 h3{
+	text-align: center;
+}
+.store-sec2-text-area{
+	text-align: justify;
 }
 .store-sec3{
 	width:100%;
@@ -2270,9 +2284,25 @@ h5.search-text2{
 .sec3-icon{
 	margin-top:1%;
 }
-
 }
-
+@media only screen and (min-width:337px) and (max-width: 479px){
+.store-sec1-text1{
+	font-size:0.7em;
+}
+}
+@media only screen and (max-width: 336px){
+.store-sec1-text1{
+	font-size:0.5em;
+	min-width: 171px;
+}
+.store-sec1-text2{
+	font-size:0.8em;
+	min-width: 171px;
+}
+.store-photo{
+min-width: 171px;
+}
+}
 @media only screen and (min-width:1281px) and (max-width: 1580px){
 .kentei-logo-area{
 	height:150px;
