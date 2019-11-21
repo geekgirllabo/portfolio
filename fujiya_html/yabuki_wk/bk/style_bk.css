@@ -1,0 +1,995 @@
+/* 共通CSS */
+body{
+	margin:0;
+	font-size: 16px;
+	font-family: kozuka-mincho-pro, serif; /* 小塚明朝Pro */
+	font-weight: 400; /* 500:ミデイアム,700:太字 */
+	font-style: normal;
+	overflow: scroll;
+	letter-spacing: 0.1em;
+}
+
+/* 共通CSS ここまで */
+
+/* トップページのためのCSS */
+#wrapper a{
+	text-decoration: none;
+	color: inherit;
+}
+#wrapper{
+	width: 1020px;
+	margin: 0 auto;
+}
+#home-header{
+	width: 100%;
+	height: auto;
+	padding-top: 3vw;
+}
+#header-flex{
+	display: flex;
+}
+#header-left{
+	flex-basis: 30%;
+}
+#header-right{
+	display: flex;
+	flex-basis: 70%;
+	justify-content: flex-end;
+}
+#home-logo h1{
+	margin: 0;
+}
+#home-logo img{
+	width: 190px;
+}
+#header-storeinfo{
+	flex-basis: 320px;
+	justify-content: flex-end;
+}
+
+.telephonenumber{
+	display: flex;
+	align-items: center;
+}
+.telephonenumber img{
+	width: 55px;
+}
+.telephonenumber p{
+	margin: 0;
+	font-size: 1.875em;
+	font-weight: 700;
+	padding-left: 0.75em;
+}
+#infotext{
+	display: flex;
+}
+#infotext p{
+	margin: 0;
+	font-family: kozuka-gothic-pr6n, sans-serif;  /* 小塚ゴシック Pr6N */
+	font-weight: 400; /* 500:ミデイアム,700:太字 */
+	font-size: 0.75em;
+}
+#holiday{
+	padding-left: 1em;
+}
+
+#header-reserve{
+	display: flex;
+	flex-basis: 32%;
+	justify-content: flex-end;
+	align-items: flex-start;
+}
+#header-reserve img{
+	width: 260px;
+}
+hr.bold-line{
+	margin: 0 -200%;
+	border-width: 5px 0 0 0;
+	border-style: solid;
+	border-color: #8e748c;
+	box-shadow: 0 0 1px 1px #8e748c;
+}
+hr.thin-line{
+	margin: 6px -200% 0 -200%;
+	border-width: 1.5px 0 0 0;
+	border-style: solid;
+	border-color: #c6b9c5;
+	box-shadow: 0 0 1.5px 0px #c6b9c5 ;
+}
+
+#home-globalnav{
+	padding: 1.5em 0;
+	margin: 0;
+}
+#home-globalnav li{
+	list-style-type: none;
+	padding: 0 1.5em;
+	font-size: 1em;
+	display: inline;
+}
+ul#home-globalnav li a:hover{
+	color: #c6b9c5;
+}
+
+#home-mainvisual{
+	width: 100%;
+	height: 33vw;
+	margin: 0 -29%;
+	padding: 0 29%;
+	background-image: url(image/main_ph.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: relative;
+	z-index: 5;
+}
+#mainvisual-lead img{
+	margin: 3vw;
+	width: 400px;
+	z-index: 10;
+}
+
+#fixed-buttons{
+	width: 540px;
+	display: flex;
+	justify-content: flex-end;
+	align-items: flex-end;
+	position: fixed;
+	bottom: 0px;
+	right: 18%;
+	z-index: 99;
+}
+#fixed-buttons img{
+	width: 260px;
+}
+
+#banners-area{
+	width: 100%;
+	margin: 4em 0;
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-around;
+}
+#banners-area img{
+	width: 46%;
+}
+
+#home-contents h2{
+	font-size: 2em;
+	font-weight: 400;
+	text-align: center;
+	border-top: 1px solid black;
+	margin: 0em auto;
+	padding: 0;
+	height: 1em;
+	width: 70%;
+}
+#home-contents h2 span{
+	position: relative;
+	top: -0.75em;
+	padding: 0 0.5em;
+	background: white;
+}
+#home-contents p.menu-lead{
+	width: 70%;
+	margin: 0 auto 3em auto;
+	text-align: center;
+	letter-spacing: 0.25em;
+}
+div.home-contents-box{
+	padding-top: 8em;
+}
+#collection-flex{
+	display: flex;
+	flex-wrap: wrap;
+}
+#collection-flex p{
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+.collectionbox{
+	width: 50%;
+	display: flex;
+	align-items: center;
+}
+.collectionbox img{
+	width: 45%;
+}
+
+#home-contents .collection-info{
+	width: 55%;
+	color: white;
+	padding: 0 1em;
+	letter-spacing: 0.25em;
+}
+.typenum{
+	font-size: 1.5em;
+	text-align: center;
+}
+hr.collection-line{
+	margin: 0;
+}
+#home-contents .set-discription{
+	margin: 0.5em 0 auto;
+	font-family:  kozuka-gothic-pr6n, sans-serif;
+	text-align: start;
+	padding-left: 1vw;
+}
+#home-contents p.collection-price{
+	font-size: 1.75em;
+	margin-bottom: 0.5em;
+	text-align: start;
+	padding-left: 1vw;
+}
+span.yen{
+	font-size: 0.5em;
+}
+span.collection-tax{
+	font-family:  kozuka-gothic-pr6n, sans-serif;
+	font-size: 0.5em;
+}
+.collection-more{
+	padding: 0.5em 3em;
+	border: 1px solid white;
+}
+.collection-more p{
+	padding: 0;
+	text-align: center;
+}
+#collectionbox-ph1{
+	background-image: url(image/top_collection_back1.png);
+}
+#collectionbox-ph2{
+	background-image: url(image/top_collection_back2.png);
+}
+#collectionbox-ph3{
+	background-image: url(image/top_collection_back3.png);
+}
+#collectionbox-ph4{
+	background-image: url(image/top_collection_back4.png);
+}
+.more-read{
+	width: 15em;
+	margin: 3em auto;
+	padding: 1em 3em;
+	border: 1px solid black;
+	background: #ffffff;
+}
+.more-read p{
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+#plan-flex{
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+}
+.plan-box{
+	width: 24%;
+	border: 1px solid #000000;
+}
+div.plan-box p{
+	width: 90%;
+	margin: 0 auto;
+}
+.plan-box img{
+	width: 100%;
+}
+.plan-title{
+	font-size: 1.5em;
+	font-weight: 700;
+	text-align: center;
+	height: 3em;
+	display: flex;
+	align-items: center;
+}
+.plan-discription{
+	height: 8em;
+	margin: 1em auto;
+	letter-spacing: 0.125em;
+	line-height: 1.5em;
+}
+.plan-price-info{
+	height: 7em;
+}
+.price-discription{
+	font-family:  kozuka-gothic-pr6n, sans-serif;
+	font-size: 0.875em;
+	height: 2em;
+	display: flex;
+	align-items: flex-end;
+	line-height: 1.5em;
+}
+.price{
+	font-size: 2em;
+	font-weight: 700;
+	display: inline;
+	padding-left: 0.25em;
+	letter-spacing: 0.1em;
+}
+.price p{
+	letter-spacing: 130%;
+}
+.price-after{
+	font-weight: 500;
+	display: inline;
+}
+div.plan-price-info p.tax{
+	font-family:  kozuka-gothic-pr6n, sans-serif;
+	text-align: end;
+	margin-top: -0.5em;
+	margin-bottom: 0.5em;
+}
+.plan-box-bottom{
+	width: 90%;
+	margin: 0 auto;
+}
+.plan-more-box{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+div.plan-box p.plan-more{
+	font-family:  kozuka-gothic-pr6n, sans-serif;
+	letter-spacing: 0.1em;
+	width: 11em;
+	margin: 0.75em 0.75em 0.75em 0.25em;
+}
+img.plan-more-icon{
+	width: 30px;
+}
+
+#gallery-flex{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: flex-start;
+}
+.gallery-box{
+	width: 33.333%;
+}
+.gallery-box img{
+	width: 100%;
+	vertical-align: bottom;
+}
+.voice-box{
+	letter-spacing: 0.1em;
+	margin: 2em auto;
+}
+.voice-box-title{
+	display: flex;
+	align-items: center;
+	height: 50px;
+	background: url(image/top_voice_title_back.png);
+}
+.voice-box-title h3{
+	flex-basis: 70%;
+	margin: 0;
+	line-height: 50px;
+	font-weight: 400;
+	padding-left: 1em;
+}
+.voice-name{
+	flex-basis: 30%;
+	background: rgba(187, 55, 110, 0.45);
+	margin: 0;
+	height: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.voice-name p{
+	margin: 0;
+	color: #ffffff;
+}
+.voice-box-contents{
+	display: flex;
+	align-items: flex-start;
+	background: url(image/top_voice_back.png);
+}
+.voice-box-contents img{
+	width: 300px;
+	margin: 2em;
+	opacity: 1.0;
+}
+.voice-box-contents p{
+	font-family:  kozuka-gothic-pr6n, sans-serif;
+	padding: 0.75em 1em;
+	font-size: 0.875em;
+}
+.voice-box-pic{
+	margin-top: -181.686px;	
+	display: flex;
+	justify-content: flex-end;
+	align-items: flex-end;
+}
+.voice-box-pic img{
+	width: 450px;
+	opacity: 0.5;
+}
+
+#reason-flex{
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+	padding-top: 2em;
+}
+.reason-box{
+	width: 23%;
+	border: 1px solid #000000;
+}
+.reason-box img{
+	width: 100%;
+}
+.reason-box h3{
+	font-size: 1.5em;
+	font-weight: 700;
+	height: 3em;
+	margin-top: 2em;
+	margin-bottom: 0;
+	text-align: center;
+	/* display: flex; */
+	/* align-items: center; */
+}
+.reason-box p{
+	width: 90%;
+	margin: 2em auto;
+}
+#flow{
+	background: url(image/top_nagare_back.png);
+	margin: 0 -30%;
+}
+
+#flow-flex{
+	display: flex;
+	width: 1020px;
+	justify-content: space-between;
+	padding-top: 2em;
+	margin: 0 auto;
+}
+.flow-box{
+	width: 18%;
+	font-family:  kozuka-gothic-pr6n, sans-serif;
+	font-size: 0.875em;
+}
+.flow-box img{
+	width: 100%;
+}
+.flow-icon img{
+	width: 14px;
+	margin-top: 44.235px;
+}
+
+#home-footer{
+	margin: 0;
+	width: 100%;
+	background: #000033;
+}
+
+
+
+/* トップページのためのCSS ここまで */
+
+
+
+/* 下層ページのためのCSS */
+#lower-wrapper a{
+	text-decoration: none;
+	color: inherit;
+}
+#lower-header{
+	width: 100%;
+	height: 30vw;
+	background-image: url(../image/top1b.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	overflow: hidden;
+}
+#lower-logo img{
+	width: 40%;
+	margin-top: 3.2vw;
+	margin-left: 5%;
+}
+#lower-globalnav{
+	float: right;
+	margin: 0 5% 0 0;
+	padding-left: 0;
+}
+#lower-globalnav li{
+	list-style-type: none;
+	margin: 0 0 0 1em;
+	float: left;
+	font-size: 1em;
+}
+#lower-globalnav a{
+	float: left;
+}
+#lower-contents #content01{
+	width: 86%;
+	margin: 4em auto;
+	background-color: #ffffff;
+	overflow: hidden;
+	padding-bottom: 15em;
+}
+#lower-contents #content01 h1{
+	background-color: #000033;
+	color: #ffffff;
+	padding:8px 3%;
+	font-weight: 600;
+	margin-bottom: 0px;
+	margin-top: 0;
+	font-size: 1.5em;
+}
+span#h1description{ /* 幅720px以下のとき非表示 */
+	font-size: 0.625em;
+	color: #ffffff;
+	padding-left: 0.25em;
+}
+div#h1description-mini{ /* 幅720px以下のとき表示 */
+	display: none;
+}
+div#h1description-mini p{
+	font-size: 1em;
+	color: #ffffff;
+	padding-left: 1.5em;
+	padding-bottom: 10px;
+	margin: 0 0 0.5em 0;
+	background-color: #000033;
+	width: 100%;
+	line-height: 1em;
+	font-weight: 600;
+}
+#lower-contents #content01 #text01{
+	width: 94%;
+	margin: 1em auto;
+}
+#lower-contents #content01 #text01 p{
+	width: 100%;
+	line-height: 1.5em;
+	font-size: 1em;
+	font-weight: 600;
+	color: #000033;
+}
+#lower-contents #content01 .left-menu{
+	clear: both;
+	width: 34%;
+	margin: 1em 1% 1em 15%;
+	float: left;
+}
+#lower-contents #content01 .right-menu{
+	width: 34%;
+	margin: 1em 15% 1em 1%;
+	float: left;
+}
+#lower-contents #content01 img{
+	width: 100%;
+}
+#lower-contents #content01 h2{
+	text-align: center;
+	font-size: 1em;
+	margin: 0 auto;
+}
+
+@media only screen and (min-width: 1000px){
+	#search-archive-text{
+		padding: 4vw 0;
+	}
+	#lower-wrapper{
+		font-size: 18px;
+	}
+}
+
+@media only screen and (min-width: 1367px){
+	#home-wrapper{
+		font-size: 20px;
+	}
+	#search-archive-text{
+		padding: 4.5vw 0;
+	}
+	#lower-wrapper{
+		font-size: 20px;
+	}
+}
+
+@media only screen and (max-width: 999px){
+	div#notice{
+		width: 86%;
+		margin: 0 auto;
+	}
+	div#two-column{
+		width: 86%;
+		margin: 0 auto;
+	}
+	div#four-column{
+		width: 86%;
+		margin: 0 auto;
+	}
+	div#three-column{
+		width: 86%;
+		margin: 0 auto;
+	}
+	#search-archive-text{
+		font-size: 14px;
+	}
+}
+@media only screen and (max-width: 820px){
+	#search-archive-text{
+		width: 50%;
+		margin-left: 50%;
+	}
+	#search-archive-text h2{
+		font-size: 1.5em;
+	}
+}
+
+@media only screen and (min-width: 769px){
+	#home-nav-drawer{
+		display: none;
+	}
+	#lower-nav-drawer{
+		display: none;
+	}
+}
+
+@media only screen and (max-width: 768px){
+	#home-wrapper{
+		font-size: 14px;
+	}
+	#home-header{
+		overflow: hidden;
+	}
+	#home-logo{
+		float: left;
+	}
+	#home-logo img{
+		width: 60%;
+		margin-top: 3.2vw;
+		margin-left: 40px;
+	}
+	#home-globalnav{
+		display: none;
+	}
+	/* トップページ ハンバーガーメニュー ここから*/
+	#home-nav-drawer{
+		position: relative;
+	}
+	/* チェックボックス非表示 */
+	#home-nav-drawer .nav-unshown{
+		display: none;
+	}
+	/* ハンバーガーアイコン用スペース */
+	#home-nav-drawer #nav-open{
+		display: inline-block;
+		position: absolute;
+		width: 40px;
+		height: 22px;
+		vertical-align: middle;
+		padding: 0;
+		right: 30px;
+		top: 7vw;
+	}
+	/* ハンバーガーアイコン */
+	#home-nav-drawer #nav-open span,
+	#home-nav-drawer #nav-open span:before,
+	#home-nav-drawer #nav-open span:after{
+		position: absolute;
+		height: 4px; /* アイコンの線の太さ */
+		width: 30px; /* アイコンの線の長さ */
+		border-radius: 3px;
+		background: #ffffff;
+		display: block;
+		content: '';
+		cursor: pointer;
+	}
+	/* アイコンの線の間隔 */
+	#home-nav-drawer #nav-open span:before{
+		bottom: -10px;
+	}
+	#home-nav-drawer #nav-open span:after{
+		bottom: -20px;
+	}
+	/* メニュー外領域の黒マスク */
+	#home-nav-drawer #nav-close{
+		display: none;
+		position: fixed;
+		z-index: 10;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background: black;
+		opacity: 0;
+		transition: 0s ease-in-out;
+	}
+	/* メニュー内部 */
+	#home-nav-drawer #home-nav-content{
+		overflow: scroll;
+		position: fixed;
+		top: 0;
+		right: 0;
+		z-index: 20;
+		width: 70%;
+		max-width: 100%;
+		height: 100%;
+		background: #cbb994;
+		transition: 0s;
+		-webkit-transform: translateX(125%);
+		transform: translateX(125%);
+	}
+	#home-nav-drawer #home-nav-content ul{
+		padding: 0;
+		margin: 0;
+	}
+	#home-nav-drawer #home-nav-content li{
+		list-style-type: none;
+		font-size: 1em;
+		background: #cbb994;
+		color: #000033;
+		border: 1px solid #ffffff;
+		padding: 0.5em 1em;
+	}
+	#home-nav-drawer #home-nav-content .category-li{
+		background: #000033;
+		color: #ffffff;
+		font-weight: 600;
+		padding-left: 0.5em;
+	}
+	/* チェック時の表示設定 */
+	/* 黒マスク表示 */
+	#home-nav-drawer #nav-input:checked ~ #nav-close{
+		display: block;
+		opacity: 0.7;
+	}
+	/* メニュー表示 */
+	#home-nav-drawer #nav-input:checked ~ #home-nav-content{
+		-webkit-transform: translateX(0%);
+		transform: translateX(0%);
+	}
+/* トップページ ハンバーガーメニュー ここまで */
+#search-archive-text{
+	padding: 1vw 0;
+}
+
+	#lower-logo{
+		float: left;
+	}
+	#lower-logo img{
+		width: 70%;
+		margin-top: 3.2vw;
+		margin-left: 20px;
+	}
+	#lower-globalnav{
+		display: none;
+	}
+	/* 下層ページ ハンバーガーメニュー ここから*/
+		#lower-nav-drawer{
+			position: relative;
+		}
+		/* チェックボックス非表示 */
+		#lower-nav-drawer .nav-unshown{
+			display: none;
+		}
+		/* ハンバーガーアイコン用スペース */
+		#lower-nav-drawer #nav-open{
+			display: inline-block;
+			position: absolute;
+			width: 30px;
+			height: 22px;
+			vertical-align: middle;
+			padding: 0;
+			right: 20px;
+			top: 5vw;
+		}
+		/* ハンバーガーアイコン */
+		#lower-nav-drawer #nav-open span,
+		#lower-nav-drawer #nav-open span:before,
+		#lower-nav-drawer #nav-open span:after{
+			position: absolute;
+			height: 4px; /* アイコンの線の太さ */
+			width: 30px; /* アイコンの線の長さ */
+			border-radius: 3px;
+			background: #000000;
+			display: block;
+			content: '';
+			cursor: pointer;
+		}
+		/* アイコンの線の間隔 */
+		#lower-nav-drawer #nav-open span:before{
+			bottom: -10px;
+		}
+		#lower-nav-drawer #nav-open span:after{
+			bottom: -20px;
+		}
+		/* メニュー外領域の黒マスク */
+		#lower-nav-drawer #nav-close{
+			display: none;
+			position: fixed;
+			z-index: 10;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			background: black;
+			opacity: 0;
+			transition: 0s ease-in-out;
+		}
+		/* メニュー内部 */
+		#lower-nav-drawer #lower-nav-content{
+			overflow: hidden;
+			position: fixed;
+			top: 0;
+			right: 0;
+			z-index: 20;
+			width: 80%;
+			max-width: 100%;
+			height: auto;
+			background: #ffffff;
+			transition: 0s;
+			-webkit-transform: translateX(125%);
+			transform: translateX(125%);
+		}
+		#lower-nav-drawer #lower-nav-content ul{
+			padding: 0;
+			margin: 0;
+		}
+		#lower-nav-drawer #lower-nav-content li{
+			list-style-type: none;
+			font-size: 1.25em;
+			background: #d5eaff;
+			border: 1px solid #ffffff;
+			text-align: center;
+			padding: 0.5em 0;
+		}
+
+		/* チェック時の表示設定 */
+		/* 黒マスク表示 */
+		#lower-nav-drawer #nav-input:checked ~ #nav-close{
+			display: block;
+			opacity: 0.7;
+		}
+		/* メニュー表示 */
+		#lower-nav-drawer #nav-input:checked ~ #lower-nav-content{
+			-webkit-transform: translateX(0%);
+			transform: translateX(0%);
+		}
+	/* 下層ページ ハンバーガーメニュー ここまで */
+
+	span#h1description{
+		display: none;
+	}
+	div#h1description-mini{
+		display: block;
+	}
+}
+
+@media only screen and (max-width: 760px){
+	.two-column-left{
+		width: 100%;
+		margin: 1em auto;
+	}
+	.two-column-right{
+		width: 100%;
+		margin: 1em auto;
+		float: none;
+	}
+	
+	.four-column-left{
+		width: 60%;
+		margin: 1em auto;
+		float: none;
+	}
+	.four-column-middle{
+		width: 60%;
+		margin: 1em auto;
+		float: none;
+	}
+	.four-column-right{
+		width: 60%;
+		margin: 1em auto;
+		float: none;
+	}
+	
+	#search-archive{
+		width: 100%;
+		height: 35vw;
+	}
+	#search-archive-text{
+		width: 100%;
+		margin: 0 auto;
+		padding: 6vw 0;
+		text-align: center;
+		text-shadow: 0px 0px 3px #000000,0px 0px 5px #000000;
+	}
+	#search-archive-text h4{
+		margin: 0 auto;
+		float: none;
+	}
+	#google-custom-search{
+		float: none;
+	}
+}
+
+@media only screen and (max-width: 610px){
+	div#h1description-mini p {
+		text-align: center;
+		padding-left: 0;
+	}
+	#lower-contents #content01 .left-menu{
+		width: 80%;
+		margin: 1em auto;
+		float: none;
+	}
+	#lower-contents #content01 .right-menu{
+		width: 80%;
+		margin: 1em auto;
+		float: none;
+	}
+}
+
+@media only screen and (max-width: 500px){
+	#home-mainvisual p{
+		font-size: 1em;
+	}
+	.four-column-left{
+		width: 100%;
+		margin: 1em auto;
+		float: none;
+	}
+	.four-column-middle{
+		width: 100%;
+		margin: 1em auto;
+		float: none;
+	}
+	.four-column-right{
+		width: 100%;
+		margin: 1em auto;
+		float: none;
+	}
+	
+	div#three-column img{
+		width: 10%;
+		margin: 0 45%;
+	}
+	.three-column-left{
+		width: 100%;
+		margin: 1em auto;
+		float: none;
+	}
+	.three-column-middle{
+		width: 100%;
+		margin: 1em auto;
+		float: none;
+	}
+	.three-column-right{
+		width: 100%;
+		margin: 1em auto;
+		float: none;
+	}
+	#search-archive{
+		width: 100%;
+		height: 200px;
+	}
+	#search-archive-text{
+		width: 100%;
+		margin: 0 auto;
+		padding: 6vw 0;
+		text-align: center;
+		text-shadow: 0px 0px 3px #000000,0px 0px 5px #000000;
+	}
+}
+
+@media only screen and (max-width: 400px){
+	#lower-wrapper{
+		font-size: 14px;
+	}
+}
+
+/* 下層ページのためのCSS ここまで */
+
+
+
+
+
+
